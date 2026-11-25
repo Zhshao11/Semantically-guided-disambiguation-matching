@@ -314,6 +314,17 @@ def main():
     )
     baseline = evaluate(model, evaluation, config, device, output, "initial")
     print(json.dumps(baseline), flush=True)
+    if baseline["supervised_queries"] == 0:
+        status = dict(
+            finite_forward_backward=False,
+            effective_gradients=False,
+            trained_steps=0,
+            reason="no_valid_supervision_queries",
+            engineering_only=True,
+        )
+        save_json(output / "acceptance.json", status)
+        print(json.dumps(status), flush=True)
+        return 2
     sample = prepare(next(iter(evaluation)), device)
     geometry = geometry_for(model, sample, config)
     timing = benchmark(model, sample, geometry, optimizer, device)
@@ -348,7 +359,7 @@ def main():
             norm = torch.nn.utils.clip_grad_norm_(
                 model.parameters(), 1.0, error_if_nonfinite=True
             )
-            if step in [1, config["steps"]]:
+            if not gradient_records or step == config["steps"]:
                 gradients = gradient_summary(model)
                 gradient_records.append(dict(step=step, groups=gradients))
                 if not all(
@@ -385,7 +396,8 @@ def main():
     final = evaluate(model, evaluation, config, device, output, "final")
     acceptance = dict(
         finite_forward_backward=True,
-        effective_gradients=all(
+        effective_gradients=bool(gradient_records)
+        and all(
             g["l2_norm"] > 0 and g["finite"]
             for r in gradient_records
             for g in r["groups"].values()

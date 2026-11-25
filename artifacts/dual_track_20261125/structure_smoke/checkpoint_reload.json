@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "sha256": "fee78c30c83683237566d913a1804eb2d551cdd8198687f02fa15b134e496869",
+  "strict_state_dict_load": true,
+  "metric_absolute_difference": {
+    "loss": 0.0,
+    "recall_at_1": 0.0,
+    "recall_at_4": 0.0
+  },
+  "training_step": 800
+}
