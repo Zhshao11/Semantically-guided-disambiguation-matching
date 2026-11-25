@@ -8,6 +8,31 @@
 
 GDROS 官方下载目录已核查，两个 ZIP 的名称和字节数与本地包相符。生成脚本、父影像映射和原生监督精度仍未核实。正式训练路线选择原始 WHU 的可追溯重建，具体决定及尚未落实的证据见 `configs/data_route.json`。SOPatch Image/SEN1-2 当前仍为待核实备选。
 
+## 原始 WHU 追溯与准入审计
+
+本轮仅下载并解码原版试点：39 个文件、14 个父影像、13 对完整光学–SAR；官方文件目录列出 100 个父影像的 300 个文件。四份清单及判读证据见 [本轮报告](artifacts/raw_rebuild_20261125/REPORT_zh.md)。原始四波段光学和单波段 SAR 保留，未覆盖为灰度。
+
+TIFF 缺少 CRS、地理变换、GCP 和 RPC。使用独立发布的覆盖图与原始 RGB 内容匹配支持近似覆盖，按 3 km 假设缓冲后的连通分量分组，并按预定经度带划分；所有已分配划分均标为暂定，地理独立性未认证；4 个覆盖未确认父影像保持 `unassigned`。不把图幅名或无重复当作独立性证明。
+
+底图抽样预览 10 个父影像的 30 个窗口，登记 8 个暂定同名结构点。名义残差 1.41–5.00 px，加上两侧判读不确定性的筛查量为 8.83–14.12 px；这些不是经独立人工复核的精度统计。当前没有区域获准用于固定 8 px 粗检索监督，也未认证 1–2 px 精定位。`tile_manifest.jsonl` 因此保持为空；生成器通过合成测试，但真实裁块、32 对重训和地理验证尚未运行。现有网络保持原状。
+
+```bash
+# 使用既有 zzvr 仓库 .venv；新环境安装 pip install -e '.[raw,smoke,test]'
+export PYTHONPATH=.
+# 下载必须显式列出试点父影像，不默认获取全套
+.venv/bin/python scripts/acquire_raw_whu.py --parents NH49E001014 --modalities optical,sar,label
+# 新克隆先将归档source目录复制到配置所指reports/.../source
+# 固定顺序：覆盖关联 -> 地理分组 -> 划分 -> 底图审计 -> 准入后裁图
+.venv/bin/python scripts/build_raw_manifests.py
+.venv/bin/python scripts/prepare_raw_audit.py
+.venv/bin/python scripts/audit_raw_alignment.py
+# 当前准入下此命令预期退出非零，且不创建真实训练样本
+.venv/bin/python scripts/generate_raw_tiles.py
+.venv/bin/python scripts/summarize_raw_rebuild.py
+```
+
+`audit_raw_alignment.py` 只导出保守筛查记录，不会自动把少量目视点认证成整窗监督。后续准入需要足够精度、覆盖和复核证据。生成器在写入前核对训练与验证准入、冻结清单、原始文件及掩码附属文件哈希，记录完整变换链、插值/填充、有效掩码和固定种子。重复窗口的不同扰动单独计数，不当作独立地理样本。
+
 ## 无语义结构检索冒烟测试
 
 单波段光学/SAR 分别经过输入适配器，再进入同一个结构编码器，得到归一化的 `[B,128,64,64]` 描述子。对固定 24×24 个源点计算全部 `576×4096` 分数，使用 GT 邻域概率质量损失训练，并通过空间 NMS 生成每个源点 4 个原生候选。

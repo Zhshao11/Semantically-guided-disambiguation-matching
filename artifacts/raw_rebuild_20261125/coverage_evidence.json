@@ -1,0 +1,292 @@
+{
+  "NH49E001013": {
+    "status": "geographic_independence_unconfirmed",
+    "nominal_bounds_wgs84": [
+      111.0,
+      31.833333333333332,
+      111.25,
+      32.0
+    ],
+    "expected_cell_ncc": null,
+    "nearest_other_cell_ncc": 0.413782099688676,
+    "expected_is_top1": false,
+    "expected_offset_pixels": null,
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": null,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E001014": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      111.25,
+      31.833333333333332,
+      111.5,
+      32.0
+    ],
+    "expected_cell_ncc": 0.7770673134915607,
+    "nearest_other_cell_ncc": 0.4730097346889198,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E001017": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      112.0,
+      31.833333333333332,
+      112.25,
+      32.0
+    ],
+    "expected_cell_ncc": 0.9560051494372145,
+    "nearest_other_cell_ncc": 0.6252180077785544,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E002012": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      110.75,
+      31.666666666666664,
+      111.0,
+      31.833333333333332
+    ],
+    "expected_cell_ncc": 0.9375674349430452,
+    "nearest_other_cell_ncc": 0.5856753136128872,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      0,
+      0
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E002014": {
+    "status": "geographic_independence_unconfirmed",
+    "nominal_bounds_wgs84": [
+      111.25,
+      31.666666666666664,
+      111.5,
+      31.833333333333332
+    ],
+    "expected_cell_ncc": null,
+    "nearest_other_cell_ncc": 0.4788212900852055,
+    "expected_is_top1": false,
+    "expected_offset_pixels": null,
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": null,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E002016": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      111.75,
+      31.666666666666664,
+      112.0,
+      31.833333333333332
+    ],
+    "expected_cell_ncc": 0.9579475548663673,
+    "nearest_other_cell_ncc": 0.657177928638769,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      0
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E003014": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      111.25,
+      31.5,
+      111.5,
+      31.666666666666668
+    ],
+    "expected_cell_ncc": 0.8588820949242609,
+    "nearest_other_cell_ncc": 0.5097893305352736,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E003024": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      113.75,
+      31.5,
+      114.0,
+      31.666666666666668
+    ],
+    "expected_cell_ncc": 0.9403929541273276,
+    "nearest_other_cell_ncc": 0.5257185554204156,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      0,
+      0
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E006022": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      113.25,
+      31.0,
+      113.5,
+      31.166666666666668
+    ],
+    "expected_cell_ncc": 0.92565394555602,
+    "nearest_other_cell_ncc": 0.5531573180195688,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      0,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH49E010022": {
+    "status": "geographic_independence_unconfirmed",
+    "nominal_bounds_wgs84": [
+      113.25,
+      30.333333333333332,
+      113.5,
+      30.5
+    ],
+    "expected_cell_ncc": null,
+    "nearest_other_cell_ncc": 0.6314778718386889,
+    "expected_is_top1": false,
+    "expected_offset_pixels": null,
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": null,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH50E006001": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      114.0,
+      31.0,
+      114.25,
+      31.166666666666668
+    ],
+    "expected_cell_ncc": 0.9762128198985303,
+    "nearest_other_cell_ncc": 0.5896846043714521,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NH50E012008": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      115.75,
+      30.0,
+      116.0,
+      30.166666666666668
+    ],
+    "expected_cell_ncc": 0.9585021384751525,
+    "nearest_other_cell_ncc": 0.636454831929933,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      0
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  },
+  "NI49E024020": {
+    "status": "publisher_figure_supported",
+    "nominal_bounds_wgs84": [
+      112.75,
+      31.999999999999996,
+      113.0,
+      32.166666666666664
+    ],
+    "expected_cell_ncc": 0.8762358712216426,
+    "nearest_other_cell_ncc": 0.4453183630858324,
+    "expected_is_top1": true,
+    "expected_offset_pixels": [
+      1,
+      1
+    ],
+    "content_reference": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+    "content_reference_sha256": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d",
+    "coverage_uncertainty_m": 3000.0,
+    "coverage_basis": "map-sheet proposal corroborated by raw RGB content in independently published geographic coverage figure",
+    "map_datum_status": "unspecified_by_figure; WGS84 is an approximate grouping assumption",
+    "buffer_status": "declared conservative digitization allowance, not a measured geolocation confidence bound",
+    "uncertainties": "TIFF has no intrinsic CRS. Figure-based coverage supports kilometre-scale grouping, not pixel-level georeferencing or optical-SAR alignment accuracy. Map datum is unspecified; 3 km is an assumption, not measured error. Geographic disjointness is conditional on these coverage assumptions."
+  }
+}

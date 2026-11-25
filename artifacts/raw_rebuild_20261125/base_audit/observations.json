@@ -1,0 +1,177 @@
+{
+  "observer": "Codex visual screening; no independent human annotation",
+  "review_method": "same observer, native-resolution panels and enlarged coordinate-grid views; not an independent second observer",
+  "coordinate_convention": "zero-based (x=column,y=row) centers in the stated native 512x512 window; original coordinates computed by adding crop origin",
+  "uncertainty_interpretation": "conservative visual localization radius per modality, in native pixels; not a calibrated statistical confidence interval",
+  "purpose": "audit checkpoints only; no fit points and no prealignment",
+  "checkpoints": [
+    {
+      "id": "CP01",
+      "roi_id": "NH49E002016/roi1",
+      "structure": "isolated pond eastern pointed end",
+      "optical_xy": [
+        136,
+        260
+      ],
+      "sar_xy": [
+        132,
+        262
+      ],
+      "optical_uncertainty_px": 3,
+      "sar_uncertainty_px": 5,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "SAR speckle and waterline change; tip is not a stable surveyed point"
+    },
+    {
+      "id": "CP02",
+      "roi_id": "NH49E002016/roi1",
+      "structure": "same pond southern narrow tip",
+      "optical_xy": [
+        113,
+        285
+      ],
+      "sar_xy": [
+        112,
+        281
+      ],
+      "optical_uncertainty_px": 4,
+      "sar_uncertainty_px": 6,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "tip blurred in SAR; same pond as CP01, points are spatially dependent"
+    },
+    {
+      "id": "CP03",
+      "roi_id": "NH49E003024/roi0",
+      "structure": "elongated pond southeast corner",
+      "optical_xy": [
+        354,
+        136
+      ],
+      "sar_xy": [
+        350,
+        139
+      ],
+      "optical_uncertainty_px": 3,
+      "sar_uncertainty_px": 5,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "shoreline versus dark SAR boundary; local water level unknown"
+    },
+    {
+      "id": "CP04",
+      "roi_id": "NH49E003024/roi0",
+      "structure": "same pond northeast narrow end",
+      "optical_xy": [
+        367,
+        102
+      ],
+      "sar_xy": [
+        366,
+        103
+      ],
+      "optical_uncertainty_px": 4,
+      "sar_uncertainty_px": 6,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "irregular inlet and speckle; dependent on CP03"
+    },
+    {
+      "id": "CP05",
+      "roi_id": "NH50E006001/roi0",
+      "structure": "western pond southern tip near ROI west edge",
+      "optical_xy": [
+        15,
+        119
+      ],
+      "sar_xy": [
+        15,
+        116
+      ],
+      "optical_uncertainty_px": 3,
+      "sar_uncertainty_px": 5,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "rounded shoreline; optical bright bank and SAR water boundary differ"
+    },
+    {
+      "id": "CP06",
+      "roi_id": "NH50E006001/roi0",
+      "structure": "adjacent narrow pond southern tip",
+      "optical_xy": [
+        45,
+        117
+      ],
+      "sar_xy": [
+        43,
+        114
+      ],
+      "optical_uncertainty_px": 3,
+      "sar_uncertainty_px": 5,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "rounded tip partly mixed with bank; no fine feature"
+    },
+    {
+      "id": "CP07",
+      "roi_id": "NH49E006022/roi0",
+      "structure": "northwest corner of western rectangular pond in upper cluster",
+      "optical_xy": [
+        104,
+        27
+      ],
+      "sar_xy": [
+        106,
+        29
+      ],
+      "optical_uncertainty_px": 2,
+      "sar_uncertainty_px": 4,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "dark water extent under speckle; dam center is not directly visible"
+    },
+    {
+      "id": "CP08",
+      "roi_id": "NH49E006022/roi0",
+      "structure": "southeast corner of same rectangular pond",
+      "optical_xy": [
+        124,
+        55
+      ],
+      "sar_xy": [
+        127,
+        56
+      ],
+      "optical_uncertainty_px": 2,
+      "sar_uncertainty_px": 4,
+      "review_status": "tentative_same_structure",
+      "ambiguity": "mixed shoreline corner; same object as CP07"
+    }
+  ],
+  "roi_notes": {
+    "NH49E001014/roi0": "Mountain slopes: SAR layover/foreshortening; no unique same ground point.",
+    "NH49E001014/roi1": "Forest and settlement edges: no unambiguous compact correspondence.",
+    "NH49E001014/roi2": "Town and river: broad shapes correspond; bridge/roof edges unresolved in SAR.",
+    "NH49E001017/roi0": "Farmland/villages: optical road intersection not distinctly localized in SAR; enlarged review rejected point selection.",
+    "NH49E001017/roi1": "Mountain/forest: geometric distortion and ambiguous ridges.",
+    "NH49E001017/roi2": "River and sandbar: changing waterline and broad homogeneous surfaces; no forced point.",
+    "NH49E002012/roi0": "Mountain slopes: extensive SAR layover/foreshortening.",
+    "NH49E002012/roi1": "Town/river in valley: only broad correspondence, mixed SAR responses.",
+    "NH49E002012/roi2": "Mountain ridges/valleys: no uniquely localizable shared structure.",
+    "NH49E002016/roi0": "Terrain/forest: ambiguous slope structures.",
+    "NH49E002016/roi1": "Farmland/ponds: two tentative points on one pond, insufficient spatial coverage and accuracy for whole-window supervision.",
+    "NH49E002016/roi2": "Reservoir shoreline: apparent waterline and terrain-dependent SAR displacement; no stable precise point.",
+    "NH49E003014/roi0": "Mountains: strong SAR terrain distortion.",
+    "NH49E003014/roi1": "Valley town/river: roofs and waterline ambiguous.",
+    "NH49E003014/roi2": "Road corridor/terrain: SAR road intersection not resolved.",
+    "NH49E003024/roi0": "Ponds/farmland: two tentative points on one shoreline; neither certifies the full window.",
+    "NH49E003024/roi1": "Forest slopes: no stable compact control structure.",
+    "NH49E003024/roi2": "Ponds/river/farmland: morphological correspondence only; ambiguous edges.",
+    "NH49E006022/roi0": "Farmland/rectangular ponds: two tentative corners, residual plus uncertainty exceeds 8 px; not spatially distributed.",
+    "NH49E006022/roi1": "Forest/roads: insufficient sharp SAR correspondence.",
+    "NH49E006022/roi2": "Ponds/river: shoreline and seasonal-state ambiguity.",
+    "NH50E006001/roi0": "Ponds and settlements: two tentative tips; localization uncertainty prevents admission.",
+    "NH50E006001/roi1": "Mountain slopes: terrain-dependent distortion.",
+    "NH50E006001/roi2": "Reservoir/ponds: changing water boundary; no precise control feature.",
+    "NI49E024020/roi0": "Ponds/roads: morphology plausible, no precise compact SAR feature selected.",
+    "NI49E024020/roi1": "Aquaculture/water: repeated rectangular ponds and shoreline ambiguity.",
+    "NI49E024020/roi2": "Woodland/ponds: speckle and weak compact shared structures.",
+    "NH50E012008/roi0": "Reserved testing group: previews generated for quality inventory only; no point selection or model evaluation.",
+    "NH50E012008/roi1": "Reserved testing group: previews generated for quality inventory only; no point selection or model evaluation.",
+    "NH50E012008/roi2": "Reserved testing group: previews generated for quality inventory only; no point selection or model evaluation."
+  }
+}

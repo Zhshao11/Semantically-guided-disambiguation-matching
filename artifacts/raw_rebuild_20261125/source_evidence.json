@@ -1,0 +1,21 @@
+{
+  "publisher_repository": "https://github.com/AmberHen/WHU-OPT-SAR-dataset",
+  "publisher_paper_doi": "10.1016/j.jag.2021.102638",
+  "official_drive_root": "https://drive.google.com/drive/folders/1W3iMpkehng7ADXmhz9pPvmgFQBayq22t",
+  "drive_modality_folders": {
+    "optical": "1FEjzFEpIN8WDwNpY0JnU3CwOrW6uGnN5",
+    "sar": "1Zb_vh-dBGQaE2RCMdgdQflBG5NzC16Pp",
+    "label": "1F_Rvv6VwLBkKBCgQxCYBDTz29qexqJHC"
+  },
+  "catalog_collection": "public embeddedfolderview file listings; 100 IDs per modality; catalog source IDs and URLs retained",
+  "release_form": "individual full-size TIFF files; no original-release archive acquired in this round",
+  "publisher_checksums_available": false,
+  "local_hash_status": "SHA256 measured after block decoding; not authenticated against a publisher checksum",
+  "original_meaning": "publisher full-size release, not raw satellite acquisition products",
+  "original_product_ids_recovered": false,
+  "source_hashes": {
+    "configs/raw_whu_catalog.json": "f29787d917988d8a2e01f6f7f2cc9b9b8561bfb7c43ce8964615aeb59064637d",
+    "reports/raw_rebuild_20261125/source/publisher_README.md": "bf6284799abd0b508c41d4164699cfd5838eba93648e3f637a6142adc1cef3de",
+    "reports/raw_rebuild_20261125/source/publisher_coverage.jpg": "03fa2b3e5bffe3d0cc1bc5c10bead8d5c8b951374d447d78206bee2399552e7d"
+  }
+}

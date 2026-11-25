@@ -1,0 +1,37 @@
+{
+  "item1": {
+    "status": "pilot_lineage_created",
+    "raw_files": 39,
+    "parents": 14,
+    "groups": 9,
+    "unresolved_parents": 4,
+    "geography": "provisional_not_certified"
+  },
+  "item2": {
+    "status": "visual_screening_completed_not_accuracy_certification",
+    "tentative_checkpoints": 8,
+    "coarse_admitted_regions": 0,
+    "fine_admitted_regions": 0,
+    "independent_human_review": false
+  },
+  "item3": {
+    "status": "generator_implemented_fixture_tested_real_generation_blocked",
+    "actual_tiles_generated": 0,
+    "tile_manifest": "empty by admission design"
+  },
+  "item4": {
+    "status": "not_run_data_admission_unsatisfied",
+    "model_changed": false,
+    "fixed32_training_run": false,
+    "geographic_validation_metrics": null
+  },
+  "prealignment_performed": false,
+  "tolerance_widened": false,
+  "network_upgrade": false,
+  "manifests": {
+    "raw_manifest.jsonl": "0c69105497e5510f449dcd52c3ef08649b6ec3d3875c79d0ce56247de8aaac10",
+    "scene_groups.csv": "b8c1bcfe23e669c85afaaae6837087b215c38a01235cf9419ee2dd7d30608bec",
+    "splits.csv": "e2415a4aa116f08d34f3632e840c3efb2b7f1b418eacf40eb4310348b78bdd6e",
+    "tile_manifest.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

@@ -1,0 +1,930 @@
+{
+  "prealignment_performed": false,
+  "fit_points": [],
+  "region_admissions": {
+    "NH49E001014/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E001014/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E001014/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E001017/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E001017/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E001017/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002012/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002012/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002012/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002016/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002016/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [
+        "CP01",
+        "CP02"
+      ],
+      "checkpoint_count": 2,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E002016/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003014/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003014/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003014/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003024/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [
+        "CP03",
+        "CP04"
+      ],
+      "checkpoint_count": 2,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003024/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E003024/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E006022/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [
+        "CP07",
+        "CP08"
+      ],
+      "checkpoint_count": 2,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E006022/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH49E006022/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E006001/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [
+        "CP05",
+        "CP06"
+      ],
+      "checkpoint_count": 2,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E006001/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E006001/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E012008/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E012008/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NH50E012008/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NI49E024020/roi0": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NI49E024020/roi1": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    },
+    "NI49E024020/roi2": {
+      "coarse_allowed": false,
+      "fine_allowed": false,
+      "base_optical_to_sar_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_relation_status": "unverified_nominal_identity_not_admitted",
+      "checkpoint_ids": [],
+      "checkpoint_count": 0,
+      "point_bounds_within_coarse_tolerance": 0,
+      "coarse_tolerance_px": 8.0,
+      "fine_target_px": 2.0,
+      "region_spatial_coverage_verified": false,
+      "systematic_bias_assessed": false,
+      "reason": "No region-level accuracy certification: sparse tentative points and/or residual-plus-uncertainty bound exceeds tolerance. Fine precision and systematic bias remain unverified."
+    }
+  },
+  "lineage_hashes": {
+    "raw_manifest.jsonl": "0c69105497e5510f449dcd52c3ef08649b6ec3d3875c79d0ce56247de8aaac10",
+    "scene_groups.csv": "b8c1bcfe23e669c85afaaae6837087b215c38a01235cf9419ee2dd7d30608bec",
+    "splits.csv": "e2415a4aa116f08d34f3632e840c3efb2b7f1b418eacf40eb4310348b78bdd6e"
+  },
+  "observations_sha256": "040670f7416b84c86119177ec8d2b702bbd77cb3e9ec31420c2c29fbeb5199a8",
+  "independent_human_review": false,
+  "geographic_independence_admitted": false,
+  "geographic_status": "publisher-map evidence supports provisional groups; datum and coverage-error bound are not independently verified",
+  "coarse_status": "not_admitted_to_8px_supervision",
+  "fine_status": "1_to_2px_precision_not_certified",
+  "decision": "Do not crop real training samples or migrate/retrain until native-base and geographic admission are adequate"
+}

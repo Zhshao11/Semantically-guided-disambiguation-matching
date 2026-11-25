@@ -1,0 +1,69 @@
+{
+  "raw_root": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR_original",
+  "catalog": "configs/raw_whu_catalog.json",
+  "output": "reports/raw_rebuild_20261125",
+  "publisher_figure": "reports/raw_rebuild_20261125/source/publisher_coverage.jpg",
+  "publisher_figure_url": "https://raw.githubusercontent.com/AmberHen/WHU-OPT-SAR-dataset/main/1.jpg",
+  "figure_calibration": {
+    "longitude_111_x": 2466.0,
+    "longitude_114_x": 3082.0,
+    "latitude_33_y": 194.0,
+    "latitude_30_y": 810.0
+  },
+  "coverage_match_minimum_ncc": 0.7,
+  "coverage_match_minimum_margin": 0.15,
+  "coverage_uncertainty_m": 3000.0,
+  "geographic_split_longitudes": [
+    112.5,
+    114.75
+  ],
+  "rgb_bands_one_based": [
+    1,
+    2,
+    3
+  ],
+  "nir_bands_one_based": [
+    4
+  ],
+  "retrieval_normalization": {
+    "optical_rgb": "uint8 / 127.5 - 1",
+    "sar": "uint8 / 127.5 - 1"
+  },
+  "future_dino_normalization": {
+    "active": false,
+    "input": "RGB TIFF color interpretation red,green,blue bands 1,2,3 divided by 255",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "nir_used": false
+  },
+  "tile_size": 512,
+  "seed": 20261125,
+  "training_tiles": 32,
+  "validation_tiles": 32,
+  "perturbation": {
+    "rotation_degrees": [
+      -20.0,
+      20.0
+    ],
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "translation_pixels": [
+      -32.0,
+      32.0
+    ],
+    "interpolation": "bilinear",
+    "fill_value": 0
+  },
+  "coarse_tolerance_px": 8.0,
+  "fine_target_error_px": 2.0
+}

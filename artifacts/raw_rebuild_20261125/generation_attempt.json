@@ -1,0 +1,9 @@
+{
+  "returncode": 1,
+  "expected_rejection": true,
+  "reason": "ValueError: Geographic independence is not certified; provisional splits cannot generate an independent validation dataset",
+  "real_dataset_directory_created": false,
+  "tile_manifest_bytes": 0,
+  "training_pairs_generated": 0,
+  "validation_pairs_generated": 0
+}

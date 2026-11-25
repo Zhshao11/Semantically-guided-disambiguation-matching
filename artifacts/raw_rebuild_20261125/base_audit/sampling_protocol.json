@@ -1,0 +1,9 @@
+{
+  "parent_count": 10,
+  "rois": 30,
+  "fit_points": 0,
+  "rule": "three separated land-cover/spatial strata per geographically supported parent",
+  "classification_labels_used_for": "stratification only; not correspondence truth",
+  "prealignment_performed": false,
+  "checkpoints": "independent of any alignment fit; no forced point for unobservable terrain"
+}

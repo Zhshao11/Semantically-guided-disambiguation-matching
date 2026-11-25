@@ -1,0 +1,10 @@
+{"code": "INCOMPLETE_PILOT_ACQUISITION", "detail": "39 local files out of 300 catalog entries; this is a pilot, not a complete release"}
+{"code": "MISSING_INTRINSIC_GEOREFERENCE", "detail": "Inspected TIFFs have no CRS/geotransform/GCP/RPC; external map footprints are grouping evidence only"}
+{"code": "CONDITIONAL_GEOGRAPHY", "detail": "Publisher figure matching supports approximate coverage; map datum unknown, 3km allowance is an assumption, not a surveyed error bound"}
+{"code": "NATIVE_BASE_ACCURACY_NOT_CERTIFIED", "detail": {"parents_sampled": 10, "regions_previewed": 30, "reserved_testing_regions": 3, "tentative_checkpoints": 8, "checkpoint_parent_count": 4, "nominal_residual_range_px": [1.4142135623730951, 5.0], "residual_plus_uncertainty_range_px": [8.82842712474619, 14.123105625617661], "coarse_admitted_regions": 0, "fine_admitted_regions": 0, "independent_human_review": false, "systematic_bias": "not assessed: sparse object-dependent tentative points do not support a global correction", "purpose": "screening only; no true registration accuracy or spatial generalization certification", "stages_3_4": "generator can be tested on fixtures; real data generation and network migration deferred by admission gate"}}
+{"code": "MISSING_ACQUISITION_PRODUCT_IDS", "detail": "Publisher full-size TIFF IDs known; original GF-1/GF-3 product IDs unknown"}
+{"code": "LOCAL_COUNTERPART_MISSING", "raw_file_id": "WHU-original/sar/NH49E004011", "detail": "catalog_only_counterpart_missing_locally"}
+{"code": "GEOGRAPHY_UNCONFIRMED", "parent_image_id": "NH49E001013", "split": "unassigned"}
+{"code": "GEOGRAPHY_UNCONFIRMED", "parent_image_id": "NH49E002014", "split": "unassigned"}
+{"code": "GEOGRAPHY_UNCONFIRMED", "parent_image_id": "NH49E004011", "split": "unassigned"}
+{"code": "GEOGRAPHY_UNCONFIRMED", "parent_image_id": "NH49E010022", "split": "unassigned"}

@@ -1,0 +1,2 @@
+# Preserve the publisher's source snapshot byte-for-byte for SHA-256 evidence.
+artifacts/raw_rebuild_20261125/source/publisher_README.md -whitespace

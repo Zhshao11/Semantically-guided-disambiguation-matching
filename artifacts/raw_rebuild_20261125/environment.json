@@ -1,0 +1,14 @@
+{
+  "python": "3.10.20",
+  "platform": "Linux-6.8.0-149-generic-x86_64-with-glibc2.35",
+  "packages": {
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.1",
+    "shapely": "2.1.2",
+    "torch": "2.11.0+cu128",
+    "pytest": "9.2.0",
+    "gdown": "6.0.0"
+  }
+}

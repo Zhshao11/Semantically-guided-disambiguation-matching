@@ -13,7 +13,20 @@
     "training_ready": false,
     "group_before_cropping": true,
     "prealignment_if_needed": "Fit on training-source correspondences and assess on independent held-out checkpoints. Record pseudo-label status.",
-    "remaining_evidence": ["original imagery and metadata inventory", "parent image grouping and crop footprints", "independent native alignment residual measurements"]
+    "remaining_evidence": [
+      "native-base checkpoints with sufficient localization accuracy and spatial coverage; independent review",
+      "stronger geographic footprint evidence sufficient to justify spatial disjointness; current publisher-map evidence is provisional",
+      "original acquisition product IDs remain unavailable; full release not downloaded"
+    ],
+    "pilot_original_files_available": 39,
+    "pilot_parent_count": 14,
+    "pilot_complete_optical_sar_pairs": 13,
+    "intrinsic_georeferencing_recovered": false,
+    "geographic_grouping_status": "provisional groups supported by publisher map content; geographic independence not certified; all assigned splits are provisional and four parents remain unassigned",
+    "native_base_admission": "not_certified_for_8px_coarse_or_1to2px_fine_supervision",
+    "generator_status": "implemented and tested on synthetic fixtures; no real training crops generated",
+    "retriever_migration_status": "deferred_until_data_admission; current single-band network and metrics unchanged",
+    "geographic_independence_admitted": false
   },
   "alternative_under_review": {
     "name": "SOPatch Image/SEN1-2 finely registered version cited by SOMA",

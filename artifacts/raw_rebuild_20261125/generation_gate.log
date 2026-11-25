@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/scripts/generate_raw_tiles.py", line 27, in <module>
+    main()
+  File "/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/scripts/generate_raw_tiles.py", line 22, in main
+    json.dumps(generate_dataset(config, output, args.destination, audit), indent=2)
+  File "/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/sdgm/raw_tiles.py", line 217, in generate_dataset
+    raise ValueError(
+ValueError: Geographic independence is not certified; provisional splits cannot generate an independent validation dataset
