@@ -1,0 +1,48 @@
+[
+  {
+    "step": 1,
+    "groups": {
+      "optical_adapter": {
+        "finite": true,
+        "l2_norm": 0.029804137115202266,
+        "parameters_with_grad": 3,
+        "parameters_with_nonzero_grad": 3
+      },
+      "sar_adapter": {
+        "finite": true,
+        "l2_norm": 0.029710456204802015,
+        "parameters_with_grad": 3,
+        "parameters_with_nonzero_grad": 3
+      },
+      "shared_encoder": {
+        "finite": true,
+        "l2_norm": 0.9991139985599284,
+        "parameters_with_grad": 27,
+        "parameters_with_nonzero_grad": 27
+      }
+    }
+  },
+  {
+    "step": 800,
+    "groups": {
+      "optical_adapter": {
+        "finite": true,
+        "l2_norm": 0.14131403293700442,
+        "parameters_with_grad": 3,
+        "parameters_with_nonzero_grad": 3
+      },
+      "sar_adapter": {
+        "finite": true,
+        "l2_norm": 0.08765779885813092,
+        "parameters_with_grad": 3,
+        "parameters_with_nonzero_grad": 3
+      },
+      "shared_encoder": {
+        "finite": true,
+        "l2_norm": 0.9860763036538451,
+        "parameters_with_grad": 27,
+        "parameters_with_nonzero_grad": 27
+      }
+    }
+  }
+]

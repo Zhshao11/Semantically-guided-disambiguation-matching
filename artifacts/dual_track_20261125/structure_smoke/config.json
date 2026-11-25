@@ -1,0 +1,16 @@
+{
+  "data_root": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a",
+  "output": "reports/structure_smoke_20261125",
+  "seed": 20261125,
+  "pairs": 32,
+  "batch_size": 4,
+  "steps": 800,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "temperature": 0.1,
+  "positive_radius_px": 8.0,
+  "recall_radius_px": 8.0,
+  "nms_radius_px": 24.0,
+  "evaluate_every": 200,
+  "cuda_device": 4
+}

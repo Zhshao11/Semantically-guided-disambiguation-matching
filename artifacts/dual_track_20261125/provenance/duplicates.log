@@ -1,0 +1,22 @@
+Hashing /mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/testing.zip
+Hashing /mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/training.zip
+Pixel hashes 1000 6300
+Pixel hashes 2000 6300
+Pixel hashes 3000 6300
+Pixel hashes 4000 6300
+Pixel hashes 5000 6300
+Pixel hashes 6000 6300
+Near verification 25 30
+{
+  "samples": 6300,
+  "exact_duplicate_groups": 0,
+  "cross_split_exact_groups": 0,
+  "near_shortlisted_pairs": 30,
+  "near_verified_pairs": 30,
+  "verification_limit": 250,
+  "cross_split_paired_near_overlaps": 0,
+  "cross_split_optical_near_overlaps": 0,
+  "cross_split_sar_near_overlaps": 0,
+  "geographic_independence_proven": false,
+  "interpretation": "Detected exact/near overlaps establish particular repeated content. Non-detection cannot establish parent-scene independence; pHash shortlist and verification thresholds miss other forms of overlap."
+}

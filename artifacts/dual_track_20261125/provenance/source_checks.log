@@ -1,0 +1,40 @@
+[
+  {
+    "name": "gdros_official_readme",
+    "url": "https://raw.githubusercontent.com/Zi-Xuan-Sun/GDROS/main/README.md",
+    "status": "retrieved",
+    "timestamp_utc": "2026-11-25T14:06:25.720508+00:00"
+  },
+  {
+    "name": "gdros_paper",
+    "url": "https://arxiv.org/html/2511.00598v1",
+    "status": "retrieved",
+    "timestamp_utc": "2026-11-25T14:06:30.476753+00:00"
+  },
+  {
+    "name": "soma_paper",
+    "url": "https://arxiv.org/html/2511.13168v1",
+    "status": "retrieved",
+    "timestamp_utc": "2026-11-25T14:06:35.419649+00:00"
+  },
+  {
+    "name": "sopatch_secondary_readme",
+    "url": "https://raw.githubusercontent.com/Bend1031/DH-net/master/README.md",
+    "status": "retrieved",
+    "timestamp_utc": "2026-11-25T14:06:36.748857+00:00"
+  },
+  {
+    "name": "gdros_public_share",
+    "url": "https://pan.baidu.com/s/17dNYVhNObbVjgcY2SmlM-w",
+    "status": "listed",
+    "files": 3,
+    "timestamp_utc": "2026-11-25T14:06:49.704115+00:00"
+  },
+  {
+    "name": "sopatch_secondary_share",
+    "url": "https://pan.baidu.com/s/12yIheGOg6JTTsYAQfX7Pfg",
+    "status": "listed",
+    "files": 9,
+    "timestamp_utc": "2026-11-25T14:07:07.100933+00:00"
+  }
+]

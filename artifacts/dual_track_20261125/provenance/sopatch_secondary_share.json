@@ -1,0 +1,89 @@
+{
+  "url": "https://pan.baidu.com/s/12yIheGOg6JTTsYAQfX7Pfg",
+  "shareid": "19327036413",
+  "public_share_owner_id": "576547356",
+  "files": [
+    {
+      "server_filename": "SOPatch",
+      "path": "/SOPatch",
+      "size": "0",
+      "isdir": "1",
+      "server_mtime": "1684296375",
+      "provider_md5_field": "",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "Image",
+      "path": "/SOPatch/Image",
+      "size": 0,
+      "isdir": 1,
+      "server_mtime": 1684301933,
+      "provider_md5_field": "",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "OSdataset.zip",
+      "path": "/SOPatch/Image/OSdataset.zip",
+      "size": 941291281,
+      "isdir": 0,
+      "server_mtime": 1684300405,
+      "provider_md5_field": "7c3f5113bqf6b4c1edb5f7a3aab86c9b",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "SEN1-2.zip",
+      "path": "/SOPatch/Image/SEN1-2.zip",
+      "size": 1288995743,
+      "isdir": 0,
+      "server_mtime": 1684301933,
+      "provider_md5_field": "bbe3f07a4v5838d5180958395757634a",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "WHU-SEN-City.zip",
+      "path": "/SOPatch/Image/WHU-SEN-City.zip",
+      "size": 540030472,
+      "isdir": 0,
+      "server_mtime": 1684300876,
+      "provider_md5_field": "35428baf3i62b96aacb378c2b304d82b",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "Patch",
+      "path": "/SOPatch/Patch",
+      "size": 0,
+      "isdir": 1,
+      "server_mtime": 1684296360,
+      "provider_md5_field": "",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "OSdataset.zip",
+      "path": "/SOPatch/Patch/OSdataset.zip",
+      "size": 1805067191,
+      "isdir": 0,
+      "server_mtime": 1684296146,
+      "provider_md5_field": "570396d6dq971f79b48b826ee6886c94",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "SEN1-2.zip",
+      "path": "/SOPatch/Patch/SEN1-2.zip",
+      "size": 1111176893,
+      "isdir": 0,
+      "server_mtime": 1684296210,
+      "provider_md5_field": "98773363dkcbabbc64eb3f96c094ea91",
+      "provider_md5_is_hex_digest": false
+    },
+    {
+      "server_filename": "WHU-SEN-City.zip",
+      "path": "/SOPatch/Patch/WHU-SEN-City.zip",
+      "size": 2693167693,
+      "isdir": 0,
+      "server_mtime": 1684296360,
+      "provider_md5_field": "ed7246308jfc344a3490165212ed6920",
+      "provider_md5_is_hex_digest": false
+    }
+  ],
+  "caution": "Provider fields containing nonhex characters are opaque identifiers, not verified MD5 digests"
+}

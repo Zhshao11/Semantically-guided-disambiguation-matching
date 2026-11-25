@@ -1,0 +1,16 @@
+[
+  {
+    "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/testing.zip",
+    "name": "testing.zip",
+    "bytes": 1970629045,
+    "sha256": "7c658901f6aed4ecd988c198edc6d79fd5775b5441fb04cf8ed7a8997c21a49f",
+    "publisher_digest_available": false
+  },
+  {
+    "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/training.zip",
+    "name": "training.zip",
+    "bytes": 15817443135,
+    "sha256": "548f1fbc77345d061b287c2d8e857387137288053a17488adf05def8f9b8b71c",
+    "publisher_digest_available": false
+  }
+]

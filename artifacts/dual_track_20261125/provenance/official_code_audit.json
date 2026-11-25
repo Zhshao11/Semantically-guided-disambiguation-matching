@@ -1,0 +1,36 @@
+{
+  "repository": "https://github.com/Zi-Xuan-Sun/GDROS",
+  "revision": "ee6b6216fe780bc03bfb4759ae094daa0cfddc60",
+  "inspected_files": [
+    {
+      "path": "README.md",
+      "sha256": "8e407791521e107781972abce17b812fa4399ba0a66d87bd896bc8844c5c9de5"
+    },
+    {
+      "path": "core/datasets.py",
+      "sha256": "9e7fcf7c5e63ab18fcd33fd5e8c7655d7cef6346bf6e04e063c34437a67e6a58"
+    },
+    {
+      "path": "core/utils/frame_utils.py",
+      "sha256": "1a52b05e6366ff49b1e8eca1375724506aa3cc0d7814998a0f3f1402142cf930"
+    },
+    {
+      "path": "core/utils/augmentor.py",
+      "sha256": "bd51238f8d80f71169ed638e99b022a3b65d6eb92dc109542639b6e04fd30d12"
+    },
+    {
+      "path": "core/utils/flow_transforms.py",
+      "sha256": "db1c6081e13037a00657700bf47afcbf9a9a893df4aa0e19ff0282b7af8914e3"
+    },
+    {
+      "path": "train.py",
+      "sha256": "b55a25b2b6f75fa28ac06db64faddb49ec433c7b87006514132ade2233f49bde"
+    },
+    {
+      "path": "test.py",
+      "sha256": "69d165ff51b38c942ec536da131082e700608c15bb53df2ada939291038f25fd"
+    }
+  ],
+  "generation_entry_point_found": false,
+  "parent_scene_mapping_found": false
+}

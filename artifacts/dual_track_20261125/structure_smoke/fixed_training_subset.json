@@ -1,0 +1,746 @@
+{
+  "seed": 20261125,
+  "count": 32,
+  "samples": [
+    {
+      "id": "000048",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000048.npy",
+      "sha256": "590301984cf714e52f527cd535a68f8ca9a26575c75ef434510759eb4de442c3",
+      "matrix": [
+        [
+          0.7853017449378967,
+          -0.1526471972465515,
+          -7.0
+        ],
+        [
+          0.1526471972465515,
+          0.7853017449378967,
+          9.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000065",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000065.npy",
+      "sha256": "a9aa514d46fedb60ee45a090f8b0f9aef5df7dde348071b29fef2a3cdc7f90ae",
+      "matrix": [
+        [
+          1.099329948425293,
+          -0.03838944807648659,
+          0.0
+        ],
+        [
+          0.03838944807648659,
+          1.099329948425293,
+          -14.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000144",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000144.npy",
+      "sha256": "129f4f5977b1280645f9261fcf9b7bdaf0f5763923226f97d77d430365208324",
+      "matrix": [
+        [
+          0.7650437951087952,
+          -0.2338973581790924,
+          3.0
+        ],
+        [
+          0.2338973581790924,
+          0.7650437951087952,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000207",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000207.npy",
+      "sha256": "041aaae5d103a3e3ad8b08c18a70d03353623fddd32c5eba655e0716672049c2",
+      "matrix": [
+        [
+          0.7989036440849304,
+          0.04186876490712166,
+          -21.0
+        ],
+        [
+          -0.04186876490712166,
+          0.7989036440849304,
+          -25.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000386",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000386.npy",
+      "sha256": "0dccb6c7a3318147b958991a4e07b679c564b6ec01578f5c942b290e086a2bb9",
+      "matrix": [
+        [
+          1.0519351959228516,
+          -0.32160887122154236,
+          13.0
+        ],
+        [
+          0.32160887122154236,
+          1.0519351959228516,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000446",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000446.npy",
+      "sha256": "840e1ed1dff9401fb3ad37f3bcbde914c04571de043448d3f5edf0dcfd5d4aeb",
+      "matrix": [
+        [
+          1.0519351959228516,
+          0.32160887122154236,
+          -11.0
+        ],
+        [
+          -0.32160887122154236,
+          1.0519351959228516,
+          11.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000720",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000720.npy",
+      "sha256": "1ae77ef2a523544bd28a77b442fbc57562e61ffd5777a8f3c89d647c3a95137a",
+      "matrix": [
+        [
+          0.9975640773773193,
+          -0.06975647062063217,
+          -24.0
+        ],
+        [
+          0.06975647062063217,
+          0.9975640773773193,
+          14.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000944",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000944.npy",
+      "sha256": "81d56b3be7722cde5203ed7d1ed3dcd94fbeee312c5b69010f9ed2ce245649e6",
+      "matrix": [
+        [
+          1.099329948425293,
+          -0.03838944807648659,
+          -27.0
+        ],
+        [
+          0.03838944807648659,
+          1.099329948425293,
+          5.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "000953",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/000953.npy",
+      "sha256": "c5e32154c7f4425ce56860ef3a00aa72bb5890d23f0e869c0c1cc03c9242d02e",
+      "matrix": [
+        [
+          1.0984925031661987,
+          0.05756955221295357,
+          6.0
+        ],
+        [
+          -0.05756955221295357,
+          1.0984925031661987,
+          15.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001119",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001119.npy",
+      "sha256": "b93b2cb57fbea70f12e15c3fb7f229d9199c43de06f7c53a98780cb41e9f1e2d",
+      "matrix": [
+        [
+          0.9612616896629333,
+          0.27563735842704773,
+          24.0
+        ],
+        [
+          -0.27563735842704773,
+          0.9612616896629333,
+          18.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001283",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001283.npy",
+      "sha256": "dd72d81140d1ebcaed60ed0f9c58f4f70ec0968fb23b7988ce197120f8a39deb",
+      "matrix": [
+        [
+          0.9816271662712097,
+          0.1908089965581894,
+          11.0
+        ],
+        [
+          -0.1908089965581894,
+          0.9816271662712097,
+          15.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001481",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001481.npy",
+      "sha256": "d7a8f021bd5696b378b01ae6d24edf064329e3e585ba5329508e3a47331c1696",
+      "matrix": [
+        [
+          0.7727406620979309,
+          -0.2070552408695221,
+          8.0
+        ],
+        [
+          0.2070552408695221,
+          0.7727406620979309,
+          -9.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001578",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001578.npy",
+      "sha256": "a019e00eefd60b63c2828d21516b2eeaadd21968aed843836b26d019a9758873",
+      "matrix": [
+        [
+          0.7650437951087952,
+          -0.2338973581790924,
+          -18.0
+        ],
+        [
+          0.2338973581790924,
+          0.7650437951087952,
+          9.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001725",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001725.npy",
+      "sha256": "c1bfe79acfdff809ae48b419eeb26153182ca4cc28b2a7e15f771ee0b7ea6c07",
+      "matrix": [
+        [
+          0.7980512380599976,
+          -0.055805180221796036,
+          -15.0
+        ],
+        [
+          0.055805180221796036,
+          0.7980512380599976,
+          23.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001755",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001755.npy",
+      "sha256": "16ae81372406864dbe4ca773ce5fdeaae9e66b222a130179b8868161db36670c",
+      "matrix": [
+        [
+          0.9816271662712097,
+          -0.1908089965581894,
+          -30.0
+        ],
+        [
+          0.1908089965581894,
+          0.9816271662712097,
+          19.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "001977",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/001977.npy",
+      "sha256": "290712e6c985f512645a40b6d9d2abdfe0e745e15c8487e701ea707dbcaac2ab",
+      "matrix": [
+        [
+          1.0519351959228516,
+          -0.32160887122154236,
+          -18.0
+        ],
+        [
+          0.32160887122154236,
+          1.0519351959228516,
+          -27.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002115",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002115.npy",
+      "sha256": "9834cd818b3179a11b0aac0cae827aec6d6be7446afd947b6cd632a8783756a7",
+      "matrix": [
+        [
+          1.0973204374313354,
+          -0.07673212140798569,
+          -6.0
+        ],
+        [
+          0.07673212140798569,
+          1.0973204374313354,
+          10.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002149",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002149.npy",
+      "sha256": "5425ec14188f77a59cd5bf2b3d3bfbcaec79f861c5029fccb94d41bfea9c6c32",
+      "matrix": [
+        [
+          0.7878462076187134,
+          0.13891854882240295,
+          1.0
+        ],
+        [
+          -0.13891854882240295,
+          0.7878462076187134,
+          -16.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002376",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002376.npy",
+      "sha256": "9c5abba0d801296a635712c470b16796739fcbf396dd39753d415a3b1a62cb82",
+      "matrix": [
+        [
+          1.0336618423461914,
+          0.376222163438797,
+          14.0
+        ],
+        [
+          -0.376222163438797,
+          1.0336618423461914,
+          -22.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002464",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002464.npy",
+      "sha256": "8437b92d42929ef1ab05f94c10c48024e896e0d7f7a4aa12a260fb0aaac10018",
+      "matrix": [
+        [
+          0.7794960737228394,
+          -0.17996084690093994,
+          -29.0
+        ],
+        [
+          0.17996084690093994,
+          0.7794960737228394,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002708",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002708.npy",
+      "sha256": "299ec52b2741fffe274a0b087693ae0d61d768bda2d754932e970643e34f859a",
+      "matrix": [
+        [
+          0.9816271662712097,
+          -0.1908089965581894,
+          5.0
+        ],
+        [
+          0.1908089965581894,
+          0.9816271662712097,
+          -22.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002792",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002792.npy",
+      "sha256": "b2f6a93ba18c3bc00238b6bf9e629defb3459f4dd61e5616e6987bd211c3680c",
+      "matrix": [
+        [
+          0.9993908405303955,
+          0.03489949554204941,
+          22.0
+        ],
+        [
+          -0.03489949554204941,
+          0.9993908405303955,
+          23.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "002898",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/002898.npy",
+      "sha256": "e13137bd41f7f522ce08fe990937bb3604dbd1f43d5d4fe24733ea7dfff5db68",
+      "matrix": [
+        [
+          0.8965752124786377,
+          0.07844016700983047,
+          -11.0
+        ],
+        [
+          -0.07844016700983047,
+          0.8965752124786377,
+          22.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "003135",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/003135.npy",
+      "sha256": "3464ff25b2b006ade4fe56f2a25e2da2bf7067233107fa56ceba0c12be4043d6",
+      "matrix": [
+        [
+          0.7794960737228394,
+          -0.17996084690093994,
+          -27.0
+        ],
+        [
+          0.17996084690093994,
+          0.7794960737228394,
+          23.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "003484",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/003484.npy",
+      "sha256": "a52d5f017904d5e4e5f25b436255d19f04a906bf1cae9abf6cb7887ef03f3e7d",
+      "matrix": [
+        [
+          0.8987665772438049,
+          -0.04710236191749573,
+          -21.0
+        ],
+        [
+          0.04710236191749573,
+          0.8987665772438049,
+          -28.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "003823",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/003823.npy",
+      "sha256": "7137722a5d844c6dafc0c100d4a1f218d5f5091e4cbc08ed19e011ce48297ea3",
+      "matrix": [
+        [
+          0.8987665772438049,
+          -0.04710236191749573,
+          19.0
+        ],
+        [
+          0.04710236191749573,
+          0.8987665772438049,
+          -3.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004359",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004359.npy",
+      "sha256": "6aa25a4c0ee9698c64bc6397c95a732fbed2ed7bd880d975dd9999d4a055a3a3",
+      "matrix": [
+        [
+          1.0864571332931519,
+          0.17207790911197662,
+          28.0
+        ],
+        [
+          -0.17207790911197662,
+          1.0864571332931519,
+          -9.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004385",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004385.npy",
+      "sha256": "771ef2fc4655b451f6306a141a18d48067c3e7d4ba61ae87a4edc16454b7f063",
+      "matrix": [
+        [
+          1.0,
+          0.0,
+          -16.0
+        ],
+        [
+          0.0,
+          1.0,
+          -27.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004388",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004388.npy",
+      "sha256": "06cd594b37a14af783ba7fbfd7ef3d45a68c15aabcf5b3324b3b671352a20608",
+      "matrix": [
+        [
+          1.083288550376892,
+          -0.19101299345493317,
+          2.0
+        ],
+        [
+          0.19101299345493317,
+          1.083288550376892,
+          13.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004428",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004428.npy",
+      "sha256": "a67701fcfb17c7dcd9a75ef173a1b8276dc85542aa2f6e6a12f9b1ae13d99683",
+      "matrix": [
+        [
+          0.899451732635498,
+          -0.03140954673290253,
+          9.0
+        ],
+        [
+          0.03140954673290253,
+          0.899451732635498,
+          25.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004775",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004775.npy",
+      "sha256": "611d14b9f3b45cd247cc3aa7015a131097850dd25a47e35a78a78e67564bf616",
+      "matrix": [
+        [
+          1.0718070268630981,
+          0.24744616448879242,
+          20.0
+        ],
+        [
+          -0.24744616448879242,
+          1.0718070268630981,
+          15.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "id": "004835",
+      "split": "training",
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a/training/whu_opt_sar512/datum/004835.npy",
+      "sha256": "1daf119c607234cdbf3ca2e3b35e4127e17430e317669f9b0649938a8261f90e",
+      "matrix": [
+        [
+          0.8889195322990417,
+          0.14079101383686066,
+          6.0
+        ],
+        [
+          -0.14079101383686066,
+          0.8889195322990417,
+          -2.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "scene_independence_verified": false,
+  "extra_geometric_augmentation": false,
+  "zero_pixels_are_nodata": false,
+  "purpose": "engineering_diagnosis_relative_to_derivative_labels"
+}

@@ -1,0 +1,18 @@
+{
+  "historical_record": "/mnt/sda/zhushihao/VS_Match/GDROS/experiments/sparsegeo/runs/E-077A-ZZVR-WHU-OPT-SAR-TRANSFER/run-p0-ready-audit/formal/P0_dataset_protocol.json",
+  "record_time": "2026-09-06T10:43:46+0800",
+  "historical_zip": {
+    "testing.zip": {
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/testing.zip",
+      "sha256": "7c658901f6aed4ecd988c198edc6d79fd5775b5441fb04cf8ed7a8997c21a49f",
+      "size": 1970629045
+    },
+    "training.zip": {
+      "path": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/training.zip",
+      "sha256": "548f1fbc77345d061b287c2d8e857387137288053a17488adf05def8f9b8b71c",
+      "size": 15817443135
+    }
+  },
+  "all_current_sha256_match": true,
+  "meaning": "Local upload continuity only. Historical experiment labels do not prove publisher origin, scene independence or alignment accuracy."
+}

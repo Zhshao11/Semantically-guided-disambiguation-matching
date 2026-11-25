@@ -1,0 +1,30 @@
+{
+  "current_derivative": {
+    "formal_training_selected": false,
+    "allowed_current_use": "fixed_16_to_32_training_pairs_engineering_diagnosis_relative_to_derivative_labels",
+    "release_attribution": "Matches the GDROS official public release filenames, byte sizes and layout. Independent publisher digest authentication remains unavailable.",
+    "parent_scene_mapping_recovered": false,
+    "grayscale_resize_prealignment_generation_recovered": false,
+    "native_alignment_precision_verified": false,
+    "separate_validation_split_confirmed": false
+  },
+  "formal_route": {
+    "selected_direction": "rebuild_from_original_WHU_OPT_SAR_with_parent_image_ids",
+    "training_ready": false,
+    "group_before_cropping": true,
+    "prealignment_if_needed": "Fit on training-source correspondences and assess on independent held-out checkpoints. Record pseudo-label status.",
+    "remaining_evidence": ["original imagery and metadata inventory", "parent image grouping and crop footprints", "independent native alignment residual measurements"]
+  },
+  "alternative_under_review": {
+    "name": "SOPatch Image/SEN1-2 finely registered version cited by SOMA",
+    "release_listing_verified": true,
+    "local_download_and_decode_verified": false,
+    "parent_grouping_verified": false,
+    "independent_residuals_verified": false,
+    "training_ready": false,
+    "image_archive_bytes": 1288995743,
+    "patch_archive_bytes": 1111176893,
+    "note": "Image and Patch archives are distinct. A reachable listing does not establish equivalence to SOMA's exact files or registration accuracy."
+  },
+  "positive_neighborhood_policy": "Fixed 8 original pixels in the coarse engineering smoke. Do not widen it to compensate for unknown native alignment error."
+}

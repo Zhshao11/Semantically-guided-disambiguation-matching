@@ -1,0 +1,13 @@
+{
+  "samples": 6300,
+  "exact_duplicate_groups": 0,
+  "cross_split_exact_groups": 0,
+  "near_shortlisted_pairs": 30,
+  "near_verified_pairs": 30,
+  "verification_limit": 250,
+  "cross_split_paired_near_overlaps": 0,
+  "cross_split_optical_near_overlaps": 0,
+  "cross_split_sar_near_overlaps": 0,
+  "geographic_independence_proven": false,
+  "interpretation": "Detected exact/near overlaps establish particular repeated content. Non-detection cannot establish parent-scene independence; pHash shortlist and verification thresholds miss other forms of overlap."
+}
