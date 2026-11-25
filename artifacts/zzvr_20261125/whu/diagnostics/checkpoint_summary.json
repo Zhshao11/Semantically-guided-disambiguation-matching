@@ -1,0 +1,17 @@
+{
+  "count": 8,
+  "accepted_screening_points": 6,
+  "rejected_candidates": 2,
+  "patches_with_accepted_points": 4,
+  "median_approximate_dx_dy": [
+    2.0,
+    0.5
+  ],
+  "maximum_approximate_distance_px": 4.123105625617661,
+  "picking_radius_px": [
+    5,
+    6
+  ],
+  "interpretation": "Observed offsets are within the estimated picking uncertainty. No subpixel accuracy claim is supported. Mountain local misalignment is unresolved.",
+  "source_scene_independence_verified": false
+}

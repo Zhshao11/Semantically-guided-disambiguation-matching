@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "samples": 12,
+  "results": [
+    {
+      "id": "testing/000049",
+      "forward_flow_max_error_px": 3.901743220441995e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.1595306396484375,
+      "correct_forward_sampling_mae_uint8": 7.264537297919713,
+      "wrong_inverse_sampling_mae_uint8": 41.340366126427234,
+      "common_valid_pixels": 196271,
+      "passed": true
+    },
+    {
+      "id": "testing/000158",
+      "forward_flow_max_error_px": 2.119320237345818e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.3122673034667969,
+      "correct_forward_sampling_mae_uint8": 11.37452861542552,
+      "wrong_inverse_sampling_mae_uint8": 50.4269027097689,
+      "common_valid_pixels": 225665,
+      "passed": true
+    },
+    {
+      "id": "testing/000249",
+      "forward_flow_max_error_px": 4.2449744249036406e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.24761962890625,
+      "correct_forward_sampling_mae_uint8": 9.218240049540636,
+      "wrong_inverse_sampling_mae_uint8": 43.80955882708673,
+      "common_valid_pixels": 206699,
+      "passed": true
+    },
+    {
+      "id": "testing/000355",
+      "forward_flow_max_error_px": 1.0705382487682818e-05,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.23506546020507812,
+      "correct_forward_sampling_mae_uint8": 9.601918242642224,
+      "wrong_inverse_sampling_mae_uint8": 46.03866651196968,
+      "common_valid_pixels": 129285,
+      "passed": true
+    },
+    {
+      "id": "testing/000568",
+      "forward_flow_max_error_px": 1.0789593218788873e-05,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.21404647827148438,
+      "correct_forward_sampling_mae_uint8": 9.053673938002296,
+      "wrong_inverse_sampling_mae_uint8": 52.03154681139756,
+      "common_valid_pixels": 114972,
+      "passed": true
+    },
+    {
+      "id": "testing/000619",
+      "forward_flow_max_error_px": 8.50327683715916e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.1211395263671875,
+      "correct_forward_sampling_mae_uint8": 9.537844579873061,
+      "wrong_inverse_sampling_mae_uint8": 56.17242939993895,
+      "common_valid_pixels": 95007,
+      "passed": true
+    },
+    {
+      "id": "training/000248",
+      "forward_flow_max_error_px": 8.46328238077382e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.11499404907226562,
+      "correct_forward_sampling_mae_uint8": 7.915802313976269,
+      "wrong_inverse_sampling_mae_uint8": 42.43076923076923,
+      "common_valid_pixels": 135265,
+      "passed": true
+    },
+    {
+      "id": "training/001574",
+      "forward_flow_max_error_px": 4.248309361734588e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.2638587951660156,
+      "correct_forward_sampling_mae_uint8": 8.728963213666502,
+      "wrong_inverse_sampling_mae_uint8": 52.274858886937835,
+      "common_valid_pixels": 180529,
+      "passed": true
+    },
+    {
+      "id": "training/002026",
+      "forward_flow_max_error_px": 5.382953120657926e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.11098098754882812,
+      "correct_forward_sampling_mae_uint8": 8.499184646669395,
+      "wrong_inverse_sampling_mae_uint8": 37.6582077819141,
+      "common_valid_pixels": 153921,
+      "passed": true
+    },
+    {
+      "id": "training/003015",
+      "forward_flow_max_error_px": 8.476704685911845e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.130584716796875,
+      "correct_forward_sampling_mae_uint8": 9.368695639100006,
+      "wrong_inverse_sampling_mae_uint8": 49.371244070574264,
+      "common_valid_pixels": 133023,
+      "passed": true
+    },
+    {
+      "id": "training/003921",
+      "forward_flow_max_error_px": 4.2449744249036406e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.23907089233398438,
+      "correct_forward_sampling_mae_uint8": 9.28885751443478,
+      "wrong_inverse_sampling_mae_uint8": 46.73705171218493,
+      "common_valid_pixels": 197613,
+      "passed": true
+    },
+    {
+      "id": "training/004677",
+      "forward_flow_max_error_px": 5.3790018611852406e-06,
+      "metadata_corner_displacement_max_error_px": 0.0,
+      "base_to_warped_raster_mae_uint8": 0.16808319091796875,
+      "correct_forward_sampling_mae_uint8": 11.187762094373818,
+      "wrong_inverse_sampling_mae_uint8": 51.95537285198365,
+      "common_valid_pixels": 151186,
+      "passed": true
+    }
+  ],
+  "distinction": "Checks synthetic base-SAR-to-warped-SAR geometry. Native optical-to-base-SAR alignment needs independent visual checkpoints."
+}

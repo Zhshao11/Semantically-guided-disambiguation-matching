@@ -1,0 +1,98 @@
+[
+  {
+    "id": "testing/000049",
+    "diagnostic": "testing_000049_diagnostic.png",
+    "base_pair": "testing_000049_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "testing/000158",
+    "diagnostic": "testing_000158_diagnostic.png",
+    "base_pair": "testing_000158_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "testing/000249",
+    "diagnostic": "testing_000249_diagnostic.png",
+    "base_pair": "testing_000249_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "testing/000355",
+    "diagnostic": "testing_000355_diagnostic.png",
+    "base_pair": "testing_000355_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "testing/000568",
+    "diagnostic": "testing_000568_diagnostic.png",
+    "base_pair": "testing_000568_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "testing/000619",
+    "diagnostic": "testing_000619_diagnostic.png",
+    "base_pair": "testing_000619_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/000248",
+    "diagnostic": "training_000248_diagnostic.png",
+    "base_pair": "training_000248_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/001574",
+    "diagnostic": "training_001574_diagnostic.png",
+    "base_pair": "training_001574_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/002026",
+    "diagnostic": "training_002026_diagnostic.png",
+    "base_pair": "training_002026_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/003015",
+    "diagnostic": "training_003015_diagnostic.png",
+    "base_pair": "training_003015_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/003921",
+    "diagnostic": "training_003921_diagnostic.png",
+    "base_pair": "training_003921_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  },
+  {
+    "id": "training/004677",
+    "diagnostic": "training_004677_diagnostic.png",
+    "base_pair": "training_004677_base_pair.png",
+    "source_scene_id": null,
+    "base_alignment_status": "requires_visual_checkpoints",
+    "interpretation_uncertainty": "Grayscale optical, SAR scattering and possible temporal changes; source scene identity unavailable"
+  }
+]

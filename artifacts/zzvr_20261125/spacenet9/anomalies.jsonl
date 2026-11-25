@@ -1,0 +1,4 @@
+{"dataset": "SpaceNet9", "sample": "02_publictest", "severity": "info", "code": "officially_withheld_test_labels", "detail": "Public test images have no released CSV"}
+{"dataset": "SpaceNet9", "sample": "03_publictest", "severity": "info", "code": "officially_withheld_test_labels", "detail": "Public test images have no released CSV"}
+{"dataset": "SpaceNet9", "sample": "03_train_01", "severity": "warning", "code": "duplicate_tiepoints", "detail": "Identical point rows at CSV lines [[146, 158]]. Original CSV retained."}
+{"dataset": "SpaceNet9", "sample": "dataset", "severity": "info", "code": "private_split_unavailable", "detail": "Final private AOI images and labels are not in public release"}

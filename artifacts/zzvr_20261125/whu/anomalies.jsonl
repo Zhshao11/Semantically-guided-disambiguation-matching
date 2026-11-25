@@ -1,0 +1,3 @@
+{"dataset": "WHU", "sample": "dataset", "severity": "warning", "code": "derived_grayscale_patch_release", "detail": "Available release is a warped 512x512 grayscale derivative. Original 100-scene RGBNIR/SAR/land-use labels and geographic coverage cannot be certified from it."}
+{"dataset": "WHU", "sample": "dataset", "severity": "warning", "code": "missing_parent_scene_identity", "detail": "Patch IDs do not identify source scenes. Source-scene independence and spatial train/test leakage remain unverified."}
+{"dataset": "WHU", "sample": "dataset", "severity": "warning", "code": "missing_georeference", "detail": "6300/6300 pairs lack CRS/geotransform. Coverage limited to pixel extent and synthetic-flow overlap."}

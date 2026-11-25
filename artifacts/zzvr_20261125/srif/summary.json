@@ -1,0 +1,12 @@
+{
+  "dataset": "SRIF",
+  "pairs": 200,
+  "decoded_ok": 200,
+  "issue_severity": {},
+  "issue_codes": {},
+  "root": "/mnt/sda/zhushihao/data/vis_sar/SRIF/dataset/Optical-SAR",
+  "expected_pairs": 200,
+  "expected_files": 600,
+  "actual_files": 600,
+  "full_decoding": true
+}

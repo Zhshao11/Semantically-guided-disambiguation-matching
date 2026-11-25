@@ -1,0 +1,9 @@
+{
+  "whu": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a",
+  "srif": "/mnt/sda/zhushihao/data/vis_sar/SRIF/dataset/Optical-SAR",
+  "spacenet9": "/mnt/sda/zhushihao/multiModel_matching/xoftr_sar/data/SpaceNet9",
+  "output": "reports/zzvr_20261125",
+  "seed": 20261125,
+  "workers": 4,
+  "whu_diagnostic_count": 12
+}

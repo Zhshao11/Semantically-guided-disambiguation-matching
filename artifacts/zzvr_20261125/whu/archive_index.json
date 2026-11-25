@@ -1,0 +1,27 @@
+{
+  "results": [
+    {
+      "split": "training",
+      "archive": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/training.zip",
+      "archive_files": 22400,
+      "extracted_files": 22400,
+      "missing": [],
+      "size_mismatch": [],
+      "extra": [],
+      "passed": true,
+      "crc_verification_performed": false
+    },
+    {
+      "split": "testing",
+      "archive": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/testing.zip",
+      "archive_files": 2800,
+      "extracted_files": 2800,
+      "missing": [],
+      "size_mismatch": [],
+      "extra": [],
+      "passed": true,
+      "crc_verification_performed": false
+    }
+  ],
+  "scope": "Archive index names and uncompressed sizes. Raster/flow/datum payloads are independently fully decoded by audit_datasets.py."
+}

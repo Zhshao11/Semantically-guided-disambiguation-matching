@@ -1,0 +1,62 @@
+{
+  "WHU": {
+    "dataset": "WHU",
+    "pairs": 6300,
+    "decoded_ok": 6300,
+    "issue_severity": {
+      "warning": 3
+    },
+    "issue_codes": {
+      "derived_grayscale_patch_release": 1,
+      "missing_parent_scene_identity": 1,
+      "missing_georeference": 1
+    },
+    "root": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a",
+    "split_counts": {
+      "testing": {
+        "optical": 700,
+        "sar": 700,
+        "datum": 700,
+        "flow": 700
+      },
+      "training": {
+        "optical": 5600,
+        "sar": 5600,
+        "datum": 5600,
+        "flow": 5600
+      }
+    },
+    "original_release_verified": false,
+    "full_decoding": true
+  },
+  "SRIF": {
+    "dataset": "SRIF",
+    "pairs": 200,
+    "decoded_ok": 200,
+    "issue_severity": {},
+    "issue_codes": {},
+    "root": "/mnt/sda/zhushihao/data/vis_sar/SRIF/dataset/Optical-SAR",
+    "expected_pairs": 200,
+    "expected_files": 600,
+    "actual_files": 600,
+    "full_decoding": true
+  },
+  "SpaceNet9": {
+    "dataset": "SpaceNet9",
+    "pairs": 5,
+    "decoded_ok": 5,
+    "issue_severity": {
+      "info": 3,
+      "warning": 1
+    },
+    "issue_codes": {
+      "officially_withheld_test_labels": 2,
+      "duplicate_tiepoints": 1,
+      "private_split_unavailable": 1
+    },
+    "root": "/mnt/sda/zhushihao/multiModel_matching/xoftr_sar/data/SpaceNet9",
+    "full_decoding": true,
+    "complete_public_image_release": true,
+    "complete_competition_release": false
+  }
+}

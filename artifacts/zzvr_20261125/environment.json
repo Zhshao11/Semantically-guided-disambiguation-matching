@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-25T12:53:46.387586+00:00",
+  "hostname": "ubuntu",
+  "python": "3.10.20 (main, Mar 11 2026, 17:46:40) [GCC 14.3.0]",
+  "executable": "/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/.venv/bin/python",
+  "packages": {
+    "numpy": "2.2.6",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.1",
+    "Pillow": "12.3.0"
+  },
+  "config": {
+    "whu": "/mnt/sda/zhushihao/data/vis_sar/WHU_OPT_SAR/extracted_e077a",
+    "srif": "/mnt/sda/zhushihao/data/vis_sar/SRIF/dataset/Optical-SAR",
+    "spacenet9": "/mnt/sda/zhushihao/multiModel_matching/xoftr_sar/data/SpaceNet9",
+    "output": "reports/zzvr_20261125",
+    "seed": 20261125,
+    "workers": 4,
+    "whu_diagnostic_count": 12
+  }
+}

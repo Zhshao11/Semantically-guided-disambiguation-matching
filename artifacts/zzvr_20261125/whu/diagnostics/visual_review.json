@@ -1,0 +1,231 @@
+{
+  "coordinate_convention": "zero-based (x,y) pixel centers; original 512x512 patches",
+  "observer": "Codex visual screening",
+  "measurement_status": "approximate_visual_pick",
+  "use_for_training_or_accuracy_benchmark": false,
+  "uncertainty_definition": "Estimated per-image point picking radius in pixels, without independent second-observer verification",
+  "points": [
+    {
+      "id": "W01",
+      "sample": "testing/000249",
+      "optical_xy": [
+        171,
+        217
+      ],
+      "sar_xy": [
+        171,
+        218
+      ],
+      "uncertainty_px": 5,
+      "structure": "north tip of large pond left of center",
+      "confidence": "medium",
+      "note": "Shoreline extent may vary with water level and SAR shadow",
+      "accepted_for_screening": true
+    },
+    {
+      "id": "W02",
+      "sample": "testing/000249",
+      "optical_xy": [
+        312,
+        288
+      ],
+      "sar_xy": [
+        316,
+        287
+      ],
+      "uncertainty_px": 5,
+      "structure": "north tip of lower central pond",
+      "confidence": "medium",
+      "note": "Shoreline is visible in both modalities; tip is rounded",
+      "accepted_for_screening": true
+    },
+    {
+      "id": "W03",
+      "sample": "training/002026",
+      "optical_xy": [
+        315,
+        349
+      ],
+      "sar_xy": [
+        318,
+        350
+      ],
+      "uncertainty_px": 5,
+      "structure": "south bank of western tributary at main river junction",
+      "confidence": "medium",
+      "note": "Bank definition depends on water level and SAR response",
+      "accepted_for_screening": true
+    },
+    {
+      "id": "W04",
+      "sample": "training/002026",
+      "optical_xy": [
+        143,
+        285
+      ],
+      "sar_xy": [
+        144,
+        282
+      ],
+      "uncertainty_px": 6,
+      "structure": "western terminal tip of narrow river inlet",
+      "confidence": "medium",
+      "note": "Narrow inlet and radar shadow can shift apparent bank",
+      "accepted_for_screening": true
+    },
+    {
+      "id": "W05",
+      "sample": "testing/000355",
+      "optical_xy": [
+        266,
+        251
+      ],
+      "sar_xy": [
+        268,
+        253
+      ],
+      "uncertainty_px": 6,
+      "structure": "north-south road crossing central east-west corridor",
+      "confidence": "medium",
+      "note": "Wide corridor and SAR bright roadside returns complicate center selection",
+      "accepted_for_screening": true
+    },
+    {
+      "id": "W06",
+      "sample": "training/001574",
+      "optical_xy": [
+        265,
+        156
+      ],
+      "sar_xy": [
+        264,
+        160
+      ],
+      "uncertainty_px": 8,
+      "structure": "upper central road junction in industrial area",
+      "confidence": "low",
+      "note": "Nearby building layover and multiple road branches; Rejected after enlarged-image review because the same ground location cannot be independently identified",
+      "accepted_for_screening": false
+    },
+    {
+      "id": "W07",
+      "sample": "training/001574",
+      "optical_xy": [
+        120,
+        456
+      ],
+      "sar_xy": [
+        122,
+        459
+      ],
+      "uncertainty_px": 8,
+      "structure": "roundabout center in lower left industrial area",
+      "confidence": "low",
+      "note": "Circle edge is weak in SAR; approximate center only; Rejected after enlarged-image review because the same ground location cannot be independently identified",
+      "accepted_for_screening": false
+    },
+    {
+      "id": "W08",
+      "sample": "testing/000158",
+      "optical_xy": [
+        391,
+        329
+      ],
+      "sar_xy": [
+        393,
+        329
+      ],
+      "uncertainty_px": 6,
+      "structure": "western tip of large lower-right pond",
+      "confidence": "medium",
+      "note": "Shoreline evidence is clearer than nearby repeated rooftops",
+      "accepted_for_screening": true
+    }
+  ],
+  "patch_reviews": [
+    {
+      "sample": "testing/000049",
+      "landcover": "mountain, forest, river valley",
+      "observation": "Valley and slope configuration broadly correspond; shadow and relief prevent precise point picking",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "testing/000158",
+      "landcover": "farmland, village, ponds, roads",
+      "observation": "Main corridor and pond distribution broadly correspond; smaller ponds and repeated buildings are ambiguous",
+      "uncertainty": "medium",
+      "checkpoint_status": "W08"
+    },
+    {
+      "sample": "testing/000249",
+      "landcover": "hills, village, ponds",
+      "observation": "Distinct pond outlines correspond near the same pixel locations; forest slopes are less stable",
+      "uncertainty": "medium",
+      "checkpoint_status": "W01,W02"
+    },
+    {
+      "sample": "testing/000355",
+      "landcover": "farmland, greenhouse roofs, canal, road",
+      "observation": "Central road corridor and canal are identifiable in both modalities; roof scattering varies",
+      "uncertainty": "medium",
+      "checkpoint_status": "W05"
+    },
+    {
+      "sample": "testing/000568",
+      "landcover": "mountain, road, village",
+      "observation": "Broad east-west road is visible; SAR terrain effects obscure many side branches",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "testing/000619",
+      "landcover": "mountain ridges and forest",
+      "observation": "Ridge pattern corresponds broadly; terrain shading and layover make local interpretation uncertain",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "training/000248",
+      "landcover": "mountain, river valley, forest",
+      "observation": "Valley curvature and lowland location correspond broadly; slopes are difficult to localize",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "training/001574",
+      "landcover": "industrial buildings and road network",
+      "observation": "Road network can be traced, but building returns show large appearance differences and possible layover",
+      "uncertainty": "high",
+      "checkpoint_status": "W06,W07 rejected after enlarged-image review"
+    },
+    {
+      "sample": "training/002026",
+      "landcover": "large river, tributary, forest",
+      "observation": "Large shoreline and tributary junction correspond; local banks depend on water and scattering",
+      "uncertainty": "medium",
+      "checkpoint_status": "W03,W04"
+    },
+    {
+      "sample": "training/003015",
+      "landcover": "mountain, village, river",
+      "observation": "River and central settlement corridor correspond broadly; no sufficiently sharp point selected",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "training/003921",
+      "landcover": "hills, ponds, settlement",
+      "observation": "Pond pattern is recognizable; many small dark targets repeat and may be confused with shadows",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    },
+    {
+      "sample": "training/004677",
+      "landcover": "hills, pond, village, road",
+      "observation": "Lower-left pond and bottom road broadly correspond; relief limits local precision",
+      "uncertainty": "high",
+      "checkpoint_status": "no reliable ground point selected"
+    }
+  ]
+}
