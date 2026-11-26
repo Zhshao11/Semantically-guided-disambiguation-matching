@@ -1,0 +1,28 @@
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/swiglu_ffn.py:45: UserWarning: xFormers is disabled (SwiGLU)
+  warnings.warn("xFormers is disabled (SwiGLU)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/attention.py:29: UserWarning: xFormers is disabled (Attention)
+  warnings.warn("xFormers is disabled (Attention)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/block.py:35: UserWarning: xFormers is disabled (Block)
+  warnings.warn("xFormers is disabled (Block)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+{"stage": "DINO_cache", "split": "train", "images": 0, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 640, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 1280, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 1920, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 2560, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 3200, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 3840, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 4480, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 5120, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 5760, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 6400, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 7040, "total": 7912}
+{"stage": "DINO_cache", "split": "train", "images": 7680, "total": 7912}
+{"stage": "DINO_cache", "split": "val", "images": 0, "total": 952}
+{"stage": "DINO_cache", "split": "val", "images": 640, "total": 952}
+{"stage": "teacher_complete", "cache_version": "d8067dd69c317587bfcf7514d9e60e5262d0fd64af5add13d7c45ea4b27e10af"}

@@ -1,0 +1,28 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "torchvision": "0.26.0+cu128",
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.3.0",
+    "pytest": "9.2.0"
+  },
+  "parent_commit": "4fa16e8bd5b5ade586c3b26185dfe4ac60cf0b9a",
+  "source_hashes": {
+    "sdgm/semantic_teacher.py": "b366e4d1a19875033a0e9db13cb05be08db1718d5c9355bad951c4716164b27b",
+    "sdgm/semantic_routing.py": "944545e8719cbc7157fe1c7337a7a5c82f5f7fd557bd792a88b129c88cbcd931",
+    "sdgm/semantic_evaluation.py": "360a3ac410adea6130bfa6f7d9295036a6db67906f8f6c496e04b59303a22524",
+    "scripts/build_os_semantic_teacher.py": "353966c55c76a53f774db799036670b771c97f55c486bfe386195c09e6e74a1a",
+    "scripts/train_os_semantic_routing.py": "3a312b33ba6a544822f161ebb4ea7aaebee5bfe0fc518e7a056d4eb72b5aec53",
+    "scripts/evaluate_os_semantic_routing.py": "bf7a45600a55f8d5d2f6efb589657674fad64af7d305027d923c3976ee613d57",
+    "scripts/verify_os_semantic_routing.py": "dc302486be2fa44db51a0a82614c9eeb1a782a097bb3977cff1b2ef7ddfb249d",
+    "scripts/summarize_os_semantic_routing.py": "d53810033a5356036b1dea07f6dc73238b4016111953aa3236b71927895444c2",
+    "scripts/analyze_os_semantic_routing.py": "b1a533dfa8e076a2589c42e6af5c815eb14056c650e61b80d7f55d879168412a",
+    "tests/test_semantic_routing.py": "2ae1c28189ee3bca950819d7bc696a613fc455ee9dae33a9a218cc74178eff95"
+  },
+  "dependencies_installed": false,
+  "teacher_and_math_files_kept_byte_identical_to_cache_identity": true,
+  "evaluation_scripts_formatted_then_reverified": true
+}

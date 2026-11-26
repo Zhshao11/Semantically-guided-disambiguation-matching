@@ -1,0 +1,122 @@
+{
+  "split": "training_monitor",
+  "pairs": 952,
+  "families": 238,
+  "effective_queries": 116953,
+  "lambda_value": 1.0,
+  "A_B_bit_identical": true,
+  "masked": {
+    "gt_outside": 20135,
+    "empty_positive": 0,
+    "invalid_source": 0,
+    "gt_invalid_support": 0
+  },
+  "methods": {
+    "A": {
+      "recall_at_1": 0.6162561028789343,
+      "recall_at_4": 0.7011620052499722,
+      "nearest_candidate_distance_px": {
+        "0": 0.01879088208079338,
+        "5": 1.4538331031799316,
+        "25": 3.420356273651123,
+        "50": 5.538026332855225,
+        "75": 8.812214851379395,
+        "90": 12.857906341552734,
+        "95": 16.901805877685547,
+        "99": 48.737022399902344,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0
+    },
+    "B": {
+      "recall_at_1": 0.6162561028789343,
+      "recall_at_4": 0.7011620052499722,
+      "nearest_candidate_distance_px": {
+        "0": 0.01879088208079338,
+        "5": 1.4538331031799316,
+        "25": 3.420356273651123,
+        "50": 5.538026332855225,
+        "75": 8.812214851379395,
+        "90": 12.857906341552734,
+        "95": 16.901805877685547,
+        "99": 48.737022399902344,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0
+    },
+    "C": {
+      "recall_at_1": 0.6162561028789343,
+      "recall_at_4": 0.7011449043632912,
+      "nearest_candidate_distance_px": {
+        "0": 0.01879088208079338,
+        "5": 1.4537054300308228,
+        "25": 3.4204304218292236,
+        "50": 5.538403034210205,
+        "75": 8.813481330871582,
+        "90": 12.863520622253418,
+        "95": 16.90839385986328,
+        "99": 48.909568786621094,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0
+    },
+    "C_shuffle": {
+      "recall_at_1": 0.6162561028789343,
+      "recall_at_4": 0.7009140423930981,
+      "nearest_candidate_distance_px": {
+        "0": 0.01879088208079338,
+        "5": 1.4538331031799316,
+        "25": 3.4210259914398193,
+        "50": 5.5395965576171875,
+        "75": 8.81750202178955,
+        "90": 12.875898361206055,
+        "95": 16.951040267944336,
+        "99": 48.55450439453125,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0
+    }
+  },
+  "source_family_isolation": true,
+  "geographic_independence": "not_claimed",
+  "test_evaluated": false,
+  "UBC_evaluated": false,
+  "replacement": {
+    "new_hits_C": 107,
+    "lost_hits_C": 109,
+    "new_hits_shuffle": 160,
+    "lost_hits_shuffle": 189,
+    "changed_candidate_queries_C": 14936,
+    "net_hits_C": -2
+  },
+  "family_paired_change": {
+    "improved": 56,
+    "degraded": 51,
+    "unchanged": 131,
+    "delta": {
+      "0": -0.008492569002123142,
+      "5": -0.004099622984481772,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 0.0,
+      "90": 0.00207168200132299,
+      "95": 0.002135642599808837,
+      "99": 0.005511315616489803,
+      "100": 0.008264462809917356
+    }
+  },
+  "family_bootstrap": {
+    "replicates": 2000,
+    "seed": 2026112612,
+    "unit": "resample whole families with replacement",
+    "C_minus_A_recall4_interval95": [
+      -0.000282179349037082,
+      0.00023824685809524258
+    ],
+    "C_minus_shuffle_recall4_interval95": [
+      -0.0001114497847742809,
+      0.000582010077368297
+    ],
+    "interpretation": "descriptive family-sampling uncertainty conditional on this trained seed and split; not repeat-seed stability or geographic-independence evidence"
+  }
+}

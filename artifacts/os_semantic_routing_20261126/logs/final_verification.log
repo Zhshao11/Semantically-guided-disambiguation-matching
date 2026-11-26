@@ -1,0 +1,13 @@
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/swiglu_ffn.py:45: UserWarning: xFormers is disabled (SwiGLU)
+  warnings.warn("xFormers is disabled (SwiGLU)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
+  warnings.warn("xFormers is not available (SwiGLU)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/attention.py:29: UserWarning: xFormers is disabled (Attention)
+  warnings.warn("xFormers is disabled (Attention)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/attention.py:33: UserWarning: xFormers is not available (Attention)
+  warnings.warn("xFormers is not available (Attention)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/block.py:35: UserWarning: xFormers is disabled (Block)
+  warnings.warn("xFormers is disabled (Block)")
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/external/semantic_teacher_v1/dinov2/dinov2/layers/block.py:40: UserWarning: xFormers is not available (Block)
+  warnings.warn("xFormers is not available (Block)")
+Teacher/prototypes, frozen model, exact A/B, final head reload and sealed pools verified

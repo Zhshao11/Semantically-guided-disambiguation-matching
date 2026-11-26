@@ -1,0 +1,24 @@
+{
+  "architecture": "dinov2_vits14",
+  "source_repository": "https://github.com/facebookresearch/dinov2",
+  "source_revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "source_directory": "external/semantic_teacher_v1/dinov2",
+  "weights_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+  "weights_path": "external/semantic_teacher_v1/dinov2_vits14_pretrain.pth",
+  "input_hw": [
+    252,
+    252
+  ],
+  "patch_size": 14,
+  "preprocess": "native uint8/255; grayscale repeat three channels; Torch bicubic resize antialias=True align_corners=False to252; clamp[0,1]; ImageNet mean[.485,.456,.406]/std[.229,.224,.225]; no crop",
+  "tokens": "forward_features.x_norm_patchtokens; exclude CLS; float32 inference",
+  "mapping": "token center native=(u+0.5)*256/18-0.5; bilinear token-feature interpolation to structural center 8*k+3.5 with align_corners=False,border; renormalize interpolated descriptors before prototype softmax",
+  "batch_size": 32,
+  "weights_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "source_python_tree_sha256": "ccacfe8ea0c2abe7bffb0a5ea348b4c61dbbceb0a7ace999bf4dbf87bb2db888",
+  "wrapper_sha256": "b366e4d1a19875033a0e9db13cb05be08db1718d5c9355bad951c4716164b27b",
+  "prototype_math_sha256": "944545e8719cbc7157fe1c7337a7a5c82f5f7fd557bd792a88b129c88cbcd931",
+  "cache_schema": "dinov2_patch_proto_v1_fp16_storage_fp32_renormalized",
+  "xformers": "disabled explicitly; official PyTorch attention fallback",
+  "torch_version": "2.11.0+cu128"
+}

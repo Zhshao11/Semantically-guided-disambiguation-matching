@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "fixed_budget_steps": 5000,
+  "smoke_reset": true,
+  "trained_only_SAR_head": true,
+  "KL_only": true,
+  "structure_digest_before": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+  "structure_digest_after": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+  "structure_parameters_frozen": true,
+  "teacher_frozen": true,
+  "prototypes_frozen": true,
+  "lambda_train_calibration": 1.0,
+  "A_B_exact": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "source_hashes_unchanged": true,
+  "wall_seconds": 157.55527780100238,
+  "peak_allocated_mib": 306.60302734375,
+  "head_checkpoint_sha256": "3f4c346c035eae7149c8f3a33fd43b1ab7420ae126e508b80df0819d0dbd2d4c",
+  "label_scope": "relative to synthetic affine over nominal publisher-aligned base; prototype IDs are not named classes",
+  "routing_evaluation_batch_size": 4,
+  "arithmetic_correction_recorded": true
+}

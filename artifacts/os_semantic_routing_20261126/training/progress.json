@@ -1,0 +1,11 @@
+{
+  "step": 5000,
+  "augmentation_epoch": 11,
+  "learning_rate": 0.001,
+  "loss": 1.2200939655303955,
+  "gradient_norm": 0.21643497049808502,
+  "effective_queries": 1951,
+  "nonfinite": false,
+  "head_all_parameter_gradients_finite": true,
+  "structure_has_no_gradient": true
+}

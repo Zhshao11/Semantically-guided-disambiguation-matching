@@ -1,6 +1,31 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[第20—30轮统一诊断、优化器续训与固定失败分析](artifacts/os_continuation_diagnostic_20261126/REPORT_zh.md)。原训练指标来自固定扰动的 `eval()` 视图，在线随机增强用于训练损失。本轮冻结覆盖238个训练family的952对监测样本，与原952对验证使用完全相同的仿射集合、掩码、144源点、4候选及8原生像素门槛；两侧每轮均有116,953个有效查询。
+最新完成[冻结结构后的DINOv2潜在原型蒸馏与4候选路由](artifacts/os_semantic_routing_20261126/REPORT_zh.md)。第30轮结构前端全冻结；官方DINOv2 ViT-S/14 patch教师、原生灰度复制三通道、252教师输入与半像素坐标映射固定，仅从1,976个训练family各取1对/64token拟合32个球面原型。先做32对冒烟，再重置SAR头，按预定预算运行5,000步KL-only蒸馏，没有解冻前端、训练门控或加入关系图。
+
+**该轮未达到覆盖提升标准。** 验证KL由1.5520降至1.1424，SAR原型分布有空间差异但比教师更平滑；同一个最终语义头、固定训练集校准lambda=1（实际偏置波动约结构的3.98%），结果如下。A逐点复现第30轮，B与A候选逐元素一致；C保留2个结构峰、按原24px NMS补2个融合峰，仍为4候选/8原生px门槛。
+
+| 验证设置 | @1 | @4 | 最近距离中位数/P95 |
+| --- | ---: | ---: | ---: |
+| A：4结构候选 | 47.8337% | 60.1284% | 6.5377 / 28.4306 px |
+| B：同一语义头，lambda=0 | 47.8337% | 60.1284% | 6.5377 / 28.4306 px |
+| C：2结构+2融合 | 47.8337% | 60.1216% | 6.5372 / 28.5561 px |
+| C：打乱SAR语义空间 | 47.8337% | 60.1413% | 6.5370 / 28.5226 px |
+
+验证新增144命中、丢失152、净少8；family改善/退化/不变为63/69/106，重采样区间跨0。低KL、A/B回退与空间打乱均不构成语义有效性的证据，不据本轮结果断言语义普遍无效。62项测试通过，最终头重载精确复现四种设置。OS/UBCv2测试继续封存；全部指标只相对于合成标签。教师缓存、头权重与原始数据留在zzvr，原型中心、抽样清单、每对/family/查询记录与图像随报告归档。
+
+```bash
+export PYTHONPATH=.
+# 既有冻结数据与第30轮checkpoint；DINO官方代码/权重版本见配置及报告。
+# 新训练须用新output；已有教师协议及训练目录拒绝覆盖。
+.venv/bin/python scripts/build_os_semantic_teacher.py --config configs/os_semantic_routing.json
+.venv/bin/python scripts/train_os_semantic_routing.py --config configs/os_semantic_routing.json
+.venv/bin/python scripts/evaluate_os_semantic_routing.py --config configs/os_semantic_routing.json
+.venv/bin/python scripts/verify_os_semantic_routing.py --config configs/os_semantic_routing.json
+.venv/bin/python scripts/summarize_os_semantic_routing.py --config configs/os_semantic_routing.json
+.venv/bin/python scripts/analyze_os_semantic_routing.py --config configs/os_semantic_routing.json
+```
+
+此前完成[第20—30轮统一诊断、优化器续训与固定失败分析](artifacts/os_continuation_diagnostic_20261126/REPORT_zh.md)。原训练指标来自固定扰动的 `eval()` 视图，在线随机增强用于训练损失。该轮冻结覆盖238个训练family的952对监测样本，与原952对验证使用完全相同的仿射集合、掩码、144源点、4候选及8原生像素门槛；两侧每轮均有116,953个有效查询。
 
 从第20轮完整恢复模型及AdamW动量/步数，原训练无scheduler，续接常数学习率3e-4，保持架构、损失、温度、正邻域和NMS不变。旧checkpoint未保存global RNG；采样器状态通过原DataLoader索引重放恢复，新checkpoint保存完整RNG状态。
 

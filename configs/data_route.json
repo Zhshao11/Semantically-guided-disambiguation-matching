@@ -101,6 +101,39 @@
       "fixed_failure_pairs": 6,
       "fixed_failure_queries": 24,
       "test_pools_unchanged_and_not_evaluated": true
+    },
+    "semantic_routing_diagnostic": {
+      "config": "configs/os_semantic_routing.json",
+      "report": "artifacts/os_semantic_routing_20261126/REPORT_zh.md",
+      "structural_endpoint_epoch": 30,
+      "whole_structure_frozen": true,
+      "teacher": "official dinov2_vits14 normalized patch tokens, no CLS, native gray replicated to3 channels,252 input",
+      "prototypes": 32,
+      "prototype_fit_train_families": 1976,
+      "prototype_fit_tokens": 126464,
+      "prototype_validation_or_RGB512_used": false,
+      "training": "smoke32 pairs/100 steps; reset;5000 fixed KL-only SAR-head updates, no joint retrieval loss",
+      "lambda": 1.0,
+      "lambda_calibration": "fixed training monitor only; prior cap1; centered bias std ratio3.98%",
+      "validation_recall_at4": {
+        "A": 0.6012842765897412,
+        "B": 0.6012842765897412,
+        "C": 0.6012158730430173,
+        "C_shuffle": 0.6014125332398484
+      },
+      "validation_new_hits": 144,
+      "validation_lost_hits": 152,
+      "validation_net_hits": -8,
+      "family_improved_degraded_unchanged": [
+        63,
+        69,
+        106
+      ],
+      "A_B_exact": true,
+      "candidate_budget": 4,
+      "native_recall_radius_px": 8,
+      "conclusion": "no demonstrated net coverage gain; SAR distributions vary spatially but are softer than teacher; single seed; do not claim semantics effective or generally ineffective",
+      "test_pools_unchanged_and_not_evaluated": true
     }
   }
 }

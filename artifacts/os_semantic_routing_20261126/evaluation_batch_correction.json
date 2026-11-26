@@ -1,0 +1,11 @@
+{
+  "reason": "Original semantic inference batch16 caused tiny candidate-ranking roundoff differences from original baseline batch4. Use original batch4 for final A/B/C exact baseline reproduction.",
+  "previous_batch_size": 16,
+  "final_batch_size": 4,
+  "training_repeated": false,
+  "same_final_head": true,
+  "same_structural_checkpoint": true,
+  "same_lambda_from_training": true,
+  "previous_results_preserved": "reports/os_semantic_routing_20261126/engineering_batch16_arithmetic_audit",
+  "validation_parameter_search": false
+}

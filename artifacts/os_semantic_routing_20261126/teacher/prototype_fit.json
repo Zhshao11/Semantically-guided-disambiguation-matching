@@ -1,0 +1,244 @@
+{
+  "sampled_families": 1976,
+  "sampled_pairs": 1976,
+  "sampled_tokens": 126464,
+  "occupancy_counts": [
+    4166,
+    2209,
+    6184,
+    6445,
+    4685,
+    4813,
+    4530,
+    3891,
+    6275,
+    1354,
+    3485,
+    6813,
+    3089,
+    2626,
+    2698,
+    1553,
+    4018,
+    6612,
+    3051,
+    3370,
+    4396,
+    3295,
+    3252,
+    7142,
+    2751,
+    3580,
+    2605,
+    5962,
+    2106,
+    1916,
+    3537,
+    4055
+  ],
+  "iterations": [
+    {
+      "iteration": 1,
+      "mean_cosine": 0.6133490800857544,
+      "empty": 0
+    },
+    {
+      "iteration": 2,
+      "mean_cosine": 0.7188642621040344,
+      "empty": 0
+    },
+    {
+      "iteration": 3,
+      "mean_cosine": 0.7285392880439758,
+      "empty": 0
+    },
+    {
+      "iteration": 4,
+      "mean_cosine": 0.7317929863929749,
+      "empty": 0
+    },
+    {
+      "iteration": 5,
+      "mean_cosine": 0.733674943447113,
+      "empty": 0
+    },
+    {
+      "iteration": 6,
+      "mean_cosine": 0.7347829937934875,
+      "empty": 0
+    },
+    {
+      "iteration": 7,
+      "mean_cosine": 0.735436737537384,
+      "empty": 0
+    },
+    {
+      "iteration": 8,
+      "mean_cosine": 0.7358605861663818,
+      "empty": 0
+    },
+    {
+      "iteration": 9,
+      "mean_cosine": 0.7361496090888977,
+      "empty": 0
+    },
+    {
+      "iteration": 10,
+      "mean_cosine": 0.7363571524620056,
+      "empty": 0
+    },
+    {
+      "iteration": 11,
+      "mean_cosine": 0.736511766910553,
+      "empty": 0
+    },
+    {
+      "iteration": 12,
+      "mean_cosine": 0.7366408109664917,
+      "empty": 0
+    },
+    {
+      "iteration": 13,
+      "mean_cosine": 0.7367548942565918,
+      "empty": 0
+    },
+    {
+      "iteration": 14,
+      "mean_cosine": 0.7368678450584412,
+      "empty": 0
+    },
+    {
+      "iteration": 15,
+      "mean_cosine": 0.7369772791862488,
+      "empty": 0
+    },
+    {
+      "iteration": 16,
+      "mean_cosine": 0.7370642423629761,
+      "empty": 0
+    },
+    {
+      "iteration": 17,
+      "mean_cosine": 0.7371286153793335,
+      "empty": 0
+    },
+    {
+      "iteration": 18,
+      "mean_cosine": 0.7371791005134583,
+      "empty": 0
+    },
+    {
+      "iteration": 19,
+      "mean_cosine": 0.7372161149978638,
+      "empty": 0
+    },
+    {
+      "iteration": 20,
+      "mean_cosine": 0.7372456192970276,
+      "empty": 0
+    },
+    {
+      "iteration": 21,
+      "mean_cosine": 0.7372722625732422,
+      "empty": 0
+    },
+    {
+      "iteration": 22,
+      "mean_cosine": 0.7372949719429016,
+      "empty": 0
+    },
+    {
+      "iteration": 23,
+      "mean_cosine": 0.7373155951499939,
+      "empty": 0
+    },
+    {
+      "iteration": 24,
+      "mean_cosine": 0.7373350858688354,
+      "empty": 0
+    },
+    {
+      "iteration": 25,
+      "mean_cosine": 0.7373546957969666,
+      "empty": 0
+    },
+    {
+      "iteration": 26,
+      "mean_cosine": 0.7373742461204529,
+      "empty": 0
+    },
+    {
+      "iteration": 27,
+      "mean_cosine": 0.7373941540718079,
+      "empty": 0
+    },
+    {
+      "iteration": 28,
+      "mean_cosine": 0.7374128103256226,
+      "empty": 0
+    },
+    {
+      "iteration": 29,
+      "mean_cosine": 0.7374303340911865,
+      "empty": 0
+    },
+    {
+      "iteration": 30,
+      "mean_cosine": 0.7374482154846191,
+      "empty": 0
+    },
+    {
+      "iteration": 31,
+      "mean_cosine": 0.7374645471572876,
+      "empty": 0
+    },
+    {
+      "iteration": 32,
+      "mean_cosine": 0.7374800443649292,
+      "empty": 0
+    },
+    {
+      "iteration": 33,
+      "mean_cosine": 0.7374945282936096,
+      "empty": 0
+    },
+    {
+      "iteration": 34,
+      "mean_cosine": 0.7375081777572632,
+      "empty": 0
+    },
+    {
+      "iteration": 35,
+      "mean_cosine": 0.7375227212905884,
+      "empty": 0
+    },
+    {
+      "iteration": 36,
+      "mean_cosine": 0.7375358939170837,
+      "empty": 0
+    },
+    {
+      "iteration": 37,
+      "mean_cosine": 0.7375475168228149,
+      "empty": 0
+    },
+    {
+      "iteration": 38,
+      "mean_cosine": 0.7375580668449402,
+      "empty": 0
+    },
+    {
+      "iteration": 39,
+      "mean_cosine": 0.7375686764717102,
+      "empty": 0
+    },
+    {
+      "iteration": 40,
+      "mean_cosine": 0.7375799417495728,
+      "empty": 0
+    }
+  ],
+  "labels": "latent prototypes only; no land-cover class names",
+  "validation_used": false,
+  "RGB512_used": false
+}

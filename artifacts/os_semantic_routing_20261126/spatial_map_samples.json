@@ -1,0 +1,44 @@
+[
+  {
+    "split": "training_monitor",
+    "sample_id": "OSdataset/256/train/5821",
+    "family_id": "OSF-0112379513fc4186",
+    "file": "spatial_maps/training_monitor_5821_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  },
+  {
+    "split": "training_monitor",
+    "sample_id": "OSdataset/256/train/497",
+    "family_id": "OSF-7602007316946260",
+    "file": "spatial_maps/training_monitor_497_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  },
+  {
+    "split": "validation",
+    "sample_id": "OSdataset/256/val/1",
+    "family_id": "OSF-c97f24f88f0d9f82",
+    "file": "spatial_maps/validation_1_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  },
+  {
+    "split": "validation",
+    "sample_id": "OSdataset/256/val/528",
+    "family_id": "OSF-7cb5d970275bc848",
+    "file": "spatial_maps/validation_528_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  },
+  {
+    "split": "validation",
+    "sample_id": "OSdataset/256/val/796",
+    "family_id": "OSF-ffae8d1950d0bc4b",
+    "file": "spatial_maps/validation_796_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  },
+  {
+    "split": "validation",
+    "sample_id": "OSdataset/256/val/81",
+    "family_id": "OSF-fe94b96ef2b6ace6",
+    "file": "spatial_maps/validation_81_semantics.png",
+    "selection": "fixed first/middle sample plus previous frozen failure81/796; not selected by semantic gains"
+  }
+]

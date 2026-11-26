@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "teacher_cache_hashes_exact": true,
+  "prototype_training_families_only": true,
+  "prototype_centers_unit_norm": true,
+  "teacher_spot_checks": [
+    {
+      "sample_id": "OSdataset/256/train/1",
+      "normalized_token_max_abs_error": 0.00011789798736572266,
+      "probability_max_abs_error": 0.00024175643920898438
+    },
+    {
+      "sample_id": "OSdataset/256/train/4620",
+      "normalized_token_max_abs_error": 0.0001175999641418457,
+      "probability_max_abs_error": 0.00024396181106567383
+    },
+    {
+      "sample_id": "OSdataset/256/val/1",
+      "normalized_token_max_abs_error": 0.00011962652206420898,
+      "probability_max_abs_error": 0.00024205446243286133
+    },
+    {
+      "sample_id": "OSdataset/256/val/528",
+      "normalized_token_max_abs_error": 0.00012123584747314453,
+      "probability_max_abs_error": 0.0002429485321044922
+    }
+  ],
+  "epoch30_model_frozen": true,
+  "optimizer_steps": 5000,
+  "KL_only": true,
+  "exact": {
+    "training_monitor": {
+      "all_reloaded_arrays_bit_identical": true,
+      "epoch30_A_distances_and_mask_exact": true,
+      "A_B_all_candidates_exact": true,
+      "same_top2_structural_peaks": true,
+      "NMS_and_invalid_slots_verified": true
+    },
+    "validation": {
+      "all_reloaded_arrays_bit_identical": true,
+      "epoch30_A_distances_and_mask_exact": true,
+      "A_B_all_candidates_exact": true,
+      "same_top2_structural_peaks": true,
+      "NMS_and_invalid_slots_verified": true
+    }
+  },
+  "original_source_and_test_pool_hashes_unchanged": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

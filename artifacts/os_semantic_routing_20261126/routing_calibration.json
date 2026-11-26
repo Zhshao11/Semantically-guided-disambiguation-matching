@@ -1,0 +1,17 @@
+{
+  "lambda_value": 1.0,
+  "training_queries": 116953,
+  "structural_within_query_rms_std": 1.4346930859021165,
+  "semantic_bias_within_query_rms_std": 0.057063122139734,
+  "structural_mean": -0.18710980434873878,
+  "semantic_bias_mean": -0.9057058115634926,
+  "observed_bias_min": -0.9999508857727051,
+  "observed_bias_max": 0.5895447731018066,
+  "fused_bias_absolute_bound": 1.0,
+  "achieved_bias_to_structural_std_ratio": 0.039773748615965096,
+  "desired_std_ratio": 0.1,
+  "cap": 1.0,
+  "split": "fixed_training_monitor_only",
+  "validation_used": false,
+  "note": "constant semantic offset cannot alter ranking; report centered variability separately from absolute bound"
+}

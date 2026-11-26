@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "pairs": 32,
+  "families": 32,
+  "steps": 100,
+  "fixed_subset_initial_KL": 1.6218221781975177,
+  "fixed_subset_final_KL": 1.3504630622602556,
+  "structure_unchanged": true,
+  "gradients_finite": true,
+  "formal_head_reset": true,
+  "validation_used": false,
+  "scope": "engineering check, not semantic effectiveness"
+}

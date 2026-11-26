@@ -1,0 +1,32 @@
+{
+  "training_monitor": {
+    "image_pairs": 952,
+    "effective_queries": 116953,
+    "changed_ordered_candidate_queries": 14960,
+    "changed_candidate_set_queries": 11102,
+    "order_only_changes": 3858,
+    "new_hits": 109,
+    "lost_hits": 110,
+    "KL_final_head": 1.15434312066566,
+    "KL_constant_training_teacher_marginal": 1.4914728065029608,
+    "teacher_constant_definition": "one frozen32-vector from fixed training-monitor teacher marginal, no validation fit; diagnostic only",
+    "teacher_within_image_best_constant_KL_median": 0.7049222154129942,
+    "image_constant_caveat": "per-image teacher mean is an oracle diagnostic using teacher image content, not a deployable SAR predictor or an extra trained baseline",
+    "ordered_query_change_caveat": "ordered candidate-array differences include swapping ranks3/4; set-change count is the appropriate replacement denominator"
+  },
+  "validation": {
+    "image_pairs": 952,
+    "effective_queries": 116953,
+    "changed_ordered_candidate_queries": 14491,
+    "changed_candidate_set_queries": 10556,
+    "order_only_changes": 3935,
+    "new_hits": 144,
+    "lost_hits": 152,
+    "KL_final_head": 1.1423983318886646,
+    "KL_constant_training_teacher_marginal": 1.4604439609474404,
+    "teacher_constant_definition": "one frozen32-vector from fixed training-monitor teacher marginal, no validation fit; diagnostic only",
+    "teacher_within_image_best_constant_KL_median": 0.6428182801845824,
+    "image_constant_caveat": "per-image teacher mean is an oracle diagnostic using teacher image content, not a deployable SAR predictor or an extra trained baseline",
+    "ordered_query_change_caveat": "ordered candidate-array differences include swapping ranks3/4; set-change count is the appropriate replacement denominator"
+  }
+}

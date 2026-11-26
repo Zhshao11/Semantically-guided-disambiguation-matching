@@ -1,0 +1,73 @@
+{
+  "selection": "first2 queries in fixed sample/query order for new/lost state after final evaluation; descriptive examples, not representative failure sampling",
+  "examples": [
+    {
+      "split": "training_monitor",
+      "state": "new_hit",
+      "index": 1,
+      "query": 122,
+      "sample_id": "OSdataset/256/train/5822",
+      "family_id": "OSF-0112379513fc4186"
+    },
+    {
+      "split": "training_monitor",
+      "state": "new_hit",
+      "index": 3,
+      "query": 28,
+      "sample_id": "OSdataset/256/train/5824",
+      "family_id": "OSF-0112379513fc4186"
+    },
+    {
+      "split": "training_monitor",
+      "state": "lost_hit",
+      "index": 23,
+      "query": 85,
+      "sample_id": "OSdataset/256/train/6028",
+      "family_id": "OSF-0738dacbc1b43021"
+    },
+    {
+      "split": "training_monitor",
+      "state": "lost_hit",
+      "index": 36,
+      "query": 98,
+      "sample_id": "OSdataset/256/train/5085",
+      "family_id": "OSF-077b103f7efb67c0"
+    },
+    {
+      "split": "validation",
+      "state": "new_hit",
+      "index": 2,
+      "query": 81,
+      "sample_id": "OSdataset/256/val/100",
+      "family_id": "OSF-7573424c184394da",
+      "file": "replacement_examples/new_hit_2_81.png"
+    },
+    {
+      "split": "validation",
+      "state": "new_hit",
+      "index": 3,
+      "query": 102,
+      "sample_id": "OSdataset/256/val/101",
+      "family_id": "OSF-929a3ca47f0e9ec5",
+      "file": "replacement_examples/new_hit_3_102.png"
+    },
+    {
+      "split": "validation",
+      "state": "lost_hit",
+      "index": 7,
+      "query": 68,
+      "sample_id": "OSdataset/256/val/105",
+      "family_id": "OSF-4c39ec5279e27d1a",
+      "file": "replacement_examples/lost_hit_7_68.png"
+    },
+    {
+      "split": "validation",
+      "state": "lost_hit",
+      "index": 11,
+      "query": 99,
+      "sample_id": "OSdataset/256/val/109",
+      "family_id": "OSF-7cf0ebd34e73701d",
+      "file": "replacement_examples/lost_hit_11_99.png"
+    }
+  ]
+}
