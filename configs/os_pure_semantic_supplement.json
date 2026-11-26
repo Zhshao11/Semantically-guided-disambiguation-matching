@@ -1,0 +1,28 @@
+{
+  "output": "reports/os_pure_semantic_supplement_20261126",
+  "semantic_config": "configs/os_semantic_routing.json",
+  "semantic_root": "reports/os_semantic_routing_20261126",
+  "semantic_head_sha256": "3f4c346c035eae7149c8f3a33fd43b1ab7420ae126e508b80df0819d0dbd2d4c",
+  "evaluation_batch_size": 4,
+  "methods": {
+    "structure": "original4 structural NMS candidates",
+    "fusion": "unchanged original2 structure +2 fused, same previous lambda=1",
+    "semantic": "same first2 structural peaks +2 pure qo^T qs peaks from all1024 target locations subject only to existing target_valid and sequential24px union NMS; no structural candidate pool"
+  },
+  "candidate_count": 4,
+  "nms_radius_px": 24.0,
+  "recall_radius_px": 8.0,
+  "evaluation": "same952 training monitor and952 validation pairs,238families each, original frozen plans/masks/144source points",
+  "no_training": true,
+  "no_parameter_search": true,
+  "rescue_definition": "count(A@4 miss AND method@4 hit)/count(A@4 miss), over existing supervised queries only",
+  "loss_definition": "count(A@4 hit AND method@4 miss); loss_rate uses A@4 hits as denominator",
+  "bootstrap": {
+    "seed": 2026112612,
+    "replicates": 2000,
+    "unit": "source family, paired resampling; query-weighted ratios recomputed after summing sampled groups"
+  },
+  "cuda_device": 6,
+  "sealed_pools": "OS final test1696 andUBCv2 test1625 sealed; no inference",
+  "interpretation": "one frozen trained head/seed, synthetic-label-relative source-family diagnostics; no geographic independence, class semantics or repeat-seed stability claim"
+}

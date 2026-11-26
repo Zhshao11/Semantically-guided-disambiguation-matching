@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "no_training": true,
+  "optimizer_steps_added": 0,
+  "frozen_model_digests": {
+    "structure": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+    "semantic_head": "135b1f0f767be58abda3b24b4fa46fe8a41daceea4e19d3c6c162293868120c8"
+  },
+  "all_source_and_pool_hashes_unchanged": true,
+  "full_valid_grid_search": true,
+  "existing_structure_and_fusion_outputs_exact": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "semantic_cache_version": "d8067dd69c317587bfcf7514d9e60e5262d0fd64af5add13d7c45ea4b27e10af",
+  "fusion_lambda_unchanged": 1.0,
+  "wall_seconds": 11.7990192520665,
+  "peak_allocated_mib": 82.712890625
+}

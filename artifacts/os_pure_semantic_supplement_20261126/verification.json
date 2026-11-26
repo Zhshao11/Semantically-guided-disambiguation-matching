@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "no_training": true,
+  "source_and_weights_and_sealed_pool_hashes_unchanged": true,
+  "teacher_cache_verified": true,
+  "checks": {
+    "training_monitor": {
+      "exact_previous_structure_and_fusion": true,
+      "counts_and_rescue_denominators_verified": true,
+      "family_pairing_totals_verified": true,
+      "all_candidates_in_valid_target_grid": true,
+      "fixed_first_pairs": 4,
+      "full_grid_numpy_oracle_queries": 576,
+      "oracle_indices_exact": true
+    },
+    "validation": {
+      "exact_previous_structure_and_fusion": true,
+      "counts_and_rescue_denominators_verified": true,
+      "family_pairing_totals_verified": true,
+      "all_candidates_in_valid_target_grid": true,
+      "fixed_first_pairs": 4,
+      "full_grid_numpy_oracle_queries": 576,
+      "oracle_indices_exact": true
+    }
+  },
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

@@ -134,6 +134,36 @@
       "native_recall_radius_px": 8,
       "conclusion": "no demonstrated net coverage gain; SAR distributions vary spatially but are softer than teacher; single seed; do not claim semantics effective or generally ineffective",
       "test_pools_unchanged_and_not_evaluated": true
+    },
+    "pure_semantic_supplement_control": {
+      "config": "configs/os_pure_semantic_supplement.json",
+      "report": "artifacts/os_pure_semantic_supplement_20261126/REPORT_zh.md",
+      "training_updates_added": 0,
+      "structure_and_semantic_head_unchanged": true,
+      "search": "same2 structural prefix, then2 pure qo^T qs peaks over all valid1024 targets, same sequential24px NMS and4-candidate budget; no structural prescreen",
+      "validation_recall4": {
+        "structure": 0.6012842765897412,
+        "fusion": 0.6012158730430173,
+        "semantic": 0.5553854967380059
+      },
+      "validation_original_misses": 46631,
+      "validation_semantic_new_hits": 277,
+      "validation_semantic_lost_hits": 5645,
+      "validation_semantic_net_hits": -5368,
+      "validation_semantic_rescue_rate": 0.005940254337243465,
+      "validation_family_improved_degraded_unchanged": [
+        0,
+        238,
+        0
+      ],
+      "validation_delta_recall4_interval95": [
+        -0.04815747209571969,
+        -0.04366884298944738
+      ],
+      "interval_scope": "paired source-family resampling conditional on one frozen trained head/seed, no geographic or training-seed uncertainty claim",
+      "baseline_and_fusion_exactly_reproduced": true,
+      "test_pools_unchanged_and_not_evaluated": true,
+      "conclusion": "pure semantic full-grid supplementation loses more existing coverage than it rescues under the current frozen head; no net gain"
     }
   }
 }

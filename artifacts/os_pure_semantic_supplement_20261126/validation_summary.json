@@ -1,0 +1,169 @@
+{
+  "split": "validation",
+  "pairs": 952,
+  "families": 238,
+  "effective_queries": 116953,
+  "masked": {
+    "gt_outside": 20135,
+    "empty_positive": 0,
+    "invalid_source": 0,
+    "gt_invalid_support": 0
+  },
+  "methods": {
+    "structure": {
+      "hits": 70322,
+      "misses": 46631,
+      "new_hits": 0,
+      "lost_hits": 0,
+      "net_hits": 0,
+      "recall_at_4": 0.6012842765897412,
+      "delta_recall4": 0.0,
+      "rescue_rate": 0.0,
+      "loss_rate": 0.0,
+      "recall_at_1": 0.47833745179687565,
+      "median_px": 6.537703514099121,
+      "p95_px": 28.430553436279297,
+      "nearest_distance_px": {
+        "0": 0.021812593564391136,
+        "5": 1.6203383207321167,
+        "25": 3.8684473037719727,
+        "50": 6.537703514099121,
+        "75": 10.889464378356934,
+        "90": 17.475879669189453,
+        "95": 28.430553436279297,
+        "99": 67.91791534423828,
+        "100": 190.03433227539062
+      },
+      "invalid_candidate_slots": 0
+    },
+    "fusion": {
+      "hits": 70314,
+      "new_hits": 144,
+      "lost_hits": 152,
+      "net_hits": -8,
+      "recall_at_4": 0.6012158730430173,
+      "delta_recall4": -6.840354672389763e-05,
+      "rescue_rate": 0.0030880744569063497,
+      "loss_rate": 0.0021614857370381955,
+      "recall_at_1": 0.47833745179687565,
+      "median_px": 6.537172317504883,
+      "p95_px": 28.55611228942871,
+      "nearest_distance_px": {
+        "0": 0.021812593564391136,
+        "5": 1.6202285289764404,
+        "25": 3.867305040359497,
+        "50": 6.537172317504883,
+        "75": 10.892789840698242,
+        "90": 17.49693489074707,
+        "95": 28.55611228942871,
+        "99": 67.49456787109375,
+        "100": 190.03433227539062
+      },
+      "invalid_candidate_slots": 0,
+      "changed_candidate_set_queries": 10556
+    },
+    "semantic": {
+      "hits": 64954,
+      "new_hits": 277,
+      "lost_hits": 5645,
+      "net_hits": -5368,
+      "recall_at_4": 0.5553854967380059,
+      "delta_recall4": -0.045898779851735315,
+      "rescue_rate": 0.005940254337243465,
+      "loss_rate": 0.08027359858934616,
+      "recall_at_1": 0.47833745179687565,
+      "median_px": 7.052181243896484,
+      "p95_px": 47.32879638671875,
+      "nearest_distance_px": {
+        "0": 0.021812593564391136,
+        "5": 1.6720099449157715,
+        "25": 4.03262186050415,
+        "50": 7.052181243896484,
+        "75": 13.186751365661621,
+        "90": 30.390714645385742,
+        "95": 47.32879638671875,
+        "99": 84.6274642944336,
+        "100": 180.29579162597656
+      },
+      "invalid_candidate_slots": 0,
+      "changed_candidate_set_queries": 116892
+    }
+  },
+  "baseline_and_fusion_exactly_reproduced": true,
+  "semantic_search": "all1024 positions, existing target_valid only then sequential24px union NMS; no structural prescreening",
+  "no_training": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "original_hits": 70322,
+  "original_misses": 46631,
+  "family_changes": {
+    "fusion": {
+      "improved": 63,
+      "degraded": 69,
+      "unchanged": 106,
+      "delta_recall4": {
+        "0": -0.008676789587852495,
+        "5": -0.004092499044691635,
+        "25": -0.0019579176699919734,
+        "50": 0.0,
+        "75": 0.0019474692326254825,
+        "90": 0.002179231129416037,
+        "95": 0.004051051644119679,
+        "99": 0.005272959555513631,
+        "100": 0.008064516129032258
+      }
+    },
+    "semantic": {
+      "improved": 0,
+      "degraded": 238,
+      "unchanged": 0,
+      "delta_recall4": {
+        "0": -0.11991869918699187,
+        "5": -0.07278771818933243,
+        "25": -0.057348792173753355,
+        "50": -0.04480651731160896,
+        "75": -0.03322959889349931,
+        "90": -0.02333972075281586,
+        "95": -0.01782178217821782,
+        "99": -0.013379566160520611,
+        "100": -0.007874015748031496
+      }
+    }
+  },
+  "family_intervals": {
+    "seed": 2026112612,
+    "replicates": 2000,
+    "unit": "paired whole source-family resampling",
+    "interval95": {
+      "fusion_minus_structure_recall4": [
+        -0.0003675033019205387,
+        0.00023045073181502865
+      ],
+      "semantic_minus_structure_recall4": [
+        -0.04815747209571969,
+        -0.04366884298944738
+      ],
+      "semantic_minus_fusion_recall4": [
+        -0.048115185903741586,
+        -0.04361896993806433
+      ],
+      "fusion_rescue_rate": [
+        0.0025629518894121303,
+        0.0036080019958049233
+      ],
+      "semantic_rescue_rate": [
+        0.0052232250381637245,
+        0.006722128548271508
+      ],
+      "fusion_loss_rate": [
+        0.0017911323263291729,
+        0.002551530478158331
+      ],
+      "semantic_loss_rate": [
+        0.07560295508745561,
+        0.08537734953748016
+      ]
+    },
+    "interpretation": "descriptive sample uncertainty conditional on this frozen trained seed, family split and labels; no geographic-independence or training-seed uncertainty claim"
+  }
+}

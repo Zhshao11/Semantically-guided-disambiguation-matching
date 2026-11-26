@@ -1,0 +1,169 @@
+{
+  "split": "training_monitor",
+  "pairs": 952,
+  "families": 238,
+  "effective_queries": 116953,
+  "masked": {
+    "gt_outside": 20135,
+    "empty_positive": 0,
+    "invalid_source": 0,
+    "gt_invalid_support": 0
+  },
+  "methods": {
+    "structure": {
+      "hits": 82001,
+      "misses": 34952,
+      "new_hits": 0,
+      "lost_hits": 0,
+      "net_hits": 0,
+      "recall_at_4": 0.7011449043632912,
+      "delta_recall4": 0.0,
+      "rescue_rate": 0.0,
+      "loss_rate": 0.0,
+      "recall_at_1": 0.6162817542089557,
+      "median_px": 5.538026332855225,
+      "p95_px": 16.902198791503906,
+      "nearest_distance_px": {
+        "0": 0.018805813044309616,
+        "5": 1.4537054300308228,
+        "25": 3.4203715324401855,
+        "50": 5.538026332855225,
+        "75": 8.812189102172852,
+        "90": 12.859277725219727,
+        "95": 16.902198791503906,
+        "99": 48.7658805847168,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0
+    },
+    "fusion": {
+      "hits": 82000,
+      "new_hits": 109,
+      "lost_hits": 110,
+      "net_hits": -1,
+      "recall_at_4": 0.7011363539199508,
+      "delta_recall4": -8.550443340487204e-06,
+      "rescue_rate": 0.0031185626001373314,
+      "loss_rate": 0.0013414470555237132,
+      "recall_at_1": 0.6162817542089557,
+      "median_px": 5.538408279418945,
+      "p95_px": 16.903331756591797,
+      "nearest_distance_px": {
+        "0": 0.018805813044309616,
+        "5": 1.4537054300308228,
+        "25": 3.420750617980957,
+        "50": 5.538408279418945,
+        "75": 8.813164710998535,
+        "90": 12.863322257995605,
+        "95": 16.903331756591797,
+        "99": 48.91315460205078,
+        "100": 202.74267578125
+      },
+      "invalid_candidate_slots": 0,
+      "changed_candidate_set_queries": 11102
+    },
+    "semantic": {
+      "hits": 78827,
+      "new_hits": 153,
+      "lost_hits": 3327,
+      "net_hits": -3174,
+      "recall_at_4": 0.6740057972005848,
+      "delta_recall4": -0.027139107162706386,
+      "rescue_rate": 0.004377431906614786,
+      "loss_rate": 0.040572675942976304,
+      "recall_at_1": 0.6162817542089557,
+      "median_px": 5.708003520965576,
+      "p95_px": 30.004919052124023,
+      "nearest_distance_px": {
+        "0": 0.018805813044309616,
+        "5": 1.470474123954773,
+        "25": 3.482802629470825,
+        "50": 5.708003520965576,
+        "75": 9.506486892700195,
+        "90": 16.7004337310791,
+        "95": 30.004919052124023,
+        "99": 71.46668243408203,
+        "100": 200.03952026367188
+      },
+      "invalid_candidate_slots": 0,
+      "changed_candidate_set_queries": 116901
+    }
+  },
+  "baseline_and_fusion_exactly_reproduced": true,
+  "semantic_search": "all1024 positions, existing target_valid only then sequential24px union NMS; no structural prescreening",
+  "no_training": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "original_hits": 82001,
+  "original_misses": 34952,
+  "family_changes": {
+    "fusion": {
+      "improved": 59,
+      "degraded": 54,
+      "unchanged": 125,
+      "delta_recall4": {
+        "0": -0.008492569002123142,
+        "5": -0.004099622984481772,
+        "25": 0.0,
+        "50": 0.0,
+        "75": 0.0,
+        "90": 0.0020759827813769723,
+        "95": 0.0023926442152755038,
+        "99": 0.005511315616489803,
+        "100": 0.008264462809917356
+      }
+    },
+    "semantic": {
+      "improved": 0,
+      "degraded": 237,
+      "unchanged": 1,
+      "delta_recall4": {
+        "0": -0.08456659619450317,
+        "5": -0.056829833555727224,
+        "25": -0.0372128695299427,
+        "50": -0.024113016678457874,
+        "75": -0.013902722443559097,
+        "90": -0.007998727583601732,
+        "95": -0.0054611163164235395,
+        "99": -0.0020222786435293585,
+        "100": 0.0
+      }
+    }
+  },
+  "family_intervals": {
+    "seed": 2026112612,
+    "replicates": 2000,
+    "unit": "paired whole source-family resampling",
+    "interval95": {
+      "fusion_minus_structure_recall4": [
+        -0.00027272874491219803,
+        0.0002566221941019245
+      ],
+      "semantic_minus_structure_recall4": [
+        -0.029213846140971195,
+        -0.025081619454264712
+      ],
+      "semantic_minus_fusion_recall4": [
+        -0.02922344332965279,
+        -0.025063740083440457
+      ],
+      "fusion_rescue_rate": [
+        0.0025165343141621424,
+        0.003740754339305851
+      ],
+      "semantic_rescue_rate": [
+        0.0035957120002151058,
+        0.005194844776197133
+      ],
+      "fusion_loss_rate": [
+        0.0010700531428043422,
+        0.0016337878603876956
+      ],
+      "semantic_loss_rate": [
+        0.037009504655030695,
+        0.04430836131118053
+      ]
+    },
+    "interpretation": "descriptive sample uncertainty conditional on this frozen trained seed, family split and labels; no geographic-independence or training-seed uncertainty claim"
+  }
+}

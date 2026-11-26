@@ -1,6 +1,24 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[冻结结构后的DINOv2潜在原型蒸馏与4候选路由](artifacts/os_semantic_routing_20261126/REPORT_zh.md)。第30轮结构前端全冻结；官方DINOv2 ViT-S/14 patch教师、原生灰度复制三通道、252教师输入与半像素坐标映射固定，仅从1,976个训练family各取1对/64token拟合32个球面原型。先做32对冒烟，再重置SAR头，按预定预算运行5,000步KL-only蒸馏，没有解冻前端、训练门控或加入关系图。
+最新完成[不重训的纯语义补充最小对照](artifacts/os_pure_semantic_supplement_20261126/REPORT_zh.md)。固定现有第30轮结构与同一5000步语义头，原生256、固定样本/扰动、4候选与8px门槛全部不变。纯语义分数为q_o^T q_s，保留相同前2结构峰，再从**全部有效1024目标网格**按原顺序24px NMS补2峰，没有结构候选池预筛。
+
+| 验证设置 | @4 | 新增命中 | 丢失命中 | 原结构未命中补救率 |
+| --- | ---: | ---: | ---: | ---: |
+| 4结构 | 60.1284% | 0 | 0 | 0 |
+| 2结构+2融合 | 60.1216% | 144 | 152 | 0.3088% |
+| 2结构+2纯语义 | 55.5385% | 277 | 5,645 | 0.5940% |
+
+纯语义验证净少5,368个命中、下降4.5899个百分点，238个family全部净退化；配对family重采样95%区间为[−4.8157,−4.3669]个百分点。当前冻结头的纯语义排序未带来净覆盖收益；区间只描述这一模型/种子及来源组下的样本不确定性。原结构与融合逐查询精确复现，独立NumPy对1,152个固定查询核验全网格最大值及NMS通过，全套66项测试通过。无新增训练更新，OS/UBCv2测试继续封存，所有距离相对合成标签解释。
+
+```bash
+export PYTHONPATH=.
+# 复用既有结构、语义头和教师缓存，无训练；新评估用新output，已有输出拒绝覆盖。
+.venv/bin/python scripts/evaluate_os_pure_semantic.py --config configs/os_pure_semantic_supplement.json
+.venv/bin/python scripts/verify_os_pure_semantic.py --config configs/os_pure_semantic_supplement.json
+.venv/bin/python scripts/summarize_os_pure_semantic.py --config configs/os_pure_semantic_supplement.json
+```
+
+此前完成[冻结结构后的DINOv2潜在原型蒸馏与4候选路由](artifacts/os_semantic_routing_20261126/REPORT_zh.md)。第30轮结构前端全冻结；官方DINOv2 ViT-S/14 patch教师、原生灰度复制三通道、252教师输入与半像素坐标映射固定，仅从1,976个训练family各取1对/64token拟合32个球面原型。先做32对冒烟，再重置SAR头，按预定预算运行5,000步KL-only蒸馏，没有解冻前端、训练门控或加入关系图。
 
 **该轮未达到覆盖提升标准。** 验证KL由1.5520降至1.1424，SAR原型分布有空间差异但比教师更平滑；同一个最终语义头、固定训练集校准lambda=1（实际偏置波动约结构的3.98%），结果如下。A逐点复现第30轮，B与A候选逐元素一致；C保留2个结构峰、按原24px NMS补2个融合峰，仍为4候选/8原生px门槛。
 
