@@ -1,0 +1,26 @@
+{
+  "hashes": {
+    "preregistered_diagnostic.json": "9d21baa5d63c5cb5d2b488f0cea99fd9e981e8de1b89ac69f172bc9ad0a54080",
+    "monitor_samples.jsonl": "f9c0bf81b390e0015923f07716aa02d193dc19b93006565fa9bfed30f87dd5bb",
+    "monitor_transforms.jsonl": "a0011ce610d82373ceafbfd7769e4dc87f27fa15e48a2fb696d9700c09eec8f9",
+    "validation_samples.jsonl": "69dd9de3b62072ad0be7757048943f4f78469996fa91dd021dcd66d6ab592e26",
+    "validation_transforms.jsonl": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808",
+    "fixed_failure_pairs.json": "c617c333a18358b6f360627b59f76e3e906d9f22bbf01ebcfe5e75cf72ae8f31"
+  },
+  "source_checkpoint_sha256": "83c31e333ccc5aa049e778c99753647604b5a6ca2c53cdf719899d2d1c89e476",
+  "parent_family_freeze_sha256": "3c037aab3c7ac39357a7b07095d7f0cc848b066af59d4a039ef171a33925f0c0",
+  "parent_validation_plan_sha256": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808",
+  "train_monitor_pairs": 952,
+  "train_monitor_families": 238,
+  "validation_pairs": 952,
+  "validation_families": 238,
+  "paired_affine_multiset_exact": true,
+  "source_family_disjoint": true,
+  "previous32_sample_ids_in_monitor": 5,
+  "sample_selection": "fixed RNG over eligible source families then native pairs; no model scores",
+  "model_results_seen_before_monitor_freeze": false,
+  "architecture_changed": false,
+  "training_config_changed": false,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

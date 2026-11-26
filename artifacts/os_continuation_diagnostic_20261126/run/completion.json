@@ -1,0 +1,23 @@
+{
+  "completed": true,
+  "resumed_epoch20": true,
+  "end_epoch": 30,
+  "diagnostic_epochs": 10,
+  "new_optimizer_updates": 19780,
+  "global_step": 59340,
+  "optimizer_final_steps": [
+    59340.0
+  ],
+  "learning_rates": [
+    0.0003
+  ],
+  "constant_learning_rate_continuation": true,
+  "all_epoch_fixed_train_and_val_recorded": true,
+  "model_and_optimizer_restored": true,
+  "failure_set_not_reselected": true,
+  "test_evaluated": false,
+  "UBC_evaluated": false,
+  "convergence_claimed": false,
+  "wall_seconds": 609.011335297022,
+  "peak_allocated_mib": 408.15869140625
+}

@@ -1,0 +1,18 @@
+{
+  "code": {
+    "sdgm/coarse.py": true,
+    "sdgm/geometry.py": true,
+    "sdgm/raw_tiles.py": true,
+    "sdgm/os_family_data.py": true,
+    "sdgm/family_evaluation.py": true
+  },
+  "UBC_files": {
+    "manifest.jsonl": true,
+    "frozen_policy.json": true,
+    "frozen_exclusions.csv": true,
+    "frozen_evaluation_pool.csv": true,
+    "freeze_receipt.json": true
+  },
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

@@ -1,0 +1,36 @@
+{
+  "exact_epoch30_train_monitor_and_validation_reproduction": true,
+  "fields": {
+    "training_monitor": {
+      "pairs": true,
+      "families": true,
+      "supervised_queries": true,
+      "loss": true,
+      "recall_at_1": true,
+      "recall_at_4": true,
+      "nearest_candidate_distance_px": true,
+      "pair_distributions": true,
+      "masked": true,
+      "family_aggregation": true
+    },
+    "validation": {
+      "pairs": true,
+      "families": true,
+      "supervised_queries": true,
+      "loss": true,
+      "recall_at_1": true,
+      "recall_at_4": true,
+      "nearest_candidate_distance_px": true,
+      "pair_distributions": true,
+      "masked": true,
+      "family_aggregation": true
+    }
+  },
+  "optimizer_final_step": 59340,
+  "optimizer_updates_added": 19780,
+  "learning_rate": 0.0003,
+  "checkpoint_sha256": "40aefd473566fa5c14557b9d9198bf26e8b2b753b35cb435bda589b28b6f19bc",
+  "parent_checkpoint_unchanged": true,
+  "fixed_failure_queries_unchanged": true,
+  "convergence_claimed": false
+}

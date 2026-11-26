@@ -1,0 +1,1418 @@
+[
+  {
+    "case_id": "OSdataset/256/val/81/Q15",
+    "sample_id": "OSdataset/256/val/81",
+    "family_id": "OSF-fe94b96ef2b6ace6",
+    "query_index": 15,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      67.5,
+      27.5
+    ],
+    "gt_pixel_xy": [
+      43.572509765625,
+      53.34374237060547
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 27.7720947265625,
+    "candidate_xy": [
+      [
+        51.5,
+        51.5
+      ],
+      [
+        139.5,
+        35.5
+      ],
+      [
+        27.5,
+        59.5
+      ],
+      [
+        91.5,
+        43.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      8.139071464538574,
+      97.57295989990234,
+      17.21118927001953,
+      48.92794418334961
+    ],
+    "top1_distance_px": 8.139071464538574,
+    "nearest_distance_px": 8.139071464538574,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/81/Q94",
+    "sample_id": "OSdataset/256/val/81",
+    "family_id": "OSF-fe94b96ef2b6ace6",
+    "query_index": 94,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      227.5,
+      163.5
+    ],
+    "gt_pixel_xy": [
+      229.0988006591797,
+      151.6898193359375
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 27.0,
+    "candidate_xy": [
+      [
+        211.5,
+        67.5
+      ],
+      [
+        203.5,
+        35.5
+      ],
+      [
+        219.5,
+        99.5
+      ],
+      [
+        235.5,
+        171.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      86.00955200195312,
+      118.97635650634766,
+      53.065189361572266,
+      20.818708419799805
+    ],
+    "top1_distance_px": 86.00955200195312,
+    "nearest_distance_px": 20.818708419799805,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/81/Q117",
+    "sample_id": "OSdataset/256/val/81",
+    "family_id": "OSF-fe94b96ef2b6ace6",
+    "query_index": 117,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      203.5,
+      203.5
+    ],
+    "gt_pixel_xy": [
+      214.2771759033203,
+      195.9178466796875
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 42.0,
+    "candidate_xy": [
+      [
+        75.5,
+        195.5
+      ],
+      [
+        83.5,
+        227.5
+      ],
+      [
+        51.5,
+        99.5
+      ],
+      [
+        147.5,
+        75.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      138.77780151367188,
+      134.53662109375,
+      189.18988037109375,
+      137.6940460205078
+    ],
+    "top1_distance_px": 138.77780151367188,
+    "nearest_distance_px": 134.53662109375,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/81/Q60",
+    "sample_id": "OSdataset/256/val/81",
+    "family_id": "OSF-fe94b96ef2b6ace6",
+    "query_index": 60,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      3.5,
+      115.5
+    ],
+    "gt_pixel_xy": [
+      0.028261184692382812,
+      153.057373046875
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 1.0,
+    "candidate_xy": [
+      [
+        3.5,
+        163.5
+      ],
+      [
+        11.5,
+        211.5
+      ],
+      [
+        19.5,
+        235.5
+      ],
+      [
+        99.5,
+        19.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      11.004609107971191,
+      59.557884216308594,
+      84.71089172363281,
+      166.52987670898438
+    ],
+    "top1_distance_px": 11.004609107971191,
+    "nearest_distance_px": 11.004609107971191,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/796/Q34",
+    "sample_id": "OSdataset/256/val/796",
+    "family_id": "OSF-ffae8d1950d0bc4b",
+    "query_index": 34,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      227.5,
+      51.5
+    ],
+    "gt_pixel_xy": [
+      227.08187866210938,
+      59.4935188293457
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 29.0,
+    "candidate_xy": [
+      [
+        235.5,
+        75.5
+      ],
+      [
+        235.5,
+        219.5
+      ],
+      [
+        235.5,
+        187.5
+      ],
+      [
+        235.5,
+        131.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      18.08513832092285,
+      160.227783203125,
+      128.28298950195312,
+      72.49688720703125
+    ],
+    "top1_distance_px": 18.08513832092285,
+    "nearest_distance_px": 18.08513832092285,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/796/Q51",
+    "sample_id": "OSdataset/256/val/796",
+    "family_id": "OSF-ffae8d1950d0bc4b",
+    "query_index": 51,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      67.5,
+      91.5
+    ],
+    "gt_pixel_xy": [
+      54.96015548706055,
+      103.841064453125
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 56.0,
+    "candidate_xy": [
+      [
+        123.5,
+        107.5
+      ],
+      [
+        43.5,
+        83.5
+      ],
+      [
+        59.5,
+        179.5
+      ],
+      [
+        51.5,
+        131.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      68.63743591308594,
+      23.34724998474121,
+      75.7950210571289,
+      27.874528884887695
+    ],
+    "top1_distance_px": 68.63743591308594,
+    "nearest_distance_px": 23.34724998474121,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/796/Q116",
+    "sample_id": "OSdataset/256/val/796",
+    "family_id": "OSF-ffae8d1950d0bc4b",
+    "query_index": 116,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      187.5,
+      203.5
+    ],
+    "gt_pixel_xy": [
+      185.15162658691406,
+      223.6134796142578
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 32.0,
+    "candidate_xy": [
+      [
+        219.5,
+        59.5
+      ],
+      [
+        115.5,
+        115.5
+      ],
+      [
+        219.5,
+        227.5
+      ],
+      [
+        99.5,
+        67.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      167.66944885253906,
+      128.60743713378906,
+      34.56755447387695,
+      178.0663299560547
+    ],
+    "top1_distance_px": 167.66944885253906,
+    "nearest_distance_px": 34.56755447387695,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/796/Q83",
+    "sample_id": "OSdataset/256/val/796",
+    "family_id": "OSF-ffae8d1950d0bc4b",
+    "query_index": 83,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      251.5,
+      139.5
+    ],
+    "gt_pixel_xy": [
+      253.62843322753906,
+      154.1449737548828
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 2.0,
+    "candidate_xy": [
+      [
+        251.5,
+        51.5
+      ],
+      [
+        251.5,
+        219.5
+      ],
+      [
+        251.5,
+        99.5
+      ],
+      [
+        251.5,
+        163.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      102.66703796386719,
+      65.3896713256836,
+      54.68640899658203,
+      9.594099044799805
+    ],
+    "top1_distance_px": 102.66703796386719,
+    "nearest_distance_px": 9.594099044799805,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/206/Q14",
+    "sample_id": "OSdataset/256/val/206",
+    "family_id": "OSF-1b2187e4db25ea3f",
+    "query_index": 14,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      51.5,
+      27.5
+    ],
+    "gt_pixel_xy": [
+      50.553916931152344,
+      31.91501235961914
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 28.0,
+    "candidate_xy": [
+      [
+        171.5,
+        43.5
+      ],
+      [
+        203.5,
+        43.5
+      ],
+      [
+        131.5,
+        35.5
+      ],
+      [
+        43.5,
+        35.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      121.4996566772461,
+      153.3842010498047,
+      81.02542877197266,
+      7.912640571594238
+    ],
+    "top1_distance_px": 121.4996566772461,
+    "nearest_distance_px": 7.912640571594238,
+    "recall1_hit": false,
+    "recall4_hit": true,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/206/Q70",
+    "sample_id": "OSdataset/256/val/206",
+    "family_id": "OSF-1b2187e4db25ea3f",
+    "query_index": 70,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      227.5,
+      115.5
+    ],
+    "gt_pixel_xy": [
+      218.97543334960938,
+      129.87271118164062
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 27.78759765625,
+    "candidate_xy": [
+      [
+        219.5,
+        67.5
+      ],
+      [
+        211.5,
+        187.5
+      ],
+      [
+        211.5,
+        219.5
+      ],
+      [
+        219.5,
+        99.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      62.374916076660156,
+      58.11012268066406,
+      89.9384994506836,
+      30.377241134643555
+    ],
+    "top1_distance_px": 62.374916076660156,
+    "nearest_distance_px": 30.377241134643555,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/206/Q98",
+    "sample_id": "OSdataset/256/val/206",
+    "family_id": "OSF-1b2187e4db25ea3f",
+    "query_index": 98,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      51.5,
+      187.5
+    ],
+    "gt_pixel_xy": [
+      40.55613327026367,
+      190.02435302734375
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 42.0,
+    "candidate_xy": [
+      [
+        163.5,
+        67.5
+      ],
+      [
+        203.5,
+        83.5
+      ],
+      [
+        171.5,
+        91.5
+      ],
+      [
+        171.5,
+        195.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      173.57249450683594,
+      194.67445373535156,
+      163.86990356445312,
+      131.0583038330078
+    ],
+    "top1_distance_px": 173.57249450683594,
+    "nearest_distance_px": 131.0583038330078,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/206/Q36",
+    "sample_id": "OSdataset/256/val/206",
+    "family_id": "OSF-1b2187e4db25ea3f",
+    "query_index": 36,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      3.5,
+      67.5
+    ],
+    "gt_pixel_xy": [
+      0.6216638088226318,
+      68.4430160522461
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 2.0,
+    "candidate_xy": [
+      [
+        3.5,
+        195.5
+      ],
+      [
+        3.5,
+        147.5
+      ],
+      [
+        3.5,
+        115.5
+      ],
+      [
+        3.5,
+        51.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      127.08958435058594,
+      79.10936737060547,
+      47.14493179321289,
+      17.185768127441406
+    ],
+    "top1_distance_px": 127.08958435058594,
+    "nearest_distance_px": 17.185768127441406,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/927/Q56",
+    "sample_id": "OSdataset/256/val/927",
+    "family_id": "OSF-8696e258ea2f8284",
+    "query_index": 56,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      187.5,
+      91.5
+    ],
+    "gt_pixel_xy": [
+      188.27833557128906,
+      95.81495666503906
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 68.0,
+    "candidate_xy": [
+      [
+        195.5,
+        83.5
+      ],
+      [
+        43.5,
+        43.5
+      ],
+      [
+        179.5,
+        131.5
+      ],
+      [
+        27.5,
+        147.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      14.276225090026855,
+      153.94032287597656,
+      36.748897552490234,
+      168.8816680908203
+    ],
+    "top1_distance_px": 14.276225090026855,
+    "nearest_distance_px": 14.276225090026855,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/927/Q78",
+    "sample_id": "OSdataset/256/val/927",
+    "family_id": "OSF-8696e258ea2f8284",
+    "query_index": 78,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      139.5,
+      139.5
+    ],
+    "gt_pixel_xy": [
+      126.22984313964844,
+      135.09446716308594
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 121.0,
+    "candidate_xy": [
+      [
+        211.5,
+        99.5
+      ],
+      [
+        187.5,
+        51.5
+      ],
+      [
+        123.5,
+        99.5
+      ],
+      [
+        83.5,
+        27.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      92.40111541748047,
+      103.6439437866211,
+      35.69899368286133,
+      115.7687759399414
+    ],
+    "top1_distance_px": 92.40111541748047,
+    "nearest_distance_px": 35.69899368286133,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/927/Q90",
+    "sample_id": "OSdataset/256/val/927",
+    "family_id": "OSF-8696e258ea2f8284",
+    "query_index": 90,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      139.5,
+      163.5
+    ],
+    "gt_pixel_xy": [
+      120.53759765625,
+      160.4264678955078
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 96.0,
+    "candidate_xy": [
+      [
+        179.5,
+        43.5
+      ],
+      [
+        195.5,
+        67.5
+      ],
+      [
+        115.5,
+        171.5
+      ],
+      [
+        203.5,
+        99.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      130.95176696777344,
+      119.39300537109375,
+      12.165545463562012,
+      102.93102264404297
+    ],
+    "top1_distance_px": 130.95176696777344,
+    "nearest_distance_px": 12.165545463562012,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/927/Q131",
+    "sample_id": "OSdataset/256/val/927",
+    "family_id": "OSF-8696e258ea2f8284",
+    "query_index": 131,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      251.5,
+      227.5
+    ],
+    "gt_pixel_xy": [
+      223.5742645263672,
+      254.54229736328125
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 1.0,
+    "candidate_xy": [
+      [
+        227.5,
+        251.5
+      ],
+      [
+        203.5,
+        243.5
+      ],
+      [
+        19.5,
+        211.5
+      ],
+      [
+        203.5,
+        211.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      4.966585636138916,
+      22.91088104248047,
+      208.5640106201172,
+      47.49332046508789
+    ],
+    "top1_distance_px": 4.966585636138916,
+    "nearest_distance_px": 4.966585636138916,
+    "recall1_hit": true,
+    "recall4_hit": true,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/557/Q93",
+    "sample_id": "OSdataset/256/val/557",
+    "family_id": "OSF-1401bd90ac3a6242",
+    "query_index": 93,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      203.5,
+      163.5
+    ],
+    "gt_pixel_xy": [
+      214.14601135253906,
+      157.3644561767578
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 42.0,
+    "candidate_xy": [
+      [
+        219.5,
+        163.5
+      ],
+      [
+        147.5,
+        155.5
+      ],
+      [
+        91.5,
+        155.5
+      ],
+      [
+        211.5,
+        211.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      8.14310073852539,
+      66.67208862304688,
+      122.66018676757812,
+      54.200172424316406
+    ],
+    "top1_distance_px": 8.14310073852539,
+    "nearest_distance_px": 8.14310073852539,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/557/Q18",
+    "sample_id": "OSdataset/256/val/557",
+    "family_id": "OSF-1401bd90ac3a6242",
+    "query_index": 18,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      139.5,
+      27.5
+    ],
+    "gt_pixel_xy": [
+      122.99838256835938,
+      24.160764694213867
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 25.0,
+    "candidate_xy": [
+      [
+        99.5,
+        27.5
+      ],
+      [
+        147.5,
+        19.5
+      ],
+      [
+        179.5,
+        19.5
+      ],
+      [
+        35.5,
+        35.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      23.734458923339844,
+      24.940969467163086,
+      56.69352340698242,
+      88.23006439208984
+    ],
+    "top1_distance_px": 23.734458923339844,
+    "nearest_distance_px": 23.734458923339844,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/557/Q101",
+    "sample_id": "OSdataset/256/val/557",
+    "family_id": "OSF-1401bd90ac3a6242",
+    "query_index": 101,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      115.5,
+      187.5
+    ],
+    "gt_pixel_xy": [
+      124.97196960449219,
+      197.8845977783203
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 58.0,
+    "candidate_xy": [
+      [
+        67.5,
+        179.5
+      ],
+      [
+        179.5,
+        179.5
+      ],
+      [
+        203.5,
+        35.5
+      ],
+      [
+        171.5,
+        203.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      60.34086990356445,
+      57.54389190673828,
+      180.37574768066406,
+      46.86566162109375
+    ],
+    "top1_distance_px": 60.34086990356445,
+    "nearest_distance_px": 46.86566162109375,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/557/Q1",
+    "sample_id": "OSdataset/256/val/557",
+    "family_id": "OSF-1401bd90ac3a6242",
+    "query_index": 1,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      27.5,
+      3.5
+    ],
+    "gt_pixel_xy": [
+      0.1580047607421875,
+      17.90974998474121
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 1.0,
+    "candidate_xy": [
+      [
+        3.5,
+        19.5
+      ],
+      [
+        251.5,
+        243.5
+      ],
+      [
+        59.5,
+        11.5
+      ],
+      [
+        27.5,
+        11.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      3.7010576725006104,
+      337.7332763671875,
+      59.687164306640625,
+      28.083261489868164
+    ],
+    "top1_distance_px": 3.7010576725006104,
+    "nearest_distance_px": 3.7010576725006104,
+    "recall1_hit": true,
+    "recall4_hit": true,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/634/Q14",
+    "sample_id": "OSdataset/256/val/634",
+    "family_id": "OSF-7a5a78efb36abd84",
+    "query_index": 14,
+    "proposed_category": "near_gt_miss",
+    "selection_rule": "smallest_distance",
+    "source_pixel_xy": [
+      51.5,
+      27.5
+    ],
+    "gt_pixel_xy": [
+      35.802425384521484,
+      38.068336486816406
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 29.5906982421875,
+    "candidate_xy": [
+      [
+        51.5,
+        35.5
+      ],
+      [
+        107.5,
+        27.5
+      ],
+      [
+        19.5,
+        43.5
+      ],
+      [
+        155.5,
+        19.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      15.906294822692871,
+      72.47228240966797,
+      17.183481216430664,
+      121.12923431396484
+    ],
+    "top1_distance_px": 15.906294822692871,
+    "nearest_distance_px": 15.906294822692871,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/634/Q73",
+    "sample_id": "OSdataset/256/val/634",
+    "family_id": "OSF-7a5a78efb36abd84",
+    "query_index": 73,
+    "proposed_category": "similar_structure_candidate",
+    "selection_rule": "median_distance",
+    "source_pixel_xy": [
+      27.5,
+      139.5
+    ],
+    "gt_pixel_xy": [
+      26.84677505493164,
+      158.97584533691406
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 28.0,
+    "candidate_xy": [
+      [
+        35.5,
+        219.5
+      ],
+      [
+        19.5,
+        75.5
+      ],
+      [
+        19.5,
+        123.5
+      ],
+      [
+        27.5,
+        155.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      61.139610290527344,
+      83.79852294921875,
+      36.22859191894531,
+      3.536693811416626
+    ],
+    "top1_distance_px": 61.139610290527344,
+    "nearest_distance_px": 3.536693811416626,
+    "recall1_hit": false,
+    "recall4_hit": true,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/634/Q62",
+    "sample_id": "OSdataset/256/val/634",
+    "family_id": "OSF-7a5a78efb36abd84",
+    "query_index": 62,
+    "proposed_category": "large_range_error",
+    "selection_rule": "largest_distance",
+    "source_pixel_xy": [
+      51.5,
+      115.5
+    ],
+    "gt_pixel_xy": [
+      48.53792953491211,
+      130.3380584716797
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 50.0,
+    "candidate_xy": [
+      [
+        187.5,
+        51.5
+      ],
+      [
+        147.5,
+        219.5
+      ],
+      [
+        187.5,
+        211.5
+      ],
+      [
+        195.5,
+        99.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      159.76824951171875,
+      133.20413208007812,
+      160.92767333984375,
+      150.16270446777344
+    ],
+    "top1_distance_px": 159.76824951171875,
+    "nearest_distance_px": 133.20413208007812,
+    "recall1_hit": false,
+    "recall4_hit": false,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  },
+  {
+    "case_id": "OSdataset/256/val/634/Q6",
+    "sample_id": "OSdataset/256/val/634",
+    "family_id": "OSF-7a5a78efb36abd84",
+    "query_index": 6,
+    "proposed_category": "support_or_label_review",
+    "selection_rule": "smallest_support_margin",
+    "source_pixel_xy": [
+      139.5,
+      3.5
+    ],
+    "gt_pixel_xy": [
+      124.59883117675781,
+      0.16835975646972656
+    ],
+    "selection_epoch": 20,
+    "selection_is_descriptive_not_data_filtering": true,
+    "epoch": 30,
+    "supervised": true,
+    "actual_support_margin_px": 1.0,
+    "candidate_xy": [
+      [
+        91.5,
+        3.5
+      ],
+      [
+        59.5,
+        11.5
+      ],
+      [
+        27.5,
+        11.5
+      ],
+      [
+        123.5,
+        3.5
+      ]
+    ],
+    "candidate_valid": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "candidate_distances_px": [
+      33.26608657836914,
+      66.07771301269531,
+      97.75780487060547,
+      3.5081698894500732
+    ],
+    "top1_distance_px": 33.26608657836914,
+    "nearest_distance_px": 3.5081698894500732,
+    "recall1_hit": false,
+    "recall4_hit": true,
+    "gt_outside": false,
+    "gt_invalid_support": false,
+    "invalid_source": false,
+    "label_precision": "base residual unknown; no independent landmark accuracy certificate"
+  }
+]

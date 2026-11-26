@@ -1,0 +1,26 @@
+{
+  "checkpoint_sha256": "83c31e333ccc5aa049e778c99753647604b5a6ca2c53cdf719899d2d1c89e476",
+  "epoch": 20,
+  "global_step": 39560,
+  "model_digest": "e4e843252f4cfdcf858fc4fa576d48d239b8b39380f74d9fd3c420834a52d4b8",
+  "optimizer_digest_before": "439825460d8dfe724ed79104b6b72b5728d62a6ce3c3505b77ff5278909608e8",
+  "optimizer_digest_after": "439825460d8dfe724ed79104b6b72b5728d62a6ce3c3505b77ff5278909608e8",
+  "model_and_optimizer_exactly_restored": true,
+  "restored_learning_rates": [
+    0.0003
+  ],
+  "learning_rate_schedule": "original constant AdamW lr; no scheduler present or restarted",
+  "original_scheduler_state_present": false,
+  "optimizer_reinitialized": false,
+  "original_loader_rng_saved": false,
+  "loader_generator_recovery": "replay same Torch DataLoader on index-only data for 20 full epochs",
+  "replay_generator_state_sha256": "5c66cc09ecb94dae392c700e7209d9d788ed2bfaf1e3fcc320b65f6c2e6c3c5d",
+  "global_rng_limitation": "epoch20 checkpoint had no global RNG states; model has no dropout and augmentation uses per-sample hash seeds",
+  "training_seed": 2026112601,
+  "source_folds_changed": false,
+  "architecture_changed": false,
+  "source_model_sha256": "9932f18f8c7ab9f79fa194b43a88a75df01b05c4743ff334ba6791eac03b9825",
+  "original_train_metric_audit": "previous epoch20_training was full frozen training view in eval(), not online augmented training loss; separate realization from validation",
+  "previous_train_plan_sha256": "7d77b0a693ecc2377daca7fdae183f6e59875b9ef8da8b97a9ab2d6efb24755b",
+  "validation_plan_sha256": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808"
+}

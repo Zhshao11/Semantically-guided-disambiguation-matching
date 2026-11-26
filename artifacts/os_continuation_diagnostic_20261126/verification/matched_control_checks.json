@@ -1,0 +1,18 @@
+{
+  "all_11_epochs_present": true,
+  "matched_affine_parameters_and_seed_multisets_exact": true,
+  "matched_masks_and_effective_point_counts": true,
+  "matched_per_pair_effective_point_counts": true,
+  "eval_mode_shared": true,
+  "source_queries_shared": true,
+  "NMS_shared": true,
+  "candidate_count": 4,
+  "recall_radius_px": 8,
+  "architecture_file_unchanged": true,
+  "parent_checkpoint_unchanged": true,
+  "parent_source_freeze_unchanged": true,
+  "parent_validation_plan_unchanged": true,
+  "fixed_failure_queries_unchanged": true,
+  "old_training_metric_was_online_random_augmentation": false,
+  "old_training_loss_was_online_random_augmentation": true
+}

@@ -1,0 +1,6 @@
+{
+  "queries_sha256": "553c9cee78a60ab74f99e9024a1534127cb7f6c6b02b80063afa2128f0c11059",
+  "baseline_observations_sha256": "99e8ca88afb11e0c6b7ae89f86da4c5a04dc5dc507a98355b80fb32fbeca8964",
+  "selection_epoch": 20,
+  "all_future_comparisons_use_same_query_and_pair_IDs": true
+}

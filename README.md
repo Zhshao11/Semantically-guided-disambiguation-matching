@@ -1,8 +1,29 @@
 # Semantically Guided Disambiguation Matching
 
-最新一轮已完成[OS同源分组冻结、原生256正式基线与UBC风险披露](artifacts/os_family_baseline_20261126/REPORT_zh.md)。17,168条来源记录全部保留，512母块、256子块及重复别名按6,441个family分组；本轮使用7,912对训练、952对来源组隔离验证，1,696对最终测试封存，新增3,803对RGB512隔离。已拟合32对的31个family全部归训练，不称地理独立划分。
+最新完成[第20—30轮统一诊断、优化器续训与固定失败分析](artifacts/os_continuation_diagnostic_20261126/REPORT_zh.md)。原训练指标来自固定扰动的 `eval()` 视图，在线随机增强用于训练损失。本轮冻结覆盖238个训练family的952对监测样本，与原952对验证使用完全相同的仿射集合、掩码、144源点、4候选及8原生像素门槛；两侧每轮均有116,953个有效查询。
 
-当前无语义网络从头训练20个完整epoch，恢复既定范围的逐epoch仿射扰动，验证种子及矩阵固定。第20epoch的训练/验证recall@4为68.46%/59.83%，验证recall@1为47.63%，最近候选距离中位数6.59 px、P95 28.57 px（相对合成标签，8原生像素门槛）。小样本checkpoint在同一隔离验证上的recall@4仅13.62%；正式基线未从该checkpoint继续训练。最终重载完整复现指标，50项测试通过。
+从第20轮完整恢复模型及AdamW动量/步数，原训练无scheduler，续接常数学习率3e-4，保持架构、损失、温度、正邻域和NMS不变。旧checkpoint未保存global RNG；采样器状态通过原DataLoader索引重放恢复，新checkpoint保存完整RNG状态。
+
+| epoch | 固定监测@4 | 验证@1 | 验证@4 | 验证最近距离中位数/P95 |
+| --- | ---: | ---: | ---: | ---: |
+| 20 | 68.67% | 47.63% | 59.83% | 6.59 / 28.57 px |
+| 25 | 69.38% | 48.30% | 60.56% | 6.50 / 28.13 px |
+| 30 | 70.11% | 47.83% | 60.13% | 6.54 / 28.43 px |
+
+验证收益较小且有波动，不能宣称30轮已收敛。20—30每轮的点、图像对和family统计、距离数组及固定6对/24查询失败证据均已归档；有改善也有退化，6例大范围错误仍全部未命中，不预判语义可以解决。全部54项测试通过，终期checkpoint重载精确复现监测和验证。指标相对于合成标签解释；OS最终测试1,696对与UBCv2测试池1,625对未运行模型，WHU重建继续暂停。
+
+```bash
+export PYTHONPATH=.
+# 使用服务器已有数据与第20轮checkpoint；输出存在时拒绝重训覆盖。
+.venv/bin/python scripts/continue_os_diagnostic.py --config configs/os_continuation_diagnostic.json
+.venv/bin/python scripts/review_fixed_os_failures.py --config configs/os_continuation_diagnostic.json
+.venv/bin/python scripts/summarize_os_continuation.py --config configs/os_continuation_diagnostic.json
+.venv/bin/python scripts/verify_os_continuation.py --config configs/os_continuation_diagnostic.json
+```
+
+上一轮完成[OS同源分组冻结、原生256正式基线与UBC风险披露](artifacts/os_family_baseline_20261126/REPORT_zh.md)。17,168条来源记录全部保留，512母块、256子块及重复别名按6,441个family分组；使用7,912对训练、952对来源组隔离验证，1,696对最终测试封存，新增3,803对RGB512隔离。已拟合32对的31个family全部归训练，不称地理独立划分。
+
+该无语义基线从头训练20个完整epoch，恢复既定范围的逐epoch仿射扰动，验证种子及矩阵固定。第20epoch的全训练固定视图/验证recall@4为68.46%/59.83%，验证recall@1为47.63%，最近候选距离中位数6.59 px、P95 28.57 px（相对合成标签，8原生像素门槛）。该全训练视图不同于本轮952对监测子集，不能直接比较训练数值。小样本checkpoint在同一隔离验证上的recall@4仅13.62%；正式基线未从该小样本checkpoint继续训练。当时重载完整复现指标，50项测试通过。
 
 UBCv2原1,625对池未改动、未运行新模型。完整88条交叠记录中，train–val 26、train–test 26、val–test 36；62条涉及16个测试样本，均在Jacksonville。只披露风险，不按这些记录删测试样本。
 

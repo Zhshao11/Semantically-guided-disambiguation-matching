@@ -1,0 +1,17 @@
+{
+  "previous_table_training_metrics_path": "reports/os_family_baseline_20261126/run/epoch20_training_metrics.json",
+  "previous_table_training_metrics_sha256": "da931417e9caa48a2f5191dcc83df806a5b62dd730a3ef88789b9048dceb149c",
+  "previous_training_table_was_online_random_augmentation": false,
+  "previous_training_table_evaluation_mode": "eval() within evaluate_family()",
+  "previous_training_table_pairs": 7912,
+  "previous_training_plan": "reports/os_family_baseline_20261126/frozen_train_evaluation.jsonl",
+  "previous_training_plan_sha256": "7d77b0a693ecc2377daca7fdae183f6e59875b9ef8da8b97a9ab2d6efb24755b",
+  "online_training_loss_path": "reports/os_family_baseline_20261126/run/epoch_training.csv",
+  "online_loss_used_model_train_and_epoch_resampled_affines": true,
+  "old_train_and_validation_same_affine_rule": true,
+  "old_train_and_validation_same_matrix_multiset": false,
+  "new_control": "952 monitor pairs from238 training families,4 per family; exact same affine matrix multiset as952 validation pairs in238 different families",
+  "caution": "old gap cannot be decomposed into pure generalization by scalar metrics; new matched control reduces perturbation nuisance but content and native-base label differences remain",
+  "source_script": "scripts/train_os_family_baseline.py",
+  "source_script_sha256": "fc03d9d3d2e06adeae3b9e7cebe72d9a965b48e676241b2d8d357a562abd881c"
+}

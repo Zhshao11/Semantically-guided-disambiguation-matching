@@ -1,0 +1,441 @@
+{
+  "selection_epoch": 20,
+  "pair_source": "fixed six failures inherited from previous report",
+  "selection": "descriptive source query screening only; same IDs used at epochs25/30",
+  "proposed_categories_are_not_all_visually_confirmed": true,
+  "all_samples_retained": true,
+  "cases": [
+    {
+      "case_id": "OSdataset/256/val/81/Q15",
+      "sample_id": "OSdataset/256/val/81",
+      "family_id": "OSF-fe94b96ef2b6ace6",
+      "query_index": 15,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        67.5,
+        27.5
+      ],
+      "gt_pixel_xy": [
+        43.572509765625,
+        53.34374237060547
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/81/Q94",
+      "sample_id": "OSdataset/256/val/81",
+      "family_id": "OSF-fe94b96ef2b6ace6",
+      "query_index": 94,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        227.5,
+        163.5
+      ],
+      "gt_pixel_xy": [
+        229.0988006591797,
+        151.6898193359375
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/81/Q117",
+      "sample_id": "OSdataset/256/val/81",
+      "family_id": "OSF-fe94b96ef2b6ace6",
+      "query_index": 117,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        203.5,
+        203.5
+      ],
+      "gt_pixel_xy": [
+        214.2771759033203,
+        195.9178466796875
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/81/Q60",
+      "sample_id": "OSdataset/256/val/81",
+      "family_id": "OSF-fe94b96ef2b6ace6",
+      "query_index": 60,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        3.5,
+        115.5
+      ],
+      "gt_pixel_xy": [
+        0.028261184692382812,
+        153.057373046875
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/796/Q34",
+      "sample_id": "OSdataset/256/val/796",
+      "family_id": "OSF-ffae8d1950d0bc4b",
+      "query_index": 34,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        227.5,
+        51.5
+      ],
+      "gt_pixel_xy": [
+        227.08187866210938,
+        59.4935188293457
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/796/Q51",
+      "sample_id": "OSdataset/256/val/796",
+      "family_id": "OSF-ffae8d1950d0bc4b",
+      "query_index": 51,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        67.5,
+        91.5
+      ],
+      "gt_pixel_xy": [
+        54.96015548706055,
+        103.841064453125
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/796/Q116",
+      "sample_id": "OSdataset/256/val/796",
+      "family_id": "OSF-ffae8d1950d0bc4b",
+      "query_index": 116,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        187.5,
+        203.5
+      ],
+      "gt_pixel_xy": [
+        185.15162658691406,
+        223.6134796142578
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/796/Q83",
+      "sample_id": "OSdataset/256/val/796",
+      "family_id": "OSF-ffae8d1950d0bc4b",
+      "query_index": 83,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        251.5,
+        139.5
+      ],
+      "gt_pixel_xy": [
+        253.62843322753906,
+        154.1449737548828
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/206/Q14",
+      "sample_id": "OSdataset/256/val/206",
+      "family_id": "OSF-1b2187e4db25ea3f",
+      "query_index": 14,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        51.5,
+        27.5
+      ],
+      "gt_pixel_xy": [
+        50.553916931152344,
+        31.91501235961914
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/206/Q70",
+      "sample_id": "OSdataset/256/val/206",
+      "family_id": "OSF-1b2187e4db25ea3f",
+      "query_index": 70,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        227.5,
+        115.5
+      ],
+      "gt_pixel_xy": [
+        218.97543334960938,
+        129.87271118164062
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/206/Q98",
+      "sample_id": "OSdataset/256/val/206",
+      "family_id": "OSF-1b2187e4db25ea3f",
+      "query_index": 98,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        51.5,
+        187.5
+      ],
+      "gt_pixel_xy": [
+        40.55613327026367,
+        190.02435302734375
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/206/Q36",
+      "sample_id": "OSdataset/256/val/206",
+      "family_id": "OSF-1b2187e4db25ea3f",
+      "query_index": 36,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        3.5,
+        67.5
+      ],
+      "gt_pixel_xy": [
+        0.6216638088226318,
+        68.4430160522461
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/927/Q56",
+      "sample_id": "OSdataset/256/val/927",
+      "family_id": "OSF-8696e258ea2f8284",
+      "query_index": 56,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        187.5,
+        91.5
+      ],
+      "gt_pixel_xy": [
+        188.27833557128906,
+        95.81495666503906
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/927/Q78",
+      "sample_id": "OSdataset/256/val/927",
+      "family_id": "OSF-8696e258ea2f8284",
+      "query_index": 78,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        139.5,
+        139.5
+      ],
+      "gt_pixel_xy": [
+        126.22984313964844,
+        135.09446716308594
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/927/Q90",
+      "sample_id": "OSdataset/256/val/927",
+      "family_id": "OSF-8696e258ea2f8284",
+      "query_index": 90,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        139.5,
+        163.5
+      ],
+      "gt_pixel_xy": [
+        120.53759765625,
+        160.4264678955078
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/927/Q131",
+      "sample_id": "OSdataset/256/val/927",
+      "family_id": "OSF-8696e258ea2f8284",
+      "query_index": 131,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        251.5,
+        227.5
+      ],
+      "gt_pixel_xy": [
+        223.5742645263672,
+        254.54229736328125
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/557/Q93",
+      "sample_id": "OSdataset/256/val/557",
+      "family_id": "OSF-1401bd90ac3a6242",
+      "query_index": 93,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        203.5,
+        163.5
+      ],
+      "gt_pixel_xy": [
+        214.14601135253906,
+        157.3644561767578
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/557/Q18",
+      "sample_id": "OSdataset/256/val/557",
+      "family_id": "OSF-1401bd90ac3a6242",
+      "query_index": 18,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        139.5,
+        27.5
+      ],
+      "gt_pixel_xy": [
+        122.99838256835938,
+        24.160764694213867
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/557/Q101",
+      "sample_id": "OSdataset/256/val/557",
+      "family_id": "OSF-1401bd90ac3a6242",
+      "query_index": 101,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        115.5,
+        187.5
+      ],
+      "gt_pixel_xy": [
+        124.97196960449219,
+        197.8845977783203
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/557/Q1",
+      "sample_id": "OSdataset/256/val/557",
+      "family_id": "OSF-1401bd90ac3a6242",
+      "query_index": 1,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        27.5,
+        3.5
+      ],
+      "gt_pixel_xy": [
+        0.1580047607421875,
+        17.90974998474121
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/634/Q14",
+      "sample_id": "OSdataset/256/val/634",
+      "family_id": "OSF-7a5a78efb36abd84",
+      "query_index": 14,
+      "proposed_category": "near_gt_miss",
+      "selection_rule": "smallest_distance",
+      "source_pixel_xy": [
+        51.5,
+        27.5
+      ],
+      "gt_pixel_xy": [
+        35.802425384521484,
+        38.068336486816406
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/634/Q73",
+      "sample_id": "OSdataset/256/val/634",
+      "family_id": "OSF-7a5a78efb36abd84",
+      "query_index": 73,
+      "proposed_category": "similar_structure_candidate",
+      "selection_rule": "median_distance",
+      "source_pixel_xy": [
+        27.5,
+        139.5
+      ],
+      "gt_pixel_xy": [
+        26.84677505493164,
+        158.97584533691406
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/634/Q62",
+      "sample_id": "OSdataset/256/val/634",
+      "family_id": "OSF-7a5a78efb36abd84",
+      "query_index": 62,
+      "proposed_category": "large_range_error",
+      "selection_rule": "largest_distance",
+      "source_pixel_xy": [
+        51.5,
+        115.5
+      ],
+      "gt_pixel_xy": [
+        48.53792953491211,
+        130.3380584716797
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    },
+    {
+      "case_id": "OSdataset/256/val/634/Q6",
+      "sample_id": "OSdataset/256/val/634",
+      "family_id": "OSF-7a5a78efb36abd84",
+      "query_index": 6,
+      "proposed_category": "support_or_label_review",
+      "selection_rule": "smallest_support_margin",
+      "source_pixel_xy": [
+        139.5,
+        3.5
+      ],
+      "gt_pixel_xy": [
+        124.59883117675781,
+        0.16835975646972656
+      ],
+      "selection_epoch": 20,
+      "selection_is_descriptive_not_data_filtering": true
+    }
+  ]
+}

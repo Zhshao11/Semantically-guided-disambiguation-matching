@@ -1,0 +1,11 @@
+{
+  "pairs": true,
+  "families": true,
+  "supervised_queries": true,
+  "loss": true,
+  "recall_at_1": true,
+  "recall_at_4": true,
+  "nearest_candidate_distance_px": true,
+  "pair_distributions": true,
+  "masked": true
+}

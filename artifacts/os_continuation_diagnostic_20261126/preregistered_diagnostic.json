@@ -1,0 +1,41 @@
+{
+  "output": "reports/os_continuation_diagnostic_20261126",
+  "parent_config": "configs/os_family_baseline.json",
+  "parent_root": "reports/os_family_baseline_20261126",
+  "resume_checkpoint": "reports/os_family_baseline_20261126/run/last.pt",
+  "start_epoch": 20,
+  "end_epoch": 30,
+  "monitor_families": 238,
+  "monitor_pairs_per_family": 4,
+  "monitor_selection_seed": 2026112603,
+  "monitor_transform_policy": "pair monitor examples in fixed sorted order with all 952 existing frozen validation plans; identical affine multiset, interpolation and masks",
+  "evaluation_epochs": [
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "comparison_epochs": [
+    20,
+    25,
+    30
+  ],
+  "checkpoint_epochs": [
+    25,
+    30
+  ],
+  "optimizer_resume": "restore epoch20 AdamW model, moments, step counters and parameter groups; keep restored constant lr=3e-4; no scheduler restart",
+  "sampler_resume": "replay original seeded train DataLoader on indices for 20 complete epochs to recover generator state; no training during replay",
+  "failure_pair_source": "reports/os_family_baseline_20261126/run/epoch20_validation_failures.json",
+  "failure_pair_policy": "freeze all six existing epoch20 validation failure pairs before any continuation results; never delete or replace them by new worst cases",
+  "cuda_device": 6,
+  "test_policy": "OS final test and UBC pools remain sealed; no new model evaluation",
+  "interpretation": "ten-epoch diagnostic window, not a convergence guarantee; distances relative to synthetic labels"
+}

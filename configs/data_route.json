@@ -21,7 +21,7 @@
   },
   "positive_neighborhood_policy": "Fixed 8 original pixels in the coarse engineering smoke. Do not widen it to compensate for unknown native alignment error.",
   "current_data_roles": {
-    "OS-dataset": "main training and in-domain validation/test candidates; pilot smoke now, geographic independence not asserted",
+    "OS-dataset": "formal native256 training and source-family validation; 30-epoch diagnostic continuation complete, geographic independence not asserted",
     "UBCv2": "cross-domain evaluation after model freeze; prior analysis exposed; no hyperparameter tuning; frozen file eligibility",
     "SRIF": "supplementary external validation",
     "SpaceNet9": "supplementary external validation",
@@ -51,7 +51,7 @@
   "formal_route": {
     "selected_direction": "OS_native_coregistered_pairs_with_known_synthetic_affine_for_coarse_retrieval",
     "coarse_training_source_usable_under_publisher_alignment_assumption": true,
-    "training_ready": "formal native256 no-semantics baseline trained from scratch for 20 epochs on frozen source-family training fold",
+    "training_ready": "formal native256 no-semantics baseline trained from scratch for 20 epochs; model and AdamW continued unchanged through epoch30 on frozen training fold",
     "fine_precision_certified": false,
     "geographic_validation_ready": false,
     "official_sample_splits_available": true,
@@ -62,6 +62,45 @@
     "source_family_validation_scope": "known 512-parent/256-child and exact duplicate/verified overlap links, not geographic scene independence",
     "baseline_config": "configs/os_family_baseline.json",
     "sealed_native256_test_pairs": 1696,
-    "UBC_frozen_test_pool_pairs": 1625
+    "UBC_frozen_test_pool_pairs": 1625,
+    "continuation_diagnostic": {
+      "config": "configs/os_continuation_diagnostic.json",
+      "report": "artifacts/os_continuation_diagnostic_20261126/REPORT_zh.md",
+      "epochs": [
+        20,
+        25,
+        30
+      ],
+      "all_epochs_recorded": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "monitor_pairs": 952,
+      "monitor_families": 238,
+      "matched_monitor_validation_affine_multiset": true,
+      "model_and_optimizer_restored": true,
+      "constant_learning_rate": 0.0003,
+      "architecture_loss_temperature_radii_nms_unchanged": true,
+      "validation_recall_at_4": [
+        0.5983,
+        0.6056,
+        0.6013
+      ],
+      "metric_values_rounded": true,
+      "convergence_claimed": false,
+      "interpretation": "small fluctuating validation benefit; synthetic-label-relative distances; no semantic remedy or geographic independence established",
+      "fixed_failure_pairs": 6,
+      "fixed_failure_queries": 24,
+      "test_pools_unchanged_and_not_evaluated": true
+    }
   }
 }

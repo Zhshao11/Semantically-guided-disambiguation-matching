@@ -1,0 +1,10 @@
+{
+  "epoch": 30,
+  "steps": 59340,
+  "augmented_training_loss": 1.612279575795848,
+  "effective_source_points": 972420,
+  "wall_seconds": 50.006610915006604,
+  "learning_rates": [
+    0.0003
+  ]
+}
