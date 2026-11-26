@@ -1,0 +1,173 @@
+[
+  {
+    "id": "American/232",
+    "file": "preview_000.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "American"
+  },
+  {
+    "id": "Argentina/296",
+    "file": "preview_001.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Argentina"
+  },
+  {
+    "id": "Australian/252",
+    "file": "preview_002.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Australian"
+  },
+  {
+    "id": "Germany/283",
+    "file": "preview_003.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Germany"
+  },
+  {
+    "id": "Japan/24",
+    "file": "preview_004.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Japan"
+  },
+  {
+    "id": "Katar/279",
+    "file": "preview_005.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Katar"
+  },
+  {
+    "id": "Malaysia/217",
+    "file": "preview_006.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Malaysia"
+  },
+  {
+    "id": "OSdataset/256/test/235",
+    "file": "preview_007.png",
+    "native_hw": [
+      256,
+      256
+    ],
+    "subset": "OSdataset/256/test"
+  },
+  {
+    "id": "OSdataset/256/train/4619",
+    "file": "preview_008.png",
+    "native_hw": [
+      256,
+      256
+    ],
+    "subset": "OSdataset/256/train"
+  },
+  {
+    "id": "OSdataset/256/val/528",
+    "file": "preview_009.png",
+    "native_hw": [
+      256,
+      256
+    ],
+    "subset": "OSdataset/256/val"
+  },
+  {
+    "id": "OSdataset/512/test/290",
+    "file": "preview_010.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "OSdataset/512/test"
+  },
+  {
+    "id": "OSdataset/512/train/1903",
+    "file": "preview_011.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "OSdataset/512/train"
+  },
+  {
+    "id": "OSdataset/512/val/206",
+    "file": "preview_012.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "OSdataset/512/val"
+  },
+  {
+    "id": "Poland/250",
+    "file": "preview_013.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Poland"
+  },
+  {
+    "id": "Russia/214",
+    "file": "preview_014.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Russia"
+  },
+  {
+    "id": "Russia2/36",
+    "file": "preview_015.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Russia2"
+  },
+  {
+    "id": "Russia3/53",
+    "file": "preview_016.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Russia3"
+  },
+  {
+    "id": "Singapore/181",
+    "file": "preview_017.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Singapore"
+  },
+  {
+    "id": "Turkey/249",
+    "file": "preview_018.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "Turkey"
+  }
+]

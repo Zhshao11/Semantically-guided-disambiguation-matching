@@ -1,0 +1,18 @@
+{
+  "evaluation_split": "test",
+  "model_must_be_frozen_before_evaluation": true,
+  "prior_analysis_exposure": true,
+  "blind_test": false,
+  "hyperparameter_selection_allowed": false,
+  "hard_exclusions": [
+    "missing_counterpart",
+    "decode_failure",
+    "nonfinite_values",
+    "no_valid_pixels",
+    "spatial_size_mismatch"
+  ],
+  "zero_intensity_is_nodata": false,
+  "cloud_policy": "No cloud-based exclusion in this round; cloud state unassessed. Any later cloud exclusion list must be frozen before a new model is run; never use model performance.",
+  "registration_gt": "publisher claims finely aligned pairs; no per-patch registration control points or matrices established",
+  "sar_radiometric_model_preprocessing": "not selected from UBC; preserve native float32; no UBC model run"
+}

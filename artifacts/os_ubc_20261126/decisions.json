@@ -1,0 +1,85 @@
+{
+  "OS": {
+    "status": "usable_for_publisher_aligned_base_plus_synthetic_affine_coarse_training_with_explicit_assumptions",
+    "current_experiment": "engineering_only",
+    "independent_geographic_validation": "waiting_for_scene_information_or_explicit_protocol",
+    "fine_precision_certified": false,
+    "per_patch_native_registration_gt": false,
+    "full_scene_GCPs": 72,
+    "full_scene_GCPs_used_for_patch_training": false
+  },
+  "UBCv2": {
+    "status": "raw_images_and_frozen_file_pool_ready_for_future_cross_domain_protocol; no_current_model_evaluation",
+    "prior_analysis_exposure": true,
+    "blind_test": false,
+    "hyperparameter_selection_allowed": false,
+    "fine_precision_certified": false,
+    "building_annotations_are_registration_gt": false,
+    "exclusion_policy": "complete/decodable/finite/nonempty/support-compatible; no cloud exclusion this round",
+    "future_preprocessing_and_synthetic_or_point_evaluation_protocol": "must be fixed before running the frozen model; do not tune on UBC results"
+  },
+  "WHU": {
+    "reconstruction_paused": true,
+    "existing_engineering_preserved": true
+  },
+  "other_external_candidates": [
+    "SRIF",
+    "SpaceNet9"
+  ],
+  "native_OS_smoke": {
+    "training_pairs": 32,
+    "unique_512_crop_parents": 31,
+    "initial": {
+      "tag": "initial",
+      "supervised_queries": 3933,
+      "loss": 5.9328672702216085,
+      "recall_at_1": 0.013729977116704805,
+      "recall_at_4": 0.038393084159674545,
+      "recall_radius_px": 8.0,
+      "masked": {
+        "gt_outside": 675,
+        "empty_positive": 0,
+        "invalid_source": 0,
+        "gt_invalid_support": 0
+      },
+      "nearest_candidate_distance_px": {
+        "0": 0.8995733261108398,
+        "25": 31.740833282470703,
+        "50": 59.9661865234375,
+        "75": 94.72238159179688,
+        "90": 131.1910827636719,
+        "95": 151.61044616699212,
+        "100": 246.155029296875
+      },
+      "all_reported_distances_finite": true,
+      "purpose": "engineering_only_relative_to_derivative_labels"
+    },
+    "final": {
+      "tag": "final",
+      "supervised_queries": 3933,
+      "loss": 0.1388138186100358,
+      "recall_at_1": 0.9880498347317569,
+      "recall_at_4": 0.9918637172641749,
+      "recall_radius_px": 8.0,
+      "masked": {
+        "gt_outside": 675,
+        "empty_positive": 0,
+        "invalid_source": 0,
+        "gt_invalid_support": 0
+      },
+      "nearest_candidate_distance_px": {
+        "0": 0.09275320917367935,
+        "25": 3.106379985809326,
+        "50": 4.684351444244385,
+        "75": 6.301967144012451,
+        "90": 7.388247203826905,
+        "95": 7.7190699577331525,
+        "100": 73.36149597167969
+      },
+      "all_reported_distances_finite": true,
+      "purpose": "engineering_only_relative_to_derivative_labels"
+    },
+    "independent_validation": false,
+    "UBC_evaluated": false
+  }
+}

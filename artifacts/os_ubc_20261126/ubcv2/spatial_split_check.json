@@ -1,0 +1,274 @@
+{
+  "city_split_counts": {
+    "AddisAbaba": {
+      "train": 57,
+      "val": 18,
+      "test": 36
+    },
+    "Barcelona": {
+      "train": 227,
+      "val": 88,
+      "test": 88
+    },
+    "Brasilia": {
+      "train": 350,
+      "val": 84,
+      "test": 84
+    },
+    "Copenhagen": {
+      "train": 316,
+      "val": 144,
+      "test": 76
+    },
+    "Jacksonville": {
+      "train": 348,
+      "val": 196,
+      "test": 196
+    },
+    "NewDelhi": {
+      "train": 135,
+      "val": 42,
+      "test": 36
+    },
+    "NewYork": {
+      "train": 198,
+      "val": 54,
+      "test": 48
+    },
+    "SaoPaulo": {
+      "train": 116,
+      "val": 30,
+      "test": 36
+    },
+    "Suzhou": {
+      "train": 445,
+      "val": 310,
+      "test": 321
+    },
+    "Tokyo": {
+      "train": 528,
+      "val": 295,
+      "test": 216
+    },
+    "Berlin": {
+      "train": 574,
+      "val": 142,
+      "test": 220
+    },
+    "Darwin": {
+      "train": 276,
+      "val": 144,
+      "test": 120
+    },
+    "Portsmouth": {
+      "train": 162,
+      "val": 90,
+      "test": 66
+    },
+    "Rio": {
+      "train": 102,
+      "val": 12,
+      "test": 36
+    },
+    "SanDiego": {
+      "train": 108,
+      "val": 12,
+      "test": 24
+    },
+    "SaoLuis": {
+      "train": 30,
+      "val": 6,
+      "test": 4
+    },
+    "Sydney": {
+      "train": 36,
+      "val": 14,
+      "test": 18
+    }
+  },
+  "cross_official_split_overlapping_optical_footprints": 88,
+  "overlap_examples": [
+    {
+      "first": "train/GF2_Jacksonville_30.3228_-81.6585",
+      "second": "test/SV_Jacksonville_30.3217_-81.6561",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 3472.2916000002706
+    },
+    {
+      "first": "train/GF2_Jacksonville_30.3234_-81.6585",
+      "second": "test/SV_Jacksonville_30.3217_-81.6561",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 1776.0415999993977
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3229_-81.6445",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 17509.868399990566
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3229_-81.6477",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 8078.131599998259
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3229_-81.6461",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 28036.77159998954
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3235_-81.6445",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 8956.118399991437
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3235_-81.6461",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 14340.52159998867
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3217_-81.6457",
+      "second": "val/GF2_Jacksonville_30.3235_-81.6477",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 4131.881599997386
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6341",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 30687.68839998481
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6325",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 10729.048399993526
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6341",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 15696.438399985682
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6325",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 5487.7983999944
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 14858.951599995298
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6343",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 7600.201599994424
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6341",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 18021.628399990343
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6341",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 9217.878399991214
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 27525.011599989764
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3229_-81.6374",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 7566.371599998482
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 14078.761599988893
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6353",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6374",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 3870.1215999976093
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6390",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 10414.121599992022
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3230_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 5227.62839999593
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3229_-81.6390",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 20360.371599992894
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3229_-81.6374",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 25186.268399987213
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6358",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 2673.8783999968027
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6380",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6374",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 12882.518399988085
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6392",
+      "second": "val/GF2_Jacksonville_30.3229_-81.6417",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 2960.531600000494
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6392",
+      "second": "test/GF2_Jacksonville_30.3235_-81.6390",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 15238.358399986073
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6392",
+      "second": "val/GF2_Jacksonville_30.3235_-81.6417",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 1514.2815999996212
+    },
+    {
+      "first": "train/SV_Jacksonville_30.3218_-81.6392",
+      "second": "test/GF2_Jacksonville_30.3229_-81.6390",
+      "crs": "EPSG:32617",
+      "overlap_area_crs_units_squared": 29792.1083999852
+    }
+  ],
+  "no_overlap_would_not_prove_source_scene_independence": true,
+  "cross_dataset_OS_UBC_geographic_disjointness": "unknown: OS scene locations unavailable"
+}

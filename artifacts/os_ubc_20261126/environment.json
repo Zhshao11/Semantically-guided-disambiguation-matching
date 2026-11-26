@@ -1,0 +1,14 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "torch": "2.11.0+cu128",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.1",
+    "shapely": "2.1.2",
+    "pytest": "9.2.0"
+  },
+  "source_environment": "existing repository .venv; no package installation in this round"
+}

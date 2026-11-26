@@ -1,0 +1,10 @@
+{
+  "os/manifest.jsonl.gz": {
+    "sha256": "70262271805b142cb8ad24b19037b84924bf7accdcfb947252241565bf3922e1",
+    "uncompressed_sha256": "c364bd0fd6a2ebafd29865c7f5d16e65c6f2edf6513dc066a49230de83a1fa6a"
+  },
+  "ubcv2/manifest.jsonl.gz": {
+    "sha256": "5ef746c4b892d8f7879280b2064793a1c18b4bd4f676de2fbe486f253187d183",
+    "uncompressed_sha256": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "optical": {
+    "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Scene-level Subset/Optical.tif",
+    "bytes": 7739603206,
+    "sha256": "5b38afb8304a5fb2e81bc3672a9111a4215e2b7d2fc88c946c976478389a4132"
+  },
+  "sar": {
+    "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Scene-level Subset/sar.tif",
+    "bytes": 3901727455,
+    "sha256": "eef7d0f7725f02829076f1752514dbe635e048d857b0b3eef4f4dab44295db09"
+  }
+}

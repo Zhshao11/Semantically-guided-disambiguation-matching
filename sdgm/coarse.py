@@ -29,17 +29,29 @@ def input_adapter():
 
 
 class StructuralRetriever(nn.Module):
-    """Two modality adapters and one shared encoder producing Bx128x64x64.
+    """Two modality adapters and shared encoder producing Bx128x(H/8)x(W/8).
 
     Three 2x2 average pools establish feature centers at 8*i+3.5 in input
     pixels. All convolutions use stride one, odd kernels and symmetric padding.
     """
 
-    def __init__(self, temperature=0.1):
+    def __init__(self, temperature=0.1, image_hw=(512, 512), source_grid_hw=None):
         super().__init__()
         if temperature <= 0:
             raise ValueError("temperature must be positive")
         self.temperature = temperature
+        self.image_hw = tuple(image_hw)
+        if len(self.image_hw) != 2 or any(v < 8 or v % 8 for v in self.image_hw):
+            raise ValueError(
+                "Native image dimensions must be positive multiples of eight"
+            )
+        self.feature_hw = tuple(v // 8 for v in self.image_hw)
+        if source_grid_hw is None:
+            source_grid_hw = tuple(max(1, round(v * 24 / 64)) for v in self.feature_hw)
+        if len(source_grid_hw) != 2 or any(
+            q < 1 or q > n for q, n in zip(source_grid_hw, self.feature_hw)
+        ):
+            raise ValueError("Source grid must fit the native feature map")
         self.optical_adapter = input_adapter()
         self.sar_adapter = input_adapter()
         stages = []
@@ -56,13 +68,20 @@ class StructuralRetriever(nn.Module):
             )
             channels = output_channels
         self.encoder = nn.Sequential(*stages)
-        axis = torch.linspace(0, 63, 24).round().long()
-        yy, xx = torch.meshgrid(axis, axis, indexing="ij")
+        axis_y = (
+            torch.linspace(0, self.feature_hw[0] - 1, source_grid_hw[0]).round().long()
+        )
+        axis_x = (
+            torch.linspace(0, self.feature_hw[1] - 1, source_grid_hw[1]).round().long()
+        )
+        yy, xx = torch.meshgrid(axis_y, axis_x, indexing="ij")
         self.register_buffer(
             "source_feature_xy", torch.stack([xx, yy], -1).reshape(-1, 2)
         )
         target_y, target_x = torch.meshgrid(
-            torch.arange(64), torch.arange(64), indexing="ij"
+            torch.arange(self.feature_hw[0]),
+            torch.arange(self.feature_hw[1]),
+            indexing="ij",
         )
         self.register_buffer(
             "target_feature_xy", torch.stack([target_x, target_y], -1).reshape(-1, 2)
@@ -80,16 +99,21 @@ class StructuralRetriever(nn.Module):
         if (
             optical.shape != sar.shape
             or optical.ndim != 4
-            or optical.shape[1:] != (1, 512, 512)
+            or optical.shape[1:] != (1, *self.image_hw)
         ):
-            raise ValueError("Expected matching Bx1x512x512 single-band inputs")
+            raise ValueError(
+                f"Expected matching Bx1x{self.image_hw[0]}x{self.image_hw[1]} native single-band inputs"
+            )
         first = functional.normalize(
             self.encoder(self.optical_adapter(optical)), dim=1, eps=1e-6
         )
         second = functional.normalize(
             self.encoder(self.sar_adapter(sar)), dim=1, eps=1e-6
         )
-        indices = self.source_feature_xy[:, 1] * 64 + self.source_feature_xy[:, 0]
+        indices = (
+            self.source_feature_xy[:, 1] * self.feature_hw[1]
+            + self.source_feature_xy[:, 0]
+        )
         queries = first.flatten(2).index_select(2, indices).transpose(1, 2)
         scores = torch.bmm(queries, second.flatten(2)) / self.temperature
         return dict(optical_descriptors=first, sar_descriptors=second, scores=scores)
@@ -101,8 +125,34 @@ def apply_affine(matrix, points):
     ].transpose(1, 2)
 
 
+def sample_support(mask, points, image_hw):
+    """Require complete bilinear support at zero-based original pixel centers."""
+    if mask.ndim != 4 or tuple(mask.shape[1:]) != (1, *tuple(image_hw)):
+        raise ValueError("Support mask must match native Bx1xHxW input")
+    if points.ndim == 2:
+        points = points[None].expand(mask.shape[0], -1, -1)
+    scale = points.new_tensor([image_hw[1], image_hw[0]])
+    grid = 2 * (points + 0.5) / scale - 1
+    finite = torch.isfinite(grid).all(-1)
+    grid = torch.nan_to_num(grid, nan=2.0, posinf=2.0, neginf=-2.0)
+    value = functional.grid_sample(
+        mask.to(dtype=points.dtype),
+        grid[:, None],
+        mode="bilinear",
+        padding_mode="zeros",
+        align_corners=False,
+    )[:, 0, 0]
+    return finite & (value >= 1 - 1e-6)
+
+
 def supervision_geometry(
-    matrix, source_pixel_xy, target_pixel_xy, positive_radius_px=8.0
+    matrix,
+    source_pixel_xy,
+    target_pixel_xy,
+    positive_radius_px=8.0,
+    image_hw=(512, 512),
+    source_support=None,
+    target_support=None,
 ):
     """Physical support is derived from the affine map and image extent.
 
@@ -111,18 +161,29 @@ def supervision_geometry(
     """
     if positive_radius_px <= 0:
         raise ValueError("positive_radius_px must be positive")
+    extent = matrix.new_tensor([image_hw[1] - 1, image_hw[0] - 1])
     gt = apply_affine(matrix, source_pixel_xy)
     inverse = torch.linalg.inv(matrix)
     base_target = apply_affine(inverse, target_pixel_xy)
     target_valid = (
         torch.isfinite(base_target).all(-1)
         & (base_target >= 0).all(-1)
-        & (base_target <= 511).all(-1)
+        & (base_target <= extent).all(-1)
     )
-    gt_in_frame = torch.isfinite(gt).all(-1) & (gt >= 0).all(-1) & (gt <= 511).all(-1)
+    if target_support is not None:
+        target_valid = sample_support(target_support, target_pixel_xy, image_hw)
+    source_valid = torch.ones(gt.shape[:2], dtype=torch.bool, device=matrix.device)
+    if source_support is not None:
+        source_valid = sample_support(source_support, source_pixel_xy, image_hw)
+    gt_support = torch.ones_like(source_valid)
+    if target_support is not None:
+        gt_support = sample_support(target_support, gt, image_hw)
+    gt_in_frame = (
+        torch.isfinite(gt).all(-1) & (gt >= 0).all(-1) & (gt <= extent).all(-1)
+    )
     distance_squared = ((gt[:, :, None] - target_pixel_xy[None, None]) ** 2).sum(-1)
     positive = (distance_squared <= positive_radius_px**2) & target_valid[:, None]
-    supervised = gt_in_frame & positive.any(-1)
+    supervised = gt_in_frame & gt_support & source_valid & positive.any(-1)
     return dict(
         gt_pixel_xy=gt,
         target_valid=target_valid,
@@ -130,6 +191,8 @@ def supervision_geometry(
         supervised=supervised,
         gt_outside=~gt_in_frame,
         empty_positive=gt_in_frame & ~positive.any(-1),
+        invalid_source=~source_valid,
+        gt_invalid_support=gt_in_frame & ~gt_support,
     )
 
 

@@ -1,0 +1,8 @@
+{
+  "finite_forward_backward": true,
+  "effective_gradients": true,
+  "loss_decreased_by_half": true,
+  "recall4_improved": true,
+  "median_distance_reduced": true,
+  "engineering_only": true
+}

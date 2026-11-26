@@ -1,2 +1,5 @@
 # Preserve the publisher's source snapshot byte-for-byte for SHA-256 evidence.
 artifacts/raw_rebuild_20261125/source/publisher_README.md -whitespace
+artifacts/os_ubc_20261126/source/ubcv2_official_readme.md -whitespace
+artifacts/os_ubc_20261126/source/Evaluation.py -whitespace -text
+artifacts/os_ubc_20261126/source/OS_ReadMe_extracted.txt -whitespace

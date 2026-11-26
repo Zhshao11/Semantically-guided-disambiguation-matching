@@ -1,12 +1,29 @@
 # Semantically Guided Disambiguation Matching
 
-光学–SAR 精确配准研究的代码仓库。方法设计包含语义区域路由 SRR、假设推理 HR 和鲁棒配准 RR。
+本轮数据路线调整为OS主训练及域内评估候选、UBCv2模型冻结后的跨域基准，SRIF/SpaceNet9补充外部验证；WHU重建暂停。最新交付见[OS/UBCv2原生数据审计及工程拟合报告](artifacts/os_ubc_20261126/REPORT_zh.md)。UBCv2此前已用于分析，不作为盲测，也不用于选择超参数。
 
-当前已完成三套数据的全量校验、WHU 底图对齐初筛、几何测试，以及单波段无语义结构检索的固定小样本工程拟合。源点与候选接口、稠密分数监督和训练循环均可复用。
+OS全量裁块17,168对，UBCv2原始影像7,314对，均完成配对及解码检查。旧OS的256与512有精确裁块父子关系，不能当成独立数据混合；完整地理父场景仍未知。UBCv2官方split间检出88组正面积足迹交叠，已冻结未来官方测试池1,625对，当前未运行UBC模型评估。
+
+原生OS256的固定32对完成800步工程拟合：损失5.9329→0.1388，原生候选召回@1/@4为98.80%/99.19%（8原生像素），最近候选距离中位数59.97→4.68 px。结果仅相对于发布者已对齐前提加已知合成仿射解释；未开展独立验证或真实精配准精度认证。网络仍为原无语义结构编码器，适配为128×32×32描述子、144源点×1024目标位置；默认512接口保持兼容。
+
+```bash
+export PYTHONPATH=.
+# 审计须使用新的output配置；已有UBC冻结回执时拒绝覆盖。
+.venv/bin/python scripts/audit_os_ubc.py --config configs/os_ubc_audit.json
+# 仅OS官方train固定样本；重跑训练须指定新的output。
+.venv/bin/python scripts/train_structure_smoke.py --config configs/structure_os_native_smoke.json
+.venv/bin/python scripts/verify_structure_checkpoint.py --run reports/structure_os_native_20261126
+.venv/bin/python scripts/summarize_os_ubc.py
+```
+
+
+光学–SAR 匹配研究的工程仓库。当前实现无语义结构检索、几何函数和原生数据审计；后续研究模块不属于本轮工程验证。
+
+此前已完成三套数据的全量校验、WHU 底图对齐初筛、几何测试，以及单波段无语义结构检索的固定小样本工程拟合。源点与候选接口、稠密分数监督和训练循环均可复用。
 
 本次双轨结果见 [来源核查与结构检索报告](artifacts/dual_track_20261125/REPORT_zh.md)。32 对现有训练样本经过 800 步拟合，损失 7.0817 → 2.0020，原生召回@1 为 88.05%、@4 为 92.98%，固定召回半径 8 原图像素。结果仅用于相对派生标签的工程诊断。
 
-GDROS 官方下载目录已核查，两个 ZIP 的名称和字节数与本地包相符。生成脚本、父影像映射和原生监督精度仍未核实。正式训练路线选择原始 WHU 的可追溯重建，具体决定及尚未落实的证据见 `configs/data_route.json`。SOPatch Image/SEN1-2 当前仍为待核实备选。
+GDROS 官方下载目录已核查，两个 ZIP 的名称和字节数与本地包相符。生成脚本、父影像映射和原生监督精度仍未核实。此前选择的原始 WHU 重建路线现已暂停，当前路线及历史证据见 `configs/data_route.json`。SOPatch Image/SEN1-2 当前仍为待核实备选。
 
 ## 原始 WHU 追溯与准入审计
 

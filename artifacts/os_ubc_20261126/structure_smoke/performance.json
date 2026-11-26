@@ -1,0 +1,32 @@
+{
+  "forward": {
+    "batch_wall_ms": 1.7322593019343913,
+    "peak_allocated_mib": 71.11328125,
+    "peak_reserved_mib": 114.0,
+    "batch_size": 4,
+    "iterations": 10,
+    "includes_data_loading": false,
+    "includes_nms": false,
+    "includes_optimizer_step": false,
+    "operation": "forward"
+  },
+  "training": {
+    "batch_wall_ms": 9.958081302465871,
+    "peak_allocated_mib": 404.06689453125,
+    "peak_reserved_mib": 430.0,
+    "batch_size": 4,
+    "iterations": 10,
+    "includes_data_loading": false,
+    "includes_nms": false,
+    "includes_optimizer_step": false,
+    "operation": "forward_loss_backward"
+  },
+  "actual_training_loop": {
+    "wall_seconds": 17.18548040202586,
+    "peak_allocated_mib": 410.53466796875,
+    "peak_reserved_mib": 440.0,
+    "includes_periodic_evaluation": true,
+    "includes_optimizer_step": true,
+    "skipped_unsupervised_batches": 0
+  }
+}

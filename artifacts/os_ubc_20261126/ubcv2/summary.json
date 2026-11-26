@@ -1,0 +1,62 @@
+{
+  "actual_pairs": 7314,
+  "subset_counts": {
+    "train": 4008,
+    "val": 1681,
+    "test": 1625
+  },
+  "hard_exclusion_counts": {},
+  "missing_or_damaged_pairs": 0,
+  "native_profiles": [
+    {
+      "profile": "test|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 1625,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "test|sar|512x512|C1|float32",
+      "images": 1625,
+      "observed_range": [
+        0.0,
+        257.29058837890625
+      ]
+    },
+    {
+      "profile": "train|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 4008,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "train|sar|512x512|C1|float32",
+      "images": 4008,
+      "observed_range": [
+        0.0,
+        503.60028076171875
+      ]
+    },
+    {
+      "profile": "val|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 1681,
+      "observed_range": [
+        0.0,
+        253.0
+      ]
+    },
+    {
+      "profile": "val|sar|512x512|C1|float32",
+      "images": 1681,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    }
+  ],
+  "images_resized": false,
+  "pixel_zero_automatically_invalid": false
+}

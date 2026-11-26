@@ -1,0 +1,13 @@
+{
+  "exact_metric_reproduction": true,
+  "fields": {
+    "supervised_queries": true,
+    "loss": true,
+    "recall_at_1": true,
+    "recall_at_4": true,
+    "nearest_candidate_distance_px": true,
+    "masked": true
+  },
+  "UBC_evaluated": false,
+  "independent_validation": false
+}

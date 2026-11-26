@@ -1,0 +1,129 @@
+{
+  "images": {
+    "optical": {
+      "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Scene-level Subset/Optical.tif",
+      "bytes": 7739603206,
+      "width": 35783,
+      "height": 35873,
+      "bands": 3,
+      "dtype": [
+        "uint16",
+        "uint16",
+        "uint16"
+      ],
+      "nodata": "256.0",
+      "crs": "EPSG:4326",
+      "transform": [
+        3.856974181696132e-06,
+        0.0,
+        -81.72351624413776,
+        0.0,
+        -3.856974181696035e-06,
+        30.349388417645255
+      ],
+      "bounds": [
+        -81.72351624413776,
+        30.211027182825273,
+        -81.58550213699412,
+        30.349388417645255
+      ],
+      "georeferenced": true,
+      "finite_pixels": [
+        1283643559,
+        1283643559,
+        1283643559
+      ],
+      "nonfinite_pixels": [
+        0,
+        0,
+        0
+      ],
+      "zero_fraction": [
+        6.835698226722454e-05,
+        2.8426115446273975e-05,
+        0.0001869833711369092
+      ],
+      "masked_fraction": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "minimum": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum": [
+        255.0,
+        255.0,
+        255.0
+      ]
+    },
+    "sar": {
+      "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Scene-level Subset/sar.tif",
+      "bytes": 3901727455,
+      "width": 35507,
+      "height": 27298,
+      "bands": 1,
+      "dtype": [
+        "float32"
+      ],
+      "nodata": "-3.4028230607370965e+38",
+      "crs": "EPSG:4326",
+      "transform": [
+        3.856974181696009e-06,
+        0.0,
+        -81.71460329222379,
+        0.0,
+        -3.856974181696123e-06,
+        30.350286900668642
+      ],
+      "bounds": [
+        -81.71460329222379,
+        30.2449992194567,
+        -81.5776537099543,
+        30.350286900668642
+      ],
+      "georeferenced": true,
+      "finite_pixels": [
+        969270086
+      ],
+      "nonfinite_pixels": [
+        0
+      ],
+      "zero_fraction": [
+        0.0
+      ],
+      "masked_fraction": [
+        0.25057868339083356
+      ],
+      "minimum": [
+        0.028600379824638367
+      ],
+      "maximum": [
+        10516.8876953125
+      ]
+    }
+  },
+  "gt_shape": [
+    72,
+    4
+  ],
+  "gt_finite": true,
+  "gt_sha256": "a5cc78fa66a12e42fbcc6a83be666354b46be27525c49f5bc9788c37200e0acf",
+  "gt_coordinates": "x_optical y_optical x_sar y_sar, pixel units; Evaluation.py documents zero-based XY with configurable offsets",
+  "checks": {
+    "optical": {
+      "in_frame": 72,
+      "points": 72
+    },
+    "sar": {
+      "in_frame": 72,
+      "points": 72
+    }
+  },
+  "zero_vs_one_based_independently_certified": false,
+  "evaluation_script_sha256": "7ae8bc82fbb03c2d6bb178adc806d5cf0a885deaea2bc4c23e4c31d633c483bc",
+  "patch_scene_mapping": null,
+  "used_for_patch_training": false
+}

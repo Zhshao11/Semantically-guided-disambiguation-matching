@@ -1,0 +1,1 @@
+{'supervised_queries': True, 'loss': True, 'recall_at_1': True, 'recall_at_4': True, 'nearest_candidate_distance_px': True, 'masked': True}

@@ -20,6 +20,7 @@ from sdgm.coarse import (
 )
 from sdgm.io import save_csv, save_json, save_jsonl
 from sdgm.smoke_data import WHUSmokeDataset
+from sdgm.os_data import OSNativeSmokeDataset
 
 
 def prepare(batch, device):
@@ -35,6 +36,9 @@ def geometry_for(model, batch, config):
         model.source_pixel_xy,
         model.target_pixel_xy,
         config["positive_radius_px"],
+        image_hw=model.image_hw,
+        source_support=batch.get("source_support"),
+        target_support=batch.get("target_support"),
     )
 
 
@@ -68,6 +72,7 @@ def visualize_batch(batch, model, candidates, geometry, path):
         ],
         axis=1,
     )
+    width = optical.shape[1]
     valid = torch.where(geometry["supervised"][0])[0].cpu().numpy()
     picks = (
         valid[np.linspace(0, len(valid) - 1, min(18, len(valid))).round().astype(int)]
@@ -79,24 +84,24 @@ def visualize_batch(batch, model, candidates, geometry, path):
     prediction = candidates["pixel_xy"][0].cpu().numpy()
     for index in picks:
         origin = tuple(np.round(source[index]).astype(int))
-        gt = tuple(np.round(target[index] + [512, 0]).astype(int))
+        gt = tuple(np.round(target[index] + [width, 0]).astype(int))
         cv2.circle(canvas, origin, 3, (255, 200, 0), -1)
         cv2.drawMarker(canvas, gt, (0, 255, 0), cv2.MARKER_CROSS, 12, 2)
         for rank in range(4):
             if not candidates["valid"][0, index, rank]:
                 continue
-            point = tuple(np.round(prediction[index, rank] + [512, 0]).astype(int))
+            point = tuple(np.round(prediction[index, rank] + [width, 0]).astype(int))
             color = (0, 0, 255) if rank == 0 else (0, 150, 255)
             cv2.circle(canvas, point, 4 if rank == 0 else 2, color, 1)
             if rank == 0:
                 cv2.line(canvas, origin, point, (160, 160, 160), 1)
-    strip = np.full((40, 1024, 3), 255, np.uint8)
+    strip = np.full((40, canvas.shape[1], 3), 255, np.uint8)
     cv2.putText(
         strip,
-        "Engineering only | sources cyan | label green | top1 red | other candidates orange",
+        "Engineering | source cyan | GT green | top1 red | other orange",
         (8, 25),
         cv2.FONT_HERSHEY_SIMPLEX,
-        0.5,
+        0.4,
         (0, 0, 0),
         1,
     )
@@ -112,7 +117,9 @@ def evaluate(model, loader, config, device, output, tag):
     loss_total = 0
     supervised_total = 0
     distances = []
-    masked = dict(gt_outside=0, empty_positive=0)
+    masked = dict(
+        gt_outside=0, empty_positive=0, invalid_source=0, gt_invalid_support=0
+    )
     for index, batch in enumerate(loader):
         batch = prepare(batch, device)
         result = model(batch["optical"], batch["sar"])
@@ -158,7 +165,9 @@ def evaluate(model, loader, config, device, output, tag):
                 model,
                 candidates,
                 geometry,
-                output / "visualizations" / f"{tag}_{batch['id'][0]}.png",
+                output
+                / "visualizations"
+                / f"{tag}_{batch['id'][0].replace('/', '_')}.png",
             )
     total = sum(row["count"] for row in rows)
     summary = dict(
@@ -271,12 +280,20 @@ def main():
         raise RuntimeError("A CUDA device is required for the requested GPU profile")
     torch.cuda.set_device(device)
     torch.cuda.manual_seed_all(seed)
-    dataset = WHUSmokeDataset(
-        config["data_root"],
-        config["pairs"],
-        seed,
-        output / "fixed_training_subset.json",
-    )
+    if config.get("dataset_kind") == "os_native":
+        dataset = OSNativeSmokeDataset(
+            config["manifest"],
+            config["pairs"],
+            seed,
+            output / "fixed_training_subset.json",
+        )
+    else:
+        dataset = WHUSmokeDataset(
+            config["data_root"],
+            config["pairs"],
+            seed,
+            output / "fixed_training_subset.json",
+        )
     generator = torch.Generator().manual_seed(seed)
     loader = DataLoader(
         dataset,
@@ -288,7 +305,9 @@ def main():
     evaluation = DataLoader(
         dataset, batch_size=config["batch_size"], shuffle=False, num_workers=0
     )
-    model = StructuralRetriever(config["temperature"]).to(device)
+    model = StructuralRetriever(
+        config["temperature"], image_hw=tuple(config.get("image_hw", [512, 512]))
+    ).to(device)
     optimizer = torch.optim.AdamW(
         model.parameters(),
         lr=config["learning_rate"],
@@ -303,8 +322,16 @@ def main():
             gpu=torch.cuda.get_device_name(device),
             device=str(device),
             parameters=sum(p.numel() for p in model.parameters()),
-            feature_shape=[config["batch_size"], 128, 64, 64],
-            score_shape=[config["batch_size"], 576, 4096],
+            feature_shape=[config["batch_size"], 128, *model.feature_hw],
+            score_shape=[
+                config["batch_size"],
+                len(model.source_pixel_xy),
+                len(model.target_pixel_xy),
+            ],
+            native_image_hw=list(model.image_hw),
+            dataset_kind=config.get("dataset_kind", "whu_derivative"),
+            images_resized=False,
+            UBC_used=False,
             extra_geometric_augmentation=False,
             test_split_used=False,
             scene_independence_verified=False,

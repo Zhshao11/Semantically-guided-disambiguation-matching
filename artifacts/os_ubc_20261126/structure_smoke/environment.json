@@ -1,0 +1,30 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "device": "cuda:6",
+  "parameters": 485536,
+  "feature_shape": [
+    4,
+    128,
+    32,
+    32
+  ],
+  "score_shape": [
+    4,
+    144,
+    1024
+  ],
+  "native_image_hw": [
+    256,
+    256
+  ],
+  "dataset_kind": "os_native",
+  "images_resized": false,
+  "UBC_used": false,
+  "extra_geometric_augmentation": false,
+  "test_split_used": false,
+  "scene_independence_verified": false,
+  "positive_neighborhood": "Fixed Euclidean radius 8 original-image pixels, one coarse cell. No radius tuning.",
+  "benchmark_scope": "GPU-resident input tensors; forward and forward/loss/backward; optimizer excluded from timed benchmark"
+}

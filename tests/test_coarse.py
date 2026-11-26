@@ -120,3 +120,55 @@ def test_validity_uses_warp_support_and_keeps_zero_pixel_locations():
         geometry["target_valid"], torch.tensor([[False, True, True]])
     )
     torch.testing.assert_close(geometry["supervised"], torch.tensor([[True, False]]))
+
+
+def test_native_256_uses_same_encoder_and_pixel_centers_without_resize():
+    torch.set_num_threads(2)
+    model = StructuralRetriever(image_hw=(256, 256))
+    result = model(torch.randn(1, 1, 256, 256), torch.randn(1, 1, 256, 256))
+    assert result["scores"].shape == (1, 144, 1024)
+    assert result["optical_descriptors"].shape == (1, 128, 32, 32)
+    torch.testing.assert_close(
+        model.source_pixel_xy[[0, -1]], torch.tensor([[3.5, 3.5], [251.5, 251.5]])
+    )
+    assert sum(p.numel() for p in model.parameters()) == sum(
+        p.numel() for p in StructuralRetriever().parameters()
+    )
+    geometry = supervision_geometry(
+        torch.eye(3)[None],
+        model.source_pixel_xy,
+        model.target_pixel_xy,
+        image_hw=(256, 256),
+    )
+    neighborhood_mass_loss(result["scores"], geometry).backward()
+    assert all(
+        p.grad is not None and torch.isfinite(p.grad).all() for p in model.parameters()
+    )
+    with pytest.raises(ValueError, match="Native image"):
+        StructuralRetriever(image_hw=(255, 256))
+
+
+def test_actual_masks_override_inverse_affine_support_and_mask_source_gt():
+    matrix = torch.eye(3)[None]
+    source = torch.tensor([[10.0, 10.0], [20.0, 20.0], [250.0, 10.0], [256.0, 10.0]])
+    target = torch.tensor([[10.0, 10.0], [20.0, 20.0], [250.0, 10.0]])
+    optical_mask = torch.ones(1, 1, 256, 256, dtype=torch.bool)
+    sar_mask = optical_mask.clone()
+    optical_mask[0, 0, 10, 10] = False
+    sar_mask[0, 0, 20, 20] = False
+    geometry = supervision_geometry(
+        matrix,
+        source,
+        target,
+        image_hw=(256, 256),
+        source_support=optical_mask,
+        target_support=sar_mask,
+    )
+    torch.testing.assert_close(
+        geometry["supervised"], torch.tensor([[False, False, True, False]])
+    )
+    torch.testing.assert_close(
+        geometry["target_valid"], torch.tensor([[True, False, True]])
+    )
+    # A mask of ones stays valid regardless of image intensity; zero images are not passed to geometry.
+    assert geometry["supervised"][0, 2]

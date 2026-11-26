@@ -1,0 +1,24 @@
+{
+  "utc_before_training": "2026-11-26T00:41:26.106300+00:00",
+  "UBC_policy_receipt": {
+    "policy_sha256": "a4ec18b01018507e51133eb2ed65188d294410b950a7399582957c2dc1dec286",
+    "manifest_sha256": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d",
+    "exclusions_sha256": "6d7d0b99f992484ddb67b83e24b58fcc43cd4cd9efbb06443837d584bea881f0",
+    "pool_sha256": "b497ed6990cc9bc01c0b7bea9c21cd083c61fe8831afe326880c9b52cb86e394",
+    "eligible_test_pairs": 1625,
+    "model_results_used": false,
+    "prior_analysis_exposed": true,
+    "blind_test": false
+  },
+  "OS_subset": "OSdataset/256/train",
+  "fixed_pairs": 32,
+  "steps": 800,
+  "positive_radius_px": 8,
+  "recall_radius_px": 8,
+  "nms_radius_px": 24,
+  "candidates": 4,
+  "resize": false,
+  "UBC_evaluated": false,
+  "hyperparameters_selected_on_UBC": false,
+  "independent_validation": false
+}

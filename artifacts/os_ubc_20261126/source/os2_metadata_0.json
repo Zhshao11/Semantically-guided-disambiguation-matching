@@ -1,0 +1,184 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileObject": "cr:fileObject",
+    "fileProperty": "cr:fileProperty",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "wd": "https://www.wikidata.org/wiki/"
+  },
+  "@id": "https://doi.org/10.57760/sciencedb.radars.00061",
+  "@type": "sc:Dataset",
+  "citeAs": "@data{ bf3104c4019149178c7ad2a6f9feb5cd,\n  title        = {{OSDataset2.0: Optical-SAR Image Matching Dataset and Evaluation Benchmark}},\n  author       = {{xiang yu ming and Chen Jinyang and Hong Zhonghua and Jiao Niangang and Wang Feng and You Hongjian and Tong Xiaohua}},\n  year        = {{2025}},\n  month       = {{December}},\n  publisher   = {{Science Data Bank}},\n  doi         = {{10.57760/sciencedb.radars.00061}},\n  url         = {{https://doi.org/10.57760/sciencedb.radars.00061}},\n  version     = {{V1}}\n}",
+  "conditionsOfAccess": "PUBLIC",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "creator": [
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@type": "sc:Organization",
+          "name": "同济大学测绘与地理信息学院"
+        },
+        {
+          "@type": "sc:Organization",
+          "name": "上海市航天测绘遥感与空间探测重点实验室"
+        }
+      ],
+      "name": "xiang yu ming"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@type": "sc:Organization",
+          "name": "上海海洋大学信息学院"
+        }
+      ],
+      "name": "Chen Jinyang"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@type": "sc:Organization",
+          "name": "上海市航天测绘遥感与空间探测重点实验室"
+        },
+        {
+          "@type": "sc:Organization",
+          "name": "上海海洋大学信息学院"
+        }
+      ],
+      "name": "Hong Zhonghua"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/0419fj215",
+          "@type": "sc:Organization",
+          "name": "中国科学院空天信息创新研究院"
+        },
+        {
+          "@id": "CAS_空天院",
+          "@type": "sc:Organization",
+          "name": "Institute of Remote Sensing and Digital Earth"
+        }
+      ],
+      "name": "Jiao Niangang"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/0419fj215",
+          "@type": "sc:Organization",
+          "name": "中国科学院空天信息创新研究院"
+        },
+        {
+          "@id": "CAS_空天院",
+          "@type": "sc:Organization",
+          "name": "Institute of Remote Sensing and Digital Earth"
+        }
+      ],
+      "name": "Wang Feng"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@id": "https://ror.org/0419fj215",
+          "@type": "sc:Organization",
+          "name": "中国科学院空天信息创新研究院"
+        },
+        {
+          "@id": "CAS_空天院",
+          "@type": "sc:Organization",
+          "name": "Institute of Remote Sensing and Digital Earth"
+        }
+      ],
+      "name": "You Hongjian"
+    },
+    {
+      "@type": "sc:Person",
+      "affiliation": [
+        {
+          "@type": "sc:Organization",
+          "name": "同济大学测绘与地理信息学院"
+        },
+        {
+          "@type": "sc:Organization",
+          "name": "上海市航天测绘遥感与空间探测重点实验室"
+        }
+      ],
+      "name": "Tong Xiaohua"
+    }
+  ],
+  "datePublished": "2025-12-08T01:05:01.792Z",
+  "description": "OSDataset2.0, a large-scale benchmark dataset designed for optical-SAR image matching tasks. The dataset consists of two components: a local training dataset and a full-scene test set. The local training dataset provides 6,343 registered image patch pairs of 512×512 pixels (with a spatial resolution of 1 meter), covering nearly 20 countries worldwide. The dataset was generated through multi-method matching combined with manual verification. The full-scene test set includes a pair of full-scene optical and SAR images in GeoTIFF format, with a spatial resolution of 0.43 meters and data sizes of 35,783x35,783 and 35,507x27,298 pixels. The ground truth data was collected based on the consistency principle of imaging mechanisms for streetlight pole structures in both optical and SAR payloads, resulting in 72 high-precision ground truth corresponding point pairs. We also provide accompanying general evaluation code, supporting quantitative analysis of registration accuracy for any matching algorithm.",
+  "identifier": "https://doi.org/10.57760/sciencedb.radars.00061",
+  "inLanguage": "en_US",
+  "includedInDataCatalog": {
+    "@id": "https://www.scidb.cn",
+    "@type": "sc:DataCatalog",
+    "@url": "http://www.scidb.cn",
+    "name": "Science Data Bank"
+  },
+  "keywords": [
+    "Multimodal image matching",
+    "Synthetic aperture radar",
+    "Evaluation becnmark"
+  ],
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "name": "OSDataset2.0: Optical-SAR Image Matching Dataset and Evaluation Benchmark",
+  "publisher": {
+    "@type": "sc:Organization",
+    "@url": "http://www.scidb.cn",
+    "name": "Science Data Bank"
+  },
+  "size": {
+    "@type": "sc:QuantitativeValue",
+    "unitText": "bytes",
+    "value": 9511893394
+  },
+  "url": "https://doi.org/10.57760/sciencedb.radars.00061",
+  "version": "1.0.0"
+}

@@ -1,0 +1,25 @@
+{
+  "tag": "reload",
+  "supervised_queries": 3933,
+  "loss": 0.1388138186100358,
+  "recall_at_1": 0.9880498347317569,
+  "recall_at_4": 0.9918637172641749,
+  "recall_radius_px": 8.0,
+  "masked": {
+    "gt_outside": 675,
+    "empty_positive": 0,
+    "invalid_source": 0,
+    "gt_invalid_support": 0
+  },
+  "nearest_candidate_distance_px": {
+    "0": 0.09275320917367935,
+    "25": 3.106379985809326,
+    "50": 4.684351444244385,
+    "75": 6.301967144012451,
+    "90": 7.388247203826905,
+    "95": 7.7190699577331525,
+    "100": 73.36149597167969
+  },
+  "all_reported_distances_finite": true,
+  "purpose": "engineering_only_relative_to_derivative_labels"
+}

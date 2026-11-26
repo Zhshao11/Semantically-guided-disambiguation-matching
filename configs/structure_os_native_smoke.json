@@ -1,0 +1,19 @@
+{
+  "dataset_kind": "os_native",
+  "manifest": "reports/os_ubc_20261126/os/manifest.jsonl",
+  "image_hw": [256, 256],
+  "output": "reports/structure_os_native_20261126",
+  "seed": 20261126,
+  "pairs": 32,
+  "batch_size": 4,
+  "steps": 800,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "temperature": 0.1,
+  "positive_radius_px": 8.0,
+  "recall_radius_px": 8.0,
+  "nms_radius_px": 24.0,
+  "evaluate_every": 200,
+  "cuda_device": 6,
+  "purpose": "native OS data-chain engineering fit only; no UBC tuning; no independent validation"
+}

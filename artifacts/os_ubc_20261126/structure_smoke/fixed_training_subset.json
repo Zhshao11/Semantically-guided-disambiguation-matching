@@ -1,0 +1,4052 @@
+{
+  "dataset": "OS native 256",
+  "count": 32,
+  "selection_policy": "fixed RNG over audited official train; both modalities nonconstant; one representative per exact joint pixel hash; no model-based selection",
+  "selection_counts": {
+    "decoded_candidates": 8044,
+    "nonconstant_pairs": 8044,
+    "distinct_pairs": 7912
+  },
+  "seed": 20261126,
+  "source_manifest_sha256": "c364bd0fd6a2ebafd29865c7f5d16e65c6f2edf6513dc066a49230de83a1fa6a",
+  "samples": [
+    {
+      "id": "OSdataset/256/train/1162",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt1162.png",
+        "sha256": "6a16b54a58ab8bd4b13943a047a0bc6d261cd672536a5abaa3f3e01c96a13ed8",
+        "bytes": 42619,
+        "pixel_sha256": "2171003ec52ba4379929d34d38bef77c460342b23f14d82ddf110db6d36f7028",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0005340576171875
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar1162.png",
+        "sha256": "aa0d85dd2f2353191b0b071e34ac2e3993b3a0ec6b902441037fac73882a2d2d",
+        "bytes": 49788,
+        "pixel_sha256": "e1cd8beeb6f3849df384671c235225171f05545282124edec5d10f3a6b9db76b",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.01092529296875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/126",
+          "split": "train",
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 7155489293621493729,
+      "synthetic_parameters": {
+        "rotation_degrees": 4.421743933413303,
+        "scale": 0.9132657752585882,
+        "translation_xy": [
+          12.767496530347206,
+          -13.364979043190484
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9105474993234597,
+          0.07041042347880222,
+          15.195361373058812
+        ],
+        [
+          -0.07041042347880222,
+          0.9105474993234597,
+          7.01754378661569
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "622945860b83ad38ee7fce8b345678b305d4abf9ee824e5adcf5cd5cc33a4ef6"
+    },
+    {
+      "id": "OSdataset/256/train/151",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt151.png",
+        "sha256": "b63debac8f044dec9fd1f0a00f663515ee31c79475d9562cce611acba7c84c0a",
+        "bytes": 33657,
+        "pixel_sha256": "d70d97079301fb214436377d2d44fcefb700e4d937ad952edb40d79822984508",
+        "minimum": [
+          7.0
+        ],
+        "maximum": [
+          252.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar151.png",
+        "sha256": "df4d794cf0f747e07a2ce54e6d69d99774419e0867f4e30f86ec2d21ea2097b5",
+        "bytes": 45452,
+        "pixel_sha256": "961d4479975aa0d405b7f09a3825c688b7842fe088749616d3737744f0a8b260",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0255279541015625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1031",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 5358604225540205988,
+      "synthetic_parameters": {
+        "rotation_degrees": 19.4118119587458,
+        "scale": 0.9552509066498678,
+        "translation_xy": [
+          12.70594466362683,
+          -9.849043548484225
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.900948866805905,
+          0.3174829665612788,
+          -15.144114090689108
+        ],
+        [
+          -0.3174829665612788,
+          0.900948866805905,
+          43.25905417032593
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "af5598e95fd1c15409c7941b5f8bdb491293a10746f21707344d4e8d3f444053"
+    },
+    {
+      "id": "OSdataset/256/train/224",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt224.png",
+        "sha256": "03a8ca069407ff39da25ba5b1c389fc0ac4a38b8981a6a5ed78a64395cc328df",
+        "bytes": 46137,
+        "pixel_sha256": "9a4dfe4841cd5e69be43a347f33a6c531db54ac28542f3c2babea23f2a82076c",
+        "minimum": [
+          5.0
+        ],
+        "maximum": [
+          253.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar224.png",
+        "sha256": "9080c419e18a2ea6f4232c1055f410febc3b3226c6f1902296e6de0ead5b7145",
+        "bytes": 50990,
+        "pixel_sha256": "f6c3d5d206c00559cd13c6ea575e8e6d9b898df6e7bea06256a42b5f00c0eee8",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0110626220703125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1048",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 10703248643731328767,
+      "synthetic_parameters": {
+        "rotation_degrees": -17.047764654464714,
+        "scale": 1.076968643834193,
+        "translation_xy": [
+          -10.191820352156785,
+          6.601774055889866
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0296473824432275,
+          -0.31573363398578697,
+          26.284176719519547
+        ],
+        [
+          0.31573363398578697,
+          1.0296473824432275,
+          -37.43430553880948
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "eebf201398124c98870bef607eae5b3e1d742908ee669c8a0637ad8a104ff237"
+    },
+    {
+      "id": "OSdataset/256/train/2581",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt2581.png",
+        "sha256": "23017f5a29106231cf2cb63df0f74add9ab48aa98e7bb695130d21a11eb0666e",
+        "bytes": 35054,
+        "pixel_sha256": "593195b4f024cee9942c0809ffbcc3f0d884847272cacfa97ba6877b7469ae94",
+        "minimum": [
+          19.0
+        ],
+        "maximum": [
+          231.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar2581.png",
+        "sha256": "4e48d64d3464daf149bd3879f82f247ab9151c40110c13cdcb06a1cf2d49e18c",
+        "bytes": 55818,
+        "pixel_sha256": "3641629801d6894648d1057fb8fe82767f97bfd945288c880fe174580061f330",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.002105712890625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/158",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 15658686186613939791,
+      "synthetic_parameters": {
+        "rotation_degrees": 8.728310065706228,
+        "scale": 1.0451346824352143,
+        "translation_xy": [
+          1.8124400083541126,
+          0.5923213335253799
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0330310065153994,
+          0.15859837327897572,
+          -22.62030591542871
+        ],
+        [
+          -0.15859837327897572,
+          1.0330310065153994,
+          16.602160595881365
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "865df03e7751d0d61ffdb300e59de3394fcc36425eb369fa56c5adebce57f1f2"
+    },
+    {
+      "id": "OSdataset/256/train/2693",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt2693.png",
+        "sha256": "39238a268e329e27ccfe5013e494c9cb2fc281f2298d1b5f6d58cd8cd0a8297f",
+        "bytes": 44364,
+        "pixel_sha256": "f96307b985d7d369e58514bdf48390fb14050b1fe757ccde5b9dd2f7864f2b25",
+        "minimum": [
+          7.0
+        ],
+        "maximum": [
+          248.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar2693.png",
+        "sha256": "c04d4f8de83d2c7607ce6d3e1a3e48686b7b7a8caf1da515a9037fd7db80daa3",
+        "bytes": 51042,
+        "pixel_sha256": "977320514a1b763ee1840246ae2ae03ce146d8c2469706341b0359088102894a",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0185699462890625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1604",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 16831875407609096497,
+      "synthetic_parameters": {
+        "rotation_degrees": 1.3709008216390792,
+        "scale": 1.09142096951107,
+        "translation_xy": [
+          -14.461268748044695,
+          -7.492150746018897
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0911085714084736,
+          0.02611164658621697,
+          -29.406846542367745
+        ],
+        [
+          -0.02611164658621697,
+          1.0911085714084736,
+          -15.77925866085662
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "96ea0f9964ddb0682d3edbde7ea7f8834c703004d4573a14bdcb2ccd1bf86bb3"
+    },
+    {
+      "id": "OSdataset/256/train/3319",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3319.png",
+        "sha256": "0c84be2b9ac722a01a0b7d4582ea19d29b22c9894a0729bcb68eac180b6e6897",
+        "bytes": 37805,
+        "pixel_sha256": "a62426fa2c20a6209072d9955e6a7da87fce39017833c9ebf5b8df699bada037",
+        "minimum": [
+          38.0
+        ],
+        "maximum": [
+          244.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3319.png",
+        "sha256": "6f8a024aa81ba8a7b6db78e8b88f130662fec3589924af13478715dbb9036f7f",
+        "bytes": 52749,
+        "pixel_sha256": "7cbbf5e1672175a08820cf2b064dde154207c043e7d2a4b2bf96a4ef107706a1",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0140228271484375
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1745",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 11443470187489919280,
+      "synthetic_parameters": {
+        "rotation_degrees": -0.44657929891240755,
+        "scale": 0.9402377103917652,
+        "translation_xy": [
+          -8.877447405519902,
+          11.536848975004421
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9402091504457888,
+          -0.007328400968633236,
+          -0.31974296385723555
+        ],
+        [
+          0.007328400968633236,
+          0.9402091504457888,
+          18.22581116966561
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "dd4ec0e80bf371996380a362aa60183d6996a6b44073fc669b643d6ac6b367f2"
+    },
+    {
+      "id": "OSdataset/256/train/3627",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3627.png",
+        "sha256": "623a35ee870c80750facbe3a8d5b235cf494f28dd3e7c232bfda8c6e28825432",
+        "bytes": 32004,
+        "pixel_sha256": "706581b39a8987069cc28b9ad275c5413b78ced24cbbd3892302024a005ba7a8",
+        "minimum": [
+          3.0
+        ],
+        "maximum": [
+          204.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3627.png",
+        "sha256": "07ec1e961769585e6fb3e9d15c8052b907b8a8cfa83ea85d51bebf7d6d93c1e9",
+        "bytes": 54374,
+        "pixel_sha256": "39c3181773b2300c40a1dea459fb54991124a701e0596ff8da8b01977013dcfe",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.007476806640625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1814",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 13838603503767182544,
+      "synthetic_parameters": {
+        "rotation_degrees": 7.184567682883198,
+        "scale": 1.0234362468268112,
+        "translation_xy": [
+          -5.397970423359354,
+          -5.300593198067251
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0154006585089737,
+          0.12799708597656517,
+          -23.681182845265553
+        ],
+        [
+          -0.12799708597656517,
+          1.0154006585089737,
+          9.055451304050667
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "5380fbd984179b4ee7e921fb2aa3d5af12975cde55b8732f8fa258a1420a0354"
+    },
+    {
+      "id": "OSdataset/256/train/3679",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3679.png",
+        "sha256": "35c2f8b1ad4819334f93243de365e92303909d2cf0a6cf3d0ee2c65cf26639a3",
+        "bytes": 27888,
+        "pixel_sha256": "ef219684bb0e5b4065d57563ed732c4bfe916bb43eb762ac58a10184e08446ce",
+        "minimum": [
+          30.0
+        ],
+        "maximum": [
+          163.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3679.png",
+        "sha256": "ce346da77b4e09d81cba3ace250bfe6e2cca7a219f5bbc1669e94153d073aa51",
+        "bytes": 54537,
+        "pixel_sha256": "a3ff0d8b8d39a3b856ec32a98e56f36537527b690ded6f41f882e718d0a16d84",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.007537841796875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1826",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 9558788313549621845,
+      "synthetic_parameters": {
+        "rotation_degrees": -2.6350939206106077,
+        "scale": 0.9808424423579969,
+        "translation_xy": [
+          12.97166526220196,
+          9.80999133886234
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9798052969818508,
+          -0.04509408760699629,
+          21.295986066908007
+        ],
+        [
+          0.04509408760699629,
+          0.9798052969818508,
+          6.635319803784332
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "25826ca394b5912991c4c0b0ccbf94e620dab017e394300d7aaeb19915fe8a79"
+    },
+    {
+      "id": "OSdataset/256/train/3787",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3787.png",
+        "sha256": "2a86fbcf5839466d1cb41c09d25d9e03e3d3c0859f565c739b03913195225036",
+        "bytes": 28337,
+        "pixel_sha256": "cff20ed68bae747e22130e59822c61c38ecf2922b56020331dffb48411ee6b08",
+        "minimum": [
+          22.0
+        ],
+        "maximum": [
+          147.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3787.png",
+        "sha256": "34a0b84f66282a86c2e87ce4842f17cc149f5c7cb93b0f2814369571890f7c7b",
+        "bytes": 53435,
+        "pixel_sha256": "a4a0e277a861af3db59696eee8d0007cd3403e74a8dbd67fd54f3bf8de7d1565",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0147247314453125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1850",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 16287914513015672209,
+      "synthetic_parameters": {
+        "rotation_degrees": -19.48809865702007,
+        "scale": 0.924650213066171,
+        "translation_xy": [
+          11.59517089447338,
+          -4.539509583153304
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.8716777497749635,
+          -0.3084735273416045,
+          67.2866325342201
+        ],
+        [
+          0.3084735273416045,
+          0.8716777497749635,
+          -27.508797415515723
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "09d44103184627fcac05cde14dfe4d4ee32e171f3df79880bd68f8ae0114f389"
+    },
+    {
+      "id": "OSdataset/256/train/3921",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3921.png",
+        "sha256": "f684a60d86f4a0b4b130200f53719f017e1ba7029e42c1a7fc726ff701a7f45b",
+        "bytes": 34142,
+        "pixel_sha256": "48dff6825255d500fc473d55d8a1fee89a5020f0babfa37d97006e149703b283",
+        "minimum": [
+          38.0
+        ],
+        "maximum": [
+          246.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3921.png",
+        "sha256": "c7a8b1847450a78e30aac209bec3a2c13498adec90824e137b1639eecf4d83f8",
+        "bytes": 53506,
+        "pixel_sha256": "916285c1e7cf2f08556923954e4df3746b090e395cdef2d1401d9b28c3ca0aa8",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.009307861328125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1881",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 7441832222861998144,
+      "synthetic_parameters": {
+        "rotation_degrees": -16.97347083976076,
+        "scale": 0.9161279894452088,
+        "translation_xy": [
+          13.826358188345573,
+          7.810506523894915
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.8762214796416373,
+          -0.2674442215856242,
+          63.707257786203904
+        ],
+        [
+          0.2674442215856242,
+          0.8762214796416373,
+          -10.506870382580932
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "37764b78927c665ad0885fee6d13fe0dc452c0201d2e886fc03a6a55a29ccbc2"
+    },
+    {
+      "id": "OSdataset/256/train/3960",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3960.png",
+        "sha256": "f6ef522c7c5a9648a0e52aab399722dcf15cedaf36e762eca98d24145d7d1155",
+        "bytes": 22861,
+        "pixel_sha256": "a7831c25b056b7fea623f8d6c0b5153c3b8042bb71208766a3791057dce5c5ef",
+        "minimum": [
+          18.0
+        ],
+        "maximum": [
+          95.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3960.png",
+        "sha256": "de8d7e0e04c547b4451a9c099818c4a41f86d9c00e5094165b784daa9937e712",
+        "bytes": 45511,
+        "pixel_sha256": "f3e576b19750239a882d9eef208519c614a61da7ee38d1548c80efb83cb85a86",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.016265869140625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/189",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 12330784750225383412,
+      "synthetic_parameters": {
+        "rotation_degrees": 17.30566741531709,
+        "scale": 0.9996603921342184,
+        "translation_xy": [
+          8.08805654226541,
+          15.133456249763206
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9544071456929888,
+          0.29736828992362524,
+          -24.013311498852882
+        ],
+        [
+          -0.29736828992362524,
+          0.9544071456929888,
+          58.86100213916935
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "d4f74f28ded3a428e809a144199beaaa16c8ddff06f87dc08d008e22a19c81e9"
+    },
+    {
+      "id": "OSdataset/256/train/3989",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt3989.png",
+        "sha256": "29811c03395a71c36fa58639100c8cda55c01151bfbc135afb151ecfe72ae586",
+        "bytes": 32836,
+        "pixel_sha256": "a92f69209b4a0e3e5ed79928fecc04010e00629ce95aeafedac3a8297b57ae5c",
+        "minimum": [
+          29.0
+        ],
+        "maximum": [
+          236.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar3989.png",
+        "sha256": "492a4f7331fb569cb9fc7afb85cf6d5f0ac835188446515669c4e0e0b251af39",
+        "bytes": 50848,
+        "pixel_sha256": "700940542609b15e44a8bd3ade06c441c84ddc25a1187319d9e52da206b3d88e",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0156097412109375
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1897",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 436456744516569349,
+      "synthetic_parameters": {
+        "rotation_degrees": -9.691374668372594,
+        "scale": 1.021513068629738,
+        "translation_xy": [
+          13.315871827411417,
+          5.432573904451559
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0069348741904622,
+          -0.171962520685124,
+          34.35689675548079
+        ],
+        [
+          0.171962520685124,
+          1.0069348741904622,
+          -17.376843942185687
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "7627b258da6a39650894aff200b7f5b922248d1980d9e9ec19e85ad7eefc4ef7"
+    },
+    {
+      "id": "OSdataset/256/train/4151",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt4151.png",
+        "sha256": "06ee28eec7e61224850ce44be8879ae2f904c35fa4235091d3de1a9b90b23f4a",
+        "bytes": 42814,
+        "pixel_sha256": "149d0b3ef025d02513043aaf980d7a7cc171d4cb4d600ebf60ee676b80185ab9",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0004119873046875
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar4151.png",
+        "sha256": "04072b898584bcf2590a1dc15fb0ca2db4e3f785679e7fa1d9c7ece5eccd8e9e",
+        "bytes": 49138,
+        "pixel_sha256": "8719de001c8d44371522dcda0b497ce86ab411eb0c7a32d30068da4c91e88f21",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0176849365234375
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1932",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 6570206949823299659,
+      "synthetic_parameters": {
+        "rotation_degrees": -6.108019799078104,
+        "scale": 1.0566591066888016,
+        "translation_xy": [
+          6.446581336213043,
+          11.049745223722478
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0506605167716006,
+          -0.11243196274018141,
+          14.322440697207103
+        ],
+        [
+          0.11243196274018141,
+          1.0506605167716006,
+          -9.744545914029722
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "2f32ae065058da53e672f3642df4744ed46df0bf114298438d81eb4076def2c4"
+    },
+    {
+      "id": "OSdataset/256/train/430",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt430.png",
+        "sha256": "2a13ec44d40daad402c5a4e9fd25b365c4635faa51099a4697c5c9355ae352a9",
+        "bytes": 49417,
+        "pixel_sha256": "80091ee4f40e80cfb09b6011af7dd34e7758d055b77ab8b3c5c507544dcfd278",
+        "minimum": [
+          2.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar430.png",
+        "sha256": "b91b6db5bef996d62a24b0993ecae9e62068b8206067d8180015d8982f4767d2",
+        "bytes": 52555,
+        "pixel_sha256": "7a8d9283b18b6d84815069df3277b8fba899c261a06328d37dd5574f82ce1f8f",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0094757080078125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1095",
+          "split": "train",
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 11966895307614190498,
+      "synthetic_parameters": {
+        "rotation_degrees": 14.657670875000164,
+        "scale": 1.0678931195604682,
+        "translation_xy": [
+          -0.6715673766765633,
+          5.394783457380786
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0331384960651393,
+          0.2702231721241733,
+          -39.35018007081392
+        ],
+        [
+          -0.2702231721241733,
+          1.0331384960651393,
+          35.62307965490761
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "b7f12cdae8fa825dde8f1b61cf89f8b74a2c481a4078e5a2c5b61de77278d486"
+    },
+    {
+      "id": "OSdataset/256/train/4365",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt4365.png",
+        "sha256": "764ea932440484a1d73508c701e116eafc0ab7dfd50f54af8627156830a36924",
+        "bytes": 38645,
+        "pixel_sha256": "f029b972219b4d3d9efad928493b8d37095dd2b4fe11349be196d343637e936b",
+        "minimum": [
+          9.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar4365.png",
+        "sha256": "8ce38dfd1cdce54fee359ccbf514c29dd070ded5ac44c676e1cc6def5ccf9634",
+        "bytes": 49248,
+        "pixel_sha256": "5ba5dcdc05e0bb41a3addf33b4e99cb7e0e8636bc23b661e5e4d2478040b3625",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0347900390625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1981",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 5524825669661572894,
+      "synthetic_parameters": {
+        "rotation_degrees": -13.219811286586815,
+        "scale": 0.9296556546011912,
+        "translation_xy": [
+          4.941173206161732,
+          5.685400385517848
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.905019674979096,
+          -0.2126006209602895,
+          44.157743818763905
+        ],
+        [
+          0.2126006209602895,
+          0.905019674979096,
+          -9.311187346753801
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "15b8961a70090066a28feb44ca60849c35d7e1c6edd7b55796d4f79726a30bf3"
+    },
+    {
+      "id": "OSdataset/256/train/448",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt448.png",
+        "sha256": "ac33b90c40e44da41eebe3c986d267cfb1a632de2c97c6ce9f983b61b6a2fefd",
+        "bytes": 38713,
+        "pixel_sha256": "9713f0358f6cba84fb0fc5afac63dd2a09c184fa492379c45152400bf7c4ae79",
+        "minimum": [
+          1.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar448.png",
+        "sha256": "6e4f7625790ee870239c13fd773cdf1aef2c4375bfedd36a77272fd1f8ababb0",
+        "bytes": 52086,
+        "pixel_sha256": "56784a45ab2e394a43898d9c8de41f21167e5bed6fff6de7621704637da9e046",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0308990478515625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1099",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 16887465980387114695,
+      "synthetic_parameters": {
+        "rotation_degrees": 9.421022564136695,
+        "scale": 0.977873099834515,
+        "translation_xy": [
+          9.518691866299239,
+          -11.906257442847277
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9646837125163481,
+          0.16006603070495334,
+          -6.3869003944166955
+        ],
+        [
+          -0.16006603070495334,
+          0.9646837125163481,
+          13.00498812619989
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "5f435bb592542f4ff1d80e6d249a787ab3f403526974ebf6e956930c4941c390"
+    },
+    {
+      "id": "OSdataset/256/train/4503",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt4503.png",
+        "sha256": "d60c2083a5bb051d9b80ac09a1bdab6425890aa865b176778ebd464eaf8cbaa2",
+        "bytes": 40968,
+        "pixel_sha256": "df9449208420ad8ad0529b69b99f15e4a1ce91f22cbea322d320fe6a8823d951",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0011444091796875
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar4503.png",
+        "sha256": "16e2c3533c2ccd0f23df7f094f02797885e7fb335b7765457c026bc1564f68bf",
+        "bytes": 54508,
+        "pixel_sha256": "73bec8bc16349fb6591eaf18275be45245b2932b3ecf7625319240824a6290d2",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.00604248046875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/2010",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 10866285376623072480,
+      "synthetic_parameters": {
+        "rotation_degrees": -6.604768598622961,
+        "scale": 1.0882036822518995,
+        "translation_xy": [
+          4.943625901052506,
+          -6.015930894138439
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0809814879182327,
+          -0.12516499848071308,
+          10.577023497768758
+        ],
+        [
+          0.12516499848071308,
+          1.0809814879182327,
+          -32.29960791000403
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "0221fe594fd080613d50952b47d21e4087e66c5bbd20f3a23aeb9a5d0eb1c884"
+    },
+    {
+      "id": "OSdataset/256/train/4585",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt4585.png",
+        "sha256": "b16996eebb84a9e0347c0ff2aa06d01bce2cc92826b787a1d2204dcb538f1293",
+        "bytes": 39443,
+        "pixel_sha256": "d2b9bb38d83d6a9fed0528a96e614f17da3610b390a1faa90362a53dcaa74054",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          233.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.000640869140625
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar4585.png",
+        "sha256": "1df9f261119407b7abc4d1c25062c9f9f426a7fcdfbf5cb40495dc2eaa81f169",
+        "bytes": 51783,
+        "pixel_sha256": "b9e41dee25a1c118cd2bc54d51c56df6f01186d624ae42b6a8efcefdff484eed",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0048828125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/22",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 4858797643500899900,
+      "synthetic_parameters": {
+        "rotation_degrees": -9.78818823009341,
+        "scale": 0.9867911051749589,
+        "translation_xy": [
+          12.139470674764489,
+          -1.3266847943971989
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9724263544528434,
+          -0.16776075350918548,
+          37.0446065544481
+        ],
+        [
+          0.16776075350918548,
+          0.9724263544528434,
+          -19.200541059555885
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "23aecef7d1d56e40ad05b1355575dd43593a79ebf178700f7350612b190b2178"
+    },
+    {
+      "id": "OSdataset/256/train/4588",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt4588.png",
+        "sha256": "e866f8454698e9b2043f00db9a81c44760579522dd13daaf2faa4f8201750d81",
+        "bytes": 38796,
+        "pixel_sha256": "a7ba1e1284954c9ccd601c80c459b6557dd2dcb9820827ebbed982676decc169",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0010833740234375
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar4588.png",
+        "sha256": "e666b7e0f39e663d306da5ff1735a135cfa9705188204d8536336de94b54f7fe",
+        "bytes": 49875,
+        "pixel_sha256": "4e7d3b26da0d07a7978b958384b3cb32243531cf6b3f2be104a03a6b33b9a163",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.021759033203125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/22",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 9628878714419125235,
+      "synthetic_parameters": {
+        "rotation_degrees": 12.464920688531024,
+        "scale": 0.9841750520598467,
+        "translation_xy": [
+          7.226089933307907,
+          13.73356560850262
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9609764115370277,
+          0.21242615085346497,
+          -14.882736771479912
+        ],
+        [
+          -0.21242615085346497,
+          0.9609764115370277,
+          45.793407371348366
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "9a416918cffeebfd9f887f5fd70cdd0f6c51b765c01cf5af5cf1ed9c64c0d8e8"
+    },
+    {
+      "id": "OSdataset/256/train/5021",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt5021.png",
+        "sha256": "36893c78be6b1072cc06b7b3ad1e621ec3e286523a5ab2ca878d985843d9d57a",
+        "bytes": 31333,
+        "pixel_sha256": "b19cf55484375384e6035850b0e869ecb18f23677b8598a6e11ce7f3a96aa97a",
+        "minimum": [
+          16.0
+        ],
+        "maximum": [
+          119.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar5021.png",
+        "sha256": "cabed01657848f65492fc84884826c4a5c49571797dbec16f09d5fce09908ace",
+        "bytes": 39330,
+        "pixel_sha256": "a27aee50c61c3fe4ef642fef0f5a1641ed1980488d8e059a76c5ffc7a967f92e",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.03179931640625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/318",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 16209526765371130551,
+      "synthetic_parameters": {
+        "rotation_degrees": 3.3909883620219077,
+        "scale": 1.0063888864581003,
+        "translation_xy": [
+          9.316335821485382,
+          -7.8983953944840515
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0046268438806893,
+          0.05952726552345827,
+          1.1366868724565595
+        ],
+        [
+          -0.05952726552345827,
+          1.0046268438806893,
+          -0.8985916350310132
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "eb289e65c218d251af4d02428ff9fc928c90777c267fd61aea8a9483852482e2"
+    },
+    {
+      "id": "OSdataset/256/train/509",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt509.png",
+        "sha256": "3d4a34b498046a5453e9ee48a345da3f9d4ad61b07e2165745dc0ec92b625c49",
+        "bytes": 40936,
+        "pixel_sha256": "638810d05b5deb52d21df36bc6a06c93e459b2f966bbde2fe97e44c6a24535a2",
+        "minimum": [
+          5.0
+        ],
+        "maximum": [
+          211.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar509.png",
+        "sha256": "c80d8a64bb3758a78a4186185ce019fb52691652e1222cecd7e890fc308fb9ab",
+        "bytes": 53182,
+        "pixel_sha256": "805389241c98642269b836705f121ffd4ebda4a7e754198173aa7f1b4f980905",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.021942138671875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1112",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 10530688653269711522,
+      "synthetic_parameters": {
+        "rotation_degrees": -2.0073697056400093,
+        "scale": 0.9821776376669819,
+        "translation_xy": [
+          -11.003989388654645,
+          -13.067036628111552
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9815749045021366,
+          -0.03440376120011397,
+          -4.268310159662528
+        ],
+        [
+          0.03440376120011397,
+          0.9815749045021366,
+          -15.104316505148498
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "4e5e270cedc10962de3333f51e858fb15781194a5fee58b17d3ba5420d366420"
+    },
+    {
+      "id": "OSdataset/256/train/5249",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt5249.png",
+        "sha256": "4b16d01e260b3c4c4bffe3fb98326bff5d8d82535b244db88661c55f86948e37",
+        "bytes": 44999,
+        "pixel_sha256": "da282b84bd35c85adaa5b0793c70b568c524298165b7fa093169ee4f5e1315e4",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0015716552734375
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar5249.png",
+        "sha256": "4e33799813b8c887b3d9060b6c94a3d816febc3df542de2985cc8efe5cf0f547",
+        "bytes": 52959,
+        "pixel_sha256": "5fbeef2dba0d18f7cd6f61e60bb030bd4251478ca11b579532d0106bf5d37620",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.003143310546875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/37",
+          "split": "train",
+          "x": 0,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 518702348850747278,
+      "synthetic_parameters": {
+        "rotation_degrees": 9.859480544215934,
+        "scale": 0.9522763589990239,
+        "translation_xy": [
+          7.622233327656634,
+          3.137947063151934
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9382118730162945,
+          0.16306055697100472,
+          -5.290001495724017
+        ],
+        [
+          -0.16306055697100472,
+          0.9382118730162945,
+          31.806154267377487
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "42384c4888fe61e46b4052f32ead79754380abe7debd637a5cf2dd15c8dbde64"
+    },
+    {
+      "id": "OSdataset/256/train/5732",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt5732.png",
+        "sha256": "b86a288c3a705824bb3831e4ed1a5f11081c4a72671dbb337aa2312a6812aba5",
+        "bytes": 40556,
+        "pixel_sha256": "1b5deb47ca358dd4397f5573431b397f0256be8b5dcd52f58007b481c57cc662",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0001373291015625
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar5732.png",
+        "sha256": "018940ec2208923a3c2b68aa4e30d491b469363c9d515651b3d1aadef7c7bb61",
+        "bytes": 54845,
+        "pixel_sha256": "800b79788df389d5ecfc83cd85ee01a2d6e8fb9f1cb5465f18785acdd208140b",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.023468017578125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/478",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 11988007598952490167,
+      "synthetic_parameters": {
+        "rotation_degrees": -14.218261799965202,
+        "scale": 0.9464766103706546,
+        "translation_xy": [
+          5.035319134197255,
+          -14.404957988157076
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.917483300443678,
+          -0.23247014299840615,
+          45.196141559925096
+        ],
+        [
+          0.23247014299840615,
+          0.917483300443678,
+          -33.5240220270228
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "5f9f6c851b31fe215045de17e382077c3bdbe66f8e08dcb1f6bf955b712ccf61"
+    },
+    {
+      "id": "OSdataset/256/train/5774",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt5774.png",
+        "sha256": "f52fd86230b94ff61584d8ac72228e97b4290b0b6654371478e60555eaf96a9c",
+        "bytes": 43355,
+        "pixel_sha256": "c7f8d038a3f5e71abea72c807a15f3af698aa83bcf347c51e98ebde8cfc70dcc",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0006866455078125
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar5774.png",
+        "sha256": "3ecf6d1cd6532de696f94ae996c815ed9b4f5ee812a15cc305b5a9a4be407225",
+        "bytes": 55297,
+        "pixel_sha256": "80ebeb94d674be2bd51cadfd9f5238d9f8a975922fde74ed01383360678ad73f",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0081329345703125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/488",
+          "split": "train",
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 6093013990421355295,
+      "synthetic_parameters": {
+        "rotation_degrees": -6.347640357925609,
+        "scale": 1.0399236556816183,
+        "translation_xy": [
+          13.505633193326098,
+          -9.055556985337116
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.033548268381971,
+          -0.11497472144280343,
+          23.88750595858223
+        ],
+        [
+          0.11497472144280343,
+          1.033548268381971,
+          -27.992238187995856
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "03f79ea6fc0b1b290d73afdc5f4aa5ff535ee1c0c588870ab75c8365994cf509"
+    },
+    {
+      "id": "OSdataset/256/train/5816",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt5816.png",
+        "sha256": "22b19f7ee71d9eef49585f900100b198339fd1672be83d8145059d9d9da2289f",
+        "bytes": 48450,
+        "pixel_sha256": "2aba23d88c2634d5290dd2ade4c239202b5c43c371d7cc67a5c18355921cf76a",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0001373291015625
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar5816.png",
+        "sha256": "ab590d7b60e72e3513ff92644a491ba40d7faae01fa76e15aa309ef4ac674f6d",
+        "bytes": 53741,
+        "pixel_sha256": "dda4c41a6e0a0b9c9735859bda9ba58c9059c43e2eb8699aa7ecddb096e9f114",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0262451171875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/497",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 8333078887552164834,
+      "synthetic_parameters": {
+        "rotation_degrees": -12.007106867509751,
+        "scale": 1.067023691000142,
+        "translation_xy": [
+          9.36980340400746,
+          7.007531856673587
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0436791377753813,
+          -0.22197615756653474,
+          32.102673427379514
+        ],
+        [
+          0.22197615756653474,
+          1.0436791377753813,
+          -26.86351829942071
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "a670bb0068bcd097853d3b8ce88cf72f3c16dc15f37d1cb55891402cc2fa51b5"
+    },
+    {
+      "id": "OSdataset/256/train/606",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt606.png",
+        "sha256": "8560dff15704355639f3f0d6cc5854a70db51fc63dd3ef8b20c1b03bd583e188",
+        "bytes": 36288,
+        "pixel_sha256": "421af034b3c870ece41e3fc44500e9ab3d13ebc0cef5464024335a65ac9fd741",
+        "minimum": [
+          4.0
+        ],
+        "maximum": [
+          252.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar606.png",
+        "sha256": "d256e63434feb7eeec1903ab78ff7b8c902d5a0f81e3a852ebfb6cf272854345",
+        "bytes": 39216,
+        "pixel_sha256": "c78739820625ed799741ecd496c7d63eb77b0b5365bc8cf65648f2d898148bd9",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.00946044921875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1134",
+          "split": "train",
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 15636571733906984295,
+      "synthetic_parameters": {
+        "rotation_degrees": 15.968628397860925,
+        "scale": 0.9625932950430167,
+        "translation_xy": [
+          8.396096308581512,
+          -13.5347174008648
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9254492009506293,
+          0.2648199919220863,
+          -15.863225782689728
+        ],
+        [
+          -0.2648199919220863,
+          0.9254492009506293,
+          29.73505844799596
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "eded153d715abeac5876b9ab2b5ae4c6a87374273bc01b4dae367d52864b4a93"
+    },
+    {
+      "id": "OSdataset/256/train/6080",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt6080.png",
+        "sha256": "ff43daec4c4beff0ef9884eca62849619033a1094e5583e0364d7d92ce600ae6",
+        "bytes": 26197,
+        "pixel_sha256": "97c5e609b1af30f38391ea674262c8b69a8271f0deeaf2430c449d238c0fbf34",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          254.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          7.62939453125e-05
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar6080.png",
+        "sha256": "4bdd59b4594d2302a2e506022867a065782da817c31842cbb9f47602e204a137",
+        "bytes": 42075,
+        "pixel_sha256": "5741d3da0c0065dcf0fdd2f8f5f45bd2f570c08286065e92d16e78360ffb3b2e",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0293121337890625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/556",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 5875749915901975603,
+      "synthetic_parameters": {
+        "rotation_degrees": 15.25512116455723,
+        "scale": 1.0643397772889935,
+        "translation_xy": [
+          -5.048907134817711,
+          15.844959661160004
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          1.0268364986014997,
+          0.2800463651958311,
+          -44.17647226897739
+        ],
+        [
+          -0.2800463651958311,
+          1.0268364986014997,
+          48.12921765193725
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "9c3b026aaec85e7d91646020881192e8cacf84f92df7ff6e4fe489ff4a22654f"
+    },
+    {
+      "id": "OSdataset/256/train/6416",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt6416.png",
+        "sha256": "af742af109247e91eb5cdda975d4a17663a0aa51ba3ed7d34e61ae04c05232a5",
+        "bytes": 42999,
+        "pixel_sha256": "f9abf601fec9137d03e2cedc1463490f90cc4339dcf2b9f26490e9b080728c5e",
+        "minimum": [
+          7.0
+        ],
+        "maximum": [
+          252.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar6416.png",
+        "sha256": "50d72adddb8551d255b78307c7fe05dc2a2d07574e0f03a9e885d34d884e6c18",
+        "bytes": 48517,
+        "pixel_sha256": "c0327b770c551cdfc3bdb0ee3465f10a6f1aedb7b9ee6c310013346fa9a84ed4",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0196990966796875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/631",
+          "split": "train",
+          "x": 256,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 17283107559515364930,
+      "synthetic_parameters": {
+        "rotation_degrees": -10.122805073603093,
+        "scale": 0.972767505392748,
+        "translation_xy": [
+          0.22790976551588926,
+          12.144244515154597
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9576247273081591,
+          -0.17097222346335655,
+          27.429715525303568
+        ],
+        [
+          0.17097222346335655,
+          0.9576247273081591,
+          -4.251866708213644
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "dcb0ad0927b16794900063ddf395d25308979520262dc75e8491834462d3de16"
+    },
+    {
+      "id": "OSdataset/256/train/687",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt687.png",
+        "sha256": "3c1c8b694e6b5d827e770acb5b5d460775961d2f2ee7335baa0b6a230a7c18e6",
+        "bytes": 40097,
+        "pixel_sha256": "7e8d48efe355ad7b568c708847f8d4fd4c0d0704889da85340417fb6a39058c9",
+        "minimum": [
+          4.0
+        ],
+        "maximum": [
+          246.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar687.png",
+        "sha256": "91904c74b275a54683da4e973ffe233701547ad1ea4c5398a84129914fc2a957",
+        "bytes": 54698,
+        "pixel_sha256": "9023555c3eee50e8d0d2c0df0ad8d898800d64cfdbf583f23d77b899c88c4647",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0116729736328125
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1152",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 2593078496808427608,
+      "synthetic_parameters": {
+        "rotation_degrees": -12.753305318172657,
+        "scale": 0.9626423786556398,
+        "translation_xy": [
+          -3.58176470148333,
+          -6.664777546848928
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9388935937384063,
+          -0.21250686770259633,
+          31.303927728950903
+        ],
+        [
+          0.21250686770259633,
+          0.9388935937384063,
+          -25.968336380576766
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "a69ab55cd7cc2360383d19bdad4a1fccb2381cb52e6a47ded97651dd1eb42e22"
+    },
+    {
+      "id": "OSdataset/256/train/71",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt71.png",
+        "sha256": "ca16aaebe1aab1dd195956f3fe8489b87b84386be75cc510ff204c8d458e5073",
+        "bytes": 42167,
+        "pixel_sha256": "2e6853f9eb459f93c829748c21c8fe5098760ae0c98c480b35a988cadb2b8146",
+        "minimum": [
+          13.0
+        ],
+        "maximum": [
+          205.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar71.png",
+        "sha256": "a2dc6f1b823eb91380a66a009cc64f9f73a6957ff696acc21c1f55a9ef9ae824",
+        "bytes": 49981,
+        "pixel_sha256": "73dfb985120cdd091ba49dfb373c63ecde24ce4363f37477b04a41f1ec6d0887",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0139617919921875
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/1013",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 5148261472430702781,
+      "synthetic_parameters": {
+        "rotation_degrees": -4.434787852508087,
+        "scale": 0.9639679591354839,
+        "translation_xy": [
+          -8.127122205203658,
+          -15.010934276137078
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9610818270430962,
+          -0.07453823158174766,
+          6.338569373474403
+        ],
+        [
+          0.07453823158174766,
+          0.9610818270430962,
+          -19.55249175080467
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "c92bff0e13f0bcaa5053b767070c18007a768ffb543453162fd4700368baeff4"
+    },
+    {
+      "id": "OSdataset/256/train/7438",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt7438.png",
+        "sha256": "7a6040db8753a32b636dd5d9d41b53b7d7c6f6ba70466bccc483f709360bd682",
+        "bytes": 37164,
+        "pixel_sha256": "aad40a373465a59b85164ec7deb3b84e287fc5cb72c801e57a7ff0cedde9f3c1",
+        "minimum": [
+          4.0
+        ],
+        "maximum": [
+          220.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar7438.png",
+        "sha256": "14b7a0d0c7334ed6aa6fa19e9d9eb39061287266b160fbcc4960566f8435863e",
+        "bytes": 46836,
+        "pixel_sha256": "a6059f655bd6fb4f84fc2b56ecbccd2d78815e55a8777216573e8801829d718c",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0062408447265625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/862",
+          "split": "train",
+          "x": 256,
+          "y": 0
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 3326030551296711577,
+      "synthetic_parameters": {
+        "rotation_degrees": -6.992550257406233,
+        "scale": 0.9118454926213531,
+        "translation_xy": [
+          0.861325250334879,
+          10.992535533574049
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9050631758283588,
+          -0.11100833380140133,
+          27.1193328918978
+        ],
+        [
+          0.11100833380140133,
+          0.9050631758283588,
+          8.94341805577963
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "22677d25923cbff57eddba756c6e8cdf16a28acc2fe7aded0bd30cd2f2061060"
+    },
+    {
+      "id": "OSdataset/256/train/8023",
+      "split": "official_train_engineering_only",
+      "optical": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/opt8023.png",
+        "sha256": "f089b3f048f4feaf93e2a726533e5458616785e3ca332cb821aeabcf9fd5228e",
+        "bytes": 46296,
+        "pixel_sha256": "e62cac3f8b64dae0af78a550f91a71714df6096724d0fdf844d33001fd0b31de",
+        "minimum": [
+          2.0
+        ],
+        "maximum": [
+          248.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0
+        ]
+      },
+      "sar": {
+        "width": 256,
+        "height": 256,
+        "channels": 1,
+        "mode": "L",
+        "dtype": [
+          "uint8"
+        ],
+        "crs": null,
+        "transform": null,
+        "bounds": null,
+        "nodata": null,
+        "gcps_count": 0,
+        "rpcs_present": false,
+        "spectral_mapping": "stored PNG channels; no replication or conversion",
+        "path": "/mnt/sda/zhushihao/data/vis_sar/OSDataset2.0/Patch-level Subset/OSdataset/256/train/sar8023.png",
+        "sha256": "5a161c9bafe4f43140dce79b38f06ed5c3dc15d42892b4b0523f7ea5acb98d9a",
+        "bytes": 45516,
+        "pixel_sha256": "9ecab2875cb99391b71e408a79a90212b6bd04c10c8f344d97e7c35939d67416",
+        "minimum": [
+          0.0
+        ],
+        "maximum": [
+          255.0
+        ],
+        "nonfinite_count": 0,
+        "valid_pixels_per_band": [
+          65536
+        ],
+        "masked_fraction": [
+          0.0
+        ],
+        "zero_fraction": [
+          0.0138092041015625
+        ]
+      },
+      "native_hw": [
+        256,
+        256
+      ],
+      "resize": false,
+      "channel_conversion": false,
+      "normalization": "uint8 / 127.5 - 1",
+      "raw_window_mapping": [
+        {
+          "parent_id": "OSdataset/512/train/994",
+          "split": "train",
+          "x": 0,
+          "y": 256
+        }
+      ],
+      "parent_scene_id": null,
+      "synthetic_seed": 16491131702110888063,
+      "synthetic_parameters": {
+        "rotation_degrees": 17.968566838051807,
+        "scale": 1.0245890978706296,
+        "translation_xy": [
+          -8.9049392749959,
+          -13.308161492169027
+        ]
+      },
+      "synthetic_matrix": [
+        [
+          0.9746156904902197,
+          0.3160808050572239,
+          -45.96874245729495
+        ],
+        [
+          -0.3160808050572239,
+          0.9746156904902197,
+          30.228640615124014
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base_optical_to_sar": "nominal identity from publisher coregistration claim; per-patch residual unknown",
+      "transform_direction": "optical native pixel -> perturbed SAR, conditional on nominal base identity",
+      "transform_chain": "A_s @ B_nominal; B_nominal=I, no additional crop/resize",
+      "interpolation": "OpenCV INTER_LINEAR",
+      "fill": 0,
+      "masks": "native extent and full interpolation support; zero values remain valid",
+      "fine_supervision_certified": false,
+      "generated_sar_pixel_sha256": "31195a22b407285f703209bbd64e4e8f05d4d4b6744f305d6c952d5b474d8c35"
+    }
+  ],
+  "extra_geometric_augmentation": false,
+  "transformations_frozen_across_epochs": true,
+  "scene_independence_verified": false,
+  "official_val_or_test_used": false,
+  "UBC_used": false,
+  "purpose": "engineering_only_relative_to_known_synthetic_transform_and_publisher_claimed_base_alignment"
+}

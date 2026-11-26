@@ -1,0 +1,11 @@
+{
+  "files": {
+    "os/manifest.jsonl": "c364bd0fd6a2ebafd29865c7f5d16e65c6f2edf6513dc066a49230de83a1fa6a",
+    "ubcv2/manifest.jsonl": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d",
+    "ubcv2/frozen_policy.json": "a4ec18b01018507e51133eb2ed65188d294410b950a7399582957c2dc1dec286",
+    "ubcv2/frozen_exclusions.csv": "6d7d0b99f992484ddb67b83e24b58fcc43cd4cd9efbb06443837d584bea881f0",
+    "ubcv2/frozen_evaluation_pool.csv": "b497ed6990cc9bc01c0b7bea9c21cd083c61fe8831afe326880c9b52cb86e394"
+  },
+  "model_data_scope": "OS official train only; no validation or UBC model run",
+  "resized": false
+}

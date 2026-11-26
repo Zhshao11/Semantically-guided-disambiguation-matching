@@ -1,0 +1,461 @@
+[
+  {
+    "id": "test/SV_AddisAbaba_9.0077_38.7395",
+    "file": "preview_000.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/GF2_Barcelona_41.4202_2.2166",
+    "file": "preview_001.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Berlin_52.5173_13.4947",
+    "file": "preview_002.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Brasilia_-15.8541_-47.9075",
+    "file": "preview_003.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Copenhagen_55.6744_12.5882",
+    "file": "preview_004.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Darwin_-12.3976_130.8774",
+    "file": "preview_005.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/GF2_Jacksonville_30.3348_-81.6375",
+    "file": "preview_006.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_NewDelhi_28.5963_77.0514",
+    "file": "preview_007.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_NewYork_40.7295_-73.9784",
+    "file": "preview_008.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Portsmouth_50.7876_-1.0639",
+    "file": "preview_009.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Rio_-22.9015_-43.1731",
+    "file": "preview_010.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_SanDiego_32.7216_-117.2307",
+    "file": "preview_011.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_SaoLuis_-2.5379_-44.2987",
+    "file": "preview_012.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_SaoPaulo_-23.5230_-46.6243",
+    "file": "preview_013.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Suzhou_31.2946_120.7449",
+    "file": "preview_014.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/SV_Sydney_-33.8725_151.1924",
+    "file": "preview_015.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "test/GF2_Tokyo_35.4342_139.6920",
+    "file": "preview_016.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "test"
+  },
+  {
+    "id": "train/SV_AddisAbaba_9.0296_38.6952",
+    "file": "preview_017.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/GF2_Barcelona_41.4376_2.1991",
+    "file": "preview_018.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Berlin_52.5172_13.4800",
+    "file": "preview_019.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Brasilia_-15.8399_-47.9137",
+    "file": "preview_020.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Copenhagen_55.6771_12.5562",
+    "file": "preview_021.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Darwin_-12.4239_130.8688",
+    "file": "preview_022.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Jacksonville_30.2994_-81.6544",
+    "file": "preview_023.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_NewDelhi_28.5874_77.0442",
+    "file": "preview_024.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_NewYork_40.7334_-73.9953",
+    "file": "preview_025.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Portsmouth_50.7969_-1.0777",
+    "file": "preview_026.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Rio_-22.9082_-43.1956",
+    "file": "preview_027.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_SanDiego_32.7261_-117.2405",
+    "file": "preview_028.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_SaoLuis_-2.5330_-44.2939",
+    "file": "preview_029.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_SaoPaulo_-23.5201_-46.6356",
+    "file": "preview_030.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Suzhou_31.2951_120.7720",
+    "file": "preview_031.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/SV_Sydney_-33.8662_151.1874",
+    "file": "preview_032.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "train/GF2_Tokyo_35.4751_139.6752",
+    "file": "preview_033.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "train"
+  },
+  {
+    "id": "val/SV_AddisAbaba_9.0189_38.7447",
+    "file": "preview_034.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/GF2_Barcelona_41.4316_2.2011",
+    "file": "preview_035.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Berlin_52.5262_13.4682",
+    "file": "preview_036.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Brasilia_-15.8490_-47.9031",
+    "file": "preview_037.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Copenhagen_55.6849_12.5507",
+    "file": "preview_038.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Darwin_-12.4209_130.8900",
+    "file": "preview_039.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/GF2_Jacksonville_30.3347_-81.6543",
+    "file": "preview_040.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_NewDelhi_28.5761_77.0408",
+    "file": "preview_041.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_NewYork_40.7309_-73.9732",
+    "file": "preview_042.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Portsmouth_50.7907_-1.0780",
+    "file": "preview_043.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Rio_-22.9096_-43.1877",
+    "file": "preview_044.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_SanDiego_32.7227_-117.2405",
+    "file": "preview_045.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_SaoLuis_-2.5379_-44.2940",
+    "file": "preview_046.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_SaoPaulo_-23.5306_-46.6311",
+    "file": "preview_047.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/GF2_Suzhou_31.2777_120.7460",
+    "file": "preview_048.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/SV_Sydney_-33.8678_151.1983",
+    "file": "preview_049.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  },
+  {
+    "id": "val/GF2_Tokyo_35.4460_139.6935",
+    "file": "preview_050.png",
+    "native_hw": [
+      512,
+      512
+    ],
+    "subset": "val"
+  }
+]

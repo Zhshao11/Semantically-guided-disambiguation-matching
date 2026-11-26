@@ -1,0 +1,23 @@
+{
+  "pairs": 7314,
+  "same_native_optical_sar_grid": 7314,
+  "crs_counts": {
+    "EPSG:32637": 111,
+    "EPSG:32631": 403,
+    "EPSG:32723": 890,
+    "EPSG:32633": 1472,
+    "EPSG:32617": 740,
+    "EPSG:32643": 213,
+    "EPSG:32618": 300,
+    "EPSG:32651": 1076,
+    "EPSG:32654": 1039,
+    "EPSG:32752": 540,
+    "EPSG:32630": 318,
+    "EPSG:32611": 144,
+    "EPSG:32756": 68
+  },
+  "bounds_available": 7314,
+  "no_grid_equality_precision_claim": true,
+  "parent_acquisition_scene_ids_recovered": false,
+  "raw_SAR_units": "physical amplitude/intensity interpretation not established; retain float32 values, not the older local generated uint8 conversion"
+}

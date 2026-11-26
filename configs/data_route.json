@@ -8,8 +8,27 @@
     "native_alignment_precision_verified": false,
     "separate_validation_split_confirmed": false
   },
-  "formal_route": {
-    "selected_direction": "rebuild_from_original_WHU_OPT_SAR_with_parent_image_ids",
+  "alternative_under_review": {
+    "name": "SOPatch Image/SEN1-2 finely registered version cited by SOMA",
+    "release_listing_verified": true,
+    "local_download_and_decode_verified": false,
+    "parent_grouping_verified": false,
+    "independent_residuals_verified": false,
+    "training_ready": false,
+    "image_archive_bytes": 1288995743,
+    "patch_archive_bytes": 1111176893,
+    "note": "Image and Patch archives are distinct. A reachable listing does not establish equivalence to SOMA's exact files or registration accuracy."
+  },
+  "positive_neighborhood_policy": "Fixed 8 original pixels in the coarse engineering smoke. Do not widen it to compensate for unknown native alignment error.",
+  "current_data_roles": {
+    "OS-dataset": "main training and in-domain validation/test candidates; pilot smoke now, geographic independence not asserted",
+    "UBCv2": "cross-domain evaluation after model freeze; prior analysis exposed; no hyperparameter tuning; frozen file eligibility",
+    "SRIF": "supplementary external validation",
+    "SpaceNet9": "supplementary external validation",
+    "WHU": "preserve existing engineering; reconstruction paused"
+  },
+  "whu_rebuild_history": {
+    "selected_direction": "WHU_reconstruction_paused_by_user",
     "training_ready": false,
     "group_before_cropping": true,
     "prealignment_if_needed": "Fit on training-source correspondences and assess on independent held-out checkpoints. Record pseudo-label status.",
@@ -26,18 +45,18 @@
     "native_base_admission": "not_certified_for_8px_coarse_or_1to2px_fine_supervision",
     "generator_status": "implemented and tested on synthetic fixtures; no real training crops generated",
     "retriever_migration_status": "deferred_until_data_admission; current single-band network and metrics unchanged",
-    "geographic_independence_admitted": false
+    "geographic_independence_admitted": false,
+    "user_requested_pause": true
   },
-  "alternative_under_review": {
-    "name": "SOPatch Image/SEN1-2 finely registered version cited by SOMA",
-    "release_listing_verified": true,
-    "local_download_and_decode_verified": false,
-    "parent_grouping_verified": false,
-    "independent_residuals_verified": false,
-    "training_ready": false,
-    "image_archive_bytes": 1288995743,
-    "patch_archive_bytes": 1111176893,
-    "note": "Image and Patch archives are distinct. A reachable listing does not establish equivalence to SOMA's exact files or registration accuracy."
-  },
-  "positive_neighborhood_policy": "Fixed 8 original pixels in the coarse engineering smoke. Do not widen it to compensate for unknown native alignment error."
+  "formal_route": {
+    "selected_direction": "OS_native_coregistered_pairs_with_known_synthetic_affine_for_coarse_retrieval",
+    "coarse_training_source_usable_under_publisher_alignment_assumption": true,
+    "training_ready": "native OS reader and fixed32 smoke passed; formal full training not run",
+    "fine_precision_certified": false,
+    "geographic_validation_ready": false,
+    "official_sample_splits_available": true,
+    "parent_scene_mapping": "unknown; exact 256-to-512 crop linkage recovered but not acquisition-scene IDs",
+    "positive_radius_policy": "fixed 8 native pixels; not widened to absorb unknown base errors",
+    "UBC_model_evaluation_run": false
+  }
 }

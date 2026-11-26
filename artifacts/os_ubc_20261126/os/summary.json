@@ -1,0 +1,341 @@
+{
+  "actual_pairs": 17168,
+  "subset_counts": {
+    "American": 297,
+    "Argentina": 436,
+    "Australian": 341,
+    "Germany": 409,
+    "Japan": 313,
+    "Katar": 399,
+    "Malaysia": 263,
+    "OSdataset/256/test": 1696,
+    "OSdataset/256/train": 8044,
+    "OSdataset/256/val": 952,
+    "OSdataset/512/test": 424,
+    "OSdataset/512/train": 2011,
+    "OSdataset/512/val": 238,
+    "Poland": 337,
+    "Russia": 257,
+    "Russia2": 139,
+    "Russia3": 96,
+    "Singapore": 183,
+    "Turkey": 333
+  },
+  "hard_exclusion_counts": {},
+  "missing_or_damaged_pairs": 0,
+  "native_profiles": [
+    {
+      "profile": "American|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 297,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "American|sar|512x512|C1|uint8",
+      "images": 297,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Argentina|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 436,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Argentina|sar|512x512|C1|uint8",
+      "images": 436,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Australian|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 341,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Australian|sar|512x512|C1|uint8",
+      "images": 341,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Germany|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 409,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Germany|sar|512x512|C1|uint8",
+      "images": 409,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Japan|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 313,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Japan|sar|512x512|C1|uint8",
+      "images": 313,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Katar|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 399,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Katar|sar|512x512|C1|uint8",
+      "images": 399,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Malaysia|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 263,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Malaysia|sar|512x512|C1|uint8",
+      "images": 263,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/test|optical|256x256|C1|uint8",
+      "images": 1696,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/test|sar|256x256|C1|uint8",
+      "images": 1696,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/train|optical|256x256|C1|uint8",
+      "images": 8044,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/train|sar|256x256|C1|uint8",
+      "images": 8044,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/val|optical|256x256|C1|uint8",
+      "images": 952,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/256/val|sar|256x256|C1|uint8",
+      "images": 952,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/test|optical|512x512|C1|uint8",
+      "images": 424,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/test|sar|512x512|C1|uint8",
+      "images": 424,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/train|optical|512x512|C1|uint8",
+      "images": 2011,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/train|sar|512x512|C1|uint8",
+      "images": 2011,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/val|optical|512x512|C1|uint8",
+      "images": 238,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "OSdataset/512/val|sar|512x512|C1|uint8",
+      "images": 238,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Poland|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 337,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Poland|sar|512x512|C1|uint8",
+      "images": 337,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia2|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 139,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia2|sar|512x512|C1|uint8",
+      "images": 139,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia3|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 96,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia3|sar|512x512|C1|uint8",
+      "images": 96,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 257,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Russia|sar|512x512|C1|uint8",
+      "images": 257,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Singapore|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 183,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Singapore|sar|512x512|C1|uint8",
+      "images": 183,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Turkey|optical|512x512|C3|uint8,uint8,uint8",
+      "images": 333,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    },
+    {
+      "profile": "Turkey|sar|512x512|C1|uint8",
+      "images": 333,
+      "observed_range": [
+        0.0,
+        255.0
+      ]
+    }
+  ],
+  "images_resized": false,
+  "pixel_zero_automatically_invalid": false,
+  "cross_resolution": {
+    "tiles_256": 10692,
+    "matched_exactly": 10692,
+    "ambiguous_matches": 264,
+    "cross_split_matches": 0,
+    "geographic_scene_mapping": "unknown; 512 crop parent identity is not a full acquisition scene"
+  }
+}

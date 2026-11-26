@@ -1,0 +1,149 @@
+{
+  "exact_joint_pixel_duplicate_groups": 165,
+  "redundant_pairs": 165,
+  "cross_official_split_duplicate_groups": 0,
+  "subset_unique_pairs": {
+    "American": 297,
+    "Argentina": 436,
+    "Australian": 341,
+    "Germany": 409,
+    "Japan": 313,
+    "Katar": 399,
+    "Malaysia": 263,
+    "OSdataset/256/test": 1696,
+    "OSdataset/256/train": 7912,
+    "OSdataset/256/val": 952,
+    "OSdataset/512/test": 424,
+    "OSdataset/512/train": 1978,
+    "OSdataset/512/val": 238,
+    "Poland": 337,
+    "Russia": 257,
+    "Russia2": 139,
+    "Russia3": 96,
+    "Singapore": 183,
+    "Turkey": 333
+  },
+  "duplicate_group_examples": [
+    [
+      "OSdataset/256/train/1001",
+      "OSdataset/256/train/2009"
+    ],
+    [
+      "OSdataset/256/train/1002",
+      "OSdataset/256/train/2010"
+    ],
+    [
+      "OSdataset/256/train/1003",
+      "OSdataset/256/train/2011"
+    ],
+    [
+      "OSdataset/256/train/1004",
+      "OSdataset/256/train/2012"
+    ],
+    [
+      "OSdataset/256/train/1013",
+      "OSdataset/256/train/2013"
+    ],
+    [
+      "OSdataset/256/train/1014",
+      "OSdataset/256/train/2014"
+    ],
+    [
+      "OSdataset/256/train/1015",
+      "OSdataset/256/train/2015"
+    ],
+    [
+      "OSdataset/256/train/1016",
+      "OSdataset/256/train/2016"
+    ],
+    [
+      "OSdataset/256/train/1025",
+      "OSdataset/256/train/2017"
+    ],
+    [
+      "OSdataset/256/train/1026",
+      "OSdataset/256/train/2018"
+    ],
+    [
+      "OSdataset/256/train/1027",
+      "OSdataset/256/train/2019"
+    ],
+    [
+      "OSdataset/256/train/1028",
+      "OSdataset/256/train/2020"
+    ],
+    [
+      "OSdataset/256/train/1145",
+      "OSdataset/256/train/2173"
+    ],
+    [
+      "OSdataset/256/train/1146",
+      "OSdataset/256/train/2174"
+    ],
+    [
+      "OSdataset/256/train/1147",
+      "OSdataset/256/train/2175"
+    ],
+    [
+      "OSdataset/256/train/1148",
+      "OSdataset/256/train/2176"
+    ],
+    [
+      "OSdataset/256/train/1177",
+      "OSdataset/256/train/2177"
+    ],
+    [
+      "OSdataset/256/train/1178",
+      "OSdataset/256/train/2178"
+    ],
+    [
+      "OSdataset/256/train/1179",
+      "OSdataset/256/train/2179"
+    ],
+    [
+      "OSdataset/256/train/1180",
+      "OSdataset/256/train/2180"
+    ],
+    [
+      "OSdataset/256/train/1217",
+      "OSdataset/256/train/1697"
+    ],
+    [
+      "OSdataset/256/train/1218",
+      "OSdataset/256/train/1698"
+    ],
+    [
+      "OSdataset/256/train/1219",
+      "OSdataset/256/train/1699"
+    ],
+    [
+      "OSdataset/256/train/1220",
+      "OSdataset/256/train/1700"
+    ],
+    [
+      "OSdataset/256/train/1233",
+      "OSdataset/256/train/2053"
+    ],
+    [
+      "OSdataset/256/train/1234",
+      "OSdataset/256/train/2054"
+    ],
+    [
+      "OSdataset/256/train/1235",
+      "OSdataset/256/train/2055"
+    ],
+    [
+      "OSdataset/256/train/1236",
+      "OSdataset/256/train/2056"
+    ],
+    [
+      "OSdataset/256/train/1237",
+      "OSdataset/256/train/2069"
+    ],
+    [
+      "OSdataset/256/train/1238",
+      "OSdataset/256/train/2070"
+    ]
+  ],
+  "meaning": "Repeated pixel content is established; absence of detected duplicates never establishes geographic independence"
+}

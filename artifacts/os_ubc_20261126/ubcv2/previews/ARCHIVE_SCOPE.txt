@@ -1,0 +1,1 @@
+Only selected native previews archived in Git; full index and all previews retained in outputs/ and server reports/.
