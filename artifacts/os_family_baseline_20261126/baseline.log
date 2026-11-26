@@ -1,0 +1,31 @@
+{"stage": "small32_isolated_validation", "metrics": {"tag": "small32_validation", "split": "val", "pairs": 952, "families": 238, "supervised_queries": 116953, "loss": 5.005896912513341, "recall_at_1": 0.05715971373115696, "recall_at_4": 0.13615725975391824, "native_recall_radius_px": 8.0, "candidates_per_source": 4, "nearest_candidate_distance_px": {"0": 0.018805813044309616, "5": 3.8426513195037844, "25": 13.4910306930542, "50": 28.53605079650879, "75": 53.526405334472656, "90": 81.52093963623047, "95": 99.76834716796873, "99": 136.1574633789062, "100": 241.90237426757812}, "pair_distributions": {"recall_at_1": {"0": 0.0, "5": 0.01694915254237288, "25": 0.03389830508474576, "50": 0.0515973630831643, "75": 0.07377049180327869, "90": 0.09445965993381261, "95": 0.11227138953121711, "99": 0.1443992490613267, "100": 0.16783216783216784}, "recall_at_4": {"0": 0.009174311926605505, "5": 0.0570383275261324, "25": 0.09640688259109312, "50": 0.128, "75": 0.1653055248259257, "90": 0.20167389536459746, "95": 0.22058823529411764, "99": 0.27517753623188407, "100": 0.3157894736842105}, "nearest_median_px": {"0": 14.311911582946777, "5": 19.075481414794922, "25": 24.57963275909424, "50": 28.84122371673584, "75": 34.26872539520264, "90": 38.37903022766113, "95": 41.18029441833494, "99": 47.59661361694336, "100": 50.12107276916504}, "nearest_p95_px": {"0": 51.55358200073241, "5": 75.2275338745117, "25": 87.97057590484619, "50": 96.39127044677733, "75": 105.56545400619507, "90": 115.46483119964597, "95": 119.93810764312742, "99": 129.9999988365173, "100": 144.41547393798828}}, "pair_macro_recall_at_1": 0.05582719705394124, "pair_macro_recall_at_4": 0.13358592180216902, "pairs_recall4_below_half": 952, "pairs_without_supervised_queries": 0, "masked": {"gt_outside": 20135, "empty_positive": 0, "invalid_source": 0, "gt_invalid_support": 0}, "all_supervised_distances_finite": true, "source_family_isolation": true, "geographic_independence": "not_claimed", "test_evaluated": false, "UBC_evaluated": false, "label_interpretation": "relative to exact synthetic affine over publisher-claimed co-registered base; native residual unknown"}}
+{"epoch": 0, "train_recall4": 0.026954391363733607, "validation_recall4": 0.02707070361598249}
+/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/scripts/train_os_family_baseline.py:187: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.
+Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)
+  loss_sum += float(loss) * n
+{"epoch": 1, "steps": 1978, "augmented_training_loss": 2.9808513603278546, "queries": 974020, "wall_seconds": 50.37368781201076}
+{"epoch": 1, "train_recall4": 0.5031822370694621, "validation_recall4": 0.45620890443169476}
+{"epoch": 2, "steps": 3956, "augmented_training_loss": 2.3410609205859743, "queries": 972062, "wall_seconds": 50.09240505902562}
+{"epoch": 3, "steps": 5934, "augmented_training_loss": 2.1768075667054467, "queries": 972347, "wall_seconds": 49.717114086961374}
+{"epoch": 4, "steps": 7912, "augmented_training_loss": 2.0748823246713592, "queries": 972014, "wall_seconds": 49.37836479500402}
+{"epoch": 5, "steps": 9890, "augmented_training_loss": 1.9848894985392307, "queries": 973640, "wall_seconds": 48.67142851901008}
+{"epoch": 5, "train_recall4": 0.6153854065528988, "validation_recall4": 0.5548724701375767}
+{"epoch": 6, "steps": 11868, "augmented_training_loss": 1.9267801105444264, "queries": 973123, "wall_seconds": 49.33297783898888}
+{"epoch": 7, "steps": 13846, "augmented_training_loss": 1.8847443286611312, "queries": 972186, "wall_seconds": 49.014189731969964}
+{"epoch": 8, "steps": 15824, "augmented_training_loss": 1.8549339692783213, "queries": 971915, "wall_seconds": 48.367328624997754}
+{"epoch": 9, "steps": 17802, "augmented_training_loss": 1.8242432641924051, "queries": 971772, "wall_seconds": 48.94906568003353}
+{"epoch": 10, "steps": 19780, "augmented_training_loss": 1.801332682066105, "queries": 971837, "wall_seconds": 48.76835975499125}
+{"epoch": 10, "train_recall4": 0.6530446212582487, "validation_recall4": 0.5820885312903474}
+{"epoch": 11, "steps": 21758, "augmented_training_loss": 1.7801331446479811, "queries": 971617, "wall_seconds": 49.54114408401074}
+{"epoch": 12, "steps": 23736, "augmented_training_loss": 1.7602190423664694, "queries": 973446, "wall_seconds": 49.307220834016334}
+{"epoch": 13, "steps": 25714, "augmented_training_loss": 1.7427719428321748, "queries": 974193, "wall_seconds": 48.31818890501745}
+{"epoch": 14, "steps": 27692, "augmented_training_loss": 1.736810821415177, "queries": 971062, "wall_seconds": 45.85483679600293}
+{"epoch": 15, "steps": 29670, "augmented_training_loss": 1.7174120388719156, "queries": 973728, "wall_seconds": 48.163928775989916}
+{"epoch": 15, "train_recall4": 0.6709614182039594, "validation_recall4": 0.5867912751276154}
+{"epoch": 16, "steps": 31648, "augmented_training_loss": 1.7068254121317203, "queries": 973523, "wall_seconds": 47.417427675041836}
+{"epoch": 17, "steps": 33626, "augmented_training_loss": 1.6951963640505658, "queries": 973974, "wall_seconds": 47.6044360389933}
+{"epoch": 18, "steps": 35604, "augmented_training_loss": 1.6856821984988655, "queries": 973387, "wall_seconds": 46.09593503904762}
+{"epoch": 19, "steps": 37582, "augmented_training_loss": 1.680241190877961, "queries": 972046, "wall_seconds": 45.01736726803938}
+{"epoch": 20, "steps": 39560, "augmented_training_loss": 1.670476614934893, "queries": 972797, "wall_seconds": 50.69114399299724}
+{"epoch": 20, "train_recall4": 0.6845810637352511, "validation_recall4": 0.5982659700905492}
+BASELINE_COMPLETE

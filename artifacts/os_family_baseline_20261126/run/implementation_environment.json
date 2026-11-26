@@ -1,0 +1,23 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "Pillow": "12.3.0",
+    "torch": "2.11.0+cu128",
+    "rasterio": "1.4.4",
+    "pyproj": "3.7.1",
+    "shapely": "2.1.2",
+    "pytest": "9.2.0"
+  },
+  "code_hashes": {
+    "sdgm/coarse.py": "9932f18f8c7ab9f79fa194b43a88a75df01b05c4743ff334ba6791eac03b9825",
+    "sdgm/geometry.py": "19dd7194efa3737db8360b4237380daf09a6328ea16c6beabdd57e251e19371d",
+    "sdgm/raw_tiles.py": "20179d2e1423c93208c0a531d0cddb08c82a3c50537abb133406592b808ca1b8",
+    "sdgm/os_family.py": "d57dfcf484800f42c8c7078f9d026c366e19c01a6fd3196a59ea924380e0a5e2",
+    "sdgm/os_family_data.py": "7fdbc53ecebd65eba4ebbdd05ceb11e1280c17e47c94582070dc3c186039fc83",
+    "sdgm/family_evaluation.py": "645050be5a296eb3964a3a948e3a38a2dec7aeda4e3f806307a7f67087dc15ee",
+    "scripts/train_os_family_baseline.py": "fc03d9d3d2e06adeae3b9e7cebe72d9a965b48e676241b2d8d357a562abd881c"
+  },
+  "no_dependency_installation_this_round": true
+}

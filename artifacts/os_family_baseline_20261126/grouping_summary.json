@@ -1,0 +1,56 @@
+{
+  "total_release_pairs": 17168,
+  "release_subset_counts": {
+    "American": 297,
+    "Argentina": 436,
+    "Australian": 341,
+    "Germany": 409,
+    "Japan": 313,
+    "Katar": 399,
+    "Malaysia": 263,
+    "OSdataset/256/test": 1696,
+    "OSdataset/256/train": 8044,
+    "OSdataset/256/val": 952,
+    "OSdataset/512/test": 424,
+    "OSdataset/512/train": 2011,
+    "OSdataset/512/val": 238,
+    "Poland": 337,
+    "Russia": 257,
+    "Russia2": 139,
+    "Russia3": 96,
+    "Singapore": 183,
+    "Turkey": 333
+  },
+  "native_size_counts": {
+    "512": 6476,
+    "256": 10692
+  },
+  "family_count": 6441,
+  "family_split_counts": {
+    "quarantine": 3803,
+    "test": 424,
+    "train": 1976,
+    "val": 238
+  },
+  "sample_split_counts": {
+    "quarantine": 3803,
+    "test": 2120,
+    "train": 10055,
+    "val": 1190
+  },
+  "unique_native256_split_counts": {
+    "test": 1696,
+    "train": 7912,
+    "val": 952
+  },
+  "exposed32_ids": 32,
+  "exposed32_family_count": 31,
+  "exposed32_all_training": true,
+  "source_family_overlap_across_splits": false,
+  "split_basis": "source-family isolation; official sample folds retained at component level",
+  "exact_parent_file_ambiguous": 264,
+  "larger_scene_or_geographic_independence": "unknown_not_claimed",
+  "native512_and_RGB_extension_not_used_for_native256_training": true,
+  "test_sealed": true,
+  "samples_deleted_to_match_paper_counts": false
+}

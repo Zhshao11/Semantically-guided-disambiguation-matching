@@ -1,10 +1,28 @@
 # Semantically Guided Disambiguation Matching
 
+最新一轮已完成[OS同源分组冻结、原生256正式基线与UBC风险披露](artifacts/os_family_baseline_20261126/REPORT_zh.md)。17,168条来源记录全部保留，512母块、256子块及重复别名按6,441个family分组；本轮使用7,912对训练、952对来源组隔离验证，1,696对最终测试封存，新增3,803对RGB512隔离。已拟合32对的31个family全部归训练，不称地理独立划分。
+
+当前无语义网络从头训练20个完整epoch，恢复既定范围的逐epoch仿射扰动，验证种子及矩阵固定。第20epoch的训练/验证recall@4为68.46%/59.83%，验证recall@1为47.63%，最近候选距离中位数6.59 px、P95 28.57 px（相对合成标签，8原生像素门槛）。小样本checkpoint在同一隔离验证上的recall@4仅13.62%；正式基线未从该checkpoint继续训练。最终重载完整复现指标，50项测试通过。
+
+UBCv2原1,625对池未改动、未运行新模型。完整88条交叠记录中，train–val 26、train–test 26、val–test 36；62条涉及16个测试样本，均在Jacksonville。只披露风险，不按这些记录删测试样本。
+
+```bash
+export PYTHONPATH=.
+# 已冻结目录及已有训练run均拒绝覆盖；新版本须使用新output。
+.venv/bin/python scripts/freeze_os_families.py --config configs/os_family_baseline.json
+.venv/bin/python scripts/verify_os_family_freeze.py --config configs/os_family_baseline.json
+.venv/bin/python scripts/train_os_family_baseline.py --config configs/os_family_baseline.json
+.venv/bin/python scripts/verify_os_family_baseline.py --config configs/os_family_baseline.json
+.venv/bin/python scripts/summarize_os_family_baseline.py --config configs/os_family_baseline.json
+.venv/bin/python scripts/record_ubc_overlap_risk.py --config configs/os_family_baseline.json
+```
+
+
 本轮数据路线调整为OS主训练及域内评估候选、UBCv2模型冻结后的跨域基准，SRIF/SpaceNet9补充外部验证；WHU重建暂停。最新交付见[OS/UBCv2原生数据审计及工程拟合报告](artifacts/os_ubc_20261126/REPORT_zh.md)。UBCv2此前已用于分析，不作为盲测，也不用于选择超参数。
 
 OS全量裁块17,168对，UBCv2原始影像7,314对，均完成配对及解码检查。旧OS的256与512有精确裁块父子关系，不能当成独立数据混合；完整地理父场景仍未知。UBCv2官方split间检出88组正面积足迹交叠，已冻结未来官方测试池1,625对，当前未运行UBC模型评估。
 
-原生OS256的固定32对完成800步工程拟合：损失5.9329→0.1388，原生候选召回@1/@4为98.80%/99.19%（8原生像素），最近候选距离中位数59.97→4.68 px。结果仅相对于发布者已对齐前提加已知合成仿射解释；未开展独立验证或真实精配准精度认证。网络仍为原无语义结构编码器，适配为128×32×32描述子、144源点×1024目标位置；默认512接口保持兼容。
+原生OS256的固定32对完成800步工程拟合：损失5.9329→0.1388，原生候选召回@1/@4为98.80%/99.19%（8原生像素），最近候选距离中位数59.97→4.68 px。结果仅相对于发布者已对齐前提加已知合成仿射解释；当时未开展隔离验证或真实精配准精度认证；后续来源组隔离结果见上方最新报告。网络仍为原无语义结构编码器，适配为128×32×32描述子、144源点×1024目标位置；默认512接口保持兼容。
 
 ```bash
 export PYTHONPATH=.

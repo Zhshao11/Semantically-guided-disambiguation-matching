@@ -1,0 +1,20 @@
+{
+  "exact_validation_metric_reproduction": true,
+  "fields": {
+    "pairs": true,
+    "families": true,
+    "supervised_queries": true,
+    "loss": true,
+    "recall_at_1": true,
+    "recall_at_4": true,
+    "nearest_candidate_distance_px": true,
+    "pair_distributions": true,
+    "masked": true
+  },
+  "validation_plan_unchanged": true,
+  "source_freeze_unchanged": true,
+  "training_epoch_perturbations_differ": true,
+  "test_evaluated": false,
+  "UBC_evaluated": false,
+  "checkpoint_sha256": "83c31e333ccc5aa049e778c99753647604b5a6ca2c53cdf719899d2d1c89e476"
+}

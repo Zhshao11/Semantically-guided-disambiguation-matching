@@ -1,0 +1,22 @@
+{
+  "sample_manifest.jsonl.gz": {
+    "compressed_sha256": "4fff49f7ece8f1007d3a75cc2b34a73543182e2ed974f39a12756a0aa977e8c1",
+    "original_sha256": "b3c625e87914e3bdcecf5ab43f2ce3f9d838e0b778c87661ecdd7c677f0f6a57"
+  },
+  "families.jsonl.gz": {
+    "compressed_sha256": "c151afadae7c287f24b9598b8e1b0ee541b5728ab12a401231b86286a93c1d4e",
+    "original_sha256": "a73a8998308af055178ea257b3440ca8702e83440513707ba117218d5a0bb107"
+  },
+  "grouping_edges.jsonl.gz": {
+    "compressed_sha256": "b6a03de22c4c96b1f41354a816fb9a9dbef2834aca2141ab785b83ab81154f06",
+    "original_sha256": "8f75dc19936b0a2acc6fb14d3bd80663fad04fbda579fdaa4dbd0879b5c73098"
+  },
+  "frozen_validation.jsonl.gz": {
+    "compressed_sha256": "d7c876185a43d62c66a1bbdac6402ffdfe55fe73d5b0941a580c0450e40003fd",
+    "original_sha256": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808"
+  },
+  "frozen_train_evaluation.jsonl.gz": {
+    "compressed_sha256": "d95e76cb62cb8474deadd383208c0bc9280511b1e21533da985792c972c1030f",
+    "original_sha256": "7d77b0a693ecc2377daca7fdae183f6e59875b9ef8da8b97a9ab2d6efb24755b"
+  }
+}

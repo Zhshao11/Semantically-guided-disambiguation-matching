@@ -1,0 +1,7 @@
+{
+  "parameters": 485536,
+  "architecture": "unchanged StructuralRetriever native256",
+  "candidates": 4,
+  "retrieval_radius_px": 8.0,
+  "model_source_sha256": "9932f18f8c7ab9f79fa194b43a88a75df01b05c4743ff334ba6791eac03b9825"
+}

@@ -1,0 +1,51 @@
+{
+  "output": "reports/os_family_baseline_20261126",
+  "audit_manifest": "reports/os_ubc_20261126/os/manifest.jsonl",
+  "exposed32_manifest": "reports/structure_os_native_20261126/fixed_training_subset.json",
+  "small_checkpoint": "reports/structure_os_native_20261126/last.pt",
+  "small_run_config": "reports/structure_os_native_20261126/config.json",
+  "known_overlap_evidence": "configs/os_known_overlap_evidence.json",
+  "native_hw": [
+    256,
+    256
+  ],
+  "batch_size": 4,
+  "epochs": 20,
+  "seed": 2026112601,
+  "evaluation_seed": 2026112602,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "temperature": 0.1,
+  "positive_radius_px": 8.0,
+  "recall_radius_px": 8.0,
+  "nms_radius_px": 24.0,
+  "candidate_count": 4,
+  "training_affine": {
+    "rotation_degrees": [
+      -20.0,
+      20.0
+    ],
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "translation_pixels": [
+      -16.0,
+      16.0
+    ]
+  },
+  "evaluation_epochs": [
+    0,
+    1,
+    5,
+    10,
+    15,
+    20
+  ],
+  "primary_checkpoint": "last_epoch20_no_test_selection",
+  "cuda_device": 6,
+  "larger_scene_mapping_status": "not_recovered; use source-family isolation, never claim geographic isolation",
+  "new_RGB512_policy": "retain in family manifest but quarantine from this native256 frozen protocol; no implicit new crops or RGB conversion",
+  "test_policy": "seal all source-family test members; no model evaluation or configuration selection",
+  "UBC_policy": "risk disclosure only; preserve existing 1625 test pool and all frozen receipts"
+}

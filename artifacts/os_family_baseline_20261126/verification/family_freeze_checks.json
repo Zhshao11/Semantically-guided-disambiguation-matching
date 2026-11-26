@@ -1,0 +1,14 @@
+{
+  "all_release_records_retained": true,
+  "release_samples": 17168,
+  "every_known_edge_in_same_family": true,
+  "all_parent_aliases_in_same_family": true,
+  "all_exposed32_training": true,
+  "every_family_single_split": true,
+  "native_representatives_exact_content_unique": true,
+  "source_family_disjoint": true,
+  "unassigned_RGB512_quarantined": true,
+  "all_frozen_hashes_match": true,
+  "test_model_evaluation": false,
+  "residual_geographic_relations": "unknown_not_claimed"
+}

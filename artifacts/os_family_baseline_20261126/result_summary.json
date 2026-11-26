@@ -1,0 +1,405 @@
+{
+  "grouping": {
+    "total_release_pairs": 17168,
+    "release_subset_counts": {
+      "American": 297,
+      "Argentina": 436,
+      "Australian": 341,
+      "Germany": 409,
+      "Japan": 313,
+      "Katar": 399,
+      "Malaysia": 263,
+      "OSdataset/256/test": 1696,
+      "OSdataset/256/train": 8044,
+      "OSdataset/256/val": 952,
+      "OSdataset/512/test": 424,
+      "OSdataset/512/train": 2011,
+      "OSdataset/512/val": 238,
+      "Poland": 337,
+      "Russia": 257,
+      "Russia2": 139,
+      "Russia3": 96,
+      "Singapore": 183,
+      "Turkey": 333
+    },
+    "native_size_counts": {
+      "512": 6476,
+      "256": 10692
+    },
+    "family_count": 6441,
+    "family_split_counts": {
+      "quarantine": 3803,
+      "test": 424,
+      "train": 1976,
+      "val": 238
+    },
+    "sample_split_counts": {
+      "quarantine": 3803,
+      "test": 2120,
+      "train": 10055,
+      "val": 1190
+    },
+    "unique_native256_split_counts": {
+      "test": 1696,
+      "train": 7912,
+      "val": 952
+    },
+    "exposed32_ids": 32,
+    "exposed32_family_count": 31,
+    "exposed32_all_training": true,
+    "source_family_overlap_across_splits": false,
+    "split_basis": "source-family isolation; official sample folds retained at component level",
+    "exact_parent_file_ambiguous": 264,
+    "larger_scene_or_geographic_independence": "unknown_not_claimed",
+    "native512_and_RGB_extension_not_used_for_native256_training": true,
+    "test_sealed": true,
+    "samples_deleted_to_match_paper_counts": false
+  },
+  "small32_validation": {
+    "tag": "small32_validation",
+    "split": "val",
+    "pairs": 952,
+    "families": 238,
+    "supervised_queries": 116953,
+    "loss": 5.005896912513341,
+    "recall_at_1": 0.05715971373115696,
+    "recall_at_4": 0.13615725975391824,
+    "native_recall_radius_px": 8.0,
+    "candidates_per_source": 4,
+    "nearest_candidate_distance_px": {
+      "0": 0.018805813044309616,
+      "5": 3.8426513195037844,
+      "25": 13.4910306930542,
+      "50": 28.53605079650879,
+      "75": 53.526405334472656,
+      "90": 81.52093963623047,
+      "95": 99.76834716796873,
+      "99": 136.1574633789062,
+      "100": 241.90237426757812
+    },
+    "pair_distributions": {
+      "recall_at_1": {
+        "0": 0.0,
+        "5": 0.01694915254237288,
+        "25": 0.03389830508474576,
+        "50": 0.0515973630831643,
+        "75": 0.07377049180327869,
+        "90": 0.09445965993381261,
+        "95": 0.11227138953121711,
+        "99": 0.1443992490613267,
+        "100": 0.16783216783216784
+      },
+      "recall_at_4": {
+        "0": 0.009174311926605505,
+        "5": 0.0570383275261324,
+        "25": 0.09640688259109312,
+        "50": 0.128,
+        "75": 0.1653055248259257,
+        "90": 0.20167389536459746,
+        "95": 0.22058823529411764,
+        "99": 0.27517753623188407,
+        "100": 0.3157894736842105
+      },
+      "nearest_median_px": {
+        "0": 14.311911582946777,
+        "5": 19.075481414794922,
+        "25": 24.57963275909424,
+        "50": 28.84122371673584,
+        "75": 34.26872539520264,
+        "90": 38.37903022766113,
+        "95": 41.18029441833494,
+        "99": 47.59661361694336,
+        "100": 50.12107276916504
+      },
+      "nearest_p95_px": {
+        "0": 51.55358200073241,
+        "5": 75.2275338745117,
+        "25": 87.97057590484619,
+        "50": 96.39127044677733,
+        "75": 105.56545400619507,
+        "90": 115.46483119964597,
+        "95": 119.93810764312742,
+        "99": 129.9999988365173,
+        "100": 144.41547393798828
+      }
+    },
+    "pair_macro_recall_at_1": 0.05582719705394124,
+    "pair_macro_recall_at_4": 0.13358592180216902,
+    "pairs_recall4_below_half": 952,
+    "pairs_without_supervised_queries": 0,
+    "masked": {
+      "gt_outside": 20135,
+      "empty_positive": 0,
+      "invalid_source": 0,
+      "gt_invalid_support": 0
+    },
+    "all_supervised_distances_finite": true,
+    "source_family_isolation": true,
+    "geographic_independence": "not_claimed",
+    "test_evaluated": false,
+    "UBC_evaluated": false,
+    "label_interpretation": "relative to exact synthetic affine over publisher-claimed co-registered base; native residual unknown"
+  },
+  "formal_final_training": {
+    "tag": "epoch20_training",
+    "split": "train",
+    "pairs": 7912,
+    "families": 1976,
+    "supervised_queries": 972272,
+    "loss": 1.6535938087873676,
+    "recall_at_1": 0.5942431747494529,
+    "recall_at_4": 0.6845810637352511,
+    "native_recall_radius_px": 8.0,
+    "candidates_per_source": 4,
+    "nearest_candidate_distance_px": {
+      "0": 0.002669121604412794,
+      "5": 1.4766448497772218,
+      "25": 3.4952248334884644,
+      "50": 5.696111679077148,
+      "75": 9.153366327285767,
+      "90": 13.359078216552735,
+      "95": 17.907391262054436,
+      "99": 50.55816955566408,
+      "100": 199.47796630859375
+    },
+    "pair_distributions": {
+      "recall_at_1": {
+        "0": 0.03571428571428571,
+        "5": 0.27125870450663514,
+        "25": 0.4709079283887468,
+        "50": 0.6068376068376068,
+        "75": 0.7238805970149254,
+        "90": 0.8083333333333333,
+        "95": 0.8472699321458863,
+        "99": 0.9043338779956429,
+        "100": 0.9703703703703703
+      },
+      "recall_at_4": {
+        "0": 0.13333333333333333,
+        "5": 0.4,
+        "25": 0.5859375,
+        "50": 0.7,
+        "75": 0.7923076923076923,
+        "90": 0.8583997050147493,
+        "95": 0.8897058823529411,
+        "99": 0.9357142857142857,
+        "100": 1.0
+      },
+      "nearest_median_px": {
+        "0": 1.8686479330062866,
+        "5": 4.164895498752594,
+        "25": 4.8854119181633,
+        "50": 5.68863582611084,
+        "75": 6.870402932167053,
+        "90": 8.468857240676881,
+        "95": 9.57567036151886,
+        "99": 12.876757106781014,
+        "100": 44.273502349853516
+      },
+      "nearest_p95_px": {
+        "0": 6.035642099380492,
+        "5": 9.645145859718319,
+        "25": 11.94332445859909,
+        "50": 14.181640887260437,
+        "75": 19.581477332115174,
+        "90": 36.890293960571306,
+        "95": 52.682346239089924,
+        "99": 82.50012814712531,
+        "100": 135.68967666625974
+      }
+    },
+    "pair_macro_recall_at_1": 0.5895553769427733,
+    "pair_macro_recall_at_4": 0.6801723080275501,
+    "pairs_recall4_below_half": 995,
+    "pairs_without_supervised_queries": 0,
+    "masked": {
+      "gt_outside": 167056,
+      "empty_positive": 0,
+      "invalid_source": 0,
+      "gt_invalid_support": 0
+    },
+    "all_supervised_distances_finite": true,
+    "source_family_isolation": true,
+    "geographic_independence": "not_claimed",
+    "test_evaluated": false,
+    "UBC_evaluated": false,
+    "label_interpretation": "relative to exact synthetic affine over publisher-claimed co-registered base; native residual unknown"
+  },
+  "formal_final_validation": {
+    "tag": "epoch20_validation",
+    "split": "val",
+    "pairs": 952,
+    "families": 238,
+    "supervised_queries": 116953,
+    "loss": 2.042585088813901,
+    "recall_at_1": 0.47627679495181824,
+    "recall_at_4": 0.5982659700905492,
+    "native_recall_radius_px": 8.0,
+    "candidates_per_source": 4,
+    "nearest_candidate_distance_px": {
+      "0": 0.021812593564391136,
+      "5": 1.6228865385055542,
+      "25": 3.900402069091797,
+      "50": 6.590176582336426,
+      "75": 10.8921480178833,
+      "90": 17.57395477294922,
+      "95": 28.569554519653316,
+      "99": 68.38069915771483,
+      "100": 193.83029174804688
+    },
+    "pair_distributions": {
+      "recall_at_1": {
+        "0": 0.06611570247933884,
+        "5": 0.1983511220580186,
+        "25": 0.35833333333333334,
+        "50": 0.4745762711864407,
+        "75": 0.59375,
+        "90": 0.6805439733145167,
+        "95": 0.7306917791992418,
+        "99": 0.7886602870813397,
+        "100": 0.92
+      },
+      "recall_at_4": {
+        "0": 0.18699186991869918,
+        "5": 0.33627623716868393,
+        "25": 0.49586776859504134,
+        "50": 0.6033057851239669,
+        "75": 0.7021682637648206,
+        "90": 0.7737276214833759,
+        "95": 0.8096747149564051,
+        "99": 0.8664144123134329,
+        "100": 0.944
+      },
+      "nearest_median_px": {
+        "0": 3.9834702014923096,
+        "5": 4.655419719219208,
+        "25": 5.579210519790649,
+        "50": 6.585890889167786,
+        "75": 8.056079983711243,
+        "90": 9.83536500930786,
+        "95": 11.37240912914276,
+        "99": 16.881345748901367,
+        "100": 44.333106994628906
+      },
+      "nearest_p95_px": {
+        "0": 8.498895835876459,
+        "5": 11.903702251911161,
+        "25": 14.416647195816033,
+        "50": 18.294491624832148,
+        "75": 32.49513759613037,
+        "90": 56.10694650650023,
+        "95": 69.44135330200187,
+        "99": 90.26844847488408,
+        "100": 113.61861610412598
+      }
+    },
+    "pair_macro_recall_at_1": 0.4717803467848608,
+    "pair_macro_recall_at_4": 0.5935985698139801,
+    "pairs_recall4_below_half": 243,
+    "pairs_without_supervised_queries": 0,
+    "masked": {
+      "gt_outside": 20135,
+      "empty_positive": 0,
+      "invalid_source": 0,
+      "gt_invalid_support": 0
+    },
+    "all_supervised_distances_finite": true,
+    "source_family_isolation": true,
+    "geographic_independence": "not_claimed",
+    "test_evaluated": false,
+    "UBC_evaluated": false,
+    "label_interpretation": "relative to exact synthetic affine over publisher-claimed co-registered base; native residual unknown"
+  },
+  "completion": {
+    "training_complete": true,
+    "epochs": 20,
+    "steps": 39560,
+    "primary_checkpoint": "last.pt",
+    "secondary_best_validation_epoch": 20,
+    "secondary_best_validation_recall4": 0.5982659700905492,
+    "train_samples": 7912,
+    "validation_samples": 952,
+    "finite_forward_backward": true,
+    "effective_gradients": true,
+    "test_evaluated": false,
+    "UBC_evaluated": false,
+    "geographic_independence": false,
+    "interpretation": "source-family-isolated validation relative to synthetic labels, not fine registration accuracy"
+  },
+  "UBC_risk": {
+    "overlap_edges": 88,
+    "split_pair_counts": {
+      "test|train": 26,
+      "test|val": 36,
+      "train|val": 26
+    },
+    "test_touching_edges": 62,
+    "unique_frozen_test_pairs_touched": 16,
+    "frozen_test_pool_size": 1625,
+    "touched_test_ids": [
+      "test/GF2_Jacksonville_30.3229_-81.6374",
+      "test/GF2_Jacksonville_30.3229_-81.6390",
+      "test/GF2_Jacksonville_30.3230_-81.6325",
+      "test/GF2_Jacksonville_30.3230_-81.6341",
+      "test/GF2_Jacksonville_30.3230_-81.6358",
+      "test/GF2_Jacksonville_30.3235_-81.6325",
+      "test/GF2_Jacksonville_30.3235_-81.6341",
+      "test/GF2_Jacksonville_30.3235_-81.6358",
+      "test/GF2_Jacksonville_30.3235_-81.6374",
+      "test/GF2_Jacksonville_30.3235_-81.6390",
+      "test/SV_Jacksonville_30.3217_-81.6484",
+      "test/SV_Jacksonville_30.3217_-81.6496",
+      "test/SV_Jacksonville_30.3217_-81.6513",
+      "test/SV_Jacksonville_30.3217_-81.6529",
+      "test/SV_Jacksonville_30.3217_-81.6545",
+      "test/SV_Jacksonville_30.3217_-81.6561"
+    ],
+    "overlap_area_m2": {
+      "0": 467.24160000051523,
+      "25": 5029.718399994791,
+      "50": 9833.468399993917,
+      "75": 16266.291599994684,
+      "90": 28036.77159998954,
+      "95": 29280.348399985425,
+      "100": 30687.68839998481
+    },
+    "fraction_smaller": {
+      "0": 0.007129541015632862,
+      "25": 0.07674741210929552,
+      "50": 0.15004682006826656,
+      "75": 0.2482039123534345,
+      "90": 0.42780718383773103,
+      "95": 0.446782659911887,
+      "100": 0.46825696411109635
+    },
+    "intersection_over_union": {
+      "0": 0.0035775235582880347,
+      "25": 0.0399050091457134,
+      "50": 0.08110844193029985,
+      "75": 0.1416853902710114,
+      "90": 0.2721085985381937,
+      "95": 0.28764980172481286,
+      "100": 0.3057020356154952
+    },
+    "fraction_smaller_bins": {
+      "under_10_percent": 25,
+      "from_10_to_50_percent": 63,
+      "at_least_50_percent": 0
+    },
+    "source_hashes": {
+      "manifest.jsonl": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d",
+      "frozen_policy.json": "a4ec18b01018507e51133eb2ed65188d294410b950a7399582957c2dc1dec286",
+      "frozen_exclusions.csv": "6d7d0b99f992484ddb67b83e24b58fcc43cd4cd9efbb06443837d584bea881f0",
+      "frozen_evaluation_pool.csv": "b497ed6990cc9bc01c0b7bea9c21cd083c61fe8831afe326880c9b52cb86e394",
+      "freeze_receipt.json": "453bc72972ab8b89caa3adcad12fbdc77b21292ee58968b45d07ca9114be3265"
+    },
+    "protocol": "positive-area intersections of native optical GeoTIFF footprints in matching metre-based UTM CRS; boundary touch excluded",
+    "meaning": "spatial overlap disclosure only; does not establish identical acquisition, temporal content or model leakage; no deletions",
+    "model_run": false,
+    "prior_analysis_exposure": true,
+    "blind_test": false,
+    "geographic_independence_claimed": false,
+    "pool_modified": false
+  },
+  "direct_comparison_to_512_for_method_improvement": false
+}

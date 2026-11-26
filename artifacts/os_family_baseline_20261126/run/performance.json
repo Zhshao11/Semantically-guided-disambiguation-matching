@@ -1,0 +1,8 @@
+{
+  "wall_seconds": 1140.8744364649756,
+  "peak_allocated_mib": 407.7841796875,
+  "peak_reserved_mib": 436.0,
+  "includes_training_and_evaluations": true,
+  "steps": 39560,
+  "epochs": 20
+}

@@ -1,0 +1,950 @@
+[
+  {
+    "epoch": 0,
+    "plan_sha256": "889b7312c250e9af0e05e91e0a2e7db7fda1cab47044942b4d8d2134049a044c",
+    "examples": [
+      {
+        "sample_id": "OSdataset/256/train/1",
+        "family_id": "OSF-f7e36b45e7dea896",
+        "split": "train",
+        "transform_seed": 13332912587768001497,
+        "epoch": 0,
+        "parameters": {
+          "rotation_degrees": 10.037113292771473,
+          "scale": 1.0955650485851653,
+          "translation_xy": [
+            -13.99744739951009,
+            6.610901638495516
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            1.0787974977771904,
+            0.19094170437881938,
+            -48.389195674401336
+          ],
+          [
+            -0.19094170437881938,
+            1.0787974977771904,
+            20.909287980203217
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            1.0787974977771904,
+            0.19094170437881938,
+            -48.389195674401336
+          ],
+          [
+            -0.19094170437881938,
+            1.0787974977771904,
+            20.909287980203217
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/4620",
+        "family_id": "OSF-f0e6e055c59cf6b4",
+        "split": "train",
+        "transform_seed": 3067652667609413247,
+        "epoch": 0,
+        "parameters": {
+          "rotation_degrees": -7.567419723902562,
+          "scale": 0.9386829770686949,
+          "translation_xy": [
+            15.112264478680132,
+            -0.9439123035371537
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.9305075978018049,
+            -0.12361772474715066,
+            39.733805664211715
+          ],
+          [
+            0.12361772474715066,
+            0.9305075978018049,
+            -7.844890928528988
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.9305075978018049,
+            -0.12361772474715066,
+            39.733805664211715
+          ],
+          [
+            0.12361772474715066,
+            0.9305075978018049,
+            -7.844890928528988
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/999",
+        "family_id": "OSF-b4e44e4fce1dd93f",
+        "split": "train",
+        "transform_seed": 12990869601438032909,
+        "epoch": 0,
+        "parameters": {
+          "rotation_degrees": -3.2440459957106995,
+          "scale": 1.0943126814810913,
+          "translation_xy": [
+            -14.776648096151064,
+            -3.4528588099948756
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            1.0925591072484533,
+            -0.061926101272397234,
+            -18.68235635809821
+          ],
+          [
+            0.061926101272397234,
+            1.0925591072484533,
+            -23.149722896403315
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            1.0925591072484533,
+            -0.061926101272397234,
+            -18.68235635809821
+          ],
+          [
+            0.061926101272397234,
+            1.0925591072484533,
+            -23.149722896403315
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      }
+    ]
+  },
+  {
+    "epoch": 1,
+    "plan_sha256": "16aae929718d3549c563727677bf1d7afd29565b95465df51adc5e488fe9554d",
+    "examples": [
+      {
+        "sample_id": "OSdataset/256/train/1",
+        "family_id": "OSF-f7e36b45e7dea896",
+        "split": "train",
+        "transform_seed": 16831605573783005554,
+        "epoch": 1,
+        "parameters": {
+          "rotation_degrees": -14.633385374117083,
+          "scale": 1.0185783771352068,
+          "translation_xy": [
+            -0.2537746699805119,
+            8.127562057004493
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.985537863391798,
+            -0.25732669933087254,
+            34.39930191225149
+          ],
+          [
+            0.25732669933087254,
+            0.985537863391798,
+            -22.837669690136007
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.985537863391798,
+            -0.25732669933087254,
+            34.39930191225149
+          ],
+          [
+            0.25732669933087254,
+            0.985537863391798,
+            -22.837669690136007
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/4620",
+        "family_id": "OSF-f0e6e055c59cf6b4",
+        "split": "train",
+        "transform_seed": 4422615967540170431,
+        "epoch": 1,
+        "parameters": {
+          "rotation_degrees": -10.980934537388878,
+          "scale": 1.0648436751812544,
+          "translation_xy": [
+            8.519686725409631,
+            -14.447079873284483
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            1.045347049572555,
+            -0.2028339185724988,
+            28.599262522902468
+          ],
+          [
+            0.2028339185724988,
+            1.045347049572555,
+            -46.090153311778835
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            1.045347049572555,
+            -0.2028339185724988,
+            28.599262522902468
+          ],
+          [
+            0.2028339185724988,
+            1.045347049572555,
+            -46.090153311778835
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/999",
+        "family_id": "OSF-b4e44e4fce1dd93f",
+        "split": "train",
+        "transform_seed": 3986916624937814723,
+        "epoch": 1,
+        "parameters": {
+          "rotation_degrees": 16.46627185389137,
+          "scale": 0.9725374544546466,
+          "translation_xy": [
+            10.262039430402112,
+            9.659343060847402
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.9326505416936549,
+            0.27566658737622873,
+            -16.29839452600805
+          ],
+          [
+            -0.27566658737622873,
+            0.9326505416936549,
+            53.39388888537556
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.9326505416936549,
+            0.27566658737622873,
+            -16.29839452600805
+          ],
+          [
+            -0.27566658737622873,
+            0.9326505416936549,
+            53.39388888537556
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      }
+    ]
+  },
+  {
+    "epoch": 2,
+    "plan_sha256": "d6d4cb78e2748f6099283316c623a725ecaa3be749978f0cad763cbf0d03b689",
+    "examples": [
+      {
+        "sample_id": "OSdataset/256/train/1",
+        "family_id": "OSF-f7e36b45e7dea896",
+        "split": "train",
+        "transform_seed": 8591362609616863212,
+        "epoch": 2,
+        "parameters": {
+          "rotation_degrees": -17.309404208929692,
+          "scale": 1.087533065499608,
+          "translation_xy": [
+            5.548822788455674,
+            -12.186839420284617
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            1.038280843225918,
+            -0.3235754303791488,
+            41.923882650492594
+          ],
+          [
+            0.3235754303791488,
+            1.038280843225918,
+            -58.32351430493064
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            1.038280843225918,
+            -0.3235754303791488,
+            41.923882650492594
+          ],
+          [
+            0.3235754303791488,
+            1.038280843225918,
+            -58.32351430493064
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/4620",
+        "family_id": "OSF-f0e6e055c59cf6b4",
+        "split": "train",
+        "transform_seed": 15779238614401081484,
+        "epoch": 2,
+        "parameters": {
+          "rotation_degrees": -12.060347928208856,
+          "scale": 1.0205430606667638,
+          "translation_xy": [
+            9.41667649909115,
+            3.200287474018431
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.998017706742332,
+            -0.2132341335336878,
+            36.85677091498901
+          ],
+          [
+            0.2132341335336878,
+            0.998017706742332,
+            -23.7343221611741
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.998017706742332,
+            -0.2132341335336878,
+            36.85677091498901
+          ],
+          [
+            0.2132341335336878,
+            0.998017706742332,
+            -23.7343221611741
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/999",
+        "family_id": "OSF-b4e44e4fce1dd93f",
+        "split": "train",
+        "transform_seed": 9208374932165873944,
+        "epoch": 2,
+        "parameters": {
+          "rotation_degrees": -16.527061342621177,
+          "scale": 0.950420523669152,
+          "translation_xy": [
+            -9.69206009876476,
+            2.9222830110309808
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.911154360473483,
+            -0.2703643896701325,
+            36.10721862380805
+          ],
+          [
+            0.2703643896701325,
+            0.911154360473483,
+            -20.22135763227999
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.911154360473483,
+            -0.2703643896701325,
+            36.10721862380805
+          ],
+          [
+            0.2703643896701325,
+            0.911154360473483,
+            -20.22135763227999
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      }
+    ]
+  },
+  {
+    "epoch": 20,
+    "plan_sha256": "2f42b1305f39b88d1698e28b1acac76a80c48038f51261abb09a51f061412f68",
+    "examples": [
+      {
+        "sample_id": "OSdataset/256/train/1",
+        "family_id": "OSF-f7e36b45e7dea896",
+        "split": "train",
+        "transform_seed": 4471226855516091420,
+        "epoch": 20,
+        "parameters": {
+          "rotation_degrees": -14.70726215126854,
+          "scale": 1.0112370426077917,
+          "translation_xy": [
+            -14.304785233034146,
+            11.227473173522053
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.9781044490220334,
+            -0.2567334087053282,
+            21.220407126585933
+          ],
+          [
+            0.2567334087053282,
+            0.9781044490220334,
+            -18.71435368671655
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.9781044490220334,
+            -0.2567334087053282,
+            21.220407126585933
+          ],
+          [
+            0.2567334087053282,
+            0.9781044490220334,
+            -18.71435368671655
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/4620",
+        "family_id": "OSF-f0e6e055c59cf6b4",
+        "split": "train",
+        "transform_seed": 11628348467581935805,
+        "epoch": 20,
+        "parameters": {
+          "rotation_degrees": 4.830152946802613,
+          "scale": 1.018400920714724,
+          "translation_xy": [
+            -9.764865035858769,
+            4.654932399391754
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            1.0147842575055759,
+            0.08575165322869648,
+            -22.583193654478492
+          ],
+          [
+            -0.08575165322869648,
+            1.0147842575055759,
+            13.703275354089628
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            1.0147842575055759,
+            0.08575165322869648,
+            -22.583193654478492
+          ],
+          [
+            -0.08575165322869648,
+            1.0147842575055759,
+            13.703275354089628
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      },
+      {
+        "sample_id": "OSdataset/256/train/999",
+        "family_id": "OSF-b4e44e4fce1dd93f",
+        "split": "train",
+        "transform_seed": 14719143748202914167,
+        "epoch": 20,
+        "parameters": {
+          "rotation_degrees": 0.714118160711557,
+          "scale": 0.956904324081816,
+          "translation_xy": [
+            -9.754834301716343,
+            -15.18857340463094
+          ]
+        },
+        "optical_original_to_input": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "sar_original_to_input": [
+          [
+            0.9568300003016703,
+            0.011926272224912281,
+            -5.771259048855624
+          ],
+          [
+            -0.011926272224912281,
+            0.9568300003016703,
+            -8.16379873441759
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "optical_input_to_sar_input": [
+          [
+            0.9568300003016703,
+            0.011926272224912281,
+            -5.771259048855624
+          ],
+          [
+            -0.011926272224912281,
+            0.9568300003016703,
+            -8.16379873441759
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "base_relation": "publisher-claimed co-registration; nominal identity; residual unknown",
+        "composition": "A_s @ B_nominal @ inverse(A_o), B_nominal=I, A_o=I",
+        "interpolation": "OpenCV INTER_LINEAR",
+        "fill_value": 0,
+        "original_size": [
+          256,
+          256
+        ],
+        "resize": false,
+        "normalization": "uint8/127.5-1",
+        "fine_precision_certified": false
+      }
+    ]
+  }
+]

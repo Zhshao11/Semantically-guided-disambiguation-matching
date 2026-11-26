@@ -51,12 +51,17 @@
   "formal_route": {
     "selected_direction": "OS_native_coregistered_pairs_with_known_synthetic_affine_for_coarse_retrieval",
     "coarse_training_source_usable_under_publisher_alignment_assumption": true,
-    "training_ready": "native OS reader and fixed32 smoke passed; formal full training not run",
+    "training_ready": "formal native256 no-semantics baseline trained from scratch for 20 epochs on frozen source-family training fold",
     "fine_precision_certified": false,
     "geographic_validation_ready": false,
     "official_sample_splits_available": true,
     "parent_scene_mapping": "unknown; exact 256-to-512 crop linkage recovered but not acquisition-scene IDs",
     "positive_radius_policy": "fixed 8 native pixels; not widened to absorb unknown base errors",
-    "UBC_model_evaluation_run": false
+    "UBC_model_evaluation_run": false,
+    "source_family_validation_ready": true,
+    "source_family_validation_scope": "known 512-parent/256-child and exact duplicate/verified overlap links, not geographic scene independence",
+    "baseline_config": "configs/os_family_baseline.json",
+    "sealed_native256_test_pairs": 1696,
+    "UBC_frozen_test_pool_pairs": 1625
   }
 }

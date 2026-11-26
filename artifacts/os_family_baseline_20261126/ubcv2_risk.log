@@ -1,0 +1,75 @@
+{
+  "overlap_edges": 88,
+  "split_pair_counts": {
+    "test|train": 26,
+    "test|val": 36,
+    "train|val": 26
+  },
+  "test_touching_edges": 62,
+  "unique_frozen_test_pairs_touched": 16,
+  "frozen_test_pool_size": 1625,
+  "touched_test_ids": [
+    "test/GF2_Jacksonville_30.3229_-81.6374",
+    "test/GF2_Jacksonville_30.3229_-81.6390",
+    "test/GF2_Jacksonville_30.3230_-81.6325",
+    "test/GF2_Jacksonville_30.3230_-81.6341",
+    "test/GF2_Jacksonville_30.3230_-81.6358",
+    "test/GF2_Jacksonville_30.3235_-81.6325",
+    "test/GF2_Jacksonville_30.3235_-81.6341",
+    "test/GF2_Jacksonville_30.3235_-81.6358",
+    "test/GF2_Jacksonville_30.3235_-81.6374",
+    "test/GF2_Jacksonville_30.3235_-81.6390",
+    "test/SV_Jacksonville_30.3217_-81.6484",
+    "test/SV_Jacksonville_30.3217_-81.6496",
+    "test/SV_Jacksonville_30.3217_-81.6513",
+    "test/SV_Jacksonville_30.3217_-81.6529",
+    "test/SV_Jacksonville_30.3217_-81.6545",
+    "test/SV_Jacksonville_30.3217_-81.6561"
+  ],
+  "overlap_area_m2": {
+    "0": 467.24160000051523,
+    "25": 5029.718399994791,
+    "50": 9833.468399993917,
+    "75": 16266.291599994684,
+    "90": 28036.77159998954,
+    "95": 29280.348399985425,
+    "100": 30687.68839998481
+  },
+  "fraction_smaller": {
+    "0": 0.007129541015632862,
+    "25": 0.07674741210929552,
+    "50": 0.15004682006826656,
+    "75": 0.2482039123534345,
+    "90": 0.42780718383773103,
+    "95": 0.446782659911887,
+    "100": 0.46825696411109635
+  },
+  "intersection_over_union": {
+    "0": 0.0035775235582880347,
+    "25": 0.0399050091457134,
+    "50": 0.08110844193029985,
+    "75": 0.1416853902710114,
+    "90": 0.2721085985381937,
+    "95": 0.28764980172481286,
+    "100": 0.3057020356154952
+  },
+  "fraction_smaller_bins": {
+    "under_10_percent": 25,
+    "from_10_to_50_percent": 63,
+    "at_least_50_percent": 0
+  },
+  "source_hashes": {
+    "manifest.jsonl": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d",
+    "frozen_policy.json": "a4ec18b01018507e51133eb2ed65188d294410b950a7399582957c2dc1dec286",
+    "frozen_exclusions.csv": "6d7d0b99f992484ddb67b83e24b58fcc43cd4cd9efbb06443837d584bea881f0",
+    "frozen_evaluation_pool.csv": "b497ed6990cc9bc01c0b7bea9c21cd083c61fe8831afe326880c9b52cb86e394",
+    "freeze_receipt.json": "453bc72972ab8b89caa3adcad12fbdc77b21292ee58968b45d07ca9114be3265"
+  },
+  "protocol": "positive-area intersections of native optical GeoTIFF footprints in matching metre-based UTM CRS; boundary touch excluded",
+  "meaning": "spatial overlap disclosure only; does not establish identical acquisition, temporal content or model leakage; no deletions",
+  "model_run": false,
+  "prior_analysis_exposure": true,
+  "blind_test": false,
+  "geographic_independence_claimed": false,
+  "pool_modified": false
+}

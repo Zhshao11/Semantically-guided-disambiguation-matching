@@ -1,0 +1,8 @@
+{
+  "all_original_source_inputs_unchanged": true,
+  "source_files": {
+    "audit_manifest": "c364bd0fd6a2ebafd29865c7f5d16e65c6f2edf6513dc066a49230de83a1fa6a",
+    "exposed32_manifest": "07c1e6805c4d98d20215b0f466b9865814371c1c39a59e2d799dc575964a73a1",
+    "known_overlap_evidence": "2475a6bed41f297fe0116492bbb433dec29d0b3fb074f545187c5d917f5d451a"
+  }
+}

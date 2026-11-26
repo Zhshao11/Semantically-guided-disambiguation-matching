@@ -1,0 +1,58 @@
+{
+  "training_seed": 2026112601,
+  "evaluation_seed": 2026112602,
+  "algorithm": "uint64 little endian first 8 bytes of SHA256(master|split-role|sample_id|epoch); numpy default_rng; OpenCV getRotationMatrix2D",
+  "training_role": "train_epoch",
+  "training_epochs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "evaluation_roles": [
+    "train_fixed_evaluation",
+    "val_fixed_evaluation"
+  ],
+  "evaluation_repeat": 0,
+  "ranges": {
+    "rotation_degrees": [
+      -20.0,
+      20.0
+    ],
+    "scale": [
+      0.9,
+      1.1
+    ],
+    "translation_pixels": [
+      -16.0,
+      16.0
+    ]
+  },
+  "base_relation": "nominal identity from publisher coregistration claim; native residual unknown",
+  "direction": "optical native pixel centers to perturbed SAR",
+  "composition": "A_s @ B_nominal @ inverse(A_o); B_nominal=I,A_o=I",
+  "family_rule": "all perturbations inherit source sample family and frozen split",
+  "epoch_shuffle": "DataLoader Torch generator initialized with training_seed; sample perturbation independent of shuffle or worker state",
+  "no_resize": true,
+  "no_extra_crop": true,
+  "zero_intensity_is_nodata": false,
+  "interpolation": "OpenCV INTER_LINEAR",
+  "fill_value": 0,
+  "valid_support": "full interpolation support >=1-1e-6"
+}

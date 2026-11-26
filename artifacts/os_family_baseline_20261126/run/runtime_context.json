@@ -1,0 +1,37 @@
+{
+  "protocol_sha256": "a7c40df91e9bc8fcdd5d4e5b15eaa6c70eb0d5d170732f5d2dd566c635114c4a",
+  "freeze_receipt_sha256": "3c037aab3c7ac39357a7b07095d7f0cc848b066af59d4a039ef171a33925f0c0",
+  "validation_plan_sha256": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808",
+  "train_plan_sha256": "7d77b0a693ecc2377daca7fdae183f6e59875b9ef8da8b97a9ab2d6efb24755b",
+  "seed": 2026112601,
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "native_image_hw": [
+    256,
+    256
+  ],
+  "feature_shape": [
+    4,
+    128,
+    32,
+    32
+  ],
+  "score_shape": [
+    4,
+    144,
+    1024
+  ],
+  "train_samples": 7912,
+  "validation_samples": 952,
+  "epochs": 20,
+  "source_family_disjoint": true,
+  "geographic_independence": false,
+  "test_evaluated": false,
+  "UBC_evaluated": false,
+  "training_from_scratch": true,
+  "training_augmentation": "fixed hash(master,sample,epoch), not worker order",
+  "optimizer": "AdamW",
+  "primary_checkpoint": "last_epoch20_no_test_selection",
+  "checkpoint_selection": "last predeclared epoch; validation best saved only as secondary"
+}

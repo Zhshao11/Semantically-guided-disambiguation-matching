@@ -1,0 +1,5 @@
+{
+  "verified_edges": [],
+  "status": "No independently corroborated larger-scene or geographic overlap links recovered for OS patch PNGs. Existing crop and exact-content links are merged; residual spatial relationships remain unknown.",
+  "future_policy": "New verified scene/overlap evidence requires a new family-freeze version; never silently change this experiment's assignments."
+}

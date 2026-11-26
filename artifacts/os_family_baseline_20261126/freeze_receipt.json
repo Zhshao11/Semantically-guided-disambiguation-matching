@@ -1,0 +1,76 @@
+{
+  "source_files": {
+    "audit_manifest": "c364bd0fd6a2ebafd29865c7f5d16e65c6f2edf6513dc066a49230de83a1fa6a",
+    "exposed32_manifest": "07c1e6805c4d98d20215b0f466b9865814371c1c39a59e2d799dc575964a73a1",
+    "known_overlap_evidence": "2475a6bed41f297fe0116492bbb433dec29d0b3fb074f545187c5d917f5d451a"
+  },
+  "frozen_files": {
+    "preregistered_protocol.json": "a7c40df91e9bc8fcdd5d4e5b15eaa6c70eb0d5d170732f5d2dd566c635114c4a",
+    "sample_manifest.jsonl": "b3c625e87914e3bdcecf5ab43f2ce3f9d838e0b778c87661ecdd7c677f0f6a57",
+    "families.jsonl": "a73a8998308af055178ea257b3440ca8702e83440513707ba117218d5a0bb107",
+    "grouping_edges.jsonl": "8f75dc19936b0a2acc6fb14d3bd80663fad04fbda579fdaa4dbd0879b5c73098",
+    "sample_assignments.csv": "74658a97905d238c17f0bad09b03973f02ae1a4d062db95ce19aec38cd75ec5c",
+    "family_splits.csv": "42fb5d9154c29f0f0c2e3d2b6c672ad8979c911d8ab9b6a33526b44c716be9e6",
+    "native256_train.jsonl": "b1dd4512056469e776718aada0702bd1c52a0f64a549bc09060088b820135cbe",
+    "native256_val.jsonl": "69dd9de3b62072ad0be7757048943f4f78469996fa91dd021dcd66d6ab592e26",
+    "native256_test.jsonl": "15b2c98920b4ba04c494235baf46adb7e545c62bcd5b91bb436dc659e6ced274"
+  },
+  "summary": {
+    "total_release_pairs": 17168,
+    "release_subset_counts": {
+      "American": 297,
+      "Argentina": 436,
+      "Australian": 341,
+      "Germany": 409,
+      "Japan": 313,
+      "Katar": 399,
+      "Malaysia": 263,
+      "OSdataset/256/test": 1696,
+      "OSdataset/256/train": 8044,
+      "OSdataset/256/val": 952,
+      "OSdataset/512/test": 424,
+      "OSdataset/512/train": 2011,
+      "OSdataset/512/val": 238,
+      "Poland": 337,
+      "Russia": 257,
+      "Russia2": 139,
+      "Russia3": 96,
+      "Singapore": 183,
+      "Turkey": 333
+    },
+    "native_size_counts": {
+      "512": 6476,
+      "256": 10692
+    },
+    "family_count": 6441,
+    "family_split_counts": {
+      "quarantine": 3803,
+      "test": 424,
+      "train": 1976,
+      "val": 238
+    },
+    "sample_split_counts": {
+      "quarantine": 3803,
+      "test": 2120,
+      "train": 10055,
+      "val": 1190
+    },
+    "unique_native256_split_counts": {
+      "test": 1696,
+      "train": 7912,
+      "val": 952
+    },
+    "exposed32_ids": 32,
+    "exposed32_family_count": 31,
+    "exposed32_all_training": true,
+    "source_family_overlap_across_splits": false,
+    "split_basis": "source-family isolation; official sample folds retained at component level",
+    "exact_parent_file_ambiguous": 264,
+    "larger_scene_or_geographic_independence": "unknown_not_claimed",
+    "native512_and_RGB_extension_not_used_for_native256_training": true,
+    "test_sealed": true,
+    "samples_deleted_to_match_paper_counts": false
+  },
+  "validation_model_results_seen_before_freeze": false,
+  "future_augmentations_inherit_family_id": true
+}

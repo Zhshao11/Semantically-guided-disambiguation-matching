@@ -1,0 +1,16 @@
+{
+  "training_complete": true,
+  "epochs": 20,
+  "steps": 39560,
+  "primary_checkpoint": "last.pt",
+  "secondary_best_validation_epoch": 20,
+  "secondary_best_validation_recall4": 0.5982659700905492,
+  "train_samples": 7912,
+  "validation_samples": 952,
+  "finite_forward_backward": true,
+  "effective_gradients": true,
+  "test_evaluated": false,
+  "UBC_evaluated": false,
+  "geographic_independence": false,
+  "interpretation": "source-family-isolated validation relative to synthetic labels, not fine registration accuracy"
+}
