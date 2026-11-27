@@ -1,0 +1,12 @@
+{
+  "pairs": 952,
+  "families": 238,
+  "effective_queries": 116953,
+  "fixed_PN_exact": true,
+  "previous_dot_stats_and_candidates_exact": true,
+  "score_tie_atol": 1e-06,
+  "new_normalization": false,
+  "teacher_and_head_unchanged": true,
+  "distance_fused_with_structure": false,
+  "group_membership_fixed_from_previous_dot": true
+}

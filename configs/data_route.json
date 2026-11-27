@@ -192,6 +192,43 @@
       "family_paired_intervals_saved": true,
       "conclusion": "both prototype compression/current dot scoring and actual SAR ranking show discrimination deficits; far-score peaks dominate lost queries, not mainly near8px misses; no causal separation or teacher localization certification",
       "test_pools_unchanged_and_not_evaluated": true
+    },
+    "semantic_score_control": {
+      "config": "configs/os_semantic_score_control.json",
+      "report": "artifacts/os_semantic_score_control_20261127/REPORT_zh.md",
+      "training_updates_added": 0,
+      "representations_models_prototypes_temperature_unchanged": true,
+      "new_normalization": false,
+      "score_change": "p dot q vs -0.5 squared L2 probability distance, no structural distance fusion or lambda change",
+      "original_PN_and_tie_tolerance_unchanged": true,
+      "validation_B_win_rate": {
+        "dot": 0.3670705326071157,
+        "dist": 0.8823373491915556
+      },
+      "validation_C_win_rate": {
+        "dot": 0.11900507041290091,
+        "dist": 0.13864543876600002
+      },
+      "validation_recall4": {
+        "structure": 0.6012842765897412,
+        "dot": 0.5553854967380059,
+        "dist": 0.5554795516147513
+      },
+      "validation_distance_new_hits": 266,
+      "validation_distance_lost_hits": 5623,
+      "validation_distance_rescue_rate": 0.005704359760674229,
+      "validation_dist_minus_dot_net_hits": 11,
+      "validation_dist_minus_dot_recall4_interval95": [
+        -0.0002228374594238033,
+        0.0003924775015772775
+      ],
+      "validation_dist_vs_dot_family_improved_degraded_unchanged": [
+        74,
+        71,
+        93
+      ],
+      "conclusion": "same-image prototype distribution retains correspondence information hidden by dot scoring, but C improvement is small and fixed-budget net coverage does not reliably improve; B is GT-assisted same-image reference, not cross-modal upper bound",
+      "test_pools_unchanged_and_not_evaluated": true
     }
   }
 }

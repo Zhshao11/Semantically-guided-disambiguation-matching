@@ -1,0 +1,5 @@
+{
+  "algebraic_PN_verification": "bit-identical NumPy formula verification",
+  "direct_vector_distance_verification": "Float32 direct squared-vector sum vs dot-norm expansion, absolute tolerance1e-6, actual per-layer max error recorded; initial2e-7 audit bound too strict for cancellation rounding; model scores and metric tie tolerance never altered",
+  "score_and_candidate_rules_unchanged_after_computation": true
+}

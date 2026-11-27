@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "checks": {
+    "training_monitor": {
+      "all_PN_score_identity_and_stats_numpy_exact": true,
+      "previous_dot_exact": true,
+      "direct_squared_distance_max_error": {
+        "B": 3.203749656677246e-07,
+        "C": 2.9010698199272156e-07
+      },
+      "full_grid_numpy_distance_NMS_queries": 576,
+      "full_grid_NMS_indices_exact": true,
+      "effective_queries": 116953
+    },
+    "validation": {
+      "all_PN_score_identity_and_stats_numpy_exact": true,
+      "previous_dot_exact": true,
+      "direct_squared_distance_max_error": {
+        "B": 1.7881393432617188e-07,
+        "C": 1.1920928955078125e-07
+      },
+      "full_grid_numpy_distance_NMS_queries": 576,
+      "full_grid_NMS_indices_exact": true,
+      "effective_queries": 116953
+    }
+  },
+  "no_training": true,
+  "no_new_normalization": true,
+  "fixed_weights_caches_masks_and_test_pool_hashes_unchanged": true,
+  "distance_not_fused_with_structure": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

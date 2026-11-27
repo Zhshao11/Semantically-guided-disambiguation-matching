@@ -1,0 +1,19 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.9",
+    "pytest": "9.2.0"
+  },
+  "parent_commit": "f8746aed13043c7fdc855e6ce111951143e7af3b",
+  "source_hashes": {
+    "sdgm/semantic_score_control.py": "0b48e44fbe6033d3fcf96e443c0df1dfc12c8b4f68b9b663df9a9313d404b453",
+    "scripts/evaluate_os_semantic_score_control.py": "cbb68e9cdd4819490376d021dcf26ad6c6fe8f27548d68aeca2be29711d19a5f",
+    "scripts/summarize_os_semantic_score_control.py": "2ea0257319170e279d2e07385ab42c1e6a947d8f3ce584a8a08819c52a79bcd3",
+    "scripts/verify_os_semantic_score_control.py": "950db4e505044a0b32094ea5a413f3a93273a4d6ca1b739858f7a54fa8574df9",
+    "tests/test_semantic_score_control.py": "44d6b8421fdbff7244dab6a90831c8da17d3015b2c18b1ba94c13cd4ba189ec3"
+  },
+  "dependencies_installed": false
+}

@@ -1,6 +1,27 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[三层同位置语义瓶颈诊断](artifacts/os_semantic_bottleneck_20261127/REPORT_zh.md)。模型、语义头、原型数、温度、相似度、lambda、部署4候选与8px规则全部冻结。每个查询固定同一P（8px正网格）及N（正域外16个结构NMS难负峰），比较A原DINO同图余弦、B原型教师同图点积、C实际SAR跨模态点积。**A/B使用GT逆映射且有同图自相似优势，不是严格跨模态上界。**
+最新完成[固定表示的点积/负平方距离评分对照](artifacts/os_semantic_score_control_20261127/REPORT_zh.md)。仅将B、C评分由pᵀq改为−0.5||p−q||²，保留全部模型/原型/分布、原P/N位置、1e-6平局规则和坐标链。没有新增归一化或训练，距离分数没有进入结构融合，lambda不变。
+
+| 验证中间指标 | 点积 | 负平方距离 |
+| --- | ---: | ---: |
+| B同图原型：最佳正胜最高难负 | 36.7071% | 88.2337% |
+| C实际跨模态：最佳正胜最高难负 | 11.9005% | 13.8645% |
+| C全网格最佳正名次中位数 | 136 | 129 |
+| C独立语义NMS四峰覆盖 | 4.8729% | 5.2987% |
+
+评分确实掩盖了B同图参照中的部分对应信息，不能把原点积失败全归因于压缩；B有GT辅助自相似优势，仍不构成跨模态上界。C中位排名小幅改善，但P95由654变为670–671，原结构漏检子组中位142→143。实际4候选预算下：原4结构@4=60.1284%；2结构+2点积=55.5385%（新增277、丢失5,645）；2结构+2距离=55.5480%（新增266、丢失5,623）。距离相对点积仅净多11个命中，配对family95%区间[−0.02228,+0.03925]个百分点跨0，训练监测反而净少7个。不能将中间排序改善解释为实际覆盖成功。
+
+73项测试与独立向量距离/NumPy选峰核验通过，原点积指标及候选逐查询精确复现，模型与分布哈希保持一致，OS/UBCv2最终测试继续封存。
+
+```bash
+export PYTHONPATH=.
+# 固定现有模型、分布与P/N，无训练；新计算需新output。
+.venv/bin/python scripts/evaluate_os_semantic_score_control.py --config configs/os_semantic_score_control.json
+.venv/bin/python scripts/summarize_os_semantic_score_control.py --config configs/os_semantic_score_control.json
+.venv/bin/python scripts/verify_os_semantic_score_control.py --config configs/os_semantic_score_control.json
+```
+
+此前完成[三层同位置语义瓶颈诊断](artifacts/os_semantic_bottleneck_20261127/REPORT_zh.md)。模型、语义头、原型数、温度、相似度、lambda、部署4候选与8px规则全部冻结。每个查询固定同一P（8px正网格）及N（正域外16个结构NMS难负峰），比较A原DINO同图余弦、B原型教师同图点积、C实际SAR跨模态点积。**A/B使用GT逆映射且有同图自相似优势，不是严格跨模态上界。**
 
 | 验证查询组 | A：最佳正胜最高难负 | B：最佳正胜最高难负 | C：最佳正胜最高难负 | C全网格最佳正名次中位数 |
 | --- | ---: | ---: | ---: | ---: |

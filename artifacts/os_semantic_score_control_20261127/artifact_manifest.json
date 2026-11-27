@@ -1,0 +1,116 @@
+{
+  "files": {
+    "PN_score_comparison.csv": {
+      "sha256": "de8148c1d3c8ad01bcedd540444b9f0ed07f71e32a5285370e4ab4db0d786d17",
+      "bytes": 8976
+    },
+    "REPORT_zh.md": {
+      "sha256": "35e54cd91816e1da30f39972ed31eda7fe2fd65402aeaa3b97226bc8c3dfff37",
+      "bytes": 14129
+    },
+    "candidate_budget_comparison.csv": {
+      "sha256": "00cfca3ed28ddea8e200e29357c374f0d06a47a066f4b3af4971d17d106a53df",
+      "bytes": 1114
+    },
+    "completion.json": {
+      "sha256": "8017a574e5e1fcf5491c36f18f7e9cf9790954fbab437bf5372b785678d643c9",
+      "bytes": 421
+    },
+    "engineering_notes.json": {
+      "sha256": "0046ab7bcc59a3e87d1e1f2f5835c1ec91ee58a7f15098fc1a3e7aba595cb2f0",
+      "bytes": 419
+    },
+    "family_paired_score_control.csv": {
+      "sha256": "e49feb3e20f9cf73b3c79281d772557e357fa409e78ee90512f766033cd263d1",
+      "bytes": 455308
+    },
+    "frozen_provenance_after.json": {
+      "sha256": "c198fb42621311b60801f62dcc8a94a9fb68c6d196abe7cb986053f16753ef7c",
+      "bytes": 2619
+    },
+    "frozen_provenance_before.json": {
+      "sha256": "c198fb42621311b60801f62dcc8a94a9fb68c6d196abe7cb986053f16753ef7c",
+      "bytes": 2619
+    },
+    "implementation_environment.json": {
+      "sha256": "66c97cd8f8e7d8365117348ada03773ba657cc243db66a20bb4d5dddeb74366a",
+      "bytes": 884
+    },
+    "logs/evaluation.log": {
+      "sha256": "a4a1a1e076e9ff659ec0a0c7c227befc31a1323c334c3aff2693d6168fc863d3",
+      "bytes": 124
+    },
+    "logs/initial_direct_distance_roundoff_audit.log.gz": {
+      "sha256": "bc634bf2fed8be6f8d4a3f83f575026f8fd4d1208db9a57466e9401b1c6e62cd",
+      "bytes": 207
+    },
+    "logs/summary.log": {
+      "sha256": "b7e1c27dee91f3a24570b4a37358844ae5ea0fb2e4d89ecf2529bcdc572cd8e0",
+      "bytes": 85
+    },
+    "logs/verification.log": {
+      "sha256": "adf6d47a05498aa990d5d98b735364bacbd493684a448763bd36b45a89f9f511",
+      "bytes": 96
+    },
+    "per_pair_score_control.csv": {
+      "sha256": "2f9c682a1b71368637badc5dbd805e6f86b5886c2d59056c7deb8338319e8c9c",
+      "bytes": 439964
+    },
+    "preregistered_protocol.json": {
+      "sha256": "5b4290d7a42080218145ff3ea21955ad0c6cfbc4e4becea27139fac501e5ef13",
+      "bytes": 2073
+    },
+    "score_ranking_and_coverage.png": {
+      "sha256": "2186194734429bcf4a0e19d6a0812e29e7e4a482b9598c60a1cf9605899aad07",
+      "bytes": 177434
+    },
+    "tests/junit.xml": {
+      "sha256": "9ad2d953805369cfe124b555b5d29c23084ae85d349f35e4e148cc4318308982",
+      "bytes": 9790
+    },
+    "tests/pytest.log": {
+      "sha256": "284482c0b6ebd5fbb930ec19ba89b52f851a5b0b76777314100e55103612d8bb",
+      "bytes": 3337
+    },
+    "training_monitor_group_summary.json": {
+      "sha256": "aee70521f946d100220385da4f46e4f5641ae593a78dff63b5dc5117ba7ac10e",
+      "bytes": 93754
+    },
+    "training_monitor_per_query.csv.gz": {
+      "sha256": "54d05a7d1b80c4a2581a679528ee0572c394a72369adf8febfdfc19c78f30da3",
+      "bytes": 7856618
+    },
+    "training_monitor_receipt.json": {
+      "sha256": "db55a2af5ebb487c921409ad8de5b408736707befa283e67eb7f76a982254d56",
+      "bytes": 335
+    },
+    "training_monitor_score_queries.npz": {
+      "sha256": "1253a529cc3438b06d3192bf3264b1ee467baa403e6437cdb6f1d8e3a3da492f",
+      "bytes": 70779532
+    },
+    "validation_group_summary.json": {
+      "sha256": "c1528203ac0c4f4e9c5de9c4fb4e89031d7d2a120091f38226622fa357b18ac5",
+      "bytes": 93571
+    },
+    "validation_per_query.csv.gz": {
+      "sha256": "514df2b82324c5bfc3d7a764425562d9a6c076fef73d1f507ab0f8c8049772fa",
+      "bytes": 7879273
+    },
+    "validation_receipt.json": {
+      "sha256": "db55a2af5ebb487c921409ad8de5b408736707befa283e67eb7f76a982254d56",
+      "bytes": 335
+    },
+    "validation_score_queries.npz": {
+      "sha256": "e48176e7659ff4f19fda6787b98caf59e303dfd257d87d68bd2bd1566f9de8df",
+      "bytes": 70704181
+    },
+    "verification.json": {
+      "sha256": "3f6d43374f216a74c5f4f98ff2f0d919c68c23d2a635664a73a0c2f90822115c",
+      "bytes": 1019
+    }
+  },
+  "training_updates_added": 0,
+  "weights_and_raw_images_included": false,
+  "representations_unchanged": true,
+  "distance_not_fused_with_structure": true
+}

@@ -1,0 +1,15 @@
+{
+  "completed": true,
+  "no_training": true,
+  "optimizer_steps_added": 0,
+  "models_and_probabilities_unchanged": true,
+  "previous_dot_results_exact": true,
+  "PN_and_groups_fixed": true,
+  "score_change_only": true,
+  "distance_structural_fusion": false,
+  "lambda_unchanged": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "wall_seconds": 33.25715702702291,
+  "peak_allocated_mib": 91.09326171875
+}
