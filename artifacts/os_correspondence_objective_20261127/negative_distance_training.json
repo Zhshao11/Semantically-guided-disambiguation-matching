@@ -1,0 +1,28 @@
+{
+  "valid_negative_slots": 157247680,
+  "bins_px": [
+    "8..10",
+    "10..12",
+    "12..16",
+    "16..24",
+    "24..32",
+    "32..64",
+    "64..128",
+    "128..256",
+    ">256"
+  ],
+  "counts": [
+    3367398,
+    3280628,
+    5300347,
+    6259401,
+    5402198,
+    29147911,
+    53191579,
+    49660321,
+    1637897
+  ],
+  "fraction_8to16": 0.075984415159575,
+  "strictly_outside8": true,
+  "note": "same fixed-structure negatives reused for both heads; augmentation-specific, no student online mining; not necessarily semantic class negatives"
+}

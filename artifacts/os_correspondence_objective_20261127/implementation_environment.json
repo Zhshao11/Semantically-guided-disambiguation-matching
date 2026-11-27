@@ -1,0 +1,21 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.9",
+    "pytest": "9.2.0"
+  },
+  "parent_commit": "3eddc045bf6acca56c3728dbef35dbd603905034",
+  "source_hashes": {
+    "sdgm/correspondence_objective.py": "94e7419b591e5217ebebc61510a7aa2c2e6261db57f20cbd6d7e3d575c5cdb5f",
+    "sdgm/correspondence_evaluation.py": "6a07de62364a6b627043f316f8e8f0968c80dd799eb13f9f4d1719a34fa64834",
+    "scripts/train_os_correspondence_objective.py": "ad02d6b4f47aa2bb5878d1a075d5a1ad418fb6a1b190caa30cd3199ca2c4aa0f",
+    "scripts/summarize_os_correspondence_objective.py": "0ffcd95d34ce0264f7093f91f33cc2c3103ba89b6e82c9cdc189d724737524d9",
+    "scripts/verify_os_correspondence_objective.py": "345253e48ccaf5cdeb29a4e0bea119a21532bd2842672f1bd1045776600b5fc5",
+    "scripts/audit_os_correspondence_negatives.py": "e86782ffd75c5853b838a5ce029606d9d766b7083bb24b1e14b2a5b8b47b2dc0",
+    "tests/test_correspondence_objective.py": "ffbabc2ef4db5eb5a723da88ad205d54fb7dae620c92d59ec83722f35632e5cb"
+  },
+  "dependencies_installed": false
+}

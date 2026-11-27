@@ -1,6 +1,30 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[固定表示的点积/负平方距离评分对照](artifacts/os_semantic_score_control_20261127/REPORT_zh.md)。仅将B、C评分由pᵀq改为−0.5||p−q||²，保留全部模型/原型/分布、原P/N位置、1e-6平局规则和坐标链。没有新增归一化或训练，距离分数没有进入结构融合，lambda不变。
+最新完成[同起点、同优化器、等预算的KL/KL＋对应判别续训](artifacts/os_correspondence_objective_20261127/REPORT_zh.md)。从原5000步KL头完整恢复权重及AdamW动量/计数，两支各追加5000步，使用相同冻结批次、原增强及同一结构NMS负例。仅更新同架构SAR头；KL定义不变，新增项与评价均使用负半平方概率距离。训练32-family冒烟后锁定tau=0.01988354、alpha=0.34117967，再重新加载正式起点，没有按验证调权。
+
+| 最终验证 | 原KL继续 | KL＋对应判别 |
+| --- | ---: | ---: |
+| KL / corr | 1.1253 / 2.0728 | 1.1274 / 1.8791 |
+| 最佳正胜最高结构难负 | 14.3211% | 14.3220% |
+| C全网格正名次中位/P95 | 125 / 668 | 119 / 654 |
+| 独立语义NMS4覆盖 | 5.3945% | 5.7134% |
+| 实际2结构+2距离语义@4 | 55.5462% | 55.5582% |
+| 新增/丢失（vs4结构） | 270 / 5,629 | 252 / 5,597 |
+
+实验相对等预算对照新增233、丢失219，净多14，@4差异+0.01197个百分点，family配对95%区间[−0.02133,+0.04788]跨0。不能把corr下降和中间排名改善当作实际覆盖收益。梯度稀疏检查出现冲突，实验概率更软；全部负例槽位仅7.60%在8–16px，但95.17%的查询至少一个最近负例在该范围，首个结构难负也有65.83%在该范围。规则未因此更改，仍需区分位置负例与语义类别负例。79项测试及两支终期重载核验通过，最终测试继续封存。
+
+```bash
+export PYTHONPATH=.
+# 准备仅用训练数据校准/冒烟；正式两支重新恢复同一checkpoint/AdamW。
+# 新实验使用新output，已有目录拒绝覆盖。
+.venv/bin/python scripts/train_os_correspondence_objective.py --phase prepare --config configs/os_correspondence_objective.json
+.venv/bin/python scripts/train_os_correspondence_objective.py --phase train --config configs/os_correspondence_objective.json
+.venv/bin/python scripts/audit_os_correspondence_negatives.py --config configs/os_correspondence_objective.json
+.venv/bin/python scripts/summarize_os_correspondence_objective.py --config configs/os_correspondence_objective.json
+.venv/bin/python scripts/verify_os_correspondence_objective.py --config configs/os_correspondence_objective.json
+```
+
+此前完成[固定表示的点积/负平方距离评分对照](artifacts/os_semantic_score_control_20261127/REPORT_zh.md)。仅将B、C评分由pᵀq改为−0.5||p−q||²，保留全部模型/原型/分布、原P/N位置、1e-6平局规则和坐标链。没有新增归一化或训练，距离分数没有进入结构融合，lambda不变。
 
 | 验证中间指标 | 点积 | 负平方距离 |
 | --- | ---: | ---: |

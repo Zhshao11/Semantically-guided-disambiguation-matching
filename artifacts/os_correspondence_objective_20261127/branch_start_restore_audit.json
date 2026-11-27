@@ -1,0 +1,22 @@
+{
+  "KL_control": {
+    "model": "135b1f0f767be58abda3b24b4fa46fe8a41daceea4e19d3c6c162293868120c8",
+    "optimizer": "b4ef2a472bb6dbf10bc196acce47cab1740b8b71728f99a376443534512bbed7",
+    "restored_steps": [
+      5000
+    ],
+    "lr": [
+      0.001
+    ]
+  },
+  "KL_corr": {
+    "model": "135b1f0f767be58abda3b24b4fa46fe8a41daceea4e19d3c6c162293868120c8",
+    "optimizer": "b4ef2a472bb6dbf10bc196acce47cab1740b8b71728f99a376443534512bbed7",
+    "restored_steps": [
+      5000
+    ],
+    "lr": [
+      0.001
+    ]
+  }
+}

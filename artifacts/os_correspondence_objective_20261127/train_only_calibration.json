@@ -1,0 +1,27 @@
+{
+  "tau": 0.019883543252944946,
+  "alpha": 0.3411796719095053,
+  "unclamped_tau": 0.019883543252944946,
+  "unclamped_alpha": 0.3411796719095053,
+  "KL_gradient_RMS": 0.17033042105270246,
+  "corr_gradient_RMS": 0.24961982655561174,
+  "weighted_corr_to_KL_gradient_ratio": 0.5,
+  "gradient_batches": [
+    {
+      "KL_gradient_norm": 0.12784678535020513,
+      "corr_gradient_norm": 0.252965789088292,
+      "gradient_cosine": -0.1416252625001757,
+      "conflicting": true,
+      "all_head_parameters_reached_by_both": true
+    },
+    {
+      "KL_gradient_norm": 0.2041570575503095,
+      "corr_gradient_norm": 0.2462284004136102,
+      "gradient_cosine": 0.128354447692783,
+      "conflicting": false,
+      "all_head_parameters_reached_by_both": true
+    }
+  ],
+  "selection": "single formula on fixed32 training families, no hyperparameter search",
+  "validation_used": false
+}

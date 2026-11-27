@@ -1,0 +1,74 @@
+{
+  "output": "reports/os_correspondence_objective_20261127",
+  "semantic_config": "configs/os_semantic_routing.json",
+  "resume_checkpoint": "reports/os_semantic_routing_20261126/training/semantic_head.pt",
+  "resume_checkpoint_sha256": "3f4c346c035eae7149c8f3a33fd43b1ab7420ae126e508b80df0819d0dbd2d4c",
+  "score_control_root": "reports/os_semantic_score_control_20261127",
+  "diagnostic_root": "reports/os_semantic_bottleneck_20261127",
+  "branches": [
+    "KL_control",
+    "KL_corr"
+  ],
+  "start_step": 5000,
+  "additional_steps": 5000,
+  "training_batch_size": 16,
+  "evaluation_batch_size": 4,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "scheduler": "none, preserve restored constant lr1e-3",
+  "optimizer": "restore original5000step AdamW full moments, counters and groups for both branches; fail rather than silently reset",
+  "data_order": "replay original index-only DataLoader from saved original sampler_seed to step5000 and check generator state matches checkpoint; preserve partial epoch11 offset50; freeze next5000 batches and sample/epoch augment plans identically for both heads",
+  "training_loss": "original distillation_loss unchanged; experimental adds alpha*corr where corr is stable logsumexp P vs P+N on negativehalf squared probability distance/tau",
+  "P": "existing valid target grid within8 nativepx ofGT",
+  "N": "up to16 frozen structure score NMS peaks outsideP, same24px suppression; selection detached, independent of either SAR head; changes only with existing sample/epoch input augmentation",
+  "empty_policy": "corr supervised only when existing supervised AND P nonempty AND N nonempty; separately count missingP, missingN, insufficientN, invalid base queries; never fill invalid points",
+  "smoke": {
+    "seed": 2026112703,
+    "families": 32,
+    "pairs_per_family": 1,
+    "augmentation_epoch": 11,
+    "batch_size": 16,
+    "steps": 100,
+    "tau_rule": "median within-query std of initial full distance scores restricted toP unionN on fixed32 training samples; clamp[0.005,0.1], no validation fit",
+    "alpha_rule": "0.5*RMS_KL_head_gradient_norm/RMS_corr_head_gradient_norm over same fixed32 training samples at restored start, clamp[0.001,10]; no validation fit",
+    "target_weighted_corr_to_KL_gradient_ratio": 0.5,
+    "tau_bounds": [
+      0.005,
+      0.1
+    ],
+    "alpha_bounds": [
+      0.001,
+      10.0
+    ],
+    "formal_reset": "discard smoke head updates, load same original model AND optimizer again for both formal branches; lock tau/alpha before any formal validation results"
+  },
+  "evaluation_additional_steps": [
+    0,
+    1000,
+    2500,
+    5000
+  ],
+  "gradient_diagnostic_steps": [
+    1,
+    100,
+    1000,
+    2500,
+    5000
+  ],
+  "evaluation": "same952-pair train monitor and952 validation, existing144sources,1024targets,24px NMS,2structure+2distance semantic vs4structure,8px recall, original fixed masks/plans; distance not structurally fused, no lambda change",
+  "bootstrap": {
+    "seed": 2026112704,
+    "replicates": 2000,
+    "unit": "paired whole families query-weighted"
+  },
+  "cuda_device": 6,
+  "sealed_pools": "OS final test1696 and UBCv2 test1625 remain sealed, no inference",
+  "interpretation": "single trained-seed controlled continuation, positional negatives not necessarily semantic-class negatives; monitor KL/corr gradient conflict; synthetic-label-relative source-family validation only",
+  "locked_tau": 0.019883543252944946,
+  "locked_alpha": 0.3411796719095053,
+  "calibration_sha256": "440b8b47f279e050a9564858cf4a3d4bd3842a1d029c59b5494c099fbe0badf6",
+  "schedule_sha256": "e60f3b92b8013374a7452ded913ae1eaa77e5258885eded51d4ea3a2762681b4",
+  "smoke_samples_sha256": "0a924becb06732ffb8b402697237add121c3644c1ad56d89b600920b388b02a7",
+  "validation_results_seen_before_lock": false
+}

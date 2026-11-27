@@ -1,0 +1,33 @@
+{
+  "additional_step": 5000,
+  "total_step": 10000,
+  "augmentation_epoch": 21,
+  "branches": {
+    "KL_control": {
+      "KL": 1.2700423002243042,
+      "corr": 2.607989549636841,
+      "objective": 1.2700423002243042,
+      "effective_KL_queries": 2032,
+      "effective_corr_queries": 2032,
+      "empty_P": 193,
+      "empty_N": 0,
+      "N_lt16": 0,
+      "existing_invalid_queries": 272,
+      "gradient_norm": 0.32567501068115234,
+      "nonfinite": false
+    },
+    "KL_corr": {
+      "KL": 1.3694472312927246,
+      "corr": 1.9080262184143066,
+      "objective": 2.0204269886016846,
+      "effective_KL_queries": 2032,
+      "effective_corr_queries": 2032,
+      "empty_P": 193,
+      "empty_N": 0,
+      "N_lt16": 0,
+      "existing_invalid_queries": 272,
+      "gradient_norm": 0.2467997521162033,
+      "nonfinite": false
+    }
+  }
+}

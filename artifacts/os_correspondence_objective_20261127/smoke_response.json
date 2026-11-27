@@ -1,0 +1,23 @@
+{
+  "before": {
+    "KL": 1.0834794033291317,
+    "corr": 1.9920555227203116,
+    "eligible_queries": 3937,
+    "PN_win_rate": 0.14351028702057403,
+    "PN_delta_median": -0.012245550751686096,
+    "empty_corr": false
+  },
+  "after": {
+    "KL": 0.9758177161035061,
+    "corr": 1.747400042427534,
+    "eligible_queries": 3937,
+    "PN_win_rate": 0.19380238760477522,
+    "PN_delta_median": -0.009615816175937653,
+    "empty_corr": false
+  },
+  "valid_gradients": true,
+  "alpha_tau_retuned": false,
+  "formal_model_and_optimizer_will_reload": true,
+  "validation_used": false,
+  "parameters_at_preparation_start": "135b1f0f767be58abda3b24b4fa46fe8a41daceea4e19d3c6c162293868120c8"
+}

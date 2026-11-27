@@ -1,0 +1,19 @@
+{
+  "sdgm/coarse.py": "9932f18f8c7ab9f79fa194b43a88a75df01b05c4743ff334ba6791eac03b9825",
+  "sdgm/geometry.py": "19dd7194efa3737db8360b4237380daf09a6328ea16c6beabdd57e251e19371d",
+  "sdgm/raw_tiles.py": "20179d2e1423c93208c0a531d0cddb08c82a3c50537abb133406592b808ca1b8",
+  "sdgm/os_family_data.py": "7fdbc53ecebd65eba4ebbdd05ceb11e1280c17e47c94582070dc3c186039fc83",
+  "sdgm/family_evaluation.py": "645050be5a296eb3964a3a948e3a38a2dec7aeda4e3f806307a7f67087dc15ee",
+  "reports/os_continuation_diagnostic_20261126/run/last.pt": "40aefd473566fa5c14557b9d9198bf26e8b2b753b35cb435bda589b28b6f19bc",
+  "reports/os_family_baseline_20261126/freeze_receipt.json": "3c037aab3c7ac39357a7b07095d7f0cc848b066af59d4a039ef171a33925f0c0",
+  "reports/os_continuation_diagnostic_20261126/monitor_freeze.json": "40293837880a8de2541d6fc4aa36523ae939ca279138bb12ed5032024cd18f9f",
+  "reports/os_continuation_diagnostic_20261126/validation_transforms.jsonl": "155541e28c5c4bdbe32fe0d7d7da1c587d6a97edac848775b90e5f0e45e27808",
+  "reports/os_ubc_20261126/ubcv2/manifest.jsonl": "65ae39abf694dba0dd78c5157690c558007e3512685abec3919d7b88b5b2337d",
+  "reports/os_ubc_20261126/ubcv2/frozen_policy.json": "a4ec18b01018507e51133eb2ed65188d294410b950a7399582957c2dc1dec286",
+  "reports/os_ubc_20261126/ubcv2/frozen_exclusions.csv": "6d7d0b99f992484ddb67b83e24b58fcc43cd4cd9efbb06443837d584bea881f0",
+  "reports/os_ubc_20261126/ubcv2/frozen_evaluation_pool.csv": "b497ed6990cc9bc01c0b7bea9c21cd083c61fe8831afe326880c9b52cb86e394",
+  "reports/os_ubc_20261126/ubcv2/freeze_receipt.json": "453bc72972ab8b89caa3adcad12fbdc77b21292ee58968b45d07ca9114be3265",
+  "reports/os_semantic_routing_20261126/training/semantic_head.pt": "3f4c346c035eae7149c8f3a33fd43b1ab7420ae126e508b80df0819d0dbd2d4c",
+  "reports/os_semantic_routing_20261126/teacher/cache_receipt.json": "daf39c5daa9b3658cb64644eadc80f2e8e25b64b3e1d6c3a7ec379cc664baef4",
+  "reports/os_semantic_routing_20261126/routing_calibration.json": "e98deaf16dc3c6cf57b670626fa56ea024f7e75fffdea04636b370949148015b"
+}

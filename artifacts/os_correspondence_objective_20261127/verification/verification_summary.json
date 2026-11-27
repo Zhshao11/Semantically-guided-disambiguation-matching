@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "initial_heads_and_AdamW_exact": true,
+  "optimizer_reset": false,
+  "schedule_sampler_partial_epoch_and_all_augmentation_seeds_verified": true,
+  "additional_updates_each": 5000,
+  "original_KL_unchanged": true,
+  "teacher_and_structure_unchanged": true,
+  "checks": {
+    "training_monitor": {
+      "final_head_reload_all_arrays_exact": true,
+      "evaluation_PN_fixed_across_branches_and_checkpoints": true,
+      "supervised_queries": 116953
+    },
+    "validation": {
+      "final_head_reload_all_arrays_exact": true,
+      "evaluation_PN_fixed_across_branches_and_checkpoints": true,
+      "supervised_queries": 116953
+    }
+  },
+  "same_negative_sets_for_both_branches": true,
+  "validation_not_used_for_alpha_tau": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

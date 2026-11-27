@@ -1,0 +1,26 @@
+{
+  "training_monitor": {
+    "constant_equal_target_scores_corr_mean": 1.8979205682135463,
+    "definition": "log((|P|+|N|)/|P|), same target score for each query; no training or model inference",
+    "eligible_queries": 116953,
+    "positive_count_distribution": {
+      "1": 2246,
+      "2": 31287,
+      "3": 53303,
+      "4": 30117
+    },
+    "interpretation": "analytic diagnostic reference, not a trained third arm or a model selection criterion"
+  },
+  "validation": {
+    "constant_equal_target_scores_corr_mean": 1.8979205682135463,
+    "definition": "log((|P|+|N|)/|P|), same target score for each query; no training or model inference",
+    "eligible_queries": 116953,
+    "positive_count_distribution": {
+      "1": 2246,
+      "2": 31287,
+      "3": 53303,
+      "4": 30117
+    },
+    "interpretation": "analytic diagnostic reference, not a trained third arm or a model selection criterion"
+  }
+}

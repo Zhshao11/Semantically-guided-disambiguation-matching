@@ -1,0 +1,8 @@
+{
+  "start_epoch": 11,
+  "replayed_steps": 5000,
+  "sampler_state_matches": true,
+  "original_batches_per_epoch": 495,
+  "partial_epoch_batches_consumed": 50,
+  "final_epoch": 21
+}

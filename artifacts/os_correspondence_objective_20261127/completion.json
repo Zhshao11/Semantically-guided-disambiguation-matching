@@ -1,0 +1,25 @@
+{
+  "completed": true,
+  "additional_steps_each": 5000,
+  "optimizer_total_steps_each": 10000,
+  "both_initial_model_and_optimizer_exact": true,
+  "same_batches_augmentation_and_structural_negative_sets": true,
+  "shared_batch_input_digest": "540b2fc7b62981a0b4c96ae5c8258341c89ade9c6346c5d7806063328e2ec6bb",
+  "shared_negative_index_digest": "c20fe841ed7366e7e448cfb1274a82a8e6e2226b0c7a78d2f5f37d31e78a0529",
+  "structural_digest_before": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+  "structural_digest_after": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+  "only_SAR_head_updated": true,
+  "tau": 0.019883543252944946,
+  "alpha": 0.3411796719095053,
+  "KL_definition_unchanged": true,
+  "no_distance_structural_fusion": true,
+  "lambda_unchanged": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "wall_seconds": 329.5362000600435,
+  "peak_allocated_mib": 309.916015625,
+  "final_checkpoints": {
+    "KL_control": "ccaa7a081c9b22a66a816eab6256e630645962b42e7ef86a6d1c65dae306256f",
+    "KL_corr": "c32cf77aa533e4e8007d253ffff5ac71a5a52ae612d91b394b82ea46d823739f"
+  }
+}

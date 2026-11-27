@@ -229,6 +229,49 @@
       ],
       "conclusion": "same-image prototype distribution retains correspondence information hidden by dot scoring, but C improvement is small and fixed-budget net coverage does not reliably improve; B is GT-assisted same-image reference, not cross-modal upper bound",
       "test_pools_unchanged_and_not_evaluated": true
+    },
+    "correspondence_objective_control": {
+      "config": "configs/os_correspondence_objective.json",
+      "report": "artifacts/os_correspondence_objective_20261127/REPORT_zh.md",
+      "initial_KL_step": 5000,
+      "additional_updates_per_branch": 5000,
+      "same_initial_head_and_AdamW_moments": true,
+      "optimizer_reset": false,
+      "same_data_order_augmentation_and_frozen_structure_negatives": true,
+      "only_same_SAR_head_updated": true,
+      "KL_function_unchanged": true,
+      "tau": 0.019883543252944946,
+      "alpha": 0.3411796719095053,
+      "alpha_tau_train_only_calibration": true,
+      "reset_after_smoke_to_formal_checkpoint": true,
+      "evaluation_score": "negativehalf squared probability distance, no structural fusion orlambda change",
+      "validation_recall4": {
+        "KL_control": 0.5554624507280702,
+        "KL_corr": 0.555582156934837
+      },
+      "validation_PN_win_rate": {
+        "KL_control": 0.1432113755098202,
+        "KL_corr": 0.14321992595316066
+      },
+      "validation_experiment_new_lost_vs_control": [
+        233,
+        219
+      ],
+      "validation_net_experiment_vs_control": 14,
+      "validation_family_improved_degraded_unchanged": [
+        71,
+        72,
+        95
+      ],
+      "validation_experiment_minus_control_recall4_interval95": [
+        -0.00021333522515476705,
+        0.0004787513538298565
+      ],
+      "negative_slot_fraction_8to16": 0.075984415159575,
+      "query_closest_negative_fraction_8to16": 0.9516638210496969,
+      "gradient_conflict_monitored": true,
+      "conclusion": "corr loss and some intermediate ranks improve, but no reliable validation PN win or actual4candidate coverage gain under this fixed budget/seed; local gradient conflict and near-boundary negatives recorded, not sole causes established",
+      "test_pools_unchanged_and_not_evaluated": true
     }
   }
 }

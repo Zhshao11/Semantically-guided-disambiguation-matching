@@ -1,0 +1,41 @@
+........................................................................ [ 91%]
+.......                                                                  [100%]
+=============================== warnings summary ===============================
+tests/test_raw_pipeline.py::test_raw_inventory_distinguishes_catalog_and_local_pairing
+tests/test_raw_pipeline.py::test_reproducible_chain_preserves_rgb_nir_and_zero_support
+tests/test_raw_pipeline.py::test_validation_admission_preflight_writes_nothing
+tests/test_raw_pipeline.py::test_source_tamper_is_rejected_before_writes
+tests/test_raw_pipeline.py::test_stale_audit_is_rejected
+tests/test_raw_pipeline.py::test_raw_audit_export_handles_existing_status_and_zero_points
+tests/test_raw_pipeline.py::test_external_mask_tamper_is_rejected
+tests/test_raw_pipeline.py::test_fractional_warp_requires_full_valid_support
+tests/test_raw_pipeline.py::test_provisional_geography_cannot_be_used_as_independent_validation
+  /mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/.venv/lib/python3.10/site-packages/rasterio/__init__.py:366: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+    dataset = writer(
+
+tests/test_raw_pipeline.py::test_raw_inventory_distinguishes_catalog_and_local_pairing
+tests/test_raw_pipeline.py::test_reproducible_chain_preserves_rgb_nir_and_zero_support
+tests/test_raw_pipeline.py::test_validation_admission_preflight_writes_nothing
+tests/test_raw_pipeline.py::test_source_tamper_is_rejected_before_writes
+tests/test_raw_pipeline.py::test_stale_audit_is_rejected
+tests/test_raw_pipeline.py::test_raw_audit_export_handles_existing_status_and_zero_points
+tests/test_raw_pipeline.py::test_external_mask_tamper_is_rejected
+tests/test_raw_pipeline.py::test_fractional_warp_requires_full_valid_support
+tests/test_raw_pipeline.py::test_provisional_geography_cannot_be_used_as_independent_validation
+  /mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/.venv/lib/python3.10/site-packages/rasterio/__init__.py:358: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+    dataset = get_writer_for_path(path, driver=driver)(
+
+tests/test_raw_pipeline.py::test_raw_inventory_distinguishes_catalog_and_local_pairing
+tests/test_raw_pipeline.py::test_reproducible_chain_preserves_rgb_nir_and_zero_support
+tests/test_raw_pipeline.py::test_validation_admission_preflight_writes_nothing
+tests/test_raw_pipeline.py::test_source_tamper_is_rejected_before_writes
+tests/test_raw_pipeline.py::test_stale_audit_is_rejected
+tests/test_raw_pipeline.py::test_raw_audit_export_handles_existing_status_and_zero_points
+tests/test_raw_pipeline.py::test_external_mask_tamper_is_rejected
+tests/test_raw_pipeline.py::test_fractional_warp_requires_full_valid_support
+tests/test_raw_pipeline.py::test_provisional_geography_cannot_be_used_as_independent_validation
+  /mnt/sda/zhushihao/Semantically-guided-disambiguation-matching/.venv/lib/python3.10/site-packages/rasterio/__init__.py:356: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+    dataset = DatasetReader(path, driver=driver, sharing=sharing, **kwargs)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+79 passed, 27 warnings in 4.81s

@@ -1,0 +1,3 @@
+{'KL_control': {'step': 5000, 'split': 'training_monitor', 'R4': 0.6738176874470941, 'KL': 1.1213887929916382, 'corr': 2.1900253295898438, 'PN_win': 0.14793122023376912}, 'KL_corr': {'step': 5000, 'split': 'training_monitor', 'R4': 0.6739630449838824, 'KL': 1.1529738903045654, 'corr': 1.8461523056030273, 'PN_win': 0.15044505057587235}}
+{'KL_control': {'step': 5000, 'split': 'validation', 'R4': 0.5554624507280702, 'KL': 1.1252610683441162, 'corr': 2.0728232860565186, 'PN_win': 0.1432113755098202}, 'KL_corr': {'step': 5000, 'split': 'validation', 'R4': 0.555582156934837, 'KL': 1.1273746490478516, 'corr': 1.8791037797927856, 'PN_win': 0.14321992595316066}}
+Restored optimizer, identical partial-epoch schedule, frozen sources and exact final reload verified
