@@ -1,0 +1,37 @@
+{
+  "step": 800,
+  "groups": {
+    "structure_point": {
+      "loss": 0.29686784744262695,
+      "gradient_norm": 0.7114061713218689,
+      "valid_pairs": 16,
+      "effective_queries": 2304,
+      "empty_positive": 0,
+      "nonfinite": false
+    },
+    "structure_context": {
+      "loss": 0.20276698470115662,
+      "gradient_norm": 0.6365804672241211,
+      "valid_pairs": 16,
+      "effective_queries": 2304,
+      "empty_positive": 0,
+      "nonfinite": false
+    },
+    "semantic_point": {
+      "loss": 0.3249882757663727,
+      "gradient_norm": 1.1770126819610596,
+      "valid_pairs": 16,
+      "effective_queries": 2304,
+      "empty_positive": 0,
+      "nonfinite": false
+    },
+    "semantic_context": {
+      "loss": 0.22536644339561462,
+      "gradient_norm": 1.3618481159210205,
+      "valid_pairs": 16,
+      "effective_queries": 2304,
+      "empty_positive": 0,
+      "nonfinite": false
+    }
+  }
+}

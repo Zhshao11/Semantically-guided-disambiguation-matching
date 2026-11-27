@@ -1,6 +1,27 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[同起点、同优化器、等预算的KL/KL＋对应判别续训](artifacts/os_correspondence_objective_20261127/REPORT_zh.md)。从原5000步KL头完整恢复权重及AdamW动量/计数，两支各追加5000步，使用相同冻结批次、原增强及同一结构NMS负例。仅更新同架构SAR头；KL定义不变，新增项与评价均使用负半平方概率距离。训练32-family冒烟后锁定tau=0.01988354、alpha=0.34117967，再重新加载正式起点，没有按验证调权。
+最新完成[冻结前端、等容量上下文描述子的阶段A/B](artifacts/os_context_descriptor_stageAB_20261127/REPORT_zh.md)：纯结构同口径全网格排名、四组前向及单测、固定32个训练family各1对的等预算800步拟合。第30轮结构与KL续训终点10,000步SAR语义头全冻结；四组新头均393,984参数、相同初始化／样本顺序／新AdamW，全部1024目标网格余弦检索，tau=0.1的全网格正邻域概率质量损失。
+
+纯结构验证最佳正名次中位/P75/P95为**2/5/42**，原4结构漏检组为**6/17/111**；@1/@4精确复现47.8337%/60.1284%。此前语义125→119不能解释为优于结构。
+
+| 固定32对工程拟合，800步 | 损失 初始→终点 | 独立NMS4 | 2结构+2新描述子@4 |
+| --- | ---: | ---: | ---: |
+| 结构逐点 | 5.4648→0.2936 | 99.9783% | 76.8880% |
+| 结构上下文 | 5.5157→0.2034 | 100.0000% | 78.6241% |
+| 语义逐点 | 5.4630→0.3217 | 100.0000% | 77.3438% |
+| 语义上下文 | 5.4645→0.2233 | 100.0000% | 78.6024% |
+
+88项测试及最终checkpoint精确重载核验通过，冻结参数／统计／教师链不变，两侧新头梯度有限非零，无塌缩迹象。此子集的原4结构@4为69.0972%；2+2路径受结构前缀24px抑制，其诊断可达上限79.5139%，不代表扰动验证上限。**这些是训练拟合结果，不能证明未见family收益或语义独立贡献。** 首份交付到阶段A/B；阶段C三个配对种子、每组5,000步已预登记，尚未运行。OS/UBCv2最终测试继续封存。
+
+```bash
+export PYTHONPATH=.
+# 新运行必须指定新output；已有结果拒绝覆盖。
+.venv/bin/python scripts/run_os_context_stageAB.py --config configs/os_context_descriptor.json
+.venv/bin/python scripts/summarize_os_context_stageAB.py --config configs/os_context_descriptor.json
+.venv/bin/python scripts/verify_os_context_stageAB.py --config configs/os_context_descriptor.json
+```
+
+此前完成[同起点、同优化器、等预算的KL/KL＋对应判别续训](artifacts/os_correspondence_objective_20261127/REPORT_zh.md)。从原5000步KL头完整恢复权重及AdamW动量/计数，两支各追加5000步，使用相同冻结批次、原增强及同一结构NMS负例。仅更新同架构SAR头；KL定义不变，新增项与评价均使用负半平方概率距离。训练32-family冒烟后锁定tau=0.01988354、alpha=0.34117967，再重新加载正式起点，没有按验证调权。
 
 | 最终验证 | 原KL继续 | KL＋对应判别 |
 | --- | ---: | ---: |

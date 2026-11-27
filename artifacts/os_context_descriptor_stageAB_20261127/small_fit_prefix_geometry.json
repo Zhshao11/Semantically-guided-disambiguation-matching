@@ -1,0 +1,7 @@
+{
+  "supervised_queries": 4608,
+  "P_fully_suppressed_by_prefix": 3888,
+  "structure_miss_P_fully_suppressed": 944,
+  "two_plus_two_geometric_upper_coverage": 0.7951388888888888,
+  "note": "GT used only to diagnose fixed-prefix reachability, never to select candidates or alter windows; identity32pair training subset only"
+}

@@ -1,0 +1,1873 @@
+{
+  "structure": {
+    "method": "structure",
+    "tag": "step00100",
+    "pairs": 32,
+    "families": 32,
+    "effective_queries": 4608,
+    "original_hits": 3184,
+    "original_misses": 1424,
+    "hits": 3184,
+    "new_hits": 0,
+    "lost_hits": 0,
+    "net_hits": 0,
+    "recall_at_4": 0.6909722222222222,
+    "delta_recall4": 0.0,
+    "rescue_rate": 0.0,
+    "loss_rate": 0.0,
+    "ranking": {
+      "all": {
+        "queries": 4608,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 3.0,
+          "90": 8.0,
+          "95": 16.0,
+          "99": 73.0,
+          "100": 416.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 3.0,
+          "90": 8.0,
+          "95": 16.0,
+          "99": 73.0,
+          "100": 416.0
+        },
+        "top1_coverage": 0.5581597222222222,
+        "independent_NMS4_coverage": 0.6909722222222222,
+        "raw_top4_guaranteed": 0.8159722222222222,
+        "raw_top4_possible": 0.8159722222222222
+      },
+      "structure_miss": {
+        "queries": 1424,
+        "best_positive_rank_min": {
+          "0": 2.0,
+          "5": 2.0,
+          "25": 2.0,
+          "50": 4.0,
+          "75": 9.0,
+          "90": 24.0,
+          "95": 45.69999999999982,
+          "99": 184.62999999999965,
+          "100": 416.0
+        },
+        "best_positive_rank_max": {
+          "0": 2.0,
+          "5": 2.0,
+          "25": 2.0,
+          "50": 4.0,
+          "75": 9.0,
+          "90": 24.0,
+          "95": 45.69999999999982,
+          "99": 184.62999999999965,
+          "100": 416.0
+        },
+        "top1_coverage": 0.0,
+        "independent_NMS4_coverage": 0.0,
+        "raw_top4_guaranteed": 0.5702247191011236,
+        "raw_top4_possible": 0.5702247191011236
+      }
+    },
+    "merged_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 11.313708305358887,
+      "90": 16.0,
+      "95": 17.8885440826416,
+      "99": 48.0,
+      "100": 171.7672882080078
+    },
+    "independent_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 11.313708305358887,
+      "90": 16.0,
+      "95": 17.8885440826416,
+      "99": 48.0,
+      "100": 171.7672882080078
+    },
+    "loss_pair_mean": null,
+    "interpretation": "native synthetic-label-relative; fixed small-fit subset is training diagnosis only",
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false
+  },
+  "structure_point": {
+    "method": "structure_point",
+    "tag": "step00100",
+    "pairs": 32,
+    "families": 32,
+    "effective_queries": 4608,
+    "original_hits": 3184,
+    "original_misses": 1424,
+    "hits": 3377,
+    "new_hits": 222,
+    "lost_hits": 29,
+    "net_hits": 193,
+    "recall_at_4": 0.7328559027777778,
+    "delta_recall4": 0.04188368055555555,
+    "rescue_rate": 0.15589887640449437,
+    "loss_rate": 0.009108040201005025,
+    "ranking": {
+      "all": {
+        "queries": 4608,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 4.0,
+          "99": 11.0,
+          "100": 123.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 4.0,
+          "99": 11.0,
+          "100": 123.0
+        },
+        "top1_coverage": 0.8244357638888888,
+        "independent_NMS4_coverage": 0.8949652777777778,
+        "raw_top4_guaranteed": 0.9544270833333334,
+        "raw_top4_possible": 0.9544270833333334
+      },
+      "structure_miss": {
+        "queries": 1424,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 2.0,
+          "90": 5.0,
+          "95": 9.0,
+          "99": 23.539999999999964,
+          "100": 123.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 2.0,
+          "90": 5.0,
+          "95": 9.0,
+          "99": 23.539999999999964,
+          "100": 123.0
+        },
+        "top1_coverage": 0.672752808988764,
+        "independent_NMS4_coverage": 0.7605337078651685,
+        "raw_top4_guaranteed": 0.8890449438202247,
+        "raw_top4_possible": 0.8890449438202247
+      }
+    },
+    "merged_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 11.313708305358887,
+      "90": 16.0,
+      "95": 16.0,
+      "99": 24.0,
+      "100": 128.249755859375
+    },
+    "independent_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 8.0,
+      "90": 11.313708305358887,
+      "95": 16.0,
+      "99": 22.627416610717773,
+      "100": 128.249755859375
+    },
+    "loss_pair_mean": 1.1359685081988573,
+    "interpretation": "native synthetic-label-relative; fixed small-fit subset is training diagnosis only",
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false,
+    "descriptor_spatial_diagnostics": {
+      "optical": [
+        {
+          "mean_vector_norm": 0.10440146178007126,
+          "variance": 0.9891003370285034,
+          "average_offdiagonal_cosine": 0.003982878755778074
+        },
+        {
+          "mean_vector_norm": 0.10083787143230438,
+          "variance": 0.9898317456245422,
+          "average_offdiagonal_cosine": 0.0032463755924254656
+        },
+        {
+          "mean_vector_norm": 0.1356223076581955,
+          "variance": 0.9816066026687622,
+          "average_offdiagonal_cosine": 0.011529027484357357
+        },
+        {
+          "mean_vector_norm": 0.1164722666144371,
+          "variance": 0.9864342212677002,
+          "average_offdiagonal_cosine": 0.006667646579444408
+        },
+        {
+          "mean_vector_norm": 0.1002795547246933,
+          "variance": 0.9899440407752991,
+          "average_offdiagonal_cosine": 0.0031333041843026876
+        },
+        {
+          "mean_vector_norm": 0.10549162328243256,
+          "variance": 0.9888714551925659,
+          "average_offdiagonal_cosine": 0.0042132968083024025
+        },
+        {
+          "mean_vector_norm": 0.10264419764280319,
+          "variance": 0.9894642233848572,
+          "average_offdiagonal_cosine": 0.003616500645875931
+        },
+        {
+          "mean_vector_norm": 0.1093931570649147,
+          "variance": 0.9880331158638,
+          "average_offdiagonal_cosine": 0.0050575388595461845
+        },
+        {
+          "mean_vector_norm": 0.11512990295886993,
+          "variance": 0.9867451190948486,
+          "average_offdiagonal_cosine": 0.006354578770697117
+        },
+        {
+          "mean_vector_norm": 0.11796898394823074,
+          "variance": 0.9860833287239075,
+          "average_offdiagonal_cosine": 0.007020993623882532
+        },
+        {
+          "mean_vector_norm": 0.10511722415685654,
+          "variance": 0.9889504313468933,
+          "average_offdiagonal_cosine": 0.004133893176913261
+        },
+        {
+          "mean_vector_norm": 0.11048050224781036,
+          "variance": 0.987794041633606,
+          "average_offdiagonal_cosine": 0.005298290867358446
+        },
+        {
+          "mean_vector_norm": 0.11601442843675613,
+          "variance": 0.986540675163269,
+          "average_offdiagonal_cosine": 0.006560459733009338
+        },
+        {
+          "mean_vector_norm": 0.10732469707727432,
+          "variance": 0.9884814023971558,
+          "average_offdiagonal_cosine": 0.004606132861226797
+        },
+        {
+          "mean_vector_norm": 0.10709113627672195,
+          "variance": 0.9885315299034119,
+          "average_offdiagonal_cosine": 0.004555705469101667
+        },
+        {
+          "mean_vector_norm": 0.10073906928300858,
+          "variance": 0.9898516535758972,
+          "average_offdiagonal_cosine": 0.003226320259273052
+        },
+        {
+          "mean_vector_norm": 0.08716144412755966,
+          "variance": 0.9924029111862183,
+          "average_offdiagonal_cosine": 0.000657236494589597
+        },
+        {
+          "mean_vector_norm": 0.11596223711967468,
+          "variance": 0.9865527749061584,
+          "average_offdiagonal_cosine": 0.006548268720507622
+        },
+        {
+          "mean_vector_norm": 0.12291105836629868,
+          "variance": 0.9848928451538086,
+          "average_offdiagonal_cosine": 0.008219764567911625
+        },
+        {
+          "mean_vector_norm": 0.09378500282764435,
+          "variance": 0.9912043809890747,
+          "average_offdiagonal_cosine": 0.0018641265342012048
+        },
+        {
+          "mean_vector_norm": 0.12405955046415329,
+          "variance": 0.9846091866493225,
+          "average_offdiagonal_cosine": 0.008505390956997871
+        },
+        {
+          "mean_vector_norm": 0.0975813940167427,
+          "variance": 0.9904778599739075,
+          "average_offdiagonal_cosine": 0.0025957103352993727
+        },
+        {
+          "mean_vector_norm": 0.12037651240825653,
+          "variance": 0.98550945520401,
+          "average_offdiagonal_cosine": 0.007598829921334982
+        },
+        {
+          "mean_vector_norm": 0.11364056915044785,
+          "variance": 0.98708575963974,
+          "average_offdiagonal_cosine": 0.006011481396853924
+        },
+        {
+          "mean_vector_norm": 0.12737832963466644,
+          "variance": 0.9837748408317566,
+          "average_offdiagonal_cosine": 0.009345694445073605
+        },
+        {
+          "mean_vector_norm": 0.09450893849134445,
+          "variance": 0.9910681247711182,
+          "average_offdiagonal_cosine": 0.0020013933535665274
+        },
+        {
+          "mean_vector_norm": 0.09893515706062317,
+          "variance": 0.9902117848396301,
+          "average_offdiagonal_cosine": 0.0028636062052100897
+        },
+        {
+          "mean_vector_norm": 0.1045023500919342,
+          "variance": 0.9890792965888977,
+          "average_offdiagonal_cosine": 0.004004102665930986
+        },
+        {
+          "mean_vector_norm": 0.11172597110271454,
+          "variance": 0.987517237663269,
+          "average_offdiagonal_cosine": 0.005576977971941233
+        },
+        {
+          "mean_vector_norm": 0.11483166366815567,
+          "variance": 0.9868137836456299,
+          "average_offdiagonal_cosine": 0.006285515613853931
+        },
+        {
+          "mean_vector_norm": 0.1372278481721878,
+          "variance": 0.9811685681343079,
+          "average_offdiagonal_cosine": 0.011970164254307747
+        },
+        {
+          "mean_vector_norm": 0.1272502839565277,
+          "variance": 0.983807384967804,
+          "average_offdiagonal_cosine": 0.00931286159902811
+        }
+      ],
+      "sar": [
+        {
+          "mean_vector_norm": 0.12109410017728806,
+          "variance": 0.9853362441062927,
+          "average_offdiagonal_cosine": 0.01370059885084629
+        },
+        {
+          "mean_vector_norm": 0.14151787757873535,
+          "variance": 0.9799727201461792,
+          "average_offdiagonal_cosine": 0.0190693698823452
+        },
+        {
+          "mean_vector_norm": 0.12219180911779404,
+          "variance": 0.9850691556930542,
+          "average_offdiagonal_cosine": 0.013967915438115597
+        },
+        {
+          "mean_vector_norm": 0.14962567389011383,
+          "variance": 0.9776121973991394,
+          "average_offdiagonal_cosine": 0.021432211622595787
+        },
+        {
+          "mean_vector_norm": 0.13657183945178986,
+          "variance": 0.9813481569290161,
+          "average_offdiagonal_cosine": 0.017692582681775093
+        },
+        {
+          "mean_vector_norm": 0.12744350731372833,
+          "variance": 0.9837581515312195,
+          "average_offdiagonal_cosine": 0.015280207619071007
+        },
+        {
+          "mean_vector_norm": 0.11834946274757385,
+          "variance": 0.9859933853149414,
+          "average_offdiagonal_cosine": 0.013042770326137543
+        },
+        {
+          "mean_vector_norm": 0.14185717701911926,
+          "variance": 0.9798765182495117,
+          "average_offdiagonal_cosine": 0.019165612757205963
+        },
+        {
+          "mean_vector_norm": 0.12694315612316132,
+          "variance": 0.9838854074478149,
+          "average_offdiagonal_cosine": 0.015152801759541035
+        },
+        {
+          "mean_vector_norm": 0.09194871038198471,
+          "variance": 0.9915454387664795,
+          "average_offdiagonal_cosine": 0.007485312409698963
+        },
+        {
+          "mean_vector_norm": 0.1284029632806778,
+          "variance": 0.9835126996040344,
+          "average_offdiagonal_cosine": 0.015525922179222107
+        },
+        {
+          "mean_vector_norm": 0.101288340985775,
+          "variance": 0.9897406697273254,
+          "average_offdiagonal_cosine": 0.009291838854551315
+        },
+        {
+          "mean_vector_norm": 0.13495410978794098,
+          "variance": 0.9817874431610107,
+          "average_offdiagonal_cosine": 0.01725289598107338
+        },
+        {
+          "mean_vector_norm": 0.11240724474191666,
+          "variance": 0.9873645901679993,
+          "average_offdiagonal_cosine": 0.011670222505927086
+        },
+        {
+          "mean_vector_norm": 0.11495393514633179,
+          "variance": 0.9867855310440063,
+          "average_offdiagonal_cosine": 0.012249807827174664
+        },
+        {
+          "mean_vector_norm": 0.12779058516025543,
+          "variance": 0.9836695194244385,
+          "average_offdiagonal_cosine": 0.015368879772722721
+        },
+        {
+          "mean_vector_norm": 0.15620598196983337,
+          "variance": 0.9755996465682983,
+          "average_offdiagonal_cosine": 0.023446643725037575
+        },
+        {
+          "mean_vector_norm": 0.09146753698587418,
+          "variance": 0.9916336536407471,
+          "average_offdiagonal_cosine": 0.007396972272545099
+        },
+        {
+          "mean_vector_norm": 0.09640642255544662,
+          "variance": 0.9907058477401733,
+          "average_offdiagonal_cosine": 0.008325766772031784
+        },
+        {
+          "mean_vector_norm": 0.10486643016338348,
+          "variance": 0.98900306224823,
+          "average_offdiagonal_cosine": 0.010030199773609638
+        },
+        {
+          "mean_vector_norm": 0.11053035408258438,
+          "variance": 0.9877830743789673,
+          "average_offdiagonal_cosine": 0.011251384392380714
+        },
+        {
+          "mean_vector_norm": 0.13887405395507812,
+          "variance": 0.980713963508606,
+          "average_offdiagonal_cosine": 0.018327340483665466
+        },
+        {
+          "mean_vector_norm": 0.10839998722076416,
+          "variance": 0.9882494211196899,
+          "average_offdiagonal_cosine": 0.010784526355564594
+        },
+        {
+          "mean_vector_norm": 0.11746188998222351,
+          "variance": 0.9862027168273926,
+          "average_offdiagonal_cosine": 0.012833266519010067
+        },
+        {
+          "mean_vector_norm": 0.12860465049743652,
+          "variance": 0.9834608435630798,
+          "average_offdiagonal_cosine": 0.015577804297208786
+        },
+        {
+          "mean_vector_norm": 0.1011233851313591,
+          "variance": 0.9897740483283997,
+          "average_offdiagonal_cosine": 0.009258418343961239
+        },
+        {
+          "mean_vector_norm": 0.1397683024406433,
+          "variance": 0.9804648160934448,
+          "average_offdiagonal_cosine": 0.018576759845018387
+        },
+        {
+          "mean_vector_norm": 0.11542236804962158,
+          "variance": 0.9866776466369629,
+          "average_offdiagonal_cosine": 0.012357829138636589
+        },
+        {
+          "mean_vector_norm": 0.12006670236587524,
+          "variance": 0.9855839610099792,
+          "average_offdiagonal_cosine": 0.013452588580548763
+        },
+        {
+          "mean_vector_norm": 0.09918061643838882,
+          "variance": 0.9901632070541382,
+          "average_offdiagonal_cosine": 0.00886889360845089
+        },
+        {
+          "mean_vector_norm": 0.12355538457632065,
+          "variance": 0.984734058380127,
+          "average_offdiagonal_cosine": 0.014303337782621384
+        },
+        {
+          "mean_vector_norm": 0.10652099549770355,
+          "variance": 0.9886532425880432,
+          "average_offdiagonal_cosine": 0.010380296967923641
+        }
+      ]
+    },
+    "family_intervals": {
+      "delta_recall4_interval95": [
+        0.025607638888888888,
+        0.059895833333333336
+      ],
+      "rescue_rate_interval95": [
+        0.11088277561224609,
+        0.19815352079340964
+      ],
+      "seed": 2026112711,
+      "replicates": 2000,
+      "scope": "paired family sample uncertainty only; smoke fits are not independent generalization"
+    }
+  },
+  "structure_context": {
+    "method": "structure_context",
+    "tag": "step00100",
+    "pairs": 32,
+    "families": 32,
+    "effective_queries": 4608,
+    "original_hits": 3184,
+    "original_misses": 1424,
+    "hits": 3533,
+    "new_hits": 370,
+    "lost_hits": 21,
+    "net_hits": 349,
+    "recall_at_4": 0.7667100694444444,
+    "delta_recall4": 0.07573784722222222,
+    "rescue_rate": 0.2598314606741573,
+    "loss_rate": 0.006595477386934673,
+    "ranking": {
+      "all": {
+        "queries": 4608,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 1.0,
+          "95": 2.0,
+          "99": 4.0,
+          "100": 36.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 1.0,
+          "95": 2.0,
+          "99": 4.0,
+          "100": 36.0
+        },
+        "top1_coverage": 0.9398871527777778,
+        "independent_NMS4_coverage": 0.9568142361111112,
+        "raw_top4_guaranteed": 0.9919704861111112,
+        "raw_top4_possible": 0.9919704861111112
+      },
+      "structure_miss": {
+        "queries": 1424,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 2.0,
+          "99": 6.0,
+          "100": 36.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 2.0,
+          "99": 6.0,
+          "100": 36.0
+        },
+        "top1_coverage": 0.8911516853932584,
+        "independent_NMS4_coverage": 0.9192415730337079,
+        "raw_top4_guaranteed": 0.9796348314606742,
+        "raw_top4_possible": 0.9796348314606742
+      }
+    },
+    "merged_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 8.0,
+      "90": 16.0,
+      "95": 16.0,
+      "99": 17.8885440826416,
+      "100": 40.79215621948242
+    },
+    "independent_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 8.0,
+      "90": 8.0,
+      "95": 8.0,
+      "99": 16.0,
+      "100": 25.298221588134766
+    },
+    "loss_pair_mean": 0.7774041574448347,
+    "interpretation": "native synthetic-label-relative; fixed small-fit subset is training diagnosis only",
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false,
+    "descriptor_spatial_diagnostics": {
+      "optical": [
+        {
+          "mean_vector_norm": 0.16482774913311005,
+          "variance": 0.9728318452835083,
+          "average_offdiagonal_cosine": 0.020365165546536446
+        },
+        {
+          "mean_vector_norm": 0.17132702469825745,
+          "variance": 0.9706469774246216,
+          "average_offdiagonal_cosine": 0.0225652065128088
+        },
+        {
+          "mean_vector_norm": 0.17220085859298706,
+          "variance": 0.9703468680381775,
+          "average_offdiagonal_cosine": 0.022867495194077492
+        },
+        {
+          "mean_vector_norm": 0.1705540418624878,
+          "variance": 0.9709112644195557,
+          "average_offdiagonal_cosine": 0.02229909412562847
+        },
+        {
+          "mean_vector_norm": 0.17307664453983307,
+          "variance": 0.9700444340705872,
+          "average_offdiagonal_cosine": 0.02317199483513832
+        },
+        {
+          "mean_vector_norm": 0.15730273723602295,
+          "variance": 0.9752558469772339,
+          "average_offdiagonal_cosine": 0.017924174666404724
+        },
+        {
+          "mean_vector_norm": 0.17872631549835205,
+          "variance": 0.9680569171905518,
+          "average_offdiagonal_cosine": 0.02517346851527691
+        },
+        {
+          "mean_vector_norm": 0.16825804114341736,
+          "variance": 0.9716892242431641,
+          "average_offdiagonal_cosine": 0.02151573821902275
+        },
+        {
+          "mean_vector_norm": 0.16890743374824524,
+          "variance": 0.971470296382904,
+          "average_offdiagonal_cosine": 0.021736223250627518
+        },
+        {
+          "mean_vector_norm": 0.16045761108398438,
+          "variance": 0.9742533564567566,
+          "average_offdiagonal_cosine": 0.01893368549644947
+        },
+        {
+          "mean_vector_norm": 0.15462344884872437,
+          "variance": 0.9760916233062744,
+          "average_offdiagonal_cosine": 0.017082596197724342
+        },
+        {
+          "mean_vector_norm": 0.14241233468055725,
+          "variance": 0.9797187447547913,
+          "average_offdiagonal_cosine": 0.013430094346404076
+        },
+        {
+          "mean_vector_norm": 0.18326182663440704,
+          "variance": 0.9664151072502136,
+          "average_offdiagonal_cosine": 0.026826748624444008
+        },
+        {
+          "mean_vector_norm": 0.1586049348115921,
+          "variance": 0.9748445153236389,
+          "average_offdiagonal_cosine": 0.018338432535529137
+        },
+        {
+          "mean_vector_norm": 0.16421537101268768,
+          "variance": 0.9730332493782043,
+          "average_offdiagonal_cosine": 0.02016225829720497
+        },
+        {
+          "mean_vector_norm": 0.15678049623966217,
+          "variance": 0.9754198789596558,
+          "average_offdiagonal_cosine": 0.017759010195732117
+        },
+        {
+          "mean_vector_norm": 0.16377654671669006,
+          "variance": 0.9731771945953369,
+          "average_offdiagonal_cosine": 0.020017320290207863
+        },
+        {
+          "mean_vector_norm": 0.18138530850410461,
+          "variance": 0.9670994281768799,
+          "average_offdiagonal_cosine": 0.02613769844174385
+        },
+        {
+          "mean_vector_norm": 0.17644065618515015,
+          "variance": 0.9688686728477478,
+          "average_offdiagonal_cosine": 0.024355998262763023
+        },
+        {
+          "mean_vector_norm": 0.16751623153686523,
+          "variance": 0.9719383716583252,
+          "average_offdiagonal_cosine": 0.021264920011162758
+        },
+        {
+          "mean_vector_norm": 0.17732708156108856,
+          "variance": 0.9685550332069397,
+          "average_offdiagonal_cosine": 0.024671781808137894
+        },
+        {
+          "mean_vector_norm": 0.1519855409860611,
+          "variance": 0.9769003391265869,
+          "average_offdiagonal_cosine": 0.016268130391836166
+        },
+        {
+          "mean_vector_norm": 0.16512656211853027,
+          "variance": 0.972733199596405,
+          "average_offdiagonal_cosine": 0.02046445570886135
+        },
+        {
+          "mean_vector_norm": 0.16542865335941315,
+          "variance": 0.9726333618164062,
+          "average_offdiagonal_cosine": 0.020565006881952286
+        },
+        {
+          "mean_vector_norm": 0.1671445369720459,
+          "variance": 0.9720627665519714,
+          "average_offdiagonal_cosine": 0.021139657124876976
+        },
+        {
+          "mean_vector_norm": 0.15568211674690247,
+          "variance": 0.9757631421089172,
+          "average_offdiagonal_cosine": 0.01741340570151806
+        },
+        {
+          "mean_vector_norm": 0.15026256442070007,
+          "variance": 0.977421224117279,
+          "average_offdiagonal_cosine": 0.01574372686445713
+        },
+        {
+          "mean_vector_norm": 0.1781032830476761,
+          "variance": 0.9682791829109192,
+          "average_offdiagonal_cosine": 0.02494959719479084
+        },
+        {
+          "mean_vector_norm": 0.17953719198703766,
+          "variance": 0.9677664637565613,
+          "average_offdiagonal_cosine": 0.025466006249189377
+        },
+        {
+          "mean_vector_norm": 0.17285488545894623,
+          "variance": 0.9701212048530579,
+          "average_offdiagonal_cosine": 0.023094747215509415
+        },
+        {
+          "mean_vector_norm": 0.18052005767822266,
+          "variance": 0.967412531375885,
+          "average_offdiagonal_cosine": 0.025822371244430542
+        },
+        {
+          "mean_vector_norm": 0.16764625906944275,
+          "variance": 0.9718948006629944,
+          "average_offdiagonal_cosine": 0.02130879834294319
+        }
+      ],
+      "sar": [
+        {
+          "mean_vector_norm": 0.2552017867565155,
+          "variance": 0.934872031211853,
+          "average_offdiagonal_cosine": 0.06421410292387009
+        },
+        {
+          "mean_vector_norm": 0.26489415764808655,
+          "variance": 0.9298310875892639,
+          "average_offdiagonal_cosine": 0.06925999373197556
+        },
+        {
+          "mean_vector_norm": 0.2940928339958191,
+          "variance": 0.9135094285011292,
+          "average_offdiagonal_cosine": 0.08559762686491013
+        },
+        {
+          "mean_vector_norm": 0.3328872621059418,
+          "variance": 0.8891860842704773,
+          "average_offdiagonal_cosine": 0.10994473844766617
+        },
+        {
+          "mean_vector_norm": 0.26479020714759827,
+          "variance": 0.9298861026763916,
+          "average_offdiagonal_cosine": 0.06920488178730011
+        },
+        {
+          "mean_vector_norm": 0.26625850796699524,
+          "variance": 0.9291064143180847,
+          "average_offdiagonal_cosine": 0.06998538225889206
+        },
+        {
+          "mean_vector_norm": 0.23674075305461884,
+          "variance": 0.9439538717269897,
+          "average_offdiagonal_cosine": 0.055123452097177505
+        },
+        {
+          "mean_vector_norm": 0.2746543884277344,
+          "variance": 0.9245649576187134,
+          "average_offdiagonal_cosine": 0.07453124970197678
+        },
+        {
+          "mean_vector_norm": 0.28197145462036133,
+          "variance": 0.9204920530319214,
+          "average_offdiagonal_cosine": 0.07860809564590454
+        },
+        {
+          "mean_vector_norm": 0.27370989322662354,
+          "variance": 0.9250829219818115,
+          "average_offdiagonal_cosine": 0.07401281595230103
+        },
+        {
+          "mean_vector_norm": 0.2630820870399475,
+          "variance": 0.9307878017425537,
+          "average_offdiagonal_cosine": 0.06830232590436935
+        },
+        {
+          "mean_vector_norm": 0.262344092130661,
+          "variance": 0.9311755895614624,
+          "average_offdiagonal_cosine": 0.06791418045759201
+        },
+        {
+          "mean_vector_norm": 0.29960107803344727,
+          "variance": 0.9102392196655273,
+          "average_offdiagonal_cosine": 0.08887103199958801
+        },
+        {
+          "mean_vector_norm": 0.28990766406059265,
+          "variance": 0.915953516960144,
+          "average_offdiagonal_cosine": 0.08315108716487885
+        },
+        {
+          "mean_vector_norm": 0.24429060518741608,
+          "variance": 0.9403221011161804,
+          "average_offdiagonal_cosine": 0.05875871703028679
+        },
+        {
+          "mean_vector_norm": 0.25551894307136536,
+          "variance": 0.9347100257873535,
+          "average_offdiagonal_cosine": 0.06437624245882034
+        },
+        {
+          "mean_vector_norm": 0.24257707595825195,
+          "variance": 0.9411563873291016,
+          "average_offdiagonal_cosine": 0.057923637330532074
+        },
+        {
+          "mean_vector_norm": 0.2375570684671402,
+          "variance": 0.9435666799545288,
+          "average_offdiagonal_cosine": 0.055511005222797394
+        },
+        {
+          "mean_vector_norm": 0.2566284239292145,
+          "variance": 0.9341418743133545,
+          "average_offdiagonal_cosine": 0.06494501233100891
+        },
+        {
+          "mean_vector_norm": 0.23503315448760986,
+          "variance": 0.9447594285011292,
+          "average_offdiagonal_cosine": 0.05431706830859184
+        },
+        {
+          "mean_vector_norm": 0.26282957196235657,
+          "variance": 0.9309206008911133,
+          "average_offdiagonal_cosine": 0.06816939264535904
+        },
+        {
+          "mean_vector_norm": 0.2794542908668518,
+          "variance": 0.9219052791595459,
+          "average_offdiagonal_cosine": 0.07719352096319199
+        },
+        {
+          "mean_vector_norm": 0.24182474613189697,
+          "variance": 0.9415208101272583,
+          "average_offdiagonal_cosine": 0.05755885690450668
+        },
+        {
+          "mean_vector_norm": 0.25390496850013733,
+          "variance": 0.9355322122573853,
+          "average_offdiagonal_cosine": 0.06355323642492294
+        },
+        {
+          "mean_vector_norm": 0.28265148401260376,
+          "variance": 0.9201081395149231,
+          "average_offdiagonal_cosine": 0.07899244129657745
+        },
+        {
+          "mean_vector_norm": 0.2810555696487427,
+          "variance": 0.9210077524185181,
+          "average_offdiagonal_cosine": 0.07809192687273026
+        },
+        {
+          "mean_vector_norm": 0.2748035788536072,
+          "variance": 0.9244829416275024,
+          "average_offdiagonal_cosine": 0.0746133029460907
+        },
+        {
+          "mean_vector_norm": 0.2606308162212372,
+          "variance": 0.9320715665817261,
+          "average_offdiagonal_cosine": 0.06701730936765671
+        },
+        {
+          "mean_vector_norm": 0.28575599193573,
+          "variance": 0.9183435440063477,
+          "average_offdiagonal_cosine": 0.08075879514217377
+        },
+        {
+          "mean_vector_norm": 0.2919221818447113,
+          "variance": 0.914781391620636,
+          "average_offdiagonal_cosine": 0.08432435244321823
+        },
+        {
+          "mean_vector_norm": 0.2694319784641266,
+          "variance": 0.9274064302444458,
+          "average_offdiagonal_cosine": 0.07168703526258469
+        },
+        {
+          "mean_vector_norm": 0.2704934775829315,
+          "variance": 0.9268332719802856,
+          "average_offdiagonal_cosine": 0.07226072996854782
+        }
+      ]
+    },
+    "family_intervals": {
+      "delta_recall4_interval95": [
+        0.052734375,
+        0.10330946180555549
+      ],
+      "rescue_rate_interval95": [
+        0.20082047507548603,
+        0.31603117022164895
+      ],
+      "seed": 2026112711,
+      "replicates": 2000,
+      "scope": "paired family sample uncertainty only; smoke fits are not independent generalization"
+    }
+  },
+  "semantic_point": {
+    "method": "semantic_point",
+    "tag": "step00100",
+    "pairs": 32,
+    "families": 32,
+    "effective_queries": 4608,
+    "original_hits": 3184,
+    "original_misses": 1424,
+    "hits": 3403,
+    "new_hits": 242,
+    "lost_hits": 23,
+    "net_hits": 219,
+    "recall_at_4": 0.7384982638888888,
+    "delta_recall4": 0.047526041666666664,
+    "rescue_rate": 0.1699438202247191,
+    "loss_rate": 0.007223618090452261,
+    "ranking": {
+      "all": {
+        "queries": 4608,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 4.0,
+          "99": 10.0,
+          "100": 83.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 4.0,
+          "99": 10.0,
+          "100": 83.0
+        },
+        "top1_coverage": 0.8396267361111112,
+        "independent_NMS4_coverage": 0.8990885416666666,
+        "raw_top4_guaranteed": 0.9622395833333334,
+        "raw_top4_possible": 0.9622395833333334
+      },
+      "structure_miss": {
+        "queries": 1424,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 2.0,
+          "90": 4.0,
+          "95": 7.0,
+          "99": 21.0,
+          "100": 83.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 2.0,
+          "90": 4.0,
+          "95": 7.0,
+          "99": 21.0,
+          "100": 83.0
+        },
+        "top1_coverage": 0.6889044943820225,
+        "independent_NMS4_coverage": 0.7682584269662921,
+        "raw_top4_guaranteed": 0.9073033707865169,
+        "raw_top4_possible": 0.9073033707865169
+      }
+    },
+    "merged_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 11.313708305358887,
+      "90": 16.0,
+      "95": 16.0,
+      "99": 24.0,
+      "100": 128.249755859375
+    },
+    "independent_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 8.0,
+      "90": 11.313708305358887,
+      "95": 16.0,
+      "99": 17.8885440826416,
+      "100": 128.249755859375
+    },
+    "loss_pair_mean": 1.1142379809170961,
+    "interpretation": "native synthetic-label-relative; fixed small-fit subset is training diagnosis only",
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false,
+    "descriptor_spatial_diagnostics": {
+      "optical": [
+        {
+          "mean_vector_norm": 0.10472871363162994,
+          "variance": 0.9890319108963013,
+          "average_offdiagonal_cosine": 0.004051797091960907
+        },
+        {
+          "mean_vector_norm": 0.10077806562185287,
+          "variance": 0.9898437857627869,
+          "average_offdiagonal_cosine": 0.0032342327758669853
+        },
+        {
+          "mean_vector_norm": 0.15026643872261047,
+          "variance": 0.9774199724197388,
+          "average_offdiagonal_cosine": 0.015744898468255997
+        },
+        {
+          "mean_vector_norm": 0.11718641966581345,
+          "variance": 0.9862673878669739,
+          "average_offdiagonal_cosine": 0.006835682783275843
+        },
+        {
+          "mean_vector_norm": 0.12590451538562775,
+          "variance": 0.9841480255126953,
+          "average_offdiagonal_cosine": 0.008969794027507305
+        },
+        {
+          "mean_vector_norm": 0.11594799906015396,
+          "variance": 0.9865561723709106,
+          "average_offdiagonal_cosine": 0.006544944830238819
+        },
+        {
+          "mean_vector_norm": 0.11871115118265152,
+          "variance": 0.9859076738357544,
+          "average_offdiagonal_cosine": 0.007197877392172813
+        },
+        {
+          "mean_vector_norm": 0.1331990510225296,
+          "variance": 0.9822579622268677,
+          "average_offdiagonal_cosine": 0.01087304949760437
+        },
+        {
+          "mean_vector_norm": 0.12835022807121277,
+          "variance": 0.9835262298583984,
+          "average_offdiagonal_cosine": 0.009595976211130619
+        },
+        {
+          "mean_vector_norm": 0.11709962785243988,
+          "variance": 0.9862876534461975,
+          "average_offdiagonal_cosine": 0.00681520439684391
+        },
+        {
+          "mean_vector_norm": 0.11230529099702835,
+          "variance": 0.9873875379562378,
+          "average_offdiagonal_cosine": 0.005707670468837023
+        },
+        {
+          "mean_vector_norm": 0.12524086236953735,
+          "variance": 0.9843147993087769,
+          "average_offdiagonal_cosine": 0.008801955729722977
+        },
+        {
+          "mean_vector_norm": 0.1357150375843048,
+          "variance": 0.9815813899040222,
+          "average_offdiagonal_cosine": 0.011554368771612644
+        },
+        {
+          "mean_vector_norm": 0.1217251643538475,
+          "variance": 0.98518306016922,
+          "average_offdiagonal_cosine": 0.007927624508738518
+        },
+        {
+          "mean_vector_norm": 0.1391322761774063,
+          "variance": 0.9806421399116516,
+          "average_offdiagonal_cosine": 0.012500152923166752
+        },
+        {
+          "mean_vector_norm": 0.10317482054233551,
+          "variance": 0.9893549084663391,
+          "average_offdiagonal_cosine": 0.003726476803421974
+        },
+        {
+          "mean_vector_norm": 0.10193241387605667,
+          "variance": 0.9896098375320435,
+          "average_offdiagonal_cosine": 0.0034698673989623785
+        },
+        {
+          "mean_vector_norm": 0.14234158396720886,
+          "variance": 0.9797388911247253,
+          "average_offdiagonal_cosine": 0.013409808278083801
+        },
+        {
+          "mean_vector_norm": 0.1248326450586319,
+          "variance": 0.9844167828559875,
+          "average_offdiagonal_cosine": 0.008699155412614346
+        },
+        {
+          "mean_vector_norm": 0.11514543741941452,
+          "variance": 0.9867416024208069,
+          "average_offdiagonal_cosine": 0.006358181592077017
+        },
+        {
+          "mean_vector_norm": 0.13570153713226318,
+          "variance": 0.9815852046012878,
+          "average_offdiagonal_cosine": 0.011550674214959145
+        },
+        {
+          "mean_vector_norm": 0.11829956620931625,
+          "variance": 0.9860051274299622,
+          "average_offdiagonal_cosine": 0.007099646609276533
+        },
+        {
+          "mean_vector_norm": 0.12242639064788818,
+          "variance": 0.985011875629425,
+          "average_offdiagonal_cosine": 0.008100026287138462
+        },
+        {
+          "mean_vector_norm": 0.12251295149326324,
+          "variance": 0.9849905371665955,
+          "average_offdiagonal_cosine": 0.008121377788484097
+        },
+        {
+          "mean_vector_norm": 0.17692913115024567,
+          "variance": 0.9686961770057678,
+          "average_offdiagonal_cosine": 0.024529825896024704
+        },
+        {
+          "mean_vector_norm": 0.11561185121536255,
+          "variance": 0.9866339564323425,
+          "average_offdiagonal_cosine": 0.006466564256697893
+        },
+        {
+          "mean_vector_norm": 0.11912532150745392,
+          "variance": 0.9858091473579407,
+          "average_offdiagonal_cosine": 0.007297071628272533
+        },
+        {
+          "mean_vector_norm": 0.11833303421735764,
+          "variance": 0.9859973192214966,
+          "average_offdiagonal_cosine": 0.0071076215244829655
+        },
+        {
+          "mean_vector_norm": 0.11254513263702393,
+          "variance": 0.9873335957527161,
+          "average_offdiagonal_cosine": 0.005761975888162851
+        },
+        {
+          "mean_vector_norm": 0.11218008399009705,
+          "variance": 0.987415611743927,
+          "average_offdiagonal_cosine": 0.005679367110133171
+        },
+        {
+          "mean_vector_norm": 0.14584402740001678,
+          "variance": 0.9787294864654541,
+          "average_offdiagonal_cosine": 0.014426219277083874
+        },
+        {
+          "mean_vector_norm": 0.16338670253753662,
+          "variance": 0.9733047485351562,
+          "average_offdiagonal_cosine": 0.01988888904452324
+        }
+      ],
+      "sar": [
+        {
+          "mean_vector_norm": 0.11144404113292694,
+          "variance": 0.9875801801681519,
+          "average_offdiagonal_cosine": 0.01145439874380827
+        },
+        {
+          "mean_vector_norm": 0.12807366251945496,
+          "variance": 0.9835970997810364,
+          "average_offdiagonal_cosine": 0.015441381372511387
+        },
+        {
+          "mean_vector_norm": 0.10841072350740433,
+          "variance": 0.9882470965385437,
+          "average_offdiagonal_cosine": 0.010786857455968857
+        },
+        {
+          "mean_vector_norm": 0.1368233561515808,
+          "variance": 0.9812793731689453,
+          "average_offdiagonal_cosine": 0.017761413007974625
+        },
+        {
+          "mean_vector_norm": 0.13016550242900848,
+          "variance": 0.983056902885437,
+          "average_offdiagonal_cosine": 0.01598210074007511
+        },
+        {
+          "mean_vector_norm": 0.132170170545578,
+          "variance": 0.9825310707092285,
+          "average_offdiagonal_cosine": 0.016508514061570168
+        },
+        {
+          "mean_vector_norm": 0.12287573516368866,
+          "variance": 0.9849015474319458,
+          "average_offdiagonal_cosine": 0.014135688543319702
+        },
+        {
+          "mean_vector_norm": 0.1270376592874527,
+          "variance": 0.9838614463806152,
+          "average_offdiagonal_cosine": 0.015176825225353241
+        },
+        {
+          "mean_vector_norm": 0.12788721919059753,
+          "variance": 0.9836448431015015,
+          "average_offdiagonal_cosine": 0.01539361197501421
+        },
+        {
+          "mean_vector_norm": 0.08889185637235641,
+          "variance": 0.9920982122421265,
+          "average_offdiagonal_cosine": 0.0069319684989750385
+        },
+        {
+          "mean_vector_norm": 0.1135122999548912,
+          "variance": 0.9871149659156799,
+          "average_offdiagonal_cosine": 0.011920120567083359
+        },
+        {
+          "mean_vector_norm": 0.08565814793109894,
+          "variance": 0.9926626682281494,
+          "average_offdiagonal_cosine": 0.006366973742842674
+        },
+        {
+          "mean_vector_norm": 0.1344936490058899,
+          "variance": 0.9819114804267883,
+          "average_offdiagonal_cosine": 0.017128705978393555
+        },
+        {
+          "mean_vector_norm": 0.11511257290840149,
+          "variance": 0.9867491722106934,
+          "average_offdiagonal_cosine": 0.01228633988648653
+        },
+        {
+          "mean_vector_norm": 0.11469409614801407,
+          "variance": 0.9868452548980713,
+          "average_offdiagonal_cosine": 0.0121900774538517
+        },
+        {
+          "mean_vector_norm": 0.12799999117851257,
+          "variance": 0.9836159944534302,
+          "average_offdiagonal_cosine": 0.01542249508202076
+        },
+        {
+          "mean_vector_norm": 0.13076500594615936,
+          "variance": 0.9829005002975464,
+          "average_offdiagonal_cosine": 0.016138684004545212
+        },
+        {
+          "mean_vector_norm": 0.10255365818738937,
+          "variance": 0.9894827604293823,
+          "average_offdiagonal_cosine": 0.00955001637339592
+        },
+        {
+          "mean_vector_norm": 0.10074116289615631,
+          "variance": 0.9898512363433838,
+          "average_offdiagonal_cosine": 0.009181185625493526
+        },
+        {
+          "mean_vector_norm": 0.10504297912120819,
+          "variance": 0.9889659881591797,
+          "average_offdiagonal_cosine": 0.010067295283079147
+        },
+        {
+          "mean_vector_norm": 0.10747063905000687,
+          "variance": 0.9884500503540039,
+          "average_offdiagonal_cosine": 0.010583711788058281
+        },
+        {
+          "mean_vector_norm": 0.14228154718875885,
+          "variance": 0.9797559380531311,
+          "average_offdiagonal_cosine": 0.01928631216287613
+        },
+        {
+          "mean_vector_norm": 0.10550513118505478,
+          "variance": 0.9888686537742615,
+          "average_offdiagonal_cosine": 0.010164696723222733
+        },
+        {
+          "mean_vector_norm": 0.1190120279788971,
+          "variance": 0.9858361482620239,
+          "average_offdiagonal_cosine": 0.013200190849602222
+        },
+        {
+          "mean_vector_norm": 0.12564529478549957,
+          "variance": 0.9842132329940796,
+          "average_offdiagonal_cosine": 0.014824655838310719
+        },
+        {
+          "mean_vector_norm": 0.09051360934972763,
+          "variance": 0.9918072819709778,
+          "average_offdiagonal_cosine": 0.007223204709589481
+        },
+        {
+          "mean_vector_norm": 0.1402542144060135,
+          "variance": 0.9803287982940674,
+          "average_offdiagonal_cosine": 0.018712954595685005
+        },
+        {
+          "mean_vector_norm": 0.11786285787820816,
+          "variance": 0.9861083626747131,
+          "average_offdiagonal_cosine": 0.012927716597914696
+        },
+        {
+          "mean_vector_norm": 0.13017819821834564,
+          "variance": 0.9830536246299744,
+          "average_offdiagonal_cosine": 0.015985410660505295
+        },
+        {
+          "mean_vector_norm": 0.09457158297300339,
+          "variance": 0.9910562038421631,
+          "average_offdiagonal_cosine": 0.007975010201334953
+        },
+        {
+          "mean_vector_norm": 0.13284291326999664,
+          "variance": 0.9823527336120605,
+          "average_offdiagonal_cosine": 0.016686974093317986
+        },
+        {
+          "mean_vector_norm": 0.12809057533740997,
+          "variance": 0.9835928082466125,
+          "average_offdiagonal_cosine": 0.015445718541741371
+        }
+      ]
+    },
+    "family_intervals": {
+      "delta_recall4_interval95": [
+        0.03125,
+        0.06597222222222222
+      ],
+      "rescue_rate_interval95": [
+        0.1256702122939728,
+        0.21112151859598158
+      ],
+      "seed": 2026112711,
+      "replicates": 2000,
+      "scope": "paired family sample uncertainty only; smoke fits are not independent generalization"
+    }
+  },
+  "semantic_context": {
+    "method": "semantic_context",
+    "tag": "step00100",
+    "pairs": 32,
+    "families": 32,
+    "effective_queries": 4608,
+    "original_hits": 3184,
+    "original_misses": 1424,
+    "hits": 3530,
+    "new_hits": 367,
+    "lost_hits": 21,
+    "net_hits": 346,
+    "recall_at_4": 0.7660590277777778,
+    "delta_recall4": 0.07508680555555555,
+    "rescue_rate": 0.2577247191011236,
+    "loss_rate": 0.006595477386934673,
+    "ranking": {
+      "all": {
+        "queries": 4608,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 1.0,
+          "95": 2.0,
+          "99": 3.0,
+          "100": 33.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 1.0,
+          "95": 2.0,
+          "99": 3.0,
+          "100": 33.0
+        },
+        "top1_coverage": 0.9390190972222222,
+        "independent_NMS4_coverage": 0.9533420138888888,
+        "raw_top4_guaranteed": 0.9939236111111112,
+        "raw_top4_possible": 0.9939236111111112
+      },
+      "structure_miss": {
+        "queries": 1424,
+        "best_positive_rank_min": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 2.0,
+          "99": 6.0,
+          "100": 33.0
+        },
+        "best_positive_rank_max": {
+          "0": 1.0,
+          "5": 1.0,
+          "25": 1.0,
+          "50": 1.0,
+          "75": 1.0,
+          "90": 2.0,
+          "95": 2.0,
+          "99": 6.0,
+          "100": 33.0
+        },
+        "top1_coverage": 0.8932584269662921,
+        "independent_NMS4_coverage": 0.9171348314606742,
+        "raw_top4_guaranteed": 0.9845505617977528,
+        "raw_top4_possible": 0.9845505617977528
+      }
+    },
+    "merged_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 8.0,
+      "75": 8.0,
+      "90": 11.313708305358887,
+      "95": 16.0,
+      "99": 17.8885440826416,
+      "100": 40.79215621948242
+    },
+    "independent_distance_px": {
+      "0": 0.0,
+      "5": 0.0,
+      "25": 0.0,
+      "50": 0.0,
+      "75": 8.0,
+      "90": 8.0,
+      "95": 8.0,
+      "99": 16.0,
+      "100": 40.79215621948242
+    },
+    "loss_pair_mean": 0.7678943425416946,
+    "interpretation": "native synthetic-label-relative; fixed small-fit subset is training diagnosis only",
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false,
+    "descriptor_spatial_diagnostics": {
+      "optical": [
+        {
+          "mean_vector_norm": 0.15806803107261658,
+          "variance": 0.9750145673751831,
+          "average_offdiagonal_cosine": 0.018167218193411827
+        },
+        {
+          "mean_vector_norm": 0.17051571607589722,
+          "variance": 0.9709243774414062,
+          "average_offdiagonal_cosine": 0.022285930812358856
+        },
+        {
+          "mean_vector_norm": 0.18092335760593414,
+          "variance": 0.9672667384147644,
+          "average_offdiagonal_cosine": 0.025969158858060837
+        },
+        {
+          "mean_vector_norm": 0.17178435623645782,
+          "variance": 0.9704901576042175,
+          "average_offdiagonal_cosine": 0.02272322215139866
+        },
+        {
+          "mean_vector_norm": 0.18258622288703918,
+          "variance": 0.9666622877120972,
+          "average_offdiagonal_cosine": 0.02657785266637802
+        },
+        {
+          "mean_vector_norm": 0.15524566173553467,
+          "variance": 0.9758987426757812,
+          "average_offdiagonal_cosine": 0.01727674901485443
+        },
+        {
+          "mean_vector_norm": 0.16933780908584595,
+          "variance": 0.9713247418403625,
+          "average_offdiagonal_cosine": 0.021882813423871994
+        },
+        {
+          "mean_vector_norm": 0.1770734190940857,
+          "variance": 0.9686449766159058,
+          "average_offdiagonal_cosine": 0.02458125166594982
+        },
+        {
+          "mean_vector_norm": 0.16944512724876404,
+          "variance": 0.97128826379776,
+          "average_offdiagonal_cosine": 0.02191942371428013
+        },
+        {
+          "mean_vector_norm": 0.15990644693374634,
+          "variance": 0.9744299054145813,
+          "average_offdiagonal_cosine": 0.018755873665213585
+        },
+        {
+          "mean_vector_norm": 0.1627487689256668,
+          "variance": 0.9735128879547119,
+          "average_offdiagonal_cosine": 0.01967938058078289
+        },
+        {
+          "mean_vector_norm": 0.15947213768959045,
+          "variance": 0.9745686650276184,
+          "average_offdiagonal_cosine": 0.018616193905472755
+        },
+        {
+          "mean_vector_norm": 0.17467688024044037,
+          "variance": 0.9694879651069641,
+          "average_offdiagonal_cosine": 0.023732377216219902
+        },
+        {
+          "mean_vector_norm": 0.17559286952018738,
+          "variance": 0.969167172908783,
+          "average_offdiagonal_cosine": 0.024055464193224907
+        },
+        {
+          "mean_vector_norm": 0.16868026554584503,
+          "variance": 0.97154700756073,
+          "average_offdiagonal_cosine": 0.021658994257450104
+        },
+        {
+          "mean_vector_norm": 0.16186773777008057,
+          "variance": 0.9737988710403442,
+          "average_offdiagonal_cosine": 0.01939138025045395
+        },
+        {
+          "mean_vector_norm": 0.15645866096019745,
+          "variance": 0.975520670413971,
+          "average_offdiagonal_cosine": 0.017657486721873283
+        },
+        {
+          "mean_vector_norm": 0.160063698887825,
+          "variance": 0.9743796586990356,
+          "average_offdiagonal_cosine": 0.018806546926498413
+        },
+        {
+          "mean_vector_norm": 0.1724509447813034,
+          "variance": 0.9702606201171875,
+          "average_offdiagonal_cosine": 0.022954287007451057
+        },
+        {
+          "mean_vector_norm": 0.16044600307941437,
+          "variance": 0.9742571711540222,
+          "average_offdiagonal_cosine": 0.01892993226647377
+        },
+        {
+          "mean_vector_norm": 0.1694708615541458,
+          "variance": 0.9712795615196228,
+          "average_offdiagonal_cosine": 0.0219282079488039
+        },
+        {
+          "mean_vector_norm": 0.17566540837287903,
+          "variance": 0.9691416621208191,
+          "average_offdiagonal_cosine": 0.024081120267510414
+        },
+        {
+          "mean_vector_norm": 0.16278234124183655,
+          "variance": 0.973501980304718,
+          "average_offdiagonal_cosine": 0.019690385088324547
+        },
+        {
+          "mean_vector_norm": 0.165868878364563,
+          "variance": 0.9724874496459961,
+          "average_offdiagonal_cosine": 0.020711874589323997
+        },
+        {
+          "mean_vector_norm": 0.19616001844406128,
+          "variance": 0.9615212678909302,
+          "average_offdiagonal_cosine": 0.03175482898950577
+        },
+        {
+          "mean_vector_norm": 0.15419498085975647,
+          "variance": 0.9762239456176758,
+          "average_offdiagonal_cosine": 0.016949350014328957
+        },
+        {
+          "mean_vector_norm": 0.1477951556444168,
+          "variance": 0.9781566262245178,
+          "average_offdiagonal_cosine": 0.015003151260316372
+        },
+        {
+          "mean_vector_norm": 0.17664895951747894,
+          "variance": 0.968795120716095,
+          "average_offdiagonal_cosine": 0.024430062621831894
+        },
+        {
+          "mean_vector_norm": 0.18766720592975616,
+          "variance": 0.9647810459136963,
+          "average_offdiagonal_cosine": 0.028472261503338814
+        },
+        {
+          "mean_vector_norm": 0.169906884431839,
+          "variance": 0.9711316227912903,
+          "average_offdiagonal_cosine": 0.02207721769809723
+        },
+        {
+          "mean_vector_norm": 0.18062986433506012,
+          "variance": 0.9673727750778198,
+          "average_offdiagonal_cosine": 0.025862308219075203
+        },
+        {
+          "mean_vector_norm": 0.19824562966823578,
+          "variance": 0.960698664188385,
+          "average_offdiagonal_cosine": 0.03258315846323967
+        }
+      ],
+      "sar": [
+        {
+          "mean_vector_norm": 0.2512710690498352,
+          "variance": 0.9368628263473511,
+          "average_offdiagonal_cosine": 0.06222135201096535
+        },
+        {
+          "mean_vector_norm": 0.2800348401069641,
+          "variance": 0.9215805530548096,
+          "average_offdiagonal_cosine": 0.07751864939928055
+        },
+        {
+          "mean_vector_norm": 0.29859399795532227,
+          "variance": 0.9108415842056274,
+          "average_offdiagonal_cosine": 0.08826800435781479
+        },
+        {
+          "mean_vector_norm": 0.3246041238307953,
+          "variance": 0.8946322202682495,
+          "average_offdiagonal_cosine": 0.10449331998825073
+        },
+        {
+          "mean_vector_norm": 0.2552548348903656,
+          "variance": 0.934844970703125,
+          "average_offdiagonal_cosine": 0.0642412006855011
+        },
+        {
+          "mean_vector_norm": 0.2791624069213867,
+          "variance": 0.9220683574676514,
+          "average_offdiagonal_cosine": 0.07703030854463577
+        },
+        {
+          "mean_vector_norm": 0.2668575346469879,
+          "variance": 0.9287869930267334,
+          "average_offdiagonal_cosine": 0.07030504196882248
+        },
+        {
+          "mean_vector_norm": 0.2939664125442505,
+          "variance": 0.9135836958885193,
+          "average_offdiagonal_cosine": 0.08552321791648865
+        },
+        {
+          "mean_vector_norm": 0.3040703535079956,
+          "variance": 0.9075412154197693,
+          "average_offdiagonal_cosine": 0.09157164394855499
+        },
+        {
+          "mean_vector_norm": 0.30919384956359863,
+          "variance": 0.9043991565704346,
+          "average_offdiagonal_cosine": 0.09471677243709564
+        },
+        {
+          "mean_vector_norm": 0.27686038613319397,
+          "variance": 0.9233483076095581,
+          "average_offdiagonal_cosine": 0.07574908435344696
+        },
+        {
+          "mean_vector_norm": 0.28513991832733154,
+          "variance": 0.9186952114105225,
+          "average_offdiagonal_cosine": 0.08040672540664673
+        },
+        {
+          "mean_vector_norm": 0.30043795704841614,
+          "variance": 0.9097369909286499,
+          "average_offdiagonal_cosine": 0.08937367796897888
+        },
+        {
+          "mean_vector_norm": 0.3216036260128021,
+          "variance": 0.896571159362793,
+          "average_offdiagonal_cosine": 0.10255247354507446
+        },
+        {
+          "mean_vector_norm": 0.2882090210914612,
+          "variance": 0.9169355630874634,
+          "average_offdiagonal_cosine": 0.08216811716556549
+        },
+        {
+          "mean_vector_norm": 0.26841479539871216,
+          "variance": 0.9279534816741943,
+          "average_offdiagonal_cosine": 0.07113941013813019
+        },
+        {
+          "mean_vector_norm": 0.2477308064699173,
+          "variance": 0.9386294484138489,
+          "average_offdiagonal_cosine": 0.06045302376151085
+        },
+        {
+          "mean_vector_norm": 0.27859383821487427,
+          "variance": 0.9223854541778564,
+          "average_offdiagonal_cosine": 0.07671287655830383
+        },
+        {
+          "mean_vector_norm": 0.2803589701652527,
+          "variance": 0.9213988780975342,
+          "average_offdiagonal_cosine": 0.07770046591758728
+        },
+        {
+          "mean_vector_norm": 0.2804454565048218,
+          "variance": 0.921350359916687,
+          "average_offdiagonal_cosine": 0.07774901390075684
+        },
+        {
+          "mean_vector_norm": 0.29163679480552673,
+          "variance": 0.9149479866027832,
+          "average_offdiagonal_cosine": 0.08415764570236206
+        },
+        {
+          "mean_vector_norm": 0.31201791763305664,
+          "variance": 0.9026448130607605,
+          "average_offdiagonal_cosine": 0.09647282212972641
+        },
+        {
+          "mean_vector_norm": 0.2507490813732147,
+          "variance": 0.9371248483657837,
+          "average_offdiagonal_cosine": 0.06195904314517975
+        },
+        {
+          "mean_vector_norm": 0.27714020013809204,
+          "variance": 0.9231933355331421,
+          "average_offdiagonal_cosine": 0.0759042501449585
+        },
+        {
+          "mean_vector_norm": 0.32843372225761414,
+          "variance": 0.8921312689781189,
+          "average_offdiagonal_cosine": 0.10699663311243057
+        },
+        {
+          "mean_vector_norm": 0.288992702960968,
+          "variance": 0.9164832830429077,
+          "average_offdiagonal_cosine": 0.08262089639902115
+        },
+        {
+          "mean_vector_norm": 0.29806891083717346,
+          "variance": 0.9111549854278564,
+          "average_offdiagonal_cosine": 0.08795439451932907
+        },
+        {
+          "mean_vector_norm": 0.2950260043144226,
+          "variance": 0.9129596948623657,
+          "average_offdiagonal_cosine": 0.08614790439605713
+        },
+        {
+          "mean_vector_norm": 0.298313707113266,
+          "variance": 0.9110089540481567,
+          "average_offdiagonal_cosine": 0.08810055255889893
+        },
+        {
+          "mean_vector_norm": 0.29919275641441345,
+          "variance": 0.910483717918396,
+          "average_offdiagonal_cosine": 0.08862629532814026
+        },
+        {
+          "mean_vector_norm": 0.2887108325958252,
+          "variance": 0.9166461229324341,
+          "average_offdiagonal_cosine": 0.08245790004730225
+        },
+        {
+          "mean_vector_norm": 0.3314191997051239,
+          "variance": 0.8901613354682922,
+          "average_offdiagonal_cosine": 0.10896854847669601
+        }
+      ]
+    },
+    "family_intervals": {
+      "delta_recall4_interval95": [
+        0.051215277777777776,
+        0.1032986111111111
+      ],
+      "rescue_rate_interval95": [
+        0.19761538027533287,
+        0.3185102340160222
+      ],
+      "seed": 2026112711,
+      "replicates": 2000,
+      "scope": "paired family sample uncertainty only; smoke fits are not independent generalization"
+    }
+  }
+}

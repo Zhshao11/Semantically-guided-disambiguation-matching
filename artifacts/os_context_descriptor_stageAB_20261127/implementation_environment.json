@@ -1,0 +1,27 @@
+{
+  "host": "zzvr",
+  "repository": "/mnt/sda/zhushihao/Semantically-guided-disambiguation-matching",
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "device": 6,
+  "GPU": "NVIDIA GeForce RTX 5090",
+  "implementation_sha256": {
+    "configs/os_context_descriptor.json": "5c60a6adcf8e1df0917889723a27564e843c8e756124e79254034e015cc4d730",
+    "scripts/run_os_context_stageAB.py": "bd0392e6710d1f6aeaf4fc6b50ae3be6cc1b04226634594c2ca3aecff131ce99",
+    "scripts/verify_os_context_stageAB.py": "00b4936d5d8a96c195691671116a945bee2e3eac31125fef99ca6785272621e5",
+    "scripts/summarize_os_context_stageAB.py": "94a41dd0a33ef76cfc2558ddf7e2c15dc901fa78e51fb51ad3cb1cc78de03d97",
+    "sdgm/context_descriptors.py": "e4b577f2c094537ff4d80a4ad0a4c9a313267c1056f2b126d0528619d0ee950d",
+    "sdgm/context_descriptor_data.py": "168c2ace6f0d7a2643d9ac5851bd59ca32a3ea9b3b9c9016135e2dc23645a9d2",
+    "sdgm/context_descriptor_evaluation.py": "2201ae006695673ead8cc78ff389f00b502034fab1902337146c28a9bbe5971b",
+    "tests/test_context_descriptors.py": "c96b6fbade760a6d2d580e060cb16a9d9a85195a2f05a9827ddf8ddd448d4964"
+  },
+  "checkpoint_sha256": {
+    "reports/os_context_descriptor_stageAB_20261127/checkpoints/structure_point_smoke.pt": "71c1615fab5b19d9aa8829ce3bae378d80c1abed848b8d4e95f6ff26f369b823",
+    "reports/os_context_descriptor_stageAB_20261127/checkpoints/semantic_point_smoke.pt": "da0fbbb8f471734eb0d29ca16f7399ca6f5733a7ac3065f98b7af9ebd78a7b1f",
+    "reports/os_context_descriptor_stageAB_20261127/checkpoints/structure_context_smoke.pt": "2afe3b9161435d21817ac3a8342e038436523242d8e6822e9fd3f3dd15833e97",
+    "reports/os_context_descriptor_stageAB_20261127/checkpoints/semantic_context_smoke.pt": "88c2bdf9c7c32e4b2f3553d19ac38110225bc58d28c8dd73b5754850b53ad9ee"
+  },
+  "evaluation_flags": "frozen front/semantic requires_grad=False eval; new descriptor heads eval with original requires_grad flags under no_grad; preserve flags on reload to keep Linear kernels identical",
+  "formal_stageC_started": false
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "step": 1,
+    "group": "structure_point",
+    "optical": {
+      "gradient_norm": 1.0850486332441054,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 1.5377125573264447,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 1,
+    "group": "structure_context",
+    "optical": {
+      "gradient_norm": 1.4903834988033111,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 1.9093767710872445,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 1,
+    "group": "semantic_point",
+    "optical": {
+      "gradient_norm": 0.8454613870852509,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 1.2269122871678233,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 1,
+    "group": "semantic_context",
+    "optical": {
+      "gradient_norm": 1.0037566959945208,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 1.236242160737404,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 100,
+    "group": "structure_point",
+    "optical": {
+      "gradient_norm": 0.1574144666443763,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.15479112311460416,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 100,
+    "group": "structure_context",
+    "optical": {
+      "gradient_norm": 0.20492098672427705,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.19579191173502145,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 100,
+    "group": "semantic_point",
+    "optical": {
+      "gradient_norm": 0.17608763379341177,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.22673800713344822,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 100,
+    "group": "semantic_context",
+    "optical": {
+      "gradient_norm": 0.33729528592007346,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 1.0487612818910534,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 800,
+    "group": "structure_point",
+    "optical": {
+      "gradient_norm": 0.4085055991678356,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.5824275893520808,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 800,
+    "group": "structure_context",
+    "optical": {
+      "gradient_norm": 0.4344105358652795,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.46531949334890876,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 800,
+    "group": "semantic_point",
+    "optical": {
+      "gradient_norm": 0.8568737621220487,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.806923891871872,
+      "all_parameter_gradients_finite": true
+    }
+  },
+  {
+    "step": 800,
+    "group": "semantic_context",
+    "optical": {
+      "gradient_norm": 1.0496990677171774,
+      "all_parameter_gradients_finite": true
+    },
+    "sar": {
+      "gradient_norm": 0.8676186792890032,
+      "all_parameter_gradients_finite": true
+    }
+  }
+]

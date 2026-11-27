@@ -1,0 +1,64 @@
+{
+  "groups": {
+    "structure_point": {
+      "initial_loss": 5.464816674590111,
+      "final_loss": 0.2935538310557604,
+      "loss_ratio": 0.05371705009258676,
+      "initial_rank": 274.0,
+      "final_rank": 1.0,
+      "initial_independent4": 0.021050347222222224,
+      "final_independent4": 0.9997829861111112,
+      "optical_spatial_variance": 0.9686619695276022,
+      "SAR_spatial_variance": 0.9120409395545721,
+      "engineering_response": true,
+      "interpretation": "numeric and fit response only, no arbitrary90% admission threshold or validation-based selection"
+    },
+    "structure_context": {
+      "initial_loss": 5.51567368209362,
+      "final_loss": 0.2034023581072688,
+      "loss_ratio": 0.03687715587084225,
+      "initial_rank": 375.0,
+      "final_rank": 1.0,
+      "initial_independent4": 0.016710069444444444,
+      "final_independent4": 1.0,
+      "optical_spatial_variance": 0.9712256323546171,
+      "SAR_spatial_variance": 0.8829645235091448,
+      "engineering_response": true,
+      "interpretation": "numeric and fit response only, no arbitrary90% admission threshold or validation-based selection"
+    },
+    "semantic_point": {
+      "initial_loss": 5.463022962212563,
+      "final_loss": 0.3216881202533841,
+      "loss_ratio": 0.058884636304566834,
+      "initial_rank": 291.0,
+      "final_rank": 1.0,
+      "initial_independent4": 0.016493055555555556,
+      "final_independent4": 1.0,
+      "optical_spatial_variance": 0.9697460792958736,
+      "SAR_spatial_variance": 0.9385728556662798,
+      "engineering_response": true,
+      "interpretation": "numeric and fit response only, no arbitrary90% admission threshold or validation-based selection"
+    },
+    "semantic_context": {
+      "initial_loss": 5.464510723948479,
+      "final_loss": 0.223263765219599,
+      "loss_ratio": 0.04085704585428571,
+      "initial_rank": 346.0,
+      "final_rank": 1.0,
+      "initial_independent4": 0.014973958333333334,
+      "final_independent4": 1.0,
+      "optical_spatial_variance": 0.967858025804162,
+      "SAR_spatial_variance": 0.8946394380182028,
+      "engineering_response": true,
+      "interpretation": "numeric and fit response only, no arbitrary90% admission threshold or validation-based selection"
+    }
+  },
+  "all_groups_responded": true,
+  "formal_budget_run": false,
+  "stageC_preregistered_seeds": [
+    2026112706,
+    2026112707,
+    2026112708
+  ],
+  "first_delivery_only": true
+}

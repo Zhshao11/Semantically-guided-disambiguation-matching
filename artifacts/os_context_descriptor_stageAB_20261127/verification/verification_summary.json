@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "pure_structure_baseline_same_candidates_and_distances_exact": true,
+  "all_four_initial_weights_equal": true,
+  "parameter_count_each": 393984,
+  "paired_modality_parameters_independent": true,
+  "projection_exact_and_row_orthogonal": true,
+  "all32pairs_four_group_preMLP_caches_exact": true,
+  "final_reload_all_metrics_and_candidate_arrays_exact": true,
+  "frozen_sources_and_SAR_KL10000_unchanged": true,
+  "equal_smoke_updates_each": 800,
+  "formal5000step_three_seed_budget_not_run": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

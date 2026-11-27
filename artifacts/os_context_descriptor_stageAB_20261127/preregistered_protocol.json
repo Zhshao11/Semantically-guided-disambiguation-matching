@@ -1,0 +1,115 @@
+{
+  "output": "reports/os_context_descriptor_stageAB_20261127",
+  "semantic_config": "configs/os_semantic_routing.json",
+  "structural_checkpoint": "reports/os_continuation_diagnostic_20261126/run/last.pt",
+  "structural_checkpoint_sha256": "40aefd473566fa5c14557b9d9198bf26e8b2b753b35cb435bda589b28b6f19bc",
+  "SAR_head_checkpoint": "reports/os_correspondence_objective_20261127/training/KL_control_last.pt",
+  "SAR_head_checkpoint_sha256": "ccaa7a081c9b22a66a816eab6256e630645962b42e7ef86a6d1c65dae306256f",
+  "baseline_reference": "reports/os_semantic_score_control_20261127",
+  "groups": [
+    "structure_point",
+    "structure_context",
+    "semantic_point",
+    "semantic_context"
+  ],
+  "structure_channels": 128,
+  "extra_channels": 32,
+  "windows": [
+    1,
+    3,
+    5,
+    9
+  ],
+  "projection_seed": 2026112709,
+  "projection": "CPU float64 seeded Gaussian128x32 thinQR, positiveR diagonal signs, transpose to32x128 float32 row-orthogonal matrix; shared across modalities and groups, frozen",
+  "pooling": "normalize F and E per grid location; sum(valid*X)/(sum(valid)+1e-6), outside grid excluded; zero invalid centers; valid fraction denominator k*k includes out-of-image as invalid, never fed to network",
+  "sampling": "form center and unnormalized masked mean maps before sampling; bilinear pixel-center sample each F/E scale at source coordinates, L2 each sampled F and E separately, concatenate four blocks then MLP; never sample after nonlinear MLP",
+  "point_control": "sample center F/E only and repeat four times; identical640 input and per-modality640->256->128MLP with GELU, two independent modality heads; no conv/attention/absolute coordinates",
+  "loss": "full valid1024 grid positive probability mass, tau0.1, within8px originalP, stable logsumexp; mean valid queries within each image pair then mean only pairs with valid queries; zero valid pairs skip optimizer update",
+  "temperature": 0.1,
+  "score_tie_atol": 1e-06,
+  "candidate_count": 4,
+  "recall_radius_px": 8.0,
+  "nms_radius_px": 24.0,
+  "source_grid": "unchanged144 original source points, targets1024 original32grid, centers8*k+3.5",
+  "optimizer": {
+    "name": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "gradient_clip": 1.0,
+    "scheduler": "constant",
+    "batch_size": 16
+  },
+  "smoke": {
+    "selection_seed": 2026112705,
+    "head_seed": 2026112706,
+    "sampler_seed": 2026112710,
+    "families": 32,
+    "pairs_per_family": 1,
+    "steps": 800,
+    "evaluation_steps": [
+      0,
+      100,
+      400,
+      800
+    ],
+    "geometric_augmentation": "identity optical andSAR transforms, original native paired images without additional warp; fixed nominal base identity labels, no random geometry",
+    "checkpoint_policy": "all four groups fresh shared initial head weights, independent identical newAdamW; no old semantic optimizer restored; equal800 updates each"
+  },
+  "formal_preregistration": {
+    "paired_seeds": [
+      2026112706,
+      2026112707,
+      2026112708
+    ],
+    "steps_per_group_seed": 5000,
+    "evaluation_steps": [
+      0,
+      1000,
+      2500,
+      5000
+    ],
+    "head_initialization": "same optical/SAR initial weights copied across four groups within each paired seed, optical vsSAR independent parameters",
+    "training": "all frozen OS train fold, original sample/epoch augmentations, same schedule across groups per seed, fresh descriptor heads and newAdamW",
+    "order": "first paired seed for all four groups, inspect implementation then complete all four groups for other two preregistered seeds; no selective seed extension",
+    "status": "preregistered for phaseC; this first delivery executes baseline and stageA/B only"
+  },
+  "geometry_diagnostics": {
+    "absolute_rotation_degrees_bins": [
+      0,
+      5,
+      10,
+      15,
+      20,
+      1000000
+    ],
+    "absolute_scale_deviation_bins": [
+      0,
+      0.03,
+      0.07,
+      0.1,
+      1000000
+    ],
+    "window9_valid_fraction_bins": [
+      0,
+      0.5,
+      0.75,
+      0.999999,
+      1.000001
+    ],
+    "notes": "square windows not affine invariant; no GT warp of pooling windows, transport of optical features or candidate injection; diagnostics only"
+  },
+  "bootstrap": {
+    "seed": 2026112711,
+    "replicates": 2000,
+    "unit": "paired source family; conditional on frozen smoke or single model, not geographic independence"
+  },
+  "cuda_device": 6,
+  "delivery_scope": "first deliver pure-structure same-definition ranks + four forward/unit tests + fixed32pair fits; stageC budget and three seeds preregistered but not started in first delivery",
+  "sealed_pools": "OS test1696 andUBCv2 test1625 remain sealed; no new inference",
+  "interpretation": "neighborhood composition only, no directional layout, region graph or full semantic relations; original synthetic-label-relative source-family scope; smoke is engineering fitting, not generalization"
+}

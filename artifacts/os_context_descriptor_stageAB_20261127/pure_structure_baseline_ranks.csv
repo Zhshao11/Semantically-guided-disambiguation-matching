@@ -1,0 +1,5 @@
+group,pessimistic_rank_median,pessimistic_rank_p75,pessimistic_rank_p95,queries,rank_median,rank_p75,rank_p95,recall_at_1,recall_at_4,split
+all,1.0,3.0,16.0,116953,1.0,3.0,16.0,0.6162817542089557,0.7011449043632912,training_monitor
+structure_miss,3.0,9.0,54.0,34952,3.0,9.0,54.0,0.0,0.0,training_monitor
+all,2.0,5.0,42.0,116953,2.0,5.0,42.0,0.47833745179687565,0.6012842765897412,validation
+structure_miss,6.0,17.0,111.0,46631,6.0,17.0,111.0,0.0,0.0,validation

@@ -1,0 +1,32 @@
+{
+  "completed_first_delivery": true,
+  "stages": [
+    "pure_structure_ranks",
+    "A_unit_forward",
+    "B_fixed32fits"
+  ],
+  "formal_stageC_run": false,
+  "equal_smoke_updates_each": 800,
+  "groups": [
+    "structure_point",
+    "structure_context",
+    "semantic_point",
+    "semantic_context"
+  ],
+  "new_descriptor_parameter_count_each": 393984,
+  "frozen_digests_before_after": {
+    "structural": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+    "SAR_semantic": "bf8e47ed45fefa095161ae2fb4896e54e4d9364609dbccfe23906b88f0af876c"
+  },
+  "teacher_SAR_KL10000_endpoint_fixed": true,
+  "old_optimizer_not_restored": true,
+  "wall_seconds": 30.821603288990445,
+  "peak_allocated_mib": 612.15185546875,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "formal_seeds_preregistered": [
+    2026112706,
+    2026112707,
+    2026112708
+  ]
+}

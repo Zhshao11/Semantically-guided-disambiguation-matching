@@ -1,0 +1,3586 @@
+[
+  {
+    "sample_id": "OSdataset/256/train/1147",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "f3031801868dfe562dc533c28c7c3a6e45728d86694ded99b5bb6c81b7d0e5ca",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1147",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "96bbe1482cfeaedd70994e44278a1a098c5b4f9cb675298559c61ca095d4c6d6",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1147",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "0c969a34c8469c70bf6479fe43c87f630bb238f08f1285b899929a7e9a032cd6",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1147",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "4c9871842b733c06cae982a9246218d906f295f507c99bdbd481a2f479e95076",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/144",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "b011eee22ffebc399a30b3e0a47c76f9a179da369008ec3b775173f5d5df0d5a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/144",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5e67230e3cd5c6c67bd58b24cf590a803423171c5eeee7381362bf4c343b7c57",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/144",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "8368db4440bd80cfd0d4dd27b95b24bcd5599c008af6844e5f64f1ccba7be7b3",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/144",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7cef18557cc63808ca93e98732b5d1920f4feb8d083c3123325626ad077ba567",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1464",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1031deeac8a721d3a3e23b60d5df4079e1a3077e11b7ed8db7a22f9b85bd17fb",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1464",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "715251decfaf9f426631fbdf4ba9f76d45c39be8d2b12d28384ddfa587b3c807",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1464",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "61c102f633c80048dbe36f032fbf4dc6bfca8c5139c53a1e7abe3d1109c4058d",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1464",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "159d883474f4cfc7e6e59a7d383adf818c3bbf5e7c9634ed90271a139c01aa95",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1842",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "91a8459fab084c4d47e0e1a3a619f59c6f6823feea42da170aa9b3cbc304c9df",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1842",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "e4985097755bb5c360b1f2f5158efff018b5e79a701ca65419779cc7ebd2ec05",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1842",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ae7f7eda3853c5ca055a680ddc8e6403935654964b2c26f37ac9dbb8663b5c91",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/1842",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7e71b6f1e159b2c8fe1866360c3483bcc311c8175f5b22c818fe7d00c210c2d3",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2292",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "401a4151fb4cf9cf95c7aa0cb3bde669879338fcc49411d7bf22c846878e63e2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2292",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5387f8c7788df27fc83084699565085009e5806662a401f2735656d27d8cbd33",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2292",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5917f6ae74f219ee8b17a3993cad93a96d7210bcd1d91a8473a9714ee5c4ef2b",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2292",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "6deb875a078a5e21f42279c5dbc92f7b020a22134aae51bb3d9bc286da705a34",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2648",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d2ac0a738bd75f79f1f02a8f5e60615aa0c373e8beb55a6da864fc1364297a01",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2648",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "fe153b8bb710b67bf7e5d738f9bf0ae8c8c03b5b1f63521addad8678c5330cce",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2648",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "460fb40204df0b208662c455f1789617bd6d254ec70000f9b776dfcb32e33faa",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2648",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "0fed259d68cc569d1e6b44f488ce9dddddaba5e459ad7ced4bd38d142fbc51e2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2876",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "61c102c2f285283cb13b85d45cf34b46847893550f007d65383448e44ea7345a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2876",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "51175841587a4827355d9b7dc3dee8624a0acf8e50d25c58cdba4cb8c205a53a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2876",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "847a63351a800deb09d740636d2b09c0edb8e714be4212ef40da4dca01f09ff2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2876",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "528d243becaf985e8314a8ff54699b9fc2e3dff8cb9e2d163ee3c20bfdeec7a1",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2877",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ed90498c7151c73347861d8bb109bdc804416e5df8d2e772b8870b0cf76c83b0",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2877",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "22bce48f15b29336da097f5d95188f4593f43f79151407e8263a9681310d26d4",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2877",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "23c2afb8fc401c5f506112bf2a0ee81ff6a454fa5c7f78f3a2576061154d0116",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2877",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "26c61531f4fa0d28dbeb7526c77823abbac5c25e65b45b707e94cc57940fc915",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2966",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "0fbe4bf5668302fcca618832da91d56fa5083dc2db1e4517e84ca4389143099a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2966",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ef08af128fd718c47e72608b56975b42da088ae287b51586dacddb7f76ae8f6e",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2966",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "bf69430d5d2473d1dc7236ca311a1922af218fe7098ffe30ec04bd9981441872",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/2966",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "040f19bf128fe4ec363cabc594992584beaa217e4331e0bcef63e9315f33aaf2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3047",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "9d6bfa5d9179285d26eb9a6448471b6cba5e81aaa6676419bc7c6e69f38ae1cc",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3047",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1d7e350a4c43e2ea59b973a4b995cf7d6e18e375ad2b2c10f547fdad8c0c5b05",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3047",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "bc55419ead454739712d3f1d8d52624d6a94db9ed931ceff0d5c6af7e317e20a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3047",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "24db9f89362a63bb83f9157986e83f9c8d9e6d8aed4e6b7237ab30c6ddbeb435",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3337",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "8065eac4fba6b6876762756c5051720af3a99f17759d7a681d7cc3c154bfce5c",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3337",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "dadac42458c3d7b44b6d1ab556167aad192238f76d62b4dce26f092148fb0b08",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3337",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ef38f2de5c8c66f1b4ba33eff154083aa113fdb2d1145c95fea3ff3866522dad",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3337",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "97a5cf6b712d792234853e3acf98ca7a1745e168273aff6e1b1bb9aff5babe9d",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3714",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "34f9c3e1a2670ad318a19d06dbf92ae7994a2621c975ce66ce891d0bcfb604e7",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3714",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1ac5141426677a768ea3883b96992bbf8be063333ed8ab1075a50c9bb29a841f",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3714",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "265b32b7d1862a16c7b1a1ed41c5e23b385316bde597eee03e0dc0e98ade644d",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/3714",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "174bf6b9692c9075eec8fc180b4ced6838bcec0761cf0290db0cdf867918ba43",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4109",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "52e1d3c1b24200c6b4ccd210f87216aca2a92d2fc349e517ba799aaf444eeb8b",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4109",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "6d5897178d13ef96dcecd31fa3092d20cc9ab8f4d3e0dfa35341b0d9ab68b0b2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4109",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "4cd6abd7c3bd1f8d5930ff633e39499f0478afd415599c644d8174794bd0594d",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4109",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "c4f21d63ac487c5af6020d9a8a018bc6375ffa0b1f33b779ac6d8288c9317802",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/415",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "e83ab11b013931baebcf7c306e28c0cac6a8c0518bdd0cd5de12c02925705224",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/415",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "25b317c06c239474840b081a4bbc3775c9d29663c97f8df753ea45722a199e03",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/415",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "98bfc2767a27e6628a951e782c0b0e3983f7fae070b0e596ba38ac57f756b3b3",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/415",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "b6b7dd3ac820ccda3d4c50e918f53d223a9a7b2971d7defc5c2448bb211c790f",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4203",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "72281fcc7a34598577371ba5f4be9e5c9d9222140c5bba62230358f7a331605a",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4203",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "3c9661f01352376cd7315680b94ac9cca444a956123b025eb65e79e334bc93f2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4203",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "9506492ec76978342e82859158448afb00339b0976cc02c35205980f29a56687",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/4203",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "bc628ae03f19ab029ce4338bc83b648c359e8c14573af1ea43cc4151e53449a5",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5188",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1f72676d4e49fc23682f521cf822a7a7536790b45dd0bd3cc81ed8c668f1d5a9",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5188",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d1bfca1c443696329d0facb5f7ffbc051f5782df6e7c4d82f7c663ddc475d0d1",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5188",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "889f55c50846f03a282edc04565c0f9bcace0817064c73bb1870343d118419db",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5188",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "43b5fc86a65620f35b019614b6af870d0224d9b67c301785ece3b1559c3cc9fa",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5359",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d6f5e791593a3ef0331b8cc51f6f2f8d442a9d38bcb465f331b1f08dc0e9994b",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5359",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d1831b72a3084274b36f53ee8a28b3666e17947809a2457b809f2f009c610bf5",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5359",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "b71ca788fff381c7b67534c90a30751bda87463d316341ad4c2f12ab115c4bdd",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5359",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7a65dcce709b3381d27c91525ea68b354c52da8b4da1a0571fcca3f64c3dfe8f",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5546",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "e7b546fc879dd31706cca5c8c110867b6e2221873191578a283147c3946d9f38",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5546",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "04bbb1f9c3265cbf5fe562f45ad86a3397d27b29cf32f4c1143d83b3de6fe172",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5546",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "eee4ddf37161364beceb0c56da992b4d7073db88978a317b843ffa15bc922a24",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5546",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7e44175eacc3d7389f443e714db20487db2597841c96e22219f27eaa59aaa6f1",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5575",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "6b75e41dd9f65eaa5d68a195841889a1c742982e7061562d74b2848f72e13bc6",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5575",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "0b8335bd7d055dab42abbf87a0f86bb4dc068695d5436dd4919a3238fce88a44",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5575",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "949ea9e894d113d24fa46d7ea22be37695754f4ca64bfe382ced5a0e9e72fa89",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5575",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "777380b13052f7553057e82dda5054c061427526d7cb84facce021b05eb6f284",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5703",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "df46022a74d33d7fd55fae0b77e2590597a184d6f44144b23591dff89bf8aced",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5703",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "9f2de3ea70711de71accb3a781cb4f7b4ebf26234898e39a2d503e42692f353d",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5703",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "591d58056a204eae09bea6687798632c2c420b2ff3d26a3df04f0adc35b5701f",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5703",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5f0f0ea0b94c723edf09f5d7a7c6d7b9a84dac8f6b5f48af25c4b5a75d634054",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5737",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5f32593965b2ae5b5d86e8a592be3c37867c4be9f9ccf29cdc8c1ae352d047ad",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5737",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "6a9ad5da892fbd525fdc257155330405dd329d991204d9d2ab805044b33522dd",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5737",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ff4534e30b56176e739347f4018d1f17e210a9cceccbaf92047790738c865374",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5737",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "f46f9f644d33d975788debddbf3f47fc3e7fe2a5e41efbb303b2503a0a75ca51",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5873",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "c9c48bad84c97456349ab5db6cf8ac6c4c37badbacea22c70beb1956f300bf55",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5873",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "c1c8ce74c2439dc1fb924dfe1fedc84b88656b79c338d1f287f610783fb93375",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5873",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "bf4a46fcca1b09c18e66893ce6b354c2cef355a48536cc8df4cd87124852c8ad",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5873",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "281a5872791c60d0a9c433748d34fcc24a60723d7a101928287052ada2547c4c",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5899",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1cd3b6cdb218514311611e8047b98bbdc5088efdf8d8785a442db2f1772b19e2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5899",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7d9101486fb0ba8224e7e946b4966180a02c2d37ce6e62ca86130d3e01c3e029",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5899",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "322de7b1c4cfe4003751b792e595a8e8c77bf4273395e33d17645f76b94ddf4f",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/5899",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "78ee55d499fe01ca17c340da224d0df21fe24e88b4ce0e5c73975526d6f13c66",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6145",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d9998f0b3005e134a2a68deeb3d8e5ea0ce877fd0204123434e219d12c484b32",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6145",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1eb6e60a99976e2fe70a6bcdbfc5dd9c7f18dc03739c3ebae037c31072f0b4f5",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6145",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "a2f83805bf06397bb5e7ea971cfc1e3cd51da0534de638f7c88c42436fdc445c",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6145",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "997c00b50c41073a9d284cf723deb9e04c56759a85fbe2604a4db8a9d03d4815",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/624",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ca6109ea7044de7740218e055fe01929cd6cddae1a3c762cc10d75afb54cf739",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/624",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "ceb19a96e6aca7b505e1f44a6c7d92b6613de38b1433765a1fc4ff7f54de0649",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/624",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5062465fc0f7494e5985b71e968809decadcbbc93b656ed9ae9a3fcbdac1fe85",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/624",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "217ac475805427a7c1900fc47913dae4ed093b04ec0b5ca5e03fe7c5c24149dd",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6924",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "26abe51c4f0601cb68e4ec4455ebdcba6539b2953b34e817d800a170e232aacc",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6924",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "a61045fbd27644af6706cc211aa1b525306697d241d21f59f25ea4a69ead59f3",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6924",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "15c44964b5670996443d51fd0b25b5ed24f721e3f0f0fa685927ad52e9dc37d2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6924",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "09aaf6cb4136c7023c3ba8b58184002f9f903c0ec57fd4267ba0270deebcd633",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6971",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "2e46b22a43b1101bfa1f481a5f3361c9ab49e564c8f790ccd49803840ea32f16",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6971",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "8363e600601dedb829bf42be1eabdb70bf504a10d638b2452fb5c4f56b7fcf27",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6971",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "f8b1c534c3ee9a697864f5616074f57ed1804cb17d295873956a3c15095dda69",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/6971",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "11b512321e7101f9f51308d73eea9f3f66838dda0060177399ec47dca2c8f825",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7547",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "94b1ef66e24274a467ed01f7d8d8980c149ead83da72d3452a61e320991d7a19",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7547",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "130fc513f9ba4fb9b502377a3be6c3cd2e42beaba03a3a035bf93f6df238b917",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7547",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "b5ae1d8e0006de76f1cdded9f6abeb1e1582752c08a5f23084cdac7a50cd09b2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7547",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "bae0b62211073e37c687dcded79d57d5df9e536181cbd74d32c1529796ed27f2",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7636",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "36a1d7533bbbaf5af323b17198c7415a0b46404c9dfb5c33bc6df15e8a989749",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7636",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "d6d2398d718acc94ebe96bfe737eb72964e6cd12ab5d2318c75978b99efb8e03",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7636",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "5ca86785780dc72c561078d267b65abaa75bfe82d830d71cb901da1d3fa53741",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7636",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "7b82b226edd25f6a4510e9ce714655b9da5df754ea5ab80e8a2c4476df8ce4e6",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7797",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "46d5cbf9ab1e2fd54b3ce178262b29f55e7685abdd415051be5242301803426c",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7797",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "6cd4e42e83984e250141b6f92a7515038f1e1f5cf9c46dcf812c8b53e6373c6e",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7797",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "1c17f773e48f6f1fab02137e7456512f19adb8e49294ffea3ea6c194aa4d84f6",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/7797",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "19a06819da87fbd59c07e36d3e76429d9b2d6940131345c318eee6df3a329d3e",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8021",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "99a3e598c3470882db3997107bd2e405844431a917d8be2fa78d0f12fd4ace02",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8021",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "a861c007c224e2609018ec38c8e239ba49bbff14cb723a7886077726f24bb5e1",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8021",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "78a20353338ac07a6f7c1cd19704b053ecda5d198166399bb47ee0a2843dfb6c",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8021",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "3d5c4f8ecb50f8d0865e9479b0a6549dbecd1cdae0f3aad2c2b8f7e2da1b0caa",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8033",
+    "group": "structure_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "a3d503cdf86fe2a81b7723f1c783a0e7a7cd7ec67d7e7aa9a9e9a9dcfc1db2dc",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8033",
+    "group": "structure_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "303b6339216c40d74f3f8ee0abd74d6a0ec8828fe2f8982107a0acca8346f5de",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8033",
+    "group": "semantic_point",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "2d7923070308f9d61cb63ed95a6895186de4af69c1505d6c468558d84ca69a41",
+    "GT_in_forward": false
+  },
+  {
+    "sample_id": "OSdataset/256/train/8033",
+    "group": "semantic_context",
+    "optical_shape": [
+      1,
+      144,
+      640
+    ],
+    "SAR_shape": [
+      1,
+      1024,
+      640
+    ],
+    "optical_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "SAR_valid_fraction": [
+      1.0,
+      0.9587674140930176,
+      0.9264062643051147,
+      0.8659336566925049
+    ],
+    "cached_block_sha256": "332a48921b37e0653cc9661ebe6856ab1cd24cb1310d9c73f252d89205d0e78f",
+    "GT_in_forward": false
+  }
+]

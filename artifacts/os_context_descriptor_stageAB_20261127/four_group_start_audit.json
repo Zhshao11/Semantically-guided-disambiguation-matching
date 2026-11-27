@@ -1,0 +1,34 @@
+{
+  "structure_point": {
+    "initial_weight_digest": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+    "trainable_parameters": 393984,
+    "optimizer_steps_start": 0,
+    "old_optimizer_restored": false,
+    "optimizer_state_empty": true,
+    "optical_SAR_parameters_independent": true
+  },
+  "structure_context": {
+    "initial_weight_digest": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+    "trainable_parameters": 393984,
+    "optimizer_steps_start": 0,
+    "old_optimizer_restored": false,
+    "optimizer_state_empty": true,
+    "optical_SAR_parameters_independent": true
+  },
+  "semantic_point": {
+    "initial_weight_digest": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+    "trainable_parameters": 393984,
+    "optimizer_steps_start": 0,
+    "old_optimizer_restored": false,
+    "optimizer_state_empty": true,
+    "optical_SAR_parameters_independent": true
+  },
+  "semantic_context": {
+    "initial_weight_digest": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+    "trainable_parameters": 393984,
+    "optimizer_steps_start": 0,
+    "old_optimizer_restored": false,
+    "optimizer_state_empty": true,
+    "optical_SAR_parameters_independent": true
+  }
+}
