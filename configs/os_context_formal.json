@@ -1,0 +1,13 @@
+{
+  "base_config": "configs/os_context_descriptor.json",
+  "stageAB_root": "reports/os_context_descriptor_stageAB_20261127",
+  "output": "reports/os_context_formal_20261127",
+  "paired_seeds": [2026112706, 2026112707, 2026112708],
+  "steps": 5000,
+  "evaluation_steps": [0, 1000, 2500, 5000],
+  "sampler_policy": "fresh DataLoader generator seeded by paired seed; full train split, shuffle each epoch, keep final short batch; original OS sample/epoch augmentation seeds unchanged",
+  "phase_order": "first seed all four groups, engineering verification gate, remaining two seeds all four groups",
+  "checkpoint_policy": "fresh descriptor heads and AdamW, never load smoke heads; fixed5000 endpoint only; process evaluations diagnostic, no validation selection",
+  "bootstrap_scope": "paired whole families separately within each seed; intervals do not estimate training randomness; report all three seed results and mean/sampleSD separately",
+  "test_policy": "OS final test and UBCv2 remain sealed"
+}

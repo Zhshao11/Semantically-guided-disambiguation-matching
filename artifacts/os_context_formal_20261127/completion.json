@@ -1,0 +1,42 @@
+{
+  "completed": true,
+  "paired_seeds": [
+    2026112706,
+    2026112707,
+    2026112708
+  ],
+  "groups_each": 4,
+  "updates_per_head": 5000,
+  "total_head_updates": 60000,
+  "first_seed_verified_before_others": true,
+  "all_engineering_checks_passed": true,
+  "tests_passed": 91,
+  "endpoint_result_verification": {
+    "passed": true,
+    "endpoint_metric_rows_checked": 60,
+    "paired_comparisons_checked": 192,
+    "all_three_seeds_all_four_groups": true,
+    "independent_NumPy_counts_and_quantiles": true,
+    "same_baseline_and_fixed_miss_queries": true,
+    "candidate_budget_and_no_duplicates": true,
+    "initializers_same_within_seed_distinct_across_seeds": {
+      "2026112706": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+      "2026112707": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+      "2026112708": "925ccbc4ccb186436643a99a28bc042eaeed32fdce81298d1f72c998b601e169"
+    },
+    "frozen_model_and_semantic_head_identical_across_seeds": true,
+    "all_recorded_modality_gradients_finite_nonzero": true,
+    "OS_test_evaluated": false,
+    "UBC_evaluated": false
+  },
+  "implementation_sha256": {
+    "configs/os_context_formal.json": "6f626b0f19d969e5007780930a27a68ecba8a1d6ae163226dde94bfadb8e1821",
+    "scripts/train_os_context_formal.py": "a03590a749bf0da9d2ac99ba5d79e9ff34d0551a99583fdd91d729102e372663",
+    "scripts/summarize_os_context_formal.py": "784cfa206bec10a6d31a84b20da926474088933d1d3267b2ba70a23f9899b471",
+    "scripts/verify_os_context_formal_results.py": "92e70c9fddca248195865f2a70fc616dcf774ce4637d56ad3177cc6addd00bfa",
+    "sdgm/context_formal_analysis.py": "d7408233d5e7081690a809f1382c6960e0fb8767e57e3ff141175fa8c9870a28",
+    "tests/test_context_formal_analysis.py": "3d8646ca93606e27a7d0bf61f9f97767363edcd34df677bfbb16c55f44d01077"
+  },
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

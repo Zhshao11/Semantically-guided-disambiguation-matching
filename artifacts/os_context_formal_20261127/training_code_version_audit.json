@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "training_function_AST_sha256_by_seed": {
+    "2026112706": "42b4dddf7c6d4fa44240f71df9e445ece192aa6a72930166c719c9dd39905f88",
+    "2026112707": "42b4dddf7c6d4fa44240f71df9e445ece192aa6a72930166c719c9dd39905f88",
+    "2026112708": "42b4dddf7c6d4fa44240f71df9e445ece192aa6a72930166c719c9dd39905f88"
+  },
+  "same_numerical_training_and_evaluation_loop": true,
+  "excluded_source_archival_statement_only": true,
+  "interpretation": "verification/reload/resource-flag extensions did not change training loop or protocol; launch sources retained"
+}

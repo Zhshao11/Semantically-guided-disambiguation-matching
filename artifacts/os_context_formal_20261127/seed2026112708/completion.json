@@ -1,0 +1,44 @@
+{
+  "completed": true,
+  "seed": 2026112708,
+  "updates_each": 5000,
+  "attempted_batches": 5000,
+  "skipped_batches": 0,
+  "same_batch_augmentation_and_initial_heads": true,
+  "fresh_heads_and_optimizers": true,
+  "groups": [
+    "structure_point",
+    "structure_context",
+    "semantic_point",
+    "semantic_context"
+  ],
+  "schedule_digest": "7446b80c0584c9ca31ad5c2846efdc9d4a8186fac9fa75c4d9c09a7f14fc2b99",
+  "frozen_state": {
+    "structural": "5dd7c5eef06d1eff95d19bbebc13ddf0bf0bf65b76d991b678d787c373cde6a2",
+    "semantic": "bf8e47ed45fefa095161ae2fb4896e54e4d9364609dbccfe23906b88f0af876c"
+  },
+  "frozen_sources_unchanged": true,
+  "wall_seconds": 894.999148583971,
+  "peak_allocated_mib": 424.2392578125,
+  "final_checkpoints": {
+    "structure_point": {
+      "path": "reports/os_context_formal_20261127/seed2026112708/checkpoints/structure_point_step05000.pt",
+      "sha256": "8698163dff0f2ad23e5eeabad328d53201d5b623a289f86f35d1e4da4c3f4af2"
+    },
+    "structure_context": {
+      "path": "reports/os_context_formal_20261127/seed2026112708/checkpoints/structure_context_step05000.pt",
+      "sha256": "e2e9bcfb2b3d206e0b1a7cd09ce8542978516c510e596efcbfaf850b633b8e99"
+    },
+    "semantic_point": {
+      "path": "reports/os_context_formal_20261127/seed2026112708/checkpoints/semantic_point_step05000.pt",
+      "sha256": "2abbf6cc8b4df34a7fa5c6f0ffc9fbadc12aa4a4b258a48cec7c3792a95f124a"
+    },
+    "semantic_context": {
+      "path": "reports/os_context_formal_20261127/seed2026112708/checkpoints/semantic_context_step05000.pt",
+      "sha256": "79484efb34283ba2795e95c697e04e4e37cf27131115054592c6b2d7346083f6"
+    }
+  },
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "fixed_endpoint_not_validation_selected": true
+}

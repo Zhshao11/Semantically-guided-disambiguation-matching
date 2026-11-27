@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "seed": 2026112708,
+  "all_four_updates5000": true,
+  "fresh_initializers_and_optimizers": true,
+  "exact_fixed_structural_baseline_all_process_points": true,
+  "same_queries_support_and_miss_group": true,
+  "finite_losses_and_gradients": true,
+  "frozen_weights_stats_and_sources_unchanged": true,
+  "final_test_still_sealed": true,
+  "epoch_sampler_fully_replayed": true,
+  "final_heads_reloaded_fixed32pairs_both_splits_exact": true,
+  "gate_uses_engineering_integrity_not_validation_gain": true
+}

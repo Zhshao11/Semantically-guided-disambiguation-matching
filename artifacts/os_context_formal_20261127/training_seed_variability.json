@@ -1,0 +1,2722 @@
+[
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.7017092336237634,
+      0.7014185185501868,
+      0.7016408300770395
+    ],
+    "mean": 0.7015895274169965,
+    "sample_std": 0.00015199600552899767,
+    "minimum": 0.7014185185501868,
+    "maximum": 0.7017092336237634,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.7003411626892855,
+      0.699999144955666,
+      0.7010765008165674
+    ],
+    "mean": 0.7004722694871729,
+    "sample_std": 0.0005505139935495548,
+    "minimum": 0.699999144955666,
+    "maximum": 0.7010765008165674,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.6151958479047138,
+      0.6152129487913949,
+      0.6150504903679256
+    ],
+    "mean": 0.6151530956880115,
+    "sample_std": 8.926924926176034e-05,
+    "minimum": 0.6150504903679256,
+    "maximum": 0.6152129487913949,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      15.0,
+      16.0,
+      15.0
+    ],
+    "mean": 15.333333333333334,
+    "sample_std": 0.5773502691896257,
+    "minimum": 15.0,
+    "maximum": 16.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.7246842748796525,
+      0.7247526784263764,
+      0.7250861457166554
+    ],
+    "mean": 0.7248410330075613,
+    "sample_std": 0.00021501149136883498,
+    "minimum": 0.7246842748796525,
+    "maximum": 0.7250861457166554,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.7933870871204672,
+      0.7935751968739579,
+      0.793874462390875
+    ],
+    "mean": 0.7936122487951001,
+    "sample_std": 0.00024579116582273963,
+    "minimum": 0.7933870871204672,
+    "maximum": 0.793874462390875,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.7610578608500851,
+      0.7614340803570665,
+      0.7612887228202783
+    ],
+    "mean": 0.7612602213424765,
+    "sample_std": 0.00018972224444169036,
+    "minimum": 0.7610578608500851,
+    "maximum": 0.7614340803570665,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "mean": 5.0,
+    "sample_std": 0.0,
+    "minimum": 5.0,
+    "maximum": 5.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.701632279633699,
+      0.7018716920472327,
+      0.7017861876138278
+    ],
+    "mean": 0.7017633864315865,
+    "sample_std": 0.00012132393157247751,
+    "minimum": 0.701632279633699,
+    "maximum": 0.7018716920472327,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.7008199875163528,
+      0.7014441698802083,
+      0.7011791061366532
+    ],
+    "mean": 0.7011477545110715,
+    "sample_std": 0.00031327000998664946,
+    "minimum": 0.7008199875163528,
+    "maximum": 0.7014441698802083,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.6161107453421459,
+      0.6166921754892991,
+      0.6162390019922533
+    ],
+    "mean": 0.6163473076078995,
+    "sample_std": 0.0003054714942347384,
+    "minimum": 0.6161107453421459,
+    "maximum": 0.6166921754892991,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      15.0,
+      15.0,
+      15.0
+    ],
+    "mean": 15.0,
+    "sample_std": 0.0,
+    "minimum": 15.0,
+    "maximum": 15.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.7246671739929715,
+      0.7245731191162261,
+      0.7250177421699315
+    ],
+    "mean": 0.7247526784263764,
+    "sample_std": 0.00023431959173422773,
+    "minimum": 0.7245731191162261,
+    "maximum": 0.7250177421699315,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.7937633066274487,
+      0.7943105350012398,
+      0.7935495455439364
+    ],
+    "mean": 0.793874462390875,
+    "sample_std": 0.0003924830459254241,
+    "minimum": 0.7935495455439364,
+    "maximum": 0.7943105350012398,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.7614939334604499,
+      0.762759399074842,
+      0.7619129051841338
+    ],
+    "mean": 0.762055412573142,
+    "sample_std": 0.0006446565537118472,
+    "minimum": 0.7614939334604499,
+    "maximum": 0.762759399074842,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "mean": 5.0,
+    "sample_std": 0.0,
+    "minimum": 5.0,
+    "maximum": 5.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "structure_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.022975041255889117,
+      0.02333415987618958,
+      0.023445315639615914
+    ],
+    "mean": 0.02325150559056487,
+    "sample_std": 0.0002457911658227424,
+    "minimum": 0.022975041255889117,
+    "maximum": 0.023445315639615914,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "structure_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.09304592443118176,
+      0.09357605191829196,
+      0.09279796157430763
+    ],
+    "mean": 0.09313997930792711,
+    "sample_std": 0.00039748067340451154,
+    "minimum": 0.09279796157430763,
+    "maximum": 0.09357605191829196,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.02303489435927253,
+      0.022701427068993526,
+      0.023231554556103734
+    ],
+    "mean": 0.02298929199478993,
+    "sample_std": 0.00026798968241753047,
+    "minimum": 0.022701427068993526,
+    "maximum": 0.023231554556103734,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.0929433191110959,
+      0.09286636512103152,
+      0.09237043940728326
+    ],
+    "mean": 0.09272670787980357,
+    "sample_std": 0.00031092747953609634,
+    "minimum": 0.09237043940728326,
+    "maximum": 0.0929433191110959,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_extra_over_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -1.7100886680974407e-05,
+      -0.0001795593101502313,
+      -6.840354672389763e-05
+    ],
+    "mean": -8.835458118503445e-05,
+    "sample_std": 8.30464789806359e-05,
+    "minimum": -0.0001795593101502313,
+    "maximum": -1.7100886680974407e-05,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_extra_over_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.000376219506981437,
+      0.0007353381272818995,
+      -0.00032491684693851375
+    ],
+    "mean": 0.0002622135957749409,
+    "sample_std": 0.0005392431394392513,
+    "minimum": -0.00032491684693851375,
+    "maximum": 0.0007353381272818995,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_extra_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -7.695399006438484e-05,
+      0.00045317349704582184,
+      0.00014535753678828248
+    ],
+    "mean": 0.0001738590145899065,
+    "sample_std": 0.0002662105159927063,
+    "minimum": -7.695399006438484e-05,
+    "maximum": 0.00045317349704582184,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "semantic_extra_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.00047882482706728346,
+      0.0014450249245423375,
+      0.00010260532008584646
+    ],
+    "mean": 0.0006754850238984891,
+    "sample_std": 0.0006924803415047585,
+    "minimum": 0.00010260532008584646,
+    "maximum": 0.0014450249245423375,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0005643292604721555,
+      0.0002736141868955905,
+      0.0004959257137482578
+    ],
+    "mean": 0.0004446230537053346,
+    "sample_std": 0.00015199600552898325,
+    "minimum": 0.0002736141868955905,
+    "maximum": 0.0005643292604721555,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.0008037416740057972,
+      -0.0011457594076252854,
+      -6.840354672389763e-05
+    ],
+    "mean": -0.0006726348761183268,
+    "sample_std": 0.0005505139935495484,
+    "minimum": -0.0011457594076252854,
+    "maximum": -6.840354672389763e-05,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.023539370516361274,
+      0.02360777406308517,
+      0.023941241353364173
+    ],
+    "mean": 0.023696128644270203,
+    "sample_std": 0.00021501149136881036,
+    "minimum": 0.023539370516361274,
+    "maximum": 0.023941241353364173,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.09224218275717595,
+      0.09243029251066667,
+      0.09272955802758373
+    ],
+    "mean": 0.09246734443180878,
+    "sample_std": 0.000245791165822746,
+    "minimum": 0.09224218275717595,
+    "maximum": 0.09272955802758373,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0004873752704077706,
+      0.0007267876839414124,
+      0.0006412832505365403
+    ],
+    "mean": 0.000618482068295241,
+    "sample_std": 0.0001213239315724708,
+    "minimum": 0.0004873752704077706,
+    "maximum": 0.0007267876839414124,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.00032491684693851375,
+      0.00029926551691705213,
+      3.4201773361948814e-05
+    ],
+    "mean": 2.850147780162399e-06,
+    "sample_std": 0.0003132700099866661,
+    "minimum": -0.00032491684693851375,
+    "maximum": 0.00029926551691705213,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0235222696296803,
+      0.02342821475293494,
+      0.023872837806640273
+    ],
+    "mean": 0.02360777406308517,
+    "sample_std": 0.00023431959173419537,
+    "minimum": 0.02342821475293494,
+    "maximum": 0.023872837806640273,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.09261840226415739,
+      0.09316563063794858,
+      0.09240464118064522
+    ],
+    "mean": 0.09272955802758374,
+    "sample_std": 0.0003924830459254089,
+    "minimum": 0.09240464118064522,
+    "maximum": 0.09316563063794858,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.019483863584344244,
+      0.018797207598992904,
+      0.019541084916456855
+    ],
+    "mean": 0.01927405203326467,
+    "sample_std": 0.00041394930980031153,
+    "minimum": 0.018797207598992904,
+    "maximum": 0.019541084916456855,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.14271000228885328,
+      0.14305333028152895,
+      0.14502746623941407
+    ],
+    "mean": 0.14359693293659878,
+    "sample_std": 0.001250714865781334,
+    "minimum": 0.14271000228885328,
+    "maximum": 0.14502746623941407,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.09638933394369421,
+      0.0968184939345388,
+      0.0978198672465095
+    ],
+    "mean": 0.0970092317082475,
+    "sample_std": 0.0007340926755903619,
+    "minimum": 0.09638933394369421,
+    "maximum": 0.0978198672465095,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ],
+    "mean": 9.0,
+    "sample_std": 0.0,
+    "minimum": 9.0,
+    "maximum": 9.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      53.0,
+      52.0,
+      52.0
+    ],
+    "mean": 52.333333333333336,
+    "sample_std": 0.5773502691896258,
+    "minimum": 52.0,
+    "maximum": 53.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.09613183794918746,
+      0.09661821927214466,
+      0.09764820325017166
+    ],
+    "mean": 0.09679942015716793,
+    "sample_std": 0.0007742520597693874,
+    "minimum": 0.09613183794918746,
+    "maximum": 0.09764820325017166,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5177386129549096,
+      0.5200560769054704,
+      0.5172808422980087
+    ],
+    "mean": 0.5183585107194629,
+    "sample_std": 0.0014878463329547282,
+    "minimum": 0.5172808422980087,
+    "maximum": 0.5200560769054704,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.463979171435111,
+      0.46769855802243077,
+      0.4643797207598993
+    ],
+    "mean": 0.46535248340581364,
+    "sample_std": 0.002041607092573954,
+    "minimum": 0.463979171435111,
+    "maximum": 0.46769855802243077,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ],
+    "mean": 11.0,
+    "sample_std": 0.0,
+    "minimum": 11.0,
+    "maximum": 11.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.019254978255893798,
+      0.019340810254062715,
+      0.019541084916456855
+    ],
+    "mean": 0.019378957808804456,
+    "sample_std": 0.0001468185351180724,
+    "minimum": 0.019254978255893798,
+    "maximum": 0.019541084916456855,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.14007782101167315,
+      0.14245250629434653,
+      0.1413653009842069
+    ],
+    "mean": 0.14129854276340886,
+    "sample_std": 0.0011887493608702673,
+    "minimum": 0.14007782101167315,
+    "maximum": 0.14245250629434653,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.09470130464637216,
+      0.0967898832684825,
+      0.09398603799496452
+    ],
+    "mean": 0.09515907530327306,
+    "sample_std": 0.001456898266934543,
+    "minimum": 0.09398603799496452,
+    "maximum": 0.0967898832684825,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ],
+    "mean": 9.0,
+    "sample_std": 0.0,
+    "minimum": 9.0,
+    "maximum": 9.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      51.0,
+      53.0,
+      52.0
+    ],
+    "mean": 52.0,
+    "sample_std": 1.0,
+    "minimum": 51.0,
+    "maximum": 53.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.09558823529411764,
+      0.09590295262073702,
+      0.09667544060425727
+    ],
+    "mean": 0.09605554283970397,
+    "sample_std": 0.0005594342479614925,
+    "minimum": 0.09558823529411764,
+    "maximum": 0.09667544060425727,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5131895170519569,
+      0.5165083543144885,
+      0.5131322957198443
+    ],
+    "mean": 0.5142767223620965,
+    "sample_std": 0.0019328617251150192,
+    "minimum": 0.5131322957198443,
+    "maximum": 0.5165083543144885,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.4612039368276494,
+      0.4644369420920119,
+      0.46077477683680473
+    ],
+    "mean": 0.46213855191882197,
+    "sample_std": 0.0020019971567405877,
+    "minimum": 0.46077477683680473,
+    "maximum": 0.4644369420920119,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      3.0,
+      3.0,
+      3.0
+    ],
+    "mean": 3.0,
+    "sample_std": 0.0,
+    "minimum": 3.0,
+    "maximum": 3.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      11.0,
+      11.0,
+      11.0
+    ],
+    "mean": 11.0,
+    "sample_std": 0.0,
+    "minimum": 11.0,
+    "maximum": 11.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "structure_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.07664797436484322,
+      0.07782101167315175,
+      0.07810711833371481
+    ],
+    "mean": 0.07752536812390326,
+    "sample_std": 0.0007731940969981394,
+    "minimum": 0.07664797436484322,
+    "maximum": 0.07810711833371481,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "structure_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.3750286106660563,
+      0.3770027466239414,
+      0.37225337605859465
+    ],
+    "mean": 0.3747615777828641,
+    "sample_std": 0.0023859191336411557,
+    "minimum": 0.37225337605859465,
+    "maximum": 0.3770027466239414,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.07633325703822386,
+      0.0765621423666743,
+      0.07713435568780042
+    ],
+    "mean": 0.07667658503089952,
+    "sample_std": 0.00041262889396474897,
+    "minimum": 0.07633325703822386,
+    "maximum": 0.07713435568780042,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.3731116960402838,
+      0.3740558480201419,
+      0.37176699473563746
+    ],
+    "mean": 0.37297817959868773,
+    "sample_std": 0.001150253154583403,
+    "minimum": 0.37176699473563746,
+    "maximum": 0.3740558480201419,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_over_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -0.00054360265506981,
+      -0.0007152666514076447,
+      -0.0009727626459143969
+    ],
+    "mean": -0.0007438773174639505,
+    "sample_std": 0.00021600579180792943,
+    "minimum": -0.0009727626459143969,
+    "maximum": -0.00054360265506981,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_over_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.004549095902952621,
+      -0.003547722590981918,
+      -0.00414854657816434
+    ],
+    "mean": -0.004081788357366293,
+    "sample_std": 0.0005040135142185022,
+    "minimum": -0.004549095902952621,
+    "maximum": -0.003547722590981918,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -0.00022888532845044633,
+      0.00054360265506981,
+      0.0
+    ],
+    "mean": 0.0001049057755397879,
+    "sample_std": 0.0003967850015776822,
+    "minimum": -0.00022888532845044633,
+    "maximum": 0.00054360265506981,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.002632181277180133,
+      -0.0006008239871824216,
+      -0.0036621652552071412
+    ],
+    "mean": -0.0022983901731898986,
+    "sample_std": 0.001557727500448992,
+    "minimum": -0.0036621652552071412,
+    "maximum": -0.0006008239871824216,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.019483863584344244,
+      0.018797207598992904,
+      0.019541084916456855
+    ],
+    "mean": 0.01927405203326467,
+    "sample_std": 0.00041394930980031153,
+    "minimum": 0.018797207598992904,
+    "maximum": 0.019541084916456855,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.14271000228885328,
+      0.14305333028152895,
+      0.14502746623941407
+    ],
+    "mean": 0.14359693293659878,
+    "sample_std": 0.001250714865781334,
+    "minimum": 0.14271000228885328,
+    "maximum": 0.14502746623941407,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.09613183794918746,
+      0.09661821927214466,
+      0.09764820325017166
+    ],
+    "mean": 0.09679942015716793,
+    "sample_std": 0.0007742520597693874,
+    "minimum": 0.09613183794918746,
+    "maximum": 0.09764820325017166,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5177386129549096,
+      0.5200560769054704,
+      0.5172808422980087
+    ],
+    "mean": 0.5183585107194629,
+    "sample_std": 0.0014878463329547282,
+    "minimum": 0.5172808422980087,
+    "maximum": 0.5200560769054704,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.019254978255893798,
+      0.019340810254062715,
+      0.019541084916456855
+    ],
+    "mean": 0.019378957808804456,
+    "sample_std": 0.0001468185351180724,
+    "minimum": 0.019254978255893798,
+    "maximum": 0.019541084916456855,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.14007782101167315,
+      0.14245250629434653,
+      0.1413653009842069
+    ],
+    "mean": 0.14129854276340886,
+    "sample_std": 0.0011887493608702673,
+    "minimum": 0.14007782101167315,
+    "maximum": 0.14245250629434653,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.09558823529411764,
+      0.09590295262073702,
+      0.09667544060425727
+    ],
+    "mean": 0.09605554283970397,
+    "sample_std": 0.0005594342479614925,
+    "minimum": 0.09558823529411764,
+    "maximum": 0.09667544060425727,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "training_monitor",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5131895170519569,
+      0.5165083543144885,
+      0.5131322957198443
+    ],
+    "mean": 0.5142767223620965,
+    "sample_std": 0.0019328617251150192,
+    "minimum": 0.5131322957198443,
+    "maximum": 0.5165083543144885,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.6009166075261002,
+      0.6007626995459715,
+      0.6006173420091832
+    ],
+    "mean": 0.6007655496937516,
+    "sample_std": 0.00014965311527223493,
+    "minimum": 0.6006173420091832,
+    "maximum": 0.6009166075261002,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5992749224047267,
+      0.5975819346233102,
+      0.5992150693013433
+    ],
+    "mean": 0.5986906421097934,
+    "sample_std": 0.0009606351109729613,
+    "minimum": 0.5975819346233102,
+    "maximum": 0.5992749224047267,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.47614853830171094,
+      0.4744555505202945,
+      0.4756782639179841
+    ],
+    "mean": 0.47542745091332983,
+    "sample_std": 0.0008739177761575406,
+    "minimum": 0.4744555505202945,
+    "maximum": 0.47614853830171094,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "mean": 5.0,
+    "sample_std": 0.0,
+    "minimum": 5.0,
+    "maximum": 5.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      41.0,
+      42.0,
+      42.0
+    ],
+    "mean": 41.666666666666664,
+    "sample_std": 0.5773502691896258,
+    "minimum": 41.0,
+    "maximum": 42.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.6486964849127427,
+      0.6486793840260617,
+      0.6491240070797671
+    ],
+    "mean": 0.6488332920061906,
+    "sample_std": 0.0002519117912778493,
+    "minimum": 0.6486793840260617,
+    "maximum": 0.6491240070797671,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.7339273041307192,
+      0.7331748651167563,
+      0.7351585679717494
+    ],
+    "mean": 0.7340869124064083,
+    "sample_std": 0.0010014366457635955,
+    "minimum": 0.7331748651167563,
+    "maximum": 0.7351585679717494,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.6721931032124016,
+      0.6710216924747548,
+      0.673937393653861
+    ],
+    "mean": 0.6723840631136725,
+    "sample_std": 0.0014672006012744938,
+    "minimum": 0.6710216924747548,
+    "maximum": 0.673937393653861,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "structure_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ],
+    "mean": 9.0,
+    "sample_std": 0.0,
+    "minimum": 9.0,
+    "maximum": 9.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.6011474694962934,
+      0.6015151385599343,
+      0.6013697810231461
+    ],
+    "mean": 0.6013441296931247,
+    "sample_std": 0.00018517188808929672,
+    "minimum": 0.6011474694962934,
+    "maximum": 0.6015151385599343,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5980009063469941,
+      0.5987105931442546,
+      0.5990269595478526
+    ],
+    "mean": 0.598579486346367,
+    "sample_std": 0.0005254408026478433,
+    "minimum": 0.5980009063469941,
+    "maximum": 0.5990269595478526,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.47527639308098124,
+      0.4759091258881773,
+      0.47566971347464365
+    ],
+    "mean": 0.4756184108146007,
+    "sample_std": 0.00031947092750539966,
+    "minimum": 0.47527639308098124,
+    "maximum": 0.4759091258881773,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "mean": 5.0,
+    "sample_std": 0.0,
+    "minimum": 5.0,
+    "maximum": 5.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      41.0,
+      41.0,
+      41.0
+    ],
+    "mean": 41.0,
+    "sample_std": 0.0,
+    "minimum": 41.0,
+    "maximum": 41.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.6492779150598958,
+      0.648542576932614,
+      0.6497225381136011
+    ],
+    "mean": 0.6491810100353703,
+    "sample_std": 0.0005959194870054874,
+    "minimum": 0.648542576932614,
+    "maximum": 0.6497225381136011,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.733696442160526,
+      0.7331577642300753,
+      0.7363214282660556
+    ],
+    "mean": 0.7343918782188856,
+    "sample_std": 0.001692606279259578,
+    "minimum": 0.7331577642300753,
+    "maximum": 0.7363214282660556,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.6721246996656777,
+      0.6725949740494045,
+      0.6756645832086393
+    ],
+    "mean": 0.6734614189745738,
+    "sample_std": 0.0019224304878711308,
+    "minimum": 0.6721246996656777,
+    "maximum": 0.6756645832086393,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "mean": 1.0,
+    "sample_std": 0.0,
+    "minimum": 1.0,
+    "maximum": 1.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "method": "semantic_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      9.0,
+      9.0,
+      9.0
+    ],
+    "mean": 9.0,
+    "sample_std": 0.0,
+    "minimum": 9.0,
+    "maximum": 9.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "structure_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.047779877386642494,
+      0.047916684480090295,
+      0.04850666507058391
+    ],
+    "mean": 0.0480677423124389,
+    "sample_std": 0.0003862239452929177,
+    "minimum": 0.047779877386642494,
+    "maximum": 0.04850666507058391,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "structure_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.1346523817259925,
+      0.1355929304934461,
+      0.13594349867040606
+    ],
+    "mean": 0.13539627029661488,
+    "sample_std": 0.0006676467372804392,
+    "minimum": 0.1346523817259925,
+    "maximum": 0.13594349867040606,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.04813044556360247,
+      0.04702743837267962,
+      0.04835275709045514
+    ],
+    "mean": 0.04783688034224574,
+    "sample_std": 0.0007097554721974352,
+    "minimum": 0.04702743837267962,
+    "maximum": 0.04835275709045514,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.13569553581353194,
+      0.1344471710858208,
+      0.13729446871820303
+    ],
+    "mean": 0.1358123918725186,
+    "sample_std": 0.0014272412044688799,
+    "minimum": 0.1344471710858208,
+    "maximum": 0.13729446871820303,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_extra_over_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0005814301471531299,
+      -0.00013680709344779526,
+      0.0005985310338341043
+    ],
+    "mean": 0.000347718029179813,
+    "sample_std": 0.0004196981724099987,
+    "minimum": -0.00013680709344779526,
+    "maximum": 0.0005985310338341043,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_extra_over_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.0002308619701931545,
+      -1.7100886680974407e-05,
+      0.0011628602943062599
+    ],
+    "mean": 0.00030496581247737697,
+    "sample_std": 0.0007506068589284346,
+    "minimum": -0.0002308619701931545,
+    "maximum": 0.0011628602943062599,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_extra_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0002308619701931545,
+      0.000752439013962874,
+      0.000752439013962874
+    ],
+    "mean": 0.0005785799993729675,
+    "sample_std": 0.00030113264662357675,
+    "minimum": 0.0002308619701931545,
+    "maximum": 0.000752439013962874,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "semantic_extra_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.0012740160577325934,
+      0.001128658520944311,
+      -0.0001881097534907185
+    ],
+    "mean": -0.00011115576342633365,
+    "sample_std": 0.0012031844082247666,
+    "minimum": -0.0012740160577325934,
+    "maximum": 0.001128658520944311,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -0.00036766906364094976,
+      -0.0005215770437697195,
+      -0.000666934580558002
+    ],
+    "mean": -0.000518726895989557,
+    "sample_std": 0.00014965311527223276,
+    "minimum": -0.000666934580558002,
+    "maximum": -0.00036766906364094976,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.002009354185014493,
+      -0.0037023419664309596,
+      -0.0020692072883979036
+    ],
+    "mean": -0.002593634479947785,
+    "sample_std": 0.0009606351109729619,
+    "minimum": -0.0037023419664309596,
+    "maximum": -0.002009354185014493,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.047412208323001546,
+      0.047395107436320576,
+      0.047839730490025906
+    ],
+    "mean": 0.04754901541644935,
+    "sample_std": 0.0002519117912777977,
+    "minimum": 0.047395107436320576,
+    "maximum": 0.047839730490025906,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.132643027540978,
+      0.13189058852701513,
+      0.13387429138200815
+    ],
+    "mean": 0.1328026358166671,
+    "sample_std": 0.0010014366457635762,
+    "minimum": 0.13189058852701513,
+    "maximum": 0.13387429138200815,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      -0.00013680709344779526,
+      0.0002308619701931545,
+      8.550443340487204e-05
+    ],
+    "mean": 5.9853103383410425e-05,
+    "sample_std": 0.00018517188808929837,
+    "minimum": -0.00013680709344779526,
+    "maximum": 0.0002308619701931545,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.0032833702427470866,
+      -0.0025736834454866487,
+      -0.002257317041888622
+    ],
+    "mean": -0.0027047902433741194,
+    "sample_std": 0.0005254408026478384,
+    "minimum": -0.0032833702427470866,
+    "maximum": -0.002257317041888622,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.04799363847015468,
+      0.047258300342872775,
+      0.048438261523860014
+    ],
+    "mean": 0.04789673344562916,
+    "sample_std": 0.0005959194870055175,
+    "minimum": 0.047258300342872775,
+    "maximum": 0.048438261523860014,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "all",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.13241216557078483,
+      0.13187348764033416,
+      0.13503715167631442
+    ],
+    "mean": 0.13310760162914445,
+    "sample_std": 0.0016926062792595364,
+    "minimum": 0.13187348764033416,
+    "maximum": 0.13503715167631442,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.02303188865775986,
+      0.023310673157341682,
+      0.02292466385022839
+    ],
+    "mean": 0.023089075221776643,
+    "sample_std": 0.00019925743053285445,
+    "minimum": 0.02292466385022839,
+    "maximum": 0.023310673157341682,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.1188050867448693,
+      0.11850485728378117,
+      0.11968433016662736
+    ],
+    "mean": 0.11899809139842595,
+    "sample_std": 0.000612965877976306,
+    "minimum": 0.11850485728378117,
+    "maximum": 0.11968433016662736,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.06472089382599558,
+      0.06512834809461517,
+      0.06602903647787953
+    ],
+    "mean": 0.06529275946616343,
+    "sample_std": 0.0006693897397931017,
+    "minimum": 0.06472089382599558,
+    "maximum": 0.06602903647787953,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      5.0,
+      6.0,
+      5.0
+    ],
+    "mean": 5.333333333333333,
+    "sample_std": 0.5773502691896258,
+    "minimum": 5.0,
+    "maximum": 6.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      17.0,
+      17.0,
+      17.0
+    ],
+    "mean": 17.0,
+    "sample_std": 0.0,
+    "minimum": 17.0,
+    "maximum": 17.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      107.0,
+      109.0,
+      107.0
+    ],
+    "mean": 107.66666666666667,
+    "sample_std": 1.1547005383792517,
+    "minimum": 107.0,
+    "maximum": 109.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.14112929167292146,
+      0.14104351182689628,
+      0.1416225257875662
+    ],
+    "mean": 0.14126510976246132,
+    "sample_std": 0.00031248873059257676,
+    "minimum": 0.14104351182689628,
+    "maximum": 0.1416225257875662,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5024768930539769,
+      0.5017906542857755,
+      0.5015333147477
+    ],
+    "mean": 0.5019336206958175,
+    "sample_std": 0.00048776485197204246,
+    "minimum": 0.5015333147477,
+    "maximum": 0.5024768930539769,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.4187986532564174,
+      0.4176406253350775,
+      0.4184340889108104
+    ],
+    "mean": 0.41829112250076844,
+    "sample_std": 0.0005921036332019234,
+    "minimum": 0.4176406253350775,
+    "maximum": 0.4187986532564174,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "mean": 4.0,
+    "sample_std": 0.0,
+    "minimum": 4.0,
+    "maximum": 4.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "structure_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      18.0,
+      19.0,
+      19.0
+    ],
+    "mean": 18.666666666666668,
+    "sample_std": 0.5773502691896258,
+    "minimum": 18.0,
+    "maximum": 19.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.02313911346529133,
+      0.024361476271150092,
+      0.023310673157341682
+    ],
+    "mean": 0.0236037542979277,
+    "sample_std": 0.0006617893346920364,
+    "minimum": 0.02313911346529133,
+    "maximum": 0.024361476271150092,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.1158456820570007,
+      0.1191053162059574,
+      0.11655336578670841
+    ],
+    "mean": 0.11716812134988885,
+    "sample_std": 0.0017145690415107638,
+    "minimum": 0.1158456820570007,
+    "maximum": 0.1191053162059574,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.06231905813729064,
+      0.06461366901846412,
+      0.06294096202097317
+    ],
+    "mean": 0.06329122972557598,
+    "sample_std": 0.0011867288538944855,
+    "minimum": 0.06231905813729064,
+    "maximum": 0.06461366901846412,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      5.0,
+      5.0,
+      5.0
+    ],
+    "mean": 5.0,
+    "sample_std": 0.0,
+    "minimum": 5.0,
+    "maximum": 5.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      16.0,
+      16.0,
+      16.0
+    ],
+    "mean": 16.0,
+    "sample_std": 0.0,
+    "minimum": 16.0,
+    "maximum": 16.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_point",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      106.0,
+      106.0,
+      105.0
+    ],
+    "mean": 105.66666666666667,
+    "sample_std": 0.5773502691896257,
+    "minimum": 105.0,
+    "maximum": 106.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.14230876455576763,
+      0.14001415367459416,
+      0.1427376637858935
+    ],
+    "mean": 0.1416868606720851,
+    "sample_std": 0.0014643941279559962,
+    "minimum": 0.14001415367459416,
+    "maximum": 0.1427376637858935,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.4995174883661084,
+      0.49683686817782163,
+      0.5012116403251056
+    ],
+    "mean": 0.49918866562301184,
+    "sample_std": 0.0022058447661714455,
+    "minimum": 0.49683686817782163,
+    "maximum": 0.5012116403251056,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "top1",
+    "seeds": 3,
+    "values": [
+      0.4161394780296369,
+      0.414831335377753,
+      0.41821963929574746
+    ],
+    "mean": 0.4163968175677124,
+    "sample_std": 0.0017087476667333949,
+    "minimum": 0.414831335377753,
+    "maximum": 0.41821963929574746,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_median",
+    "seeds": 3,
+    "values": [
+      2.0,
+      2.0,
+      2.0
+    ],
+    "mean": 2.0,
+    "sample_std": 0.0,
+    "minimum": 2.0,
+    "maximum": 2.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_p75",
+    "seeds": 3,
+    "values": [
+      4.0,
+      4.0,
+      4.0
+    ],
+    "mean": 4.0,
+    "sample_std": 0.0,
+    "minimum": 4.0,
+    "maximum": 4.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "method": "semantic_context",
+    "metric": "rank_p95",
+    "seeds": 3,
+    "values": [
+      18.0,
+      18.0,
+      18.0
+    ],
+    "mean": 18.0,
+    "sample_std": 0.0,
+    "minimum": 18.0,
+    "maximum": 18.0,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "structure_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.11809740301516158,
+      0.11773283866955458,
+      0.11869786193733782
+    ],
+    "mean": 0.11817603454068466,
+    "sample_std": 0.0004872932017228678,
+    "minimum": 0.11773283866955458,
+    "maximum": 0.11869786193733782,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "structure_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.3836718063091077,
+      0.3832857970019944,
+      0.3818489845810727
+    ],
+    "mean": 0.38293552929739155,
+    "sample_std": 0.000960565126222531,
+    "minimum": 0.3818489845810727,
+    "maximum": 0.3836718063091077,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_context_effect",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.1191696510904763,
+      0.11565267740344407,
+      0.11942699062855182
+    ],
+    "mean": 0.1180831063741574,
+    "sample_std": 0.0021087424322866494,
+    "minimum": 0.11565267740344407,
+    "maximum": 0.11942699062855182,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_context_effect",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.3836718063091077,
+      0.3777315519718642,
+      0.3846582745383972
+    ],
+    "mean": 0.382020544273123,
+    "sample_std": 0.0037469816001739972,
+    "minimum": 0.3777315519718642,
+    "maximum": 0.3846582745383972,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_over_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.0011794728828461753,
+      -0.0010293581523021166,
+      0.001115137998327293
+    ],
+    "mean": 0.0004217509096237839,
+    "sample_std": 0.0012571089358301907,
+    "minimum": -0.0010293581523021166,
+    "maximum": 0.0011794728828461753,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_over_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.002959404687868585,
+      -0.0049537861079539365,
+      -0.00032167442259441143
+    ],
+    "mean": -0.002744955072805644,
+    "sample_std": 0.002323490078408244,
+    "minimum": -0.0049537861079539365,
+    "maximum": -0.00032167442259441143,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.00010722480753147049,
+      0.0010508031138084107,
+      0.0003860093071132937
+    ],
+    "mean": 0.0005146790761510583,
+    "sample_std": 0.00048476998372144346,
+    "minimum": 0.00010722480753147049,
+    "maximum": 0.0010508031138084107,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "semantic_extra_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      -0.002959404687868585,
+      0.0006004589221762347,
+      -0.003130964379918938
+    ],
+    "mean": -0.0018299700485370962,
+    "sample_std": 0.002106560447327847,
+    "minimum": -0.003130964379918938,
+    "maximum": 0.0006004589221762347,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.02303188865775986,
+      0.023310673157341682,
+      0.02292466385022839
+    ],
+    "mean": 0.023089075221776643,
+    "sample_std": 0.00019925743053285445,
+    "minimum": 0.02292466385022839,
+    "maximum": 0.023310673157341682,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.1188050867448693,
+      0.11850485728378117,
+      0.11968433016662736
+    ],
+    "mean": 0.11899809139842595,
+    "sample_std": 0.000612965877976306,
+    "minimum": 0.11850485728378117,
+    "maximum": 0.11968433016662736,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.14112929167292146,
+      0.14104351182689628,
+      0.1416225257875662
+    ],
+    "mean": 0.14126510976246132,
+    "sample_std": 0.00031248873059257676,
+    "minimum": 0.14104351182689628,
+    "maximum": 0.1416225257875662,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_structure_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.5024768930539769,
+      0.5017906542857755,
+      0.5015333147477
+    ],
+    "mean": 0.5019336206958175,
+    "sample_std": 0.00048776485197204246,
+    "minimum": 0.5015333147477,
+    "maximum": 0.5024768930539769,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.02313911346529133,
+      0.024361476271150092,
+      0.023310673157341682
+    ],
+    "mean": 0.0236037542979277,
+    "sample_std": 0.0006617893346920364,
+    "minimum": 0.02313911346529133,
+    "maximum": 0.024361476271150092,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_point",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.1158456820570007,
+      0.1191053162059574,
+      0.11655336578670841
+    ],
+    "mean": 0.11716812134988885,
+    "sample_std": 0.0017145690415107638,
+    "minimum": 0.1158456820570007,
+    "maximum": 0.1191053162059574,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "merged4",
+    "seeds": 3,
+    "values": [
+      0.14230876455576763,
+      0.14001415367459416,
+      0.1427376637858935
+    ],
+    "mean": 0.1416868606720851,
+    "sample_std": 0.0014643941279559962,
+    "minimum": 0.14001415367459416,
+    "maximum": 0.1427376637858935,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  },
+  {
+    "split": "validation",
+    "subset": "structure_miss",
+    "comparison": "candidate_net_semantic_context",
+    "metric": "independent4",
+    "seeds": 3,
+    "values": [
+      0.4995174883661084,
+      0.49683686817782163,
+      0.5012116403251056
+    ],
+    "mean": 0.49918866562301184,
+    "sample_std": 0.0022058447661714455,
+    "minimum": 0.49683686817782163,
+    "maximum": 0.5012116403251056,
+    "interpretation": "descriptive training-seed variation; three seeds do not establish a precise population interval"
+  }
+]

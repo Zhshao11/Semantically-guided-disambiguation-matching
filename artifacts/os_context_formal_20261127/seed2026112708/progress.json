@@ -1,0 +1,42 @@
+{
+  "seed": 2026112708,
+  "attempt": 5000,
+  "step": 5000,
+  "epoch": 11,
+  "batch_pairs": 16,
+  "groups": {
+    "structure_point": {
+      "loss": 1.4283490180969238,
+      "gradient_norm": 0.14448130130767822,
+      "valid_pairs": 16,
+      "effective_queries": 1955,
+      "empty_positive": 285,
+      "nonfinite": false
+    },
+    "structure_context": {
+      "loss": 1.000108003616333,
+      "gradient_norm": 0.24983130395412445,
+      "valid_pairs": 16,
+      "effective_queries": 1955,
+      "empty_positive": 285,
+      "nonfinite": false
+    },
+    "semantic_point": {
+      "loss": 1.424238681793213,
+      "gradient_norm": 0.1578715592622757,
+      "valid_pairs": 16,
+      "effective_queries": 1955,
+      "empty_positive": 285,
+      "nonfinite": false
+    },
+    "semantic_context": {
+      "loss": 1.0024359226226807,
+      "gradient_norm": 0.31459173560142517,
+      "valid_pairs": 16,
+      "effective_queries": 1955,
+      "empty_positive": 285,
+      "nonfinite": false
+    }
+  },
+  "elapsed_seconds": 839.2804405899951
+}

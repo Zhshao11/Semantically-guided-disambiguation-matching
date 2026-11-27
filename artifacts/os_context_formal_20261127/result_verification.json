@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "endpoint_metric_rows_checked": 60,
+  "paired_comparisons_checked": 192,
+  "all_three_seeds_all_four_groups": true,
+  "independent_NumPy_counts_and_quantiles": true,
+  "same_baseline_and_fixed_miss_queries": true,
+  "candidate_budget_and_no_duplicates": true,
+  "initializers_same_within_seed_distinct_across_seeds": {
+    "2026112706": "e51a8aed367fe1d1ec22d0a9400177fde2898e6a229d831e08677168a26c836a",
+    "2026112707": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+    "2026112708": "925ccbc4ccb186436643a99a28bc042eaeed32fdce81298d1f72c998b601e169"
+  },
+  "frozen_model_and_semantic_head_identical_across_seeds": true,
+  "all_recorded_modality_gradients_finite_nonzero": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

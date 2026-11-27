@@ -1,0 +1,10 @@
+{
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "cuda_device": 6,
+  "script_sha256": "d4ea24c6b3a61a6ff135407faa6618cbf024983ec91c82915f666ce0b2e451f0",
+  "formal_config_sha256": "6f626b0f19d969e5007780930a27a68ecba8a1d6ae163226dde94bfadb8e1821",
+  "evaluation": "eval()+no_grad with descriptor requires_grad flags preserved; frozen front/semantic requires_grad=False"
+}

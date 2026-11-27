@@ -1,0 +1,38 @@
+{
+  "seed": 2026112707,
+  "groups": {
+    "structure_point": {
+      "initial_digest": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+      "parameters": 393984,
+      "new_optimizer_empty": true,
+      "smoke_weights_loaded": false,
+      "optical_sar_independent": true
+    },
+    "structure_context": {
+      "initial_digest": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+      "parameters": 393984,
+      "new_optimizer_empty": true,
+      "smoke_weights_loaded": false,
+      "optical_sar_independent": true
+    },
+    "semantic_point": {
+      "initial_digest": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+      "parameters": 393984,
+      "new_optimizer_empty": true,
+      "smoke_weights_loaded": false,
+      "optical_sar_independent": true
+    },
+    "semantic_context": {
+      "initial_digest": "4847152bf3de8a1e52ab822c09dc33e9798c8e155988fb4652f71b10bc93bc84",
+      "parameters": 393984,
+      "new_optimizer_empty": true,
+      "smoke_weights_loaded": false,
+      "optical_sar_independent": true
+    }
+  },
+  "training_pairs": 7912,
+  "training_families": 1976,
+  "sampler_seed": 2026112707,
+  "augmentation": "original parent sample/epoch transform rules, unchanged",
+  "fresh_initialization": true
+}
