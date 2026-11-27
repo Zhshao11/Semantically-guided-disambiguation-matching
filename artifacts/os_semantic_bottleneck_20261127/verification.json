@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": {
+    "training_monitor": {
+      "all137088_query_competitions_numpy_exact": true,
+      "all_layer_positions_identical": true,
+      "hard_negative_CPU_oracle_queries": 576,
+      "C_full_grid_rank_CPU_oracle_queries": 576,
+      "previous_candidate_outputs_exact": true,
+      "original_group_membership_exact": true,
+      "continuous_inverse_roundtrip_max_px": 6.209877028595656e-05
+    },
+    "validation": {
+      "all137088_query_competitions_numpy_exact": true,
+      "all_layer_positions_identical": true,
+      "hard_negative_CPU_oracle_queries": 576,
+      "C_full_grid_rank_CPU_oracle_queries": 576,
+      "previous_candidate_outputs_exact": true,
+      "original_group_membership_exact": true,
+      "continuous_inverse_roundtrip_max_px": 6.209877028595656e-05
+    }
+  },
+  "all_frozen_files_and_weights_unchanged": true,
+  "GT_only_diagnostic": true,
+  "no_training": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false
+}

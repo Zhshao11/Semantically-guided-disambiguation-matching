@@ -1,6 +1,25 @@
 # Semantically Guided Disambiguation Matching
 
-最新完成[不重训的纯语义补充最小对照](artifacts/os_pure_semantic_supplement_20261126/REPORT_zh.md)。固定现有第30轮结构与同一5000步语义头，原生256、固定样本/扰动、4候选与8px门槛全部不变。纯语义分数为q_o^T q_s，保留相同前2结构峰，再从**全部有效1024目标网格**按原顺序24px NMS补2峰，没有结构候选池预筛。
+最新完成[三层同位置语义瓶颈诊断](artifacts/os_semantic_bottleneck_20261127/REPORT_zh.md)。模型、语义头、原型数、温度、相似度、lambda、部署4候选与8px规则全部冻结。每个查询固定同一P（8px正网格）及N（正域外16个结构NMS难负峰），比较A原DINO同图余弦、B原型教师同图点积、C实际SAR跨模态点积。**A/B使用GT逆映射且有同图自相似优势，不是严格跨模态上界。**
+
+| 验证查询组 | A：最佳正胜最高难负 | B：最佳正胜最高难负 | C：最佳正胜最高难负 | C全网格最佳正名次中位数 |
+| --- | ---: | ---: | ---: | ---: |
+| 全部116,953 | 99.5143% | 36.7071% | 11.9005% | 136 |
+| 原结构漏检46,631 | 99.4403% | 34.1725% | 11.4924% | 142 |
+| 新增277 | 99.6390% | 30.3249% | 88.0866% | 2 |
+| 丢失5,645 | 99.5040% | 31.4969% | 10.0266% | 158 |
+
+平局单列，不依赖数组顺序；完整名次区间、Delta分布、P×N胜负平、NMS前后覆盖、连续GT检查及family配对区间均已保存。C原始top4/语义独立NMS4覆盖为4.1906%/4.8729%；部署2+2的55.5385%仍主要来自结构前缀。丢失组新增2语义峰最近者在8–16px有229个、16–32px有623个、>32px有4,793个，且没有查询的P被结构前缀全部屏蔽。当前表现不能主要归结为8px边缘误差或NMS；压缩加评分和实际SAR排序都有落差，但未完成各原因的因果分离。70项测试与独立NumPy核验通过，无训练更新，测试池继续封存。
+
+```bash
+export PYTHONPATH=.
+# 仅诊断；GT位置不进入部署候选。已有output拒绝覆盖。
+.venv/bin/python scripts/diagnose_os_semantic_bottleneck.py --config configs/os_semantic_bottleneck.json
+.venv/bin/python scripts/summarize_os_semantic_bottleneck.py --config configs/os_semantic_bottleneck.json
+.venv/bin/python scripts/verify_os_semantic_bottleneck.py --config configs/os_semantic_bottleneck.json
+```
+
+此前完成[不重训的纯语义补充最小对照](artifacts/os_pure_semantic_supplement_20261126/REPORT_zh.md)。固定现有第30轮结构与同一5000步语义头，原生256、固定样本/扰动、4候选与8px门槛全部不变。纯语义分数为q_o^T q_s，保留相同前2结构峰，再从**全部有效1024目标网格**按原顺序24px NMS补2峰，没有结构候选池预筛。
 
 | 验证设置 | @4 | 新增命中 | 丢失命中 | 原结构未命中补救率 |
 | --- | ---: | ---: | ---: | ---: |

@@ -1,0 +1,7 @@
+{
+  "argsort_keyword_compatibility_corrected": true,
+  "first_positive_worst_rank_definition": "1 + nonpositive competitors >= bestP-atol; ties among positives do not worsen first-positive rank",
+  "final_protocol_fixed_before_delivered_computation": true,
+  "no_model_or_parameter_changes": true,
+  "earlier_engineering_attempt_outputs_retained_server_only": true
+}

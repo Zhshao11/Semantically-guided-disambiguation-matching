@@ -164,6 +164,34 @@
       "baseline_and_fusion_exactly_reproduced": true,
       "test_pools_unchanged_and_not_evaluated": true,
       "conclusion": "pure semantic full-grid supplementation loses more existing coverage than it rescues under the current frozen head; no net gain"
+    },
+    "semantic_bottleneck_diagnostic": {
+      "config": "configs/os_semantic_bottleneck.json",
+      "report": "artifacts/os_semantic_bottleneck_20261127/REPORT_zh.md",
+      "training_updates_added": 0,
+      "deployment_and_all_parameters_unchanged": true,
+      "positions": "same positive valid grid within8px and up to16 structureNMS hard negatives outside positive set; no GT in deployment candidate extraction",
+      "validation_bestP_beats_maxN": {
+        "A_raw_DINO_GT_same_image": 0.9951433481826033,
+        "B_prototype_GT_same_image": 0.3670705326071157,
+        "C_actual_cross_modal": 0.11900507041290091
+      },
+      "A_B_not_strict_cross_modal_upper_bound": true,
+      "tie_atol": 1e-06,
+      "tie_separate_and_first_positive_rank_bounds_saved": true,
+      "validation_C_full_grid_best_positive_rank_median": 136,
+      "validation_C_raw_top4_coverage": 0.04190572281172779,
+      "validation_C_semantic_NMS4_coverage": 0.04872897659743658,
+      "validation_semantic_lost_count": 5645,
+      "lost_supplemental2_nearest_distance_counts": {
+        "8to16": 229,
+        "16to32": 623,
+        "greater32": 4793
+      },
+      "lost_positive_region_fully_suppressed_by_prefix": 0,
+      "family_paired_intervals_saved": true,
+      "conclusion": "both prototype compression/current dot scoring and actual SAR ranking show discrimination deficits; far-score peaks dominate lost queries, not mainly near8px misses; no causal separation or teacher localization certification",
+      "test_pools_unchanged_and_not_evaluated": true
     }
   }
 }

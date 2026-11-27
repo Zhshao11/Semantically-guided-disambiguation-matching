@@ -1,0 +1,52 @@
+{
+  "output": "reports/os_semantic_bottleneck_20261127",
+  "semantic_config": "configs/os_semantic_routing.json",
+  "supplement_config": "configs/os_pure_semantic_supplement.json",
+  "supplement_root": "reports/os_pure_semantic_supplement_20261126",
+  "evaluation_splits": [
+    "training_monitor",
+    "validation"
+  ],
+  "batch_size": 4,
+  "cuda_device": 6,
+  "positive_radius_px": 8.0,
+  "hard_negative_count": 16,
+  "nms_radius_px": 24.0,
+  "score_tie_atol": 1e-06,
+  "score_tie_policy": "absolute tolerance1e-6 for win/loss/tie and rank bounds, report exact-equality ties too; no array-order tie breaking counted as valid discrimination",
+  "same_positions": "P=existing positive target grid, N=up to16 structural maxima outside P with sequential24px NMS; chosen once before scoring layers; no negative refill after inverse-domain exclusions",
+  "inverse_domain_policy": "record inverse out-of-bounds for all targets, P and chosen N; use same common inverse-in-bounds subset of P and N for A/B/C competition; retain incomplete-query flags, report complete-inverse subset separately; original supervised and C full-grid support unchanged",
+  "A": "raw normalized DINO18 tokens -> bilinear32 canonical optical descriptors -> L2, same pre-prototype field as frozen teacher; sample x and T^-1(y_j), L2 after sampling, cosine; GT-assisted same-image reference",
+  "B": "existing cached32-prototype teacher q_o sampled at x and T^-1(y_j), renormalize probability after interpolation, dot; GT-assisted same-image reference",
+  "C": "unchanged actual q_o(x) dot q_s(y_j), existing frozen SAR head",
+  "continuous_GT": "separate self-reference A/B and C sampling at continuous y*=T(x); interpolation sanity only, not localization ability",
+  "rank": "competition=common P union common N, best/first positive min rank=1+number(scores>bestP+atol), max rank=1+number(nonpositive scores>=bestP-atol); tied positives never worsen first-positive rank; C also over all original valid1024 slots",
+  "coverage": "C top4 raw scores before NMS, semantic-only4 after24px NMS, and existing2struct+2semantic; raw tie-boundary coverage lower/upper reported; deployed candidates unchanged",
+  "distance_bins_px": [
+    0,
+    8,
+    16,
+    32,
+    64,
+    128,
+    1000000
+  ],
+  "distance_interpretation": "8..16near-threshold,16..32intermediate,>32far descriptive bins fixed before analysis; no categorical cause certification",
+  "groups": [
+    "all_supervised",
+    "structure_miss",
+    "semantic_new",
+    "semantic_lost",
+    "retained_hit",
+    "both_miss"
+  ],
+  "bootstrap": {
+    "seed": 2026112701,
+    "replicates": 2000,
+    "unit": "paired whole source families, query-weighted rates"
+  },
+  "no_training": true,
+  "no_parameter_search": true,
+  "sealed_pools": "OS final test1696 andUBCv2 test1625 remain sealed, no model inference",
+  "interpretation": "A/B have GT-assisted same-image self-similarity advantage, not strict cross-modal upper bounds; grid comparisons are primary; no claim of class understanding, real fine registration or geography independence"
+}

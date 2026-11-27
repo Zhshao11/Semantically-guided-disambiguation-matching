@@ -1,0 +1,19 @@
+{
+  "python": "3.10.20",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "numpy": "2.2.6",
+    "opencv-python": "5.0.0.93",
+    "matplotlib": "3.10.9",
+    "pytest": "9.2.0"
+  },
+  "parent_commit": "ee89bde33bc2bff6f88d11c09dd4228005d31180",
+  "source_hashes": {
+    "sdgm/semantic_bottleneck.py": "66a1da10b126c8b45f246979ca4686921c4c7a461be169376d089c329e74a5f4",
+    "scripts/diagnose_os_semantic_bottleneck.py": "133e43cbc2dfd1a2cd9d1efaec2245b1252d90db44572171f6ecd21ad5f1372f",
+    "scripts/summarize_os_semantic_bottleneck.py": "0b1e87531cdd2d55830ff6a2be21ad99249bd993c1d04db42c96aa00c117f2af",
+    "scripts/verify_os_semantic_bottleneck.py": "6446ccb5bbbd8de0181332f1724c0f710330cd9b187d799ae1f6d039b54f0b05",
+    "tests/test_semantic_bottleneck.py": "92fdd67d6ef9573334b4c366689917e27cd17f97b68d304f002b2c13639dfd8c"
+  },
+  "dependencies_installed": false
+}

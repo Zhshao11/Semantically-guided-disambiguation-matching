@@ -1,0 +1,13 @@
+{
+  "completed": true,
+  "no_training": true,
+  "optimizer_steps_added": 0,
+  "parameters_unchanged": true,
+  "previous_structure_and_semantic_candidates_exact": true,
+  "GT_only_diagnostic": true,
+  "OS_test_evaluated": false,
+  "UBC_evaluated": false,
+  "teacher_cache_version": "d8067dd69c317587bfcf7514d9e60e5262d0fd64af5add13d7c45ea4b27e10af",
+  "wall_seconds": 35.31750758900307,
+  "peak_allocated_mib": 186.48291015625
+}

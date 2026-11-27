@@ -1,0 +1,23 @@
+{
+  "pairs": 952,
+  "families": 238,
+  "total_source_queries": 137088,
+  "supervised_queries": 116953,
+  "groups": {
+    "all_supervised": 116953,
+    "structure_miss": 46631,
+    "semantic_new": 277,
+    "semantic_lost": 5645,
+    "retained_hit": 64677,
+    "both_miss": 46354
+  },
+  "raw_positive_empty": 15564,
+  "supervised_positive_empty": 0,
+  "negative_fewer_than16_all_queries": 0,
+  "negative_fewer_than16_supervised": 0,
+  "inverse_outside_valid_target_slots": 0,
+  "supervised_incomplete_inverse_competition": 0,
+  "layers_use_identical_competition": true,
+  "deployed_candidates_exactly_unchanged": true,
+  "same_image_AB_GT_reference_not_cross_modal_upper_bound": true
+}
